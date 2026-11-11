@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <defs>
+  <marker id="d" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+  </marker>
+</defs>
+<rect width="680" height="360" fill="#fbfbfd"/>
+  <path d="M60,320 C220,300 300,110 400,100 C500,110 600,260 640,300" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="350" y="75" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">curved manifold</text>
+  <circle cx="330" cy="185" r="6" fill="#222"/>
+  <text x="330" y="215" font-family="sans-serif" font-size="12" fill="#222" text-anchor="middle">x</text>
+  <path d="M330,185 L430,120" fill="none" stroke="#c00" stroke-width="2" marker-end="url(#d)"/>
+  <text x="460" y="110" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">projected Hessian term</text>
+  <path d="M330,185 L250,120" fill="none" stroke="#2da44e" stroke-width="2" marker-end="url(#d)"/>
+  <text x="180" y="105" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">curvature correction</text>
+  <text x="340" y="270" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">Hess f(x)[xi] = P( Hessian f-bar [xi] ) + W(x, xi, normal part)</text>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">Newton solves Hess[xi] = -grad f, then retracts</text>
+</svg>

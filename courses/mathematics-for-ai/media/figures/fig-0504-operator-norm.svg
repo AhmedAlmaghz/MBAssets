@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" width="780" height="430">
+  <defs>
+    <marker id="onA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#1b3a8a"/>
+    </marker>
+    <marker id="onB" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#b03030"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="430" fill="#ffffff"/>
+
+  <text x="390" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Induced (operator) norm:  ||A||₂ = max over ||x||₂ = 1 of ||A x||₂ = &#963;₁</text>
+  <text x="390" y="54" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">دائرة الوحدة تتحوّل إلى قطع ناقص؛ أكبر تمدّد هو الناظم التشغيلي</text>
+
+  <!-- ============ Left : circle to ellipse ============ -->
+  <line x1="30" y1="220" x2="400" y2="220" stroke="#cccccc" stroke-width="1"/>
+  <line x1="180" y1="60" x2="180" y2="380" stroke="#cccccc" stroke-width="1"/>
+
+  <ellipse cx="180" cy="220" rx="171" ry="58.5" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2.5"/>
+  <circle cx="180" cy="220" r="90" fill="none" stroke="#999999" stroke-width="1.6" stroke-dasharray="5,4"/>
+
+  <line x1="180" y1="220" x2="351" y2="220" stroke="#b03030" stroke-width="3" marker-end="url(#onB)"/>
+  <text x="258" y="212" text-anchor="middle" font-size="16" fill="#b03030" font-family="Times New Roman, serif">&#963;₁ = 1.90 = ||A||₂</text>
+
+  <line x1="180" y1="220" x2="180" y2="161" stroke="#b03030" stroke-width="3" marker-end="url(#onB)"/>
+  <text x="188" y="150" font-size="16" fill="#b03030" font-family="Times New Roman, serif">&#963;₂ = 0.65</text>
+
+  <line x1="180" y1="220" x2="249" y2="162" stroke="#1b3a8a" stroke-width="2.6" marker-end="url(#onA)"/>
+  <text x="256" y="158" font-size="16" fill="#1b3a8a" font-family="Times New Roman, serif">x</text>
+  <line x1="180" y1="220" x2="311" y2="182" stroke="#1b3a8a" stroke-width="2.6" marker-end="url(#onA)"/>
+  <text x="318" y="178" font-size="16" fill="#1b3a8a" font-family="Times New Roman, serif">A x</text>
+  <line x1="249" y1="162" x2="311" y2="182" stroke="#777777" stroke-width="1.4" stroke-dasharray="4,3"/>
+
+  <text x="180" y="330" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">نصف المحور الأكبر = أقصى تمدّد</text>
+  <text x="180" y="352" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">A = diag(1.90, 0.65)</text>
+  <text x="180" y="374" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">||x||₂ = 1  &#8658;  ||A x||₂ &#8804; &#963;₁</text>
+
+  <!-- ============ Right : norm bars ============ -->
+  <text x="600" y="100" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">three matrix norms of A</text>
+
+  <text x="440" y="150" font-size="15" fill="#111111" font-family="Times New Roman, serif">||A||₂ = &#963;₁</text>
+  <rect x="610" y="134" width="190" height="24" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2"/>
+  <text x="614" y="152" font-size="14" fill="#111111" font-family="Times New Roman, serif">1.90</text>
+
+  <text x="440" y="196" font-size="15" fill="#111111" font-family="Times New Roman, serif">||A||_F = &#8730;&#931;&#963;²</text>
+  <rect x="610" y="180" width="201" height="24" fill="#9db4ea" stroke="#0f2a66" stroke-width="2"/>
+  <text x="614" y="198" font-size="14" fill="#111111" font-family="Times New Roman, serif">2.008</text>
+
+  <text x="440" y="242" font-size="15" fill="#111111" font-family="Times New Roman, serif">||A||_* = &#931;&#963;</text>
+  <rect x="610" y="226" width="255" height="24" fill="#7f9ade" stroke="#0f2a66" stroke-width="2"/>
+  <text x="614" y="244" font-size="14" fill="#111111" font-family="Times New Roman, serif">2.550</text>
+
+  <line x1="440" y1="272" x2="760" y2="272" stroke="#999999" stroke-width="1"/>
+  <text x="440" y="300" font-size="15" fill="#111111" font-family="Times New Roman, serif">||A||₂ &#8804; ||A||_F &#8804; ||A||_* &#8804; r&#183;||A||₂</text>
+  <text x="440" y="326" font-size="15" fill="#111111" font-family="Times New Roman, serif">||A||_F &#8804; &#8730;r &#183; ||A||₂ ,  r = rank(A) = 2</text>
+  <text x="440" y="352" font-size="15" fill="#111111" font-family="Times New Roman, serif">|det A| = &#928;&#963;_i = 1.235</text>
+  <text x="440" y="378" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">النواظم الثلاثة تترتّب تصاعدياً دائماً</text>
+
+  <line x1="40" y1="400" x2="740" y2="400" stroke="#999999" stroke-width="1"/>
+  <text x="390" y="422" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">||A B||₂ &#8804; ||A||₂&#183;||B||₂ (submultiplicative) ;&#160;&#160; ||A||₂² = &#955;_max(AᵀA) ;&#160;&#160; ||A||_F² = tr(AᵀA)</text>
+</svg>

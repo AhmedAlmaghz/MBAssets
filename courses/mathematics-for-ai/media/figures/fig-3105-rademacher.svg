@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Rademacher complexity: how well can H correlate with random noise</text>
+
+  <!-- random signs row -->
+  <text x="70" y="70" font-family="sans-serif" font-size="12" fill="#333">random signs sigma_i</text>
+  <g font-family="sans-serif" font-size="13">
+    <rect x="200" y="52" width="34" height="26" fill="#e8f5e8" stroke="#2a7a2a"/><text x="217" y="70" fill="#2a7a2a" text-anchor="middle">+</text>
+    <rect x="238" y="52" width="34" height="26" fill="#ffd9d9" stroke="#c00"/><text x="255" y="70" fill="#c00" text-anchor="middle">-</text>
+    <rect x="276" y="52" width="34" height="26" fill="#ffd9d9" stroke="#c00"/><text x="293" y="70" fill="#c00" text-anchor="middle">-</text>
+    <rect x="314" y="52" width="34" height="26" fill="#e8f5e8" stroke="#2a7a2a"/><text x="331" y="70" fill="#2a7a2a" text-anchor="middle">+</text>
+    <rect x="352" y="52" width="34" height="26" fill="#e8f5e8" stroke="#2a7a2a"/><text x="369" y="70" fill="#2a7a2a" text-anchor="middle">+</text>
+    <rect x="390" y="52" width="34" height="26" fill="#ffd9d9" stroke="#c00"/><text x="407" y="70" fill="#c00" text-anchor="middle">-</text>
+    <rect x="428" y="52" width="34" height="26" fill="#e8f5e8" stroke="#2a7a2a"/><text x="445" y="70" fill="#2a7a2a" text-anchor="middle">+</text>
+    <rect x="466" y="52" width="34" height="26" fill="#ffd9d9" stroke="#c00"/><text x="483" y="70" fill="#c00" text-anchor="middle">-</text>
+  </g>
+
+  <!-- candidate hypotheses -->
+  <text x="70" y="120" font-family="sans-serif" font-size="12" fill="#333">f in F : its outputs</text>
+  <g font-family="sans-serif" font-size="13">
+    <rect x="200" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="217" y="120" fill="#1f6feb" text-anchor="middle">-</text>
+    <rect x="238" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="255" y="120" fill="#1f6feb" text-anchor="middle">-</text>
+    <rect x="276" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="293" y="120" fill="#1f6feb" text-anchor="middle">+</text>
+    <rect x="314" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="331" y="120" fill="#1f6feb" text-anchor="middle">+</text>
+    <rect x="352" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="369" y="120" fill="#1f6feb" text-anchor="middle">-</text>
+    <rect x="390" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="407" y="120" fill="#1f6feb" text-anchor="middle">-</text>
+    <rect x="428" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="445" y="120" fill="#1f6feb" text-anchor="middle">+</text>
+    <rect x="466" y="102" width="34" height="26" fill="#eef4ff" stroke="#1f6feb"/><text x="483" y="120" fill="#1f6feb" text-anchor="middle">-</text>
+  </g>
+
+  <!-- agreement marks -->
+  <text x="200" y="152" font-family="sans-serif" font-size="12" fill="#888">x   =   =   =   x   =   =   =</text>
+
+  <!-- formula -->
+  <rect x="70" y="180" width="560" height="62" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="350" y="204" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">R_hat_S(F) = E_sigma [ sup_f (1/n) sum_i sigma_i f(z_i) ]</text>
+  <text x="350" y="224" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">rich F  =&gt;  some f matches the noise  =&gt;  large complexity</text>
+  <text x="350" y="238" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">data-dependent: measured on the actual sample, not on the whole class</text>
+
+  <!-- comparison bars -->
+  <text x="70" y="285" font-family="sans-serif" font-size="12" fill="#333">linear class, ||w|| &lt;= B, ||x_i|| &lt;= R_x :</text>
+  <rect x="70" y="300" width="420" height="22" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="280" y="316" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">R_hat_S &lt;= B R_x / sqrt(n)</text>
+  <text x="70" y="350" font-family="sans-serif" font-size="12" fill="#333">finite class of size N :</text>
+  <rect x="70" y="358" width="420" height="0" fill="none"/>
+  <text x="300" y="352" font-family="sans-serif" font-size="12" fill="#333"></text>
+</svg>

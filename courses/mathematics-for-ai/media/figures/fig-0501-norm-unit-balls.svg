@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <rect x="0" y="0" width="1000" height="400" fill="#ffffff"/>
+
+  <text x="500" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Unit balls  B_p = { x : ||x||_p &#8804; 1 }  in R^2</text>
+  <text x="500" y="55" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">كرات الوحدة في المستوى — التداخل هو التفسير الهندسي لمتراجحة النواظم</text>
+
+  <!-- ================= Panel 1 : p = 1 ================= -->
+  <line x1="25" y1="200" x2="255" y2="200" stroke="#cccccc" stroke-width="1"/>
+  <line x1="140" y1="85" x2="140" y2="315" stroke="#cccccc" stroke-width="1"/>
+  <polygon points="140,105 235,200 140,295 45,200" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2.5"/>
+  <text x="140" y="78" text-anchor="middle" font-size="17" fill="#111111" font-family="Times New Roman, serif">p = 1</text>
+  <text x="140" y="325" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">معيَّن — رؤوس على المحاور</text>
+  <text x="140" y="348" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">|x₁| + |x₂| &#8804; 1</text>
+
+  <!-- ================= Panel 2 : p = 2 ================= -->
+  <line x1="275" y1="200" x2="505" y2="200" stroke="#cccccc" stroke-width="1"/>
+  <line x1="390" y1="85" x2="390" y2="315" stroke="#cccccc" stroke-width="1"/>
+  <circle cx="390" cy="200" r="95" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2.5"/>
+  <text x="390" y="78" text-anchor="middle" font-size="17" fill="#111111" font-family="Times New Roman, serif">p = 2</text>
+  <text x="390" y="325" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">دائرة — متساوية الاتجاهات</text>
+  <text x="390" y="348" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">√(x₁² + x₂²) &#8804; 1</text>
+
+  <!-- ================= Panel 3 : p = inf ================= -->
+  <line x1="525" y1="200" x2="755" y2="200" stroke="#cccccc" stroke-width="1"/>
+  <line x1="640" y1="85" x2="640" y2="315" stroke="#cccccc" stroke-width="1"/>
+  <rect x="545" y="105" width="190" height="190" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2.5"/>
+  <text x="640" y="78" text-anchor="middle" font-size="17" fill="#111111" font-family="Times New Roman, serif">p = &#8734;</text>
+  <text x="640" y="325" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">مربّع — أسوأ إحداثي فقط</text>
+  <text x="640" y="348" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">max(|x₁|,|x₂|) &#8804; 1</text>
+
+  <!-- ================= Panel 4 : nesting ================= -->
+  <line x1="775" y1="200" x2="1000" y2="200" stroke="#cccccc" stroke-width="1"/>
+  <line x1="890" y1="85" x2="890" y2="315" stroke="#cccccc" stroke-width="1"/>
+  <rect x="795" y="105" width="190" height="190" fill="#f2f2f2" stroke="#777777" stroke-width="2"/>
+  <circle cx="890" cy="200" r="95" fill="#cddaff" stroke="#1b3a8a" stroke-width="2"/>
+  <polygon points="890,105 985,200 890,295 795,200" fill="#7f9ade" stroke="#0f2a66" stroke-width="2"/>
+  <text x="890" y="78" text-anchor="middle" font-size="17" fill="#111111" font-family="Times New Roman, serif">nesting</text>
+  <text x="890" y="325" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">التداخل: B₁ ⊂ B₂ ⊂ B∞</text>
+  <text x="890" y="348" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">p &#8804; q &#8658; ||x||_q &#8804; ||x||_p</text>
+
+  <line x1="40" y1="368" x2="960" y2="368" stroke="#999999" stroke-width="1"/>
+  <text x="500" y="390" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">||x||_q &#8804; ||x||_p &#8804; n^(1/p &#8722; 1/q) ||x||_q ,&#160;&#160;&#160; 1 &#8804; p &#8804; q &#8804; &#8734;</text>
+</svg>

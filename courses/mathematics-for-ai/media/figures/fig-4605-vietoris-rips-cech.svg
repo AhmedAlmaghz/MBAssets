@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Vietoris–Rips &amp; Čech complexes from a point cloud</text>
+
+  <!-- points arranged in a circle -->
+  <circle cx="180" cy="150" r="8" fill="#3b5bdb"/>
+  <circle cx="280" cy="130" r="8" fill="#3b5bdb"/>
+  <circle cx="330" cy="210" r="8" fill="#3b5bdb"/>
+  <circle cx="230" cy="260" r="8" fill="#3b5bdb"/>
+  <circle cx="140" cy="250" r="8" fill="#3b5bdb"/>
+
+  <!-- Rips edges (distance < r) -->
+  <g stroke="#f08c00" stroke-width="2">
+    <line x1="180" y1="150" x2="280" y2="130"/>
+    <line x1="280" y1="130" x2="330" y2="210"/>
+    <line x1="330" y1="210" x2="230" y2="260"/>
+    <line x1="230" y1="260" x2="140" y2="250"/>
+    <line x1="140" y1="250" x2="180" y2="150"/>
+  </g>
+  <!-- filled triangle (2-simplex) -->
+  <polygon points="180,150 280,130 330,210" fill="#ffd6e7" opacity="0.5" stroke="#c2255c" stroke-width="1.5"/>
+  <text x="260" y="160" font-size="11" fill="#c2255c">2-simplex</text>
+
+  <text x="230" y="320" text-anchor="middle" font-size="12" fill="#1a2238">Rips: cover points with radius-ε balls, add simplex when pairwise close.</text>
+
+  <!-- Cech on right -->
+  <text x="540" y="100" text-anchor="middle" font-size="12" fill="#2f9e44">Čech:</text>
+  <circle cx="520" cy="140" r="40" fill="#2f9e44" opacity="0.2" stroke="#2f9e44"/>
+  <circle cx="600" cy="170" r="40" fill="#2f9e44" opacity="0.2" stroke="#2f9e44"/>
+  <circle cx="540" cy="200" r="40" fill="#2f9e44" opacity="0.2" stroke="#2f9e44"/>
+  <text x="560" y="280" text-anchor="middle" font-size="11" fill="#2f9e44">nerve of balls</text>
+  <text x="560" y="300" text-anchor="middle" font-size="10.5" fill="#555">(nerve lemma)</text>
+</svg>

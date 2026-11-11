@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Markov Chain</text>
+
+  <defs>
+    <marker id="a4" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <circle cx="170" cy="170" r="40" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <text x="170" y="175" text-anchor="middle" font-size="13" fill="#222">S1</text>
+  <circle cx="380" cy="90" r="40" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <text x="380" y="95" text-anchor="middle" font-size="13" fill="#222">S2</text>
+  <circle cx="380" cy="250" r="40" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <text x="380" y="255" text-anchor="middle" font-size="13" fill="#222">S3</text>
+
+  <!-- transitions -->
+  <line x1="205" y1="148" x2="348" y2="108" stroke="#222" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="380" y1="132" x2="380" y2="208" stroke="#222" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="348" y1="232" x2="208" y2="192" stroke="#222" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="220" y1="190" x2="340" y2="240" stroke="#222" stroke-width="2" marker-end="url(#a4)"/>
+
+  <text x="255" y="120" font-size="11" fill="#555">0.7</text>
+  <text x="400" y="175" font-size="11" fill="#555">0.4</text>
+  <text x="300" y="235" font-size="11" fill="#555">0.5</text>
+  <text x="270" y="225" font-size="11" fill="#555">0.3</text>
+
+  <rect x="470" y="140" width="170" height="60" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="555" y="162" text-anchor="middle" font-size="12" fill="#222">P^t -> pi (stationary)</text>
+  <text x="555" y="184" text-anchor="middle" font-size="12" fill="#222">pi^T P = pi^T</text>
+
+  <text x="340" y="305" text-anchor="middle" font-size="12" fill="#555">Next state depends only on the current state.</text>
+</svg>

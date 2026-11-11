@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">حقل الاتجاهات (slope field) ومسار الحلّ</text>
+
+  <!-- axes -->
+  <line x1="60" y1="270" x2="640" y2="270" stroke="#334155" stroke-width="1.4"/>
+  <line x1="120" y1="290" x2="120" y2="40" stroke="#334155" stroke-width="1.4"/>
+
+  <!-- slope segments: pattern of short lines with slope ~ -x (decay) -->
+  <g stroke="#b45309" stroke-width="1.3">
+    <!-- grid of segments; slope indicated by tilting -->
+    <line x1="170" y1="220" x2="190" y2="210"/>
+    <line x1="230" y1="220" x2="250" y2="205"/>
+    <line x1="290" y1="220" x2="310" y2="200"/>
+    <line x1="350" y1="220" x2="370" y2="198"/>
+    <line x1="410" y1="220" x2="430" y2="196"/>
+    <line x1="470" y1="220" x2="490" y2="194"/>
+
+    <line x1="170" y1="160" x2="190" y2="155"/>
+    <line x1="230" y1="160" x2="250" y2="150"/>
+    <line x1="290" y1="160" x2="310" y2="148"/>
+    <line x1="350" y1="160" x2="370" y2="146"/>
+    <line x1="410" y1="160" x2="430" y2="144"/>
+    <line x1="470" y1="160" x2="490" y2="142"/>
+
+    <line x1="170" y1="105" x2="190" y2="100"/>
+    <line x1="230" y1="105" x2="250" y2="98"/>
+    <line x1="290" y1="105" x2="310" y2="96"/>
+    <line x1="350" y1="105" x2="370" y2="94"/>
+    <line x1="410" y1="105" x2="430" y2="92"/>
+    <line x1="470" y1="105" x2="490" y2="90"/>
+  </g>
+
+  <!-- solution curve: exponential decay from (120,90) down to right -->
+  <path d="M120,90 C220,110 360,150 520,235" fill="none" stroke="#0f766e" stroke-width="2.8"/>
+  <circle cx="120" cy="90" r="4.5" fill="#0f766e"/>
+  <text x="540" y="248" font-size="13" fill="#0f766e" font-style="italic">x(t) = x₀ e^{-t}</text>
+
+  <rect x="430" y="40" width="210" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="535" y="58" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">ẋ = f(t,x)</text>
+  <text x="535" y="74" font-size="12" fill="#64748b" text-anchor="middle">كل قطعة = ميل الحلّ المحليّ</text>
+
+  <text x="340" y="305" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">الحلّ «يتّبع» حقل الاتجاهات المحليّ</text>
+</svg>

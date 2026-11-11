@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Brenier map &amp; W2</text>
+
+  <!-- source gaussian -->
+  <ellipse cx="180" cy="210" rx="80" ry="60" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2" opacity="0.6"/>
+  <text x="180" y="300" text-anchor="middle" font-size="12" fill="#1a2238">p (Gaussian N(mu, Sigma))</text>
+
+  <!-- arrow -->
+  <line x1="270" y1="210" x2="330" y2="210" stroke="#f08c00" stroke-width="2.5" marker-end="url(#k2)"/>
+  <text x="300" y="195" text-anchor="middle" font-size="12" fill="#f08c00">T = grad(psi)</text>
+
+  <!-- target gaussian (taller) -->
+  <ellipse cx="450" cy="210" rx="55" ry="75" fill="#ffd6e7" stroke="#c2255c" stroke-width="2" opacity="0.6"/>
+  <text x="450" y="320" text-anchor="middle" font-size="12" fill="#1a2238">q (reshaped)</text>
+
+  <text x="340" y="360" text-anchor="middle" font-size="12" fill="#555">W_2^2 = min_T E_{x~p}[||T(x) − x||^2];  optimal T = ∇ψ (convex).</text>
+  <defs><marker id="k2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker></defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="340" y1="40" x2="340" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M80,80 L340,220 L600,80" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="340" cy="220" r="6" fill="#c00"/>
+  <text x="340" y="245" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">kink: f(x) = |x|</text>
+  <line x1="200" y1="290" x2="480" y2="150" stroke="#2da44e" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="200" y1="120" x2="480" y2="260" stroke="#2da44e" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="180" y1="205" x2="500" y2="205" stroke="#888" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <text x="560" y="130" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">slope range</text>
+  <text x="560" y="290" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">at the kink</text>
+  <text x="340" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">any slope between the two sides is a subgradient</text>
+</svg>

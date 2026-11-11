@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <rect x="60" y="50" width="250" height="110" fill="#e8f4ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="185" y="80" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">m_k: momentum (1st moment)</text>
+  <text x="185" y="105" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">beta1 = 0.9</text>
+  <text x="185" y="130" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">direction</text>
+  <rect x="370" y="50" width="250" height="110" fill="#ffe8e8" stroke="#c00" stroke-width="2"/>
+  <text x="495" y="80" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">v_k: scale (2nd moment)</text>
+  <text x="495" y="105" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">beta2 = 0.999</text>
+  <text x="495" y="130" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">magnitude</text>
+  <rect x="200" y="215" width="280" height="60" fill="#e8ffe8" stroke="#2da44e" stroke-width="2"/>
+  <text x="340" y="248" font-family="sans-serif" font-size="13" fill="#2da44e" text-anchor="middle">x = x - eta * m_hat / (sqrt(v_hat) + eps)</text>
+  <text x="340" y="300" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">AdamW: decay applied separately (decoupled)</text>
+  <text x="340" y="325" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">x = (1 - eta*lambda) x - eta * m_hat/(sqrt(v_hat)+eps)</text>
+</svg>

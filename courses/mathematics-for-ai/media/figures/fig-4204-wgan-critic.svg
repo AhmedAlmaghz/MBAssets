@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Wasserstein GAN (WGAN)</text>
+
+  <!-- data -->
+  <ellipse cx="170" cy="200" rx="70" ry="55" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2" opacity="0.6"/>
+  <text x="170" y="280" text-anchor="middle" font-size="12" fill="#1a2238">real p_data</text>
+
+  <!-- generated -->
+  <ellipse cx="470" cy="210" rx="60" ry="50" fill="#ffd6e7" stroke="#c2255c" stroke-width="2" opacity="0.6"/>
+  <text x="470" y="285" text-anchor="middle" font-size="12" fill="#1a2238">generated p_g</text>
+
+  <!-- critic line -->
+  <line x1="40" y1="120" x2="640" y2="150" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="350" y="105" text-anchor="middle" font-size="12" fill="#2f9e44">critic f (1-Lipschitz): E[f(x_real)] − E[f(G(z))] = W_1</text>
+
+  <!-- Lipschitz envelope -->
+  <path d="M40 120 L120 200 L200 120 L280 200 L360 130 L440 200 L520 140 L600 200 L640 150" fill="none" stroke="#f08c00" stroke-width="1.4" stroke-dasharray="5 4" opacity="0.7"/>
+  <text x="350" y="330" text-anchor="middle" font-size="12.5" fill="#1a2238">||f||_L ≤ 1 enforced by weight clipping or gradient penalty.</text>
+  <text x="350" y="356" text-anchor="middle" font-size="12" fill="#555">WGAN loss is Earth-Mover distance ⇒ meaningful gradient even when disjoint.</text>
+</svg>

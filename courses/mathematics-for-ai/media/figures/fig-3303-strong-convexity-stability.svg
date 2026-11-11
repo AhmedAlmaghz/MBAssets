@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Strong convexity: a small tilt of the objective moves the minimiser only slightly</text>
+
+  <!-- axes -->
+  <line x1="80" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="360" y1="60" x2="360" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">w</text>
+  <text x="30" y="180" font-family="sans-serif" font-size="12" fill="#555">F(w)</text>
+
+  <!-- strongly convex curve for S -->
+  <path d="M150,280 Q360,90 570,280" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="470" y="120" font-family="sans-serif" font-size="12" fill="#1f6feb">F_S(w) = R_hat(w) + (lambda/2)||w||^2</text>
+
+  <!-- perturbed curve for S' -->
+  <path d="M150,272 Q368,86 578,272" fill="none" stroke="#c00" stroke-width="2.2" stroke-dasharray="7,4"/>
+  <text x="430" y="150" font-family="sans-serif" font-size="12" fill="#c00">F_S' (one point replaced)</text>
+
+  <!-- minimisers -->
+  <circle cx="360" cy="272" r="6" fill="#1f6feb"/>
+  <circle cx="376" cy="266" r="6" fill="#c00"/>
+  <line x1="360" y1="272" x2="376" y2="266" stroke="#2a7a2a" stroke-width="3"/>
+  <text x="330" y="300" font-family="sans-serif" font-size="11" fill="#1f6feb">w*</text>
+  <text x="382" y="256" font-family="sans-serif" font-size="11" fill="#c00">w*'</text>
+  <text x="300" y="240" font-family="sans-serif" font-size="12" fill="#2a7a2a">||w* - w*'|| &lt;= 2L / (lambda n)</text>
+
+  <!-- curvature annotation -->
+  <path d="M300,290 Q360,308 420,290" fill="none" stroke="#b8860b" stroke-width="2"/>
+  <text x="360" y="330" font-family="sans-serif" font-size="11" fill="#b8860b" text-anchor="middle">curvature &gt;= lambda everywhere</text>
+
+  <!-- formula box -->
+  <rect x="80" y="60" width="230" height="60" fill="#f3fbf3" stroke="#2a7a2a" stroke-width="1.3"/>
+  <text x="195" y="82" font-family="sans-serif" font-size="12" fill="#2a7a2a" text-anchor="middle">lambda-strongly convex + L-Lipschitz</text>
+  <text x="195" y="104" font-family="sans-serif" font-size="12" fill="#2a7a2a" text-anchor="middle">=&gt; beta &lt;= 2 L^2 / (lambda n)</text>
+
+  <text x="340" y="368" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">larger lambda or larger n  =&gt;  smaller beta  =&gt;  smaller generalisation gap</text>
+</svg>

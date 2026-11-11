@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Curvature: positive, negative, zero</text>
+
+  <!-- positive curvature (sphere) -->
+  <circle cx="120" cy="195" r="62" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="120" y="200" text-anchor="middle" font-size="12" fill="#1a2238">K &gt; 0</text>
+  <text x="120" y="300" text-anchor="middle" font-size="12" fill="#3b5bdb">sphere</text>
+  <text x="120" y="318" text-anchor="middle" font-size="10.5" fill="#555">closed, bounded</text>
+
+  <!-- zero curvature (plane) -->
+  <polygon points="270,185 380,175 400,250 290,250" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="335" y="222" text-anchor="middle" font-size="12" fill="#1a2238">K = 0</text>
+  <text x="335" y="300" text-anchor="middle" font-size="12" fill="#2f9e44">plane</text>
+  <text x="335" y="318" text-anchor="middle" font-size="10.5" fill="#555">Euclidean</text>
+
+  <!-- negative curvature (saddle) -->
+  <path d="M470 250 Q530 170 600 230 Q530 300 480 250 Z" fill="#ffd6e7" stroke="#c2255c" stroke-width="2.5"/>
+  <line x1="485" y1="248" x2="590" y2="220" stroke="#c2255c" stroke-width="1.2"/>
+  <line x1="480" y1="250" x2="520" y2="290" stroke="#c2255c" stroke-width="1.2"/>
+  <text x="535" y="270" text-anchor="middle" font-size="12" fill="#1a2238">K &lt; 0</text>
+  <text x="535" y="320" text-anchor="middle" font-size="12" fill="#c2255c">saddle</text>
+  <text x="535" y="338" text-anchor="middle" font-size="10.5" fill="#555">hyperbolic</text>
+
+  <text x="340" y="362" text-anchor="middle" font-size="11" fill="#555">shape of network parameter space dictates gradient behavior &amp; bottlenecks.</text>
+</svg>

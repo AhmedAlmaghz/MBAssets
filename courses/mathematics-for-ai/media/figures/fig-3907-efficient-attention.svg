@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Full vs efficient attention</text>
+
+  <!-- full n x n grid -->
+  <text x="120" y="62" text-anchor="middle" font-size="13" fill="#e8590c" font-weight="600">Full O(n^2 d)</text>
+  <g stroke="#5b6b8c" stroke-width="1" fill="none">
+    <rect x="60" y="80" width="120" height="120"/>
+    <line x1="100" y1="80" x2="100" y2="200"/><line x1="140" y1="80" x2="140" y2="200"/>
+    <line x1="60" y1="120" x2="180" y2="120"/><line x1="60" y1="160" x2="180" y2="160"/>
+  </g>
+  <g fill="#3b5bdb" fill-opacity="0.5">
+    <rect x="60" y="80" width="40" height="40"/><rect x="100" y="80" width="40" height="40"/><rect x="140" y="80" width="40" height="40"/>
+    <rect x="60" y="120" width="40" height="40"/><rect x="100" y="120" width="40" height="40"/><rect x="140" y="120" width="40" height="40"/>
+    <rect x="60" y="160" width="40" height="40"/><rect x="100" y="160" width="40" height="40"/><rect x="140" y="160" width="40" height="40"/>
+  </g>
+  <text x="120" y="220" text-anchor="middle" font-size="11" fill="#555">all pairs connected</text>
+
+  <!-- sparse / low-rank -->
+  <text x="460" y="62" text-anchor="middle" font-size="13" fill="#2f9e44" font-weight="600">Efficient O(n d) or O(n log n)</text>
+  <!-- band -->
+  <g stroke="#5b6b8c" stroke-width="1" fill="none">
+    <rect x="400" y="80" width="120" height="120"/>
+    <line x1="440" y1="80" x2="440" y2="200"/><line x1="480" y1="80" x2="480" y2="200"/>
+    <line x1="400" y1="120" x2="520" y2="120"/><line x1="400" y1="160" x2="520" y2="160"/>
+  </g>
+  <g fill="#2f9e44" fill-opacity="0.5">
+    <!-- diagonal band only -->
+    <rect x="400" y="80" width="40" height="40"/><rect x="440" y="120" width="40" height="40"/><rect x="480" y="160" width="40" height="40"/>
+    <rect x="440" y="80" width="40" height="40"/><rect x="480" y="120" width="40" height="40"/>
+    <rect x="400" y="120" width="40" height="40"/><rect x="440" y="160" width="40" height="40"/>
+  </g>
+  <text x="460" y="220" text-anchor="middle" font-size="11" fill="#555">sparse / low-rank / kernel</text>
+
+  <!-- methods list -->
+  <g font-size="11" fill="#1a2238">
+    <text x="400" y="255">Linformer: project K,V to k << n</text>
+    <text x="400" y="275">Performer: softmax via random features</text>
+    <text x="400" y="295">Sparse: attend to local + global</text>
+  </g>
+
+  <text x="340" y="355" text-anchor="middle" font-size="12.5" fill="#555">Reducing n^2 to n or log n enables long sequences (documents, genomes, pixels).</text>
+</svg>

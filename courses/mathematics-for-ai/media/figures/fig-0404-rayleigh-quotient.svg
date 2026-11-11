@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="340" fill="#ffffff"/>
+
+  <text x="340" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Rayleigh quotient R(x) and Weyl perturbation bound</text>
+  <text x="340" y="44" text-anchor="middle" font-size="13" fill="#475569">يساراً: خارج قسمة رايلي على دائرة الوحدة (قيمه بين λ_min و λ_max) — يميناً: متراجحة فايل لتغيّر القيم الذاتية</text>
+
+  <!-- ================= LEFT: polar plot of R ================= -->
+  <text x="170" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">R(θ) = xᵀAx / xᵀx ,  A = diag(3,1)</text>
+
+  <!-- reference circles r = 40 (lambda_min) and r = 120 (lambda_max) -->
+  <circle cx="170" cy="190" r="40" fill="none" stroke="#dc2626" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="170" cy="190" r="120" fill="none" stroke="#1d4ed8" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="176" y="154" font-size="11.5" fill="#dc2626">λ₂ = 1</text>
+  <text x="176" y="72" font-size="11.5" fill="#1d4ed8">λ₁ = 3</text>
+
+  <!-- polar curve r = 40 (1 + 2 cos² θ) -->
+  <polygon fill="#a5b4fc" fill-opacity="0.45" stroke="#4338ca" stroke-width="2"
+    points="290,190 280.7,160.3 256.6,140 226.6,133.4 200,138 181.8,146.2 170,150 158.3,146.2 140,138 113.4,133.4 83.4,140 59.3,160.3 50,190 59.3,219.7 83.4,240 113.4,246.6 140,242 158.3,233.9 170,230 181.8,233.9 200,242 226.6,246.6 256.6,240 280.7,219.7"/>
+
+  <!-- rays at theta = 0 and 90 -->
+  <line x1="170" y1="190" x2="290" y2="190" stroke="#1d4ed8" stroke-width="2.5"/>
+  <line x1="170" y1="190" x2="170" y2="70" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="252" y="205" font-size="12" font-weight="bold" fill="#1d4ed8">max R = λ₁</text>
+  <text x="130" y="90" font-size="12" font-weight="bold" fill="#dc2626">min R = λ₂</text>
+  <text x="170" y="318" text-anchor="middle" font-size="11.5" fill="#64748b">λ_min ≤ R(x) ≤ λ_max لكل x ≠ 0</text>
+
+  <!-- ================= RIGHT: Weyl interlacing ================= -->
+  <text x="510" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">|λᵢ(A+E) − λᵢ(A)| ≤ ||E||₂</text>
+
+  <!-- number line -->
+  <line x1="360" y1="200" x2="650" y2="200" stroke="#0f172a" stroke-width="2"/>
+  <line x1="650" y1="200" x2="642" y2="195" stroke="#0f172a" stroke-width="2"/>
+  <line x1="650" y1="200" x2="642" y2="205" stroke="#0f172a" stroke-width="2"/>
+  <text x="655" y="204" font-size="12" fill="#0f172a">λ</text>
+
+  <!-- scale: lambda = 1 .. 4.6 mapped to x = 380 + (lambda-1)*70 -->
+  <!-- lambda(A): 1.0 -> 380 ; 2.2 -> 464 ; 3.4 -> 548 ; 4.6 -> 632 -->
+  <g stroke="#1d4ed8" stroke-width="3">
+    <line x1="380" y1="200" x2="380" y2="168"/>
+    <line x1="464" y1="200" x2="464" y2="168"/>
+    <line x1="548" y1="200" x2="548" y2="168"/>
+    <line x1="632" y1="200" x2="632" y2="168"/>
+  </g>
+  <g fill="#1d4ed8" font-size="11.5" text-anchor="middle">
+    <text x="380" y="162">λ₁(A)</text>
+    <text x="464" y="162">λ₂(A)</text>
+    <text x="548" y="162">λ₃(A)</text>
+    <text x="632" y="162">λ₄(A)</text>
+  </g>
+
+  <!-- perturbed eigenvalues (below), each within ±0.5*70 = ±35 px -->
+  <g stroke="#dc2626" stroke-width="3">
+    <line x1="396" y1="200" x2="396" y2="232"/>
+    <line x1="450" y1="200" x2="450" y2="232"/>
+    <line x1="570" y1="200" x2="570" y2="232"/>
+    <line x1="612" y1="200" x2="612" y2="232"/>
+  </g>
+  <g fill="#dc2626" font-size="11.5" text-anchor="middle">
+    <text x="396" y="248">λ₁(A+E)</text>
+    <text x="450" y="248">λ₂(A+E)</text>
+    <text x="570" y="248">λ₃(A+E)</text>
+    <text x="612" y="248">λ₄(A+E)</text>
+  </g>
+
+  <!-- uncertainty band around lambda_2 -->
+  <rect x="429" y="176" width="70" height="48" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="464" y="278" text-anchor="middle" font-size="11.5" fill="#b45309">نطاق الضمان بعرض 2||E||₂</text>
+
+  <text x="510" y="318" text-anchor="middle" font-size="11.5" fill="#64748b">A متماثل ⟹ القيم الذاتية مستقرّة عددياً (ليست كذلك في المصفوفات غير الطبيعية)</text>
+  <text x="340" y="334" text-anchor="middle" font-size="12.5" fill="#0f172a">λ_k(A) = min_{dim S = n−k+1} max_{x∈S} R(x) = max_{dim S = k} min_{x∈S} R(x)　(Courant–Fischer)</text>
+</svg>

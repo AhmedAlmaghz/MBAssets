@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Generative evaluation: FID</text>
+
+  <!-- real distribution -->
+  <ellipse cx="210" cy="200" rx="70" ry="55" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2" opacity="0.6"/>
+  <text x="210" y="280" text-anchor="middle" font-size="12" fill="#1a2238">real features</text>
+
+  <!-- fake distribution -->
+  <ellipse cx="470" cy="220" rx="65" ry="50" fill="#ffd6e7" stroke="#c2255c" stroke-width="2" opacity="0.6"/>
+  <text x="470" y="300" text-anchor="middle" font-size="12" fill="#1a2238">generated features</text>
+
+  <!-- means -->
+  <circle cx="210" cy="200" r="4" fill="#1a2238"/>
+  <circle cx="470" cy="220" r="4" fill="#1a2238"/>
+  <line x1="210" y1="200" x2="470" y2="220" stroke="#f08c00" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#g2)"/>
+
+  <text x="340" y="160" text-anchor="middle" font-size="11" fill="#f08c00">||μ_r − μ_g||²</text>
+
+  <!-- FID formula -->
+  <text x="340" y="330" text-anchor="middle" font-size="12.5" fill="#1a2238">FID = ||μ_r − μ_g||² + Tr(Σ_r + Σ_g − 2(Σ_r Σ_g)^{1/2})</text>
+  <text x="340" y="356" text-anchor="middle" font-size="12" fill="#555">Lower FID = closer real/generated feature distributions. (IS, NLL also used.)</text>
+  <defs><marker id="g2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker></defs>
+</svg>

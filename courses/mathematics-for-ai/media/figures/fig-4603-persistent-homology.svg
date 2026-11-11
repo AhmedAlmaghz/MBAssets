@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Persistence: barcode</text>
+
+  <!-- axes -->
+  <line x1="70" y1="310" x2="640" y2="310" stroke="#888" stroke-width="1.5"/>
+  <line x1="70" y1="310" x2="70" y2="60" stroke="#888" stroke-width="1.5"/>
+  <text x="350" y="340" text-anchor="middle" font-size="11" fill="#555">scale parameter ε</text>
+  <text x="40" y="180" font-size="11" fill="#555" transform="rotate(-90 45 180)">birth → death</text>
+
+  <!-- long-lived loop (feature) -->
+  <line x1="120" y1="90" x2="520" y2="90" stroke="#2f9e44" stroke-width="5"/>
+  <text x="530" y="94" font-size="11" fill="#2f9e44">persistent loop (signal)</text>
+
+  <!-- medium -->
+  <line x1="150" y1="150" x2="360" y2="150" stroke="#f08c00" stroke-width="4"/>
+  <text x="372" y="154" font-size="11" fill="#f08c00">medium</text>
+
+  <!-- short-lived (noise) -->
+  <line x1="200" y1="210" x2="260" y2="210" stroke="#c2255c" stroke-width="4"/>
+  <text x="272" y="214" font-size="11" fill="#c2255c">short (noise)</text>
+
+  <!-- short 2 -->
+  <line x1="300" y1="240" x2="345" y2="240" stroke="#c2255c" stroke-width="4"/>
+  <line x1="420" y1="270" x2="490" y2="270" stroke="#c2255c" stroke-width="4"/>
+
+  <text x="340" y="360" text-anchor="middle" font-size="12" fill="#1a2238">Each bar = a feature appearing at birth ε and vanishing at death ε'; length = persistence.</text>
+</svg>

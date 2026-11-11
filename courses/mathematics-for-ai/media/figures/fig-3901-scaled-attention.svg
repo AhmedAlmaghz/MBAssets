@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Scaled dot-product attention</text>
+
+  <!-- Q K V -->
+  <g>
+    <rect x="60" y="90" width="50" height="40" rx="5" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="60" y="150" width="50" height="40" rx="5" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="60" y="210" width="50" height="40" rx="5" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <text x="85" y="115" text-anchor="middle" font-size="13" fill="#1a2238">Q</text>
+    <text x="85" y="175" text-anchor="middle" font-size="13" fill="#1a2238">K</text>
+    <text x="85" y="235" text-anchor="middle" font-size="13" fill="#1a2238">V</text>
+  </g>
+
+  <!-- matmul QK -->
+  <rect x="160" y="110" width="70" height="44" rx="6" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="195" y="137" text-anchor="middle" font-size="12" fill="#1a2238">QK^T</text>
+  <line x1="110" y1="110" x2="158" y2="125" stroke="#888" stroke-width="1.6" marker-end="url(#a1)"/>
+  <line x1="110" y1="170" x2="158" y2="145" stroke="#888" stroke-width="1.6" marker-end="url(#a1)"/>
+  <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+
+  <!-- scale -->
+  <rect x="260" y="110" width="50" height="44" rx="6" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="285" y="137" text-anchor="middle" font-size="12" fill="#1a2238">/sqrt(d)</text>
+
+  <!-- softmax -->
+  <rect x="340" y="110" width="70" height="44" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+  <text x="375" y="137" text-anchor="middle" font-size="12" fill="#1a2238">softmax</text>
+
+  <!-- xV -->
+  <rect x="450" y="130" width="70" height="44" rx="6" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="485" y="157" text-anchor="middle" font-size="12" fill="#1a2238">. V</text>
+  <line x1="410" y1="132" x2="448" y2="150" stroke="#888" stroke-width="1.6" marker-end="url(#a1)"/>
+  <line x1="110" y1="230" x2="448" y2="165" stroke="#888" stroke-width="1.6" marker-end="url(#a1)"/>
+
+  <!-- output -->
+  <rect x="560" y="130" width="60" height="44" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+  <text x="590" y="157" text-anchor="middle" font-size="13" fill="#1a2238">Output</text>
+  <line x1="520" y1="152" x2="558" y2="152" stroke="#2f9e44" stroke-width="2" marker-end="url(#g1)"/>
+  <defs><marker id="g1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker></defs>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">A = softmax(Q K^T / sqrt(d_k)) V  --  scaling by sqrt(d_k) keeps gradients stable.</text>
+</svg>

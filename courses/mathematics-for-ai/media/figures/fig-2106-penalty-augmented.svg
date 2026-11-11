@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,300 C160,300 240,120 340,110 C440,120 520,300 640,300" fill="none" stroke="#c00" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="340" y="95" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">penalty: needs very large rho</text>
+  <path d="M40,300 C200,300 260,160 340,150 C420,160 480,300 640,300" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="340" y="175" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">augmented: accurate at moderate rho</text>
+  <circle cx="340" cy="150" r="5" fill="#2da44e"/>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">lambda update corrects the bias; no need for rho to infinity</text>
+</svg>

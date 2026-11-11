@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" width="780" height="430">
+  <defs>
+    <marker id="csA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#1b3a8a"/>
+    </marker>
+    <marker id="csB" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#b03030"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="430" fill="#ffffff"/>
+
+  <text x="390" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Cauchy&#8211;Schwarz:  |&#10216;x, y&#10217;| = ||x||&#183;||y||&#183;|cos &#952;|  &#8804;  ||x||&#183;||y||</text>
+  <text x="390" y="54" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">الإسقاط يشرح المتراجحة: طول الظل لا يتجاوز طول المتجه نفسه</text>
+
+  <!-- ============ Left panel : projection geometry ============ -->
+  <line x1="70" y1="300" x2="370" y2="300" stroke="#cccccc" stroke-width="1"/>
+  <line x1="120" y1="330" x2="120" y2="120" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- x -->
+  <line x1="120" y1="300" x2="330" y2="300" stroke="#1b3a8a" stroke-width="3" marker-end="url(#csA)"/>
+  <text x="235" y="322" text-anchor="middle" font-size="17" fill="#1b3a8a" font-family="Times New Roman, serif">x</text>
+
+  <!-- y -->
+  <line x1="120" y1="300" x2="212" y2="169" stroke="#1b3a8a" stroke-width="3" marker-end="url(#csA)"/>
+  <text x="176" y="186" font-size="17" fill="#1b3a8a" font-family="Times New Roman, serif">y</text>
+
+  <!-- perpendicular + projection -->
+  <line x1="212" y1="169" x2="212" y2="300" stroke="#b03030" stroke-width="1.6" stroke-dasharray="5,4"/>
+  <line x1="120" y1="300" x2="212" y2="300" stroke="#b03030" stroke-width="3.4" marker-end="url(#csB)"/>
+  <polygon points="212,300 212,286 226,286 226,300" fill="none" stroke="#b03030" stroke-width="1.4"/>
+  <text x="166" y="344" text-anchor="middle" font-size="15" fill="#b03030" font-family="Times New Roman, serif">proj_x y</text>
+
+  <!-- angle arc -->
+  <path d="M180,300 A60,60 0 0 0 154,251" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <text x="196" y="276" font-size="16" fill="#444444" font-family="Times New Roman, serif">&#952;</text>
+
+  <text x="120" y="372" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">المسقط أقصر من المتجه</text>
+  <text x="120" y="394" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">||proj_x y|| = |&#10216;x,y&#10217;| / ||x||</text>
+
+  <!-- ============ Right panel : bars ============ -->
+  <text x="590" y="100" text-anchor="middle" font-size="17" fill="#111111" font-family="Times New Roman, serif">&#952; = 55&#176; ,  cos &#952; = 0.574</text>
+
+  <rect x="440" y="126" width="300" height="28" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2"/>
+  <text x="450" y="146" font-size="15" fill="#111111" font-family="Times New Roman, serif">||x||&#183;||y||  =  1.000</text>
+
+  <rect x="440" y="176" width="172" height="28" fill="#9db4ea" stroke="#0f2a66" stroke-width="2"/>
+  <text x="450" y="196" font-size="15" fill="#111111" font-family="Times New Roman, serif">|&#10216;x,y&#10217;| = 0.574</text>
+
+  <line x1="440" y1="220" x2="740" y2="220" stroke="#999999" stroke-width="1"/>
+  <text x="440" y="246" font-size="15" fill="#111111" font-family="Times New Roman, serif">gap  =  ||x||&#183;||y||&#183;(1 &#8722; |cos &#952;|)  = 0.426</text>
+
+  <text x="440" y="292" font-size="15" fill="#111111" font-family="Times New Roman, serif">equality &#8660;  &#952; = 0  or  &#952; = &#960;</text>
+  <line x1="450" y1="330" x2="640" y2="330" stroke="#1b3a8a" stroke-width="3" marker-end="url(#csA)"/>
+  <line x1="470" y1="352" x2="660" y2="352" stroke="#1b3a8a" stroke-width="3" marker-end="url(#csA)"/>
+  <text x="450" y="378" font-size="15" fill="#111111" font-family="Times New Roman, serif">y = &#945; x  (linearly dependent)</text>
+
+  <line x1="40" y1="408" x2="740" y2="408" stroke="#999999" stroke-width="1"/>
+  <text x="390" y="427" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">|&#10216;x, y&#10217;| &#8804; ||x||₂&#183;||y||₂ ,&#160;&#160;&#160; |&#10216;x, y&#10217;| &#8804; ||x||_p&#183;||y||_q  (H&#246;lder, 1/p + 1/q = 1)</text>
+</svg>

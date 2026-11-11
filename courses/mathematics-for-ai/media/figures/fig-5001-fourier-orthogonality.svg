@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">العموديّة: تكامل جداء الدوالّ المثلثية يصفّر</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Fourier orthogonality on [-π,π]</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <line x1="70" y1="300" x2="610" y2="300" stroke="#5a6770" stroke-width="1"/>
+  <line x1="70" y1="90" x2="70" y2="300" stroke="#5a6770" stroke-width="1"/>
+  <text x="610" y="314" font-size="11" fill="#5a6770">x</text>
+  <text x="64" y="100" text-anchor="end" font-size="11" fill="#5a6770">f(x)</text>
+  <path d="M 70 200 C 130 120 190 120 250 200 C 310 280 370 280 430 200 C 490 120 550 120 610 200" fill="none" stroke="#1f4e6b" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M 70 250 C 130 330 190 330 250 250 C 310 170 370 170 430 250 C 490 330 550 330 610 250" fill="none" stroke="#7a9e3c" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="340" y="340" font-size="10.5" fill="#5a6770" direction="rtl"><tspan direction="ltr" unicode-bidi="isolate">∫<tspan dy="3.15" font-size="70%">-π</tspan><tspan dy="-3.15" font-size="1">&#8203;</tspan><tspan dy="-4.41" font-size="70%">π</tspan><tspan dy="4.41" font-size="1">&#8203;</tspan> sin(nx) cos(mx) dx = 0 </tspan>و<tspan direction="ltr" unicode-bidi="isolate"> ∫ sin(nx) sin(mx) dx = π δ<tspan dy="3.15" font-size="70%">nm</tspan><tspan dy="-3.15" font-size="1">&#8203;</tspan></tspan></text>
+</svg>

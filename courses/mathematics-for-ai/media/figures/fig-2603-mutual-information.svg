@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <circle cx="270" cy="185" r="120" fill="#cfe8ff" fill-opacity="0.4" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="410" cy="185" r="120" fill="#ffe8e8" fill-opacity="0.4" stroke="#c00" stroke-width="2.5"/>
+  <path d="M320,100 L360,100 L360,270 L320,270 Z" fill="#2da44e" fill-opacity="0.45"/>
+  <text x="215" y="185" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">H(X)</text>
+  <text x="465" y="185" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">H(Y)</text>
+  <text x="340" y="185" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">MI</text>
+  <text x="340" y="60" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X)</text>
+  <text x="340" y="340" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">I = 0 if and only if X and Y are independent</text>
+</svg>

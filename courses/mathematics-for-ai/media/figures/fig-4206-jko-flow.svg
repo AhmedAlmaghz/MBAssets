@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">JKO: Wasserstein gradient flow</text>
+
+  <!-- density curve rho^0 -->
+  <path d="M80 280 Q120 100 170 280" fill="#3b5bdb" opacity="0.25" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="130" y="300" text-anchor="middle" font-size="12" fill="#1a2238">rho0</text>
+
+  <!-- rho^1 shifted/diffused -->
+  <path d="M210 280 Q250 140 300 280" fill="#c2255c" opacity="0.25" stroke="#c2255c" stroke-width="2"/>
+  <text x="262" y="300" text-anchor="middle" font-size="12" fill="#1a2238">rho1</text>
+
+  <!-- rho^2 more diffused -->
+  <path d="M340 280 Q370 175 420 280" fill="#2f9e44" opacity="0.25" stroke="#2f9e44" stroke-width="2"/>
+  <text x="390" y="300" text-anchor="middle" font-size="12" fill="#1a2238">rho2</text>
+
+  <!-- rho^3 approaching equilibrium (uniform) -->
+  <path d="M470 260 L470 290 L560 290 L560 260" fill="#fab005" opacity="0.3" stroke="#b8860b" stroke-width="2"/>
+  <text x="515" y="310" text-anchor="middle" font-size="12" fill="#1a2238">rho* (equil.)</text>
+
+  <!-- flow arrows -->
+  <g stroke="#f08c00" stroke-width="2" fill="none" marker-end="url(#l2)">
+    <path d="M160 270 L205 270"/>
+    <path d="M302 270 L345 270"/>
+    <path d="M425 275 L468 275"/>
+  </g>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12" fill="#555">rho^(n+1) = argmin_rho  (1/2Tau) W_2^2(rho, rho^n) + F(rho)  (JKO scheme)</text>
+  <defs><marker id="l2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker></defs>
+</svg>

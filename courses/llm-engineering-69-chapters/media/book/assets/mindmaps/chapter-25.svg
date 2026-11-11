@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+<defs>
+        <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7FAFF"/><stop offset="1" stop-color="#EEF5F7"/></linearGradient>
+        <linearGradient id="center" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173B63"/><stop offset="1" stop-color="#226E78"/></linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#16324A" flood-opacity=".12"/></filter>
+        </defs>
+<rect width="1200" height="800" rx="34" fill="url(#canvas)"/>
+<circle cx="600" cy="400" r="290" fill="#D9EEEF" opacity=".22"/>
+<title id="title">الخريطة الذهنية — الفصل 25: من Base إلى نموذج قابل للاستخدام — Supervised Fine-Tuning والبيانات الاصطناعية</title>
+<desc id="description">رسم مفاهيمي يربط موضوع الفصل بمحاوره الأساسية: الفجوة بدقة: ماذا بالضبط تعلّم النموذج الأساسي؟، صيغة البيانات: Chat Templates، دالة الخسارة المُقنَّعة: لماذا لا نُدرّب على كل الرموز؟، مصادر بيانات SFT: البشري مقابل الاصطناعي، Self-Instruct: توليد بيانات اصطناعية على نطاق واسع، خطر حقيقي: انهيار النموذج (Model Collapse)</desc>
+<path d="M600.0 311.1 C600.0 146.0 600.0 146.0 600.0 217.1" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<path d="M461.8 356.9 C461.8 277.0 315.6 277.0 315.6 311.4" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<path d="M738.2 356.9 C738.2 277.0 884.4 277.0 884.4 311.4" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<path d="M461.8 447.9 C461.8 537.0 315.6 537.0 315.6 498.6" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<path d="M600.0 489.2 C600.0 655.0 600.0 655.0 600.0 583.6" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<path d="M738.2 447.9 C738.2 537.0 884.4 537.0 884.4 498.6" fill="none" stroke="#83A6B4" stroke-width="4" stroke-linecap="round"/>
+<rect x="420" y="324" width="360" height="152" rx="26" fill="url(#center)" filter="url(#shadow)"/>
+<text x="600.0" y="370.0" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="600.0" dy="0">25: من Base إلى نموذج</tspan>
+<tspan x="600.0" dy="31">قابل للاستخدام —</tspan>
+<tspan x="600.0" dy="31">Supervised Fine-Tuning…</tspan>
+</text>
+<text x="600.0" y="458" text-anchor="middle" fill="#BDE6E1" font-size="15" font-weight="700" font-family="Arial,sans-serif">CHAPTER MAP</text>
+<rect x="425" y="76" width="350" height="140" rx="22" fill="#E6F5F4" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="455" cy="104" r="16" fill="#1D7280"/><text x="455" y="110" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">1</text>
+<text x="600.0" y="118.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="600.0" dy="0">الفجوة بدقة: ماذا</tspan>
+<tspan x="600.0" dy="28">بالضبط تعلّم النموذج</tspan>
+<tspan x="600.0" dy="28">الأساسي؟</tspan>
+</text>
+<rect x="35" y="205" width="340" height="144" rx="22" fill="#EAF1FF" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="65" cy="233" r="16" fill="#1D7280"/><text x="65" y="239" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">2</text>
+<text x="205.0" y="263.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="205.0" dy="0">صيغة البيانات: Chat</tspan>
+<tspan x="205.0" dy="28">Templates</tspan>
+</text>
+<rect x="825" y="205" width="340" height="144" rx="22" fill="#FFF2E5" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="855" cy="233" r="16" fill="#1D7280"/><text x="855" y="239" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">3</text>
+<text x="995.0" y="249.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="995.0" dy="0">دالة الخسارة</tspan>
+<tspan x="995.0" dy="28">المُقنَّعة: لماذا لا</tspan>
+<tspan x="995.0" dy="28">نُدرّب على كل الرموز؟</tspan>
+</text>
+<rect x="35" y="465" width="340" height="144" rx="22" fill="#F1ECFF" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="65" cy="493" r="16" fill="#1D7280"/><text x="65" y="499" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">4</text>
+<text x="205.0" y="523.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="205.0" dy="0">مصادر بيانات SFT:</tspan>
+<tspan x="205.0" dy="28">البشري مقابل الاصطناعي</tspan>
+</text>
+<rect x="425" y="585" width="350" height="140" rx="22" fill="#E8F6EF" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="455" cy="613" r="16" fill="#1D7280"/><text x="455" y="619" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">5</text>
+<text x="600.0" y="627.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="600.0" dy="0">Self-Instruct: توليد</tspan>
+<tspan x="600.0" dy="28">بيانات اصطناعية على</tspan>
+<tspan x="600.0" dy="28">نطاق واسع</tspan>
+</text>
+<rect x="825" y="465" width="340" height="144" rx="22" fill="#FFF0F2" stroke="#D8E3EC" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="855" cy="493" r="16" fill="#1D7280"/><text x="855" y="499" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Arial,sans-serif">6</text>
+<text x="995.0" y="509.0" text-anchor="middle" fill="#203B54" font-size="20" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="995.0" dy="0">خطر حقيقي: انهيار</tspan>
+<tspan x="995.0" dy="28">النموذج (Model</tspan>
+<tspan x="995.0" dy="28">Collapse)</tspan>
+</text>
+</svg>

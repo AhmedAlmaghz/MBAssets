@@ -1,0 +1,22 @@
+<svg class="dg" viewBox="31.0 55.5 798.0 225.5" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="300" rx="16" fill="#FFFFFF"/>
+<rect x="40" y="96" width="420" height="86" rx="12" fill="#0E7C6B" fill-opacity="1.0"/>
+<text x="250.0" y="130" font-size="15.120000000000001" font-weight="700" fill="{#FFFFFF}" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">بادئة ثابتة</text>
+<text x="250.0" y="154" font-size="11.760000000000002" font-weight="400" fill="{#FFFFFF}" fill-opacity="0.9" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">System + Rules — مخزّنة بالكامل</text>
+<rect x="460" y="96" width="150" height="86" rx="12" fill="#4338CA" fill-opacity="0.85"/>
+<text x="535.0" y="130" font-size="15.120000000000001" font-weight="700" fill="{#FFFFFF}" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">شبه ثابتة</text>
+<text x="535.0" y="154" font-size="11.760000000000002" font-weight="400" fill="{#FFFFFF}" fill-opacity="0.9" text-anchor="middle">Tools + Persona</text>
+<rect x="610" y="96" width="210" height="86" rx="12" fill="#B45309" fill-opacity="0.8"/>
+<text x="715.0" y="130" font-size="15.120000000000001" font-weight="700" fill="{#FFFFFF}" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">متغيّرة</text>
+<text x="715.0" y="154" font-size="11.760000000000002" font-weight="400" fill="{#FFFFFF}" fill-opacity="0.9" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">آخر الدورات + الملاحظات</text>
+<text x="250" y="76" font-size="12.32" font-weight="600" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">مخزّنة (Cache Hit)</text>
+<text x="650" y="76" font-size="12.32" font-weight="600" fill="#B45309" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">تُعاد كتابتها كل دورة</text>
+<path d="M 40 210 L 820 210" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="40" y1="202" x2="40" y2="218" stroke="#6B7A8C" stroke-width="1"/>
+<line x1="820" y1="202" x2="820" y2="218" stroke="#6B7A8C" stroke-width="1"/>
+<text x="430" y="240" font-size="12.88" font-weight="400" fill="#3C4A5A" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">ثبّت البادئة ← تدفع ثمنها مرة واحدة؛ حرّك المتغيّر إلى الذيل</text>
+<text x="430" y="268" font-size="11.760000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">أي تغيير في أول 400 توكن يُبطل كاش كل ما بعده</text>
+</svg>

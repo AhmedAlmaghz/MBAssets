@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">SGD: two runs on neighbouring samples drift apart as the number of steps T grows</text>
+
+  <!-- axes -->
+  <line x1="70" y1="330" x2="650" y2="330" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="60" x2="70" y2="330" stroke="#222" stroke-width="2"/>
+  <text x="360" y="360" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">number of steps T</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">divergence</text>
+
+  <!-- convex smooth: slow drift -->
+  <path d="M80,320 L640,286" fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <text x="300" y="308" font-family="sans-serif" font-size="11" fill="#1f6feb">convex smooth: (2L^2/n) sum alpha_t</text>
+
+  <!-- decaying step -->
+  <path d="M80,320 C300,316 480,312 640,308" fill="none" stroke="#2a7a2a" stroke-width="2.6"/>
+  <text x="300" y="332" font-family="sans-serif" font-size="11" fill="#2a7a2a">decaying step c/t : grows like T^{c beta_s}</text>
+
+  <!-- non convex constant step: exponential -->
+  <path d="M80,318 C300,310 420,250 480,150 C520,96 560,80 640,72" fill="none" stroke="#c00" stroke-width="3"/>
+  <text x="470" y="112" font-family="sans-serif" font-size="12" fill="#c00">non-convex, fixed step: (2L^2/(n beta_s))((1+alpha beta_s)^T - 1)</text>
+
+  <!-- two trajectories inset -->
+  <rect x="88" y="70" width="150" height="120" fill="#fff" stroke="#bbb" stroke-width="1.2"/>
+  <path d="M100,170 C140,150 150,120 200,100" fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <path d="M100,172 C142,158 152,136 206,120" fill="none" stroke="#c00" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="163" y="90" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">w_t and w_t'</text>
+  <text x="163" y="104" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">diverge after the</text>
+  <text x="163" y="118" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">drawn point differs</text>
+
+  <!-- early stopping marker -->
+  <line x1="330" y1="330" x2="330" y2="60" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="5,4"/>
+  <circle cx="330" cy="300" r="5.5" fill="#b8860b"/>
+  <text x="340" y="84" font-family="sans-serif" font-size="11" fill="#b8860b">early stopping keeps beta small</text>
+  <text x="340" y="100" font-family="sans-serif" font-size="11" fill="#b8860b">(at the price of bias)</text>
+
+  <text x="340" y="200" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">stability of SGD is dimension free: it does not contain the number of parameters</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="320" fill="#ffffff"/>
+  <text x="340" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">نظرية الرتبة والعدمية: dim ker(A) + dim im(A) = n</text>
+
+  <defs>
+    <marker id="e201" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f172a"/>
+    </marker>
+    <marker id="e202" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#a16207"/>
+    </marker>
+  </defs>
+
+  <!-- المجال -->
+  <ellipse cx="150" cy="170" rx="100" ry="105" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="150" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#0369a1">المجال Rⁿ</text>
+  <path d="M150 78 L150 262" stroke="#0369a1" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="98" y="140" text-anchor="middle" font-size="13" fill="#0f172a">ker(A)</text>
+  <text x="98" y="160" text-anchor="middle" font-size="12" fill="#475569">عدمية = k</text>
+  <text x="205" y="140" text-anchor="middle" font-size="13" fill="#0f172a">المتمّم</text>
+  <text x="205" y="160" text-anchor="middle" font-size="12" fill="#475569">رتبة = r</text>
+  <text x="150" y="292" text-anchor="middle" font-size="13" fill="#0369a1">n = r + k</text>
+
+  <!-- المدى -->
+  <ellipse cx="530" cy="170" rx="110" ry="105" fill="#dcfce7" stroke="#166534" stroke-width="2"/>
+  <text x="530" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">المدى Rᵐ</text>
+  <ellipse cx="530" cy="180" rx="70" ry="62" fill="#bbf7d0" stroke="#166534" stroke-width="2"/>
+  <text x="530" y="176" text-anchor="middle" font-size="13" fill="#14532d">im(A)</text>
+  <text x="530" y="196" text-anchor="middle" font-size="12" fill="#14532d">بُعده = رتبة r</text>
+  <text x="530" y="292" text-anchor="middle" font-size="13" fill="#166534">رتبة ≤ min(n, m)</text>
+
+  <!-- التحويل -->
+  <line x1="256" y1="170" x2="414" y2="170" stroke="#a16207" stroke-width="2.5" marker-end="url(#e202)"/>
+  <text x="335" y="158" text-anchor="middle" font-size="14" font-weight="bold" fill="#a16207">A</text>
+
+  <!-- انهيار النواة -->
+  <line x1="98" y1="170" x2="424" y2="196" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#e201)"/>
+  <text x="250" y="222" font-size="12" fill="#475569">كل عناصر النواة ⟼ الصفر</text>
+
+  <rect x="180" y="298" width="330" height="0" fill="none"/>
+  <text x="340" y="314" text-anchor="middle" font-size="11" fill="#475569">شكل (2.5): ما «يُفقد» في النواة يقابله بالضبط ما «يبقى» في الصورة</text>
+</svg>

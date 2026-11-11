@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <!-- axes -->
+  <line x1="70" y1="330" x2="640" y2="330" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="40" x2="70" y2="330" stroke="#222" stroke-width="2"/>
+  <text x="355" y="365" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">theta</text>
+  <text x="26" y="190" font-family="sans-serif" font-size="12" fill="#555">log L</text>
+
+  <!-- sharp log-likelihood -->
+  <path d="M110,330 Q200,320 250,300 Q300,190 350,120 Q400,190 450,300 Q500,320 590,330"
+        fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="300" y="95" font-family="sans-serif" font-size="13" fill="#1f6feb">high curvature = large I</text>
+  <text x="300" y="112" font-family="sans-serif" font-size="12" fill="#1f6feb">Var(theta_hat) &gt;= 1 / I  (small)</text>
+
+  <!-- flat log-likelihood -->
+  <path d="M110,330 Q200,322 250,314 Q300,306 350,300 Q400,306 450,314 Q500,322 590,330"
+        fill="none" stroke="#c00" stroke-width="3"/>
+  <text x="300" y="270" font-family="sans-serif" font-size="13" fill="#c00">flat = small I</text>
+  <text x="300" y="287" font-family="sans-serif" font-size="12" fill="#c00">Var(theta_hat) &gt;= 1 / I  (large)</text>
+
+  <!-- annotation arrow -->
+  <line x1="350" y1="120" x2="350" y2="300" stroke="#555" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <text x="470" y="60" font-family="sans-serif" font-size="13" fill="#333">I = - E[ d^2/d theta^2 log p ]</text>
+  <text x="470" y="78" font-family="sans-serif" font-size="12" fill="#555">= sharpness of the likelihood peak</text>
+
+  <!-- boxed bound -->
+  <rect x="90" y="40" width="180" height="42" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="180" y="60" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">Cramer-Rao:</text>
+  <text x="180" y="76" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">Cov &gt;= I(theta)^(-1)</text>
+</svg>

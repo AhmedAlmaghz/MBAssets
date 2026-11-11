@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Riemannian metric &amp; geodesics</text>
+
+  <!-- sphere -->
+  <circle cx="330" cy="200" r="100" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5" opacity="0.5"/>
+  <ellipse cx="330" cy="200" rx="100" ry="30" fill="none" stroke="#3b5bdb" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- points -->
+  <circle cx="330" cy="100" r="5" fill="#c2255c"/>
+  <text x="352" cy="96" font-size="11" fill="#c2255c">a</text>
+  <circle cx="430" cy="200" r="5" fill="#c2255c"/>
+  <text x="448" cy="205" font-size="11" fill="#c2255c">b</text>
+
+  <!-- great circle geodesic (straight in 3D = looks curved on sphere) -->
+  <path d="M330 100 Q300 150 330 200 Q360 200 430 200" fill="none" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#gm2)"/>
+  <text x="305" y="165" font-size="11" fill="#2f9e44">geodesic</text>
+
+  <!-- alternate long path (non-geodesic) -->
+  <path d="M330 100 A100 100 0 0 1 430 200" fill="none" stroke="#c2255c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="420" y="105" font-size="10.5" fill="#c2255c">longer curve</text>
+
+  <text x="340" y="340" text-anchor="middle" font-size="11.5" fill="#1a2238">geodesic = locally shortest path (great circle on a sphere)</text>
+  <text x="340" y="362" text-anchor="middle" font-size="11" fill="#555">g_p(v,w) = inner product on T_p M;  ds² = Σ g_ij dx^i dx^j.</text>
+  <defs><marker id="gm2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker></defs>
+</svg>

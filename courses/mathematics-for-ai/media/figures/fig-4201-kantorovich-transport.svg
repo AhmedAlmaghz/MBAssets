@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Kantorovich transport plan</text>
+
+  <!-- source masses -->
+  <g fill="#3b5bdb" stroke="#1c3fa0" stroke-width="1.5">
+    <circle cx="120" cy="120" r="18"/>
+    <circle cx="120" cy="200" r="14"/>
+    <circle cx="120" cy="280" r="10"/>
+  </g>
+  <text x="120" y="330" text-anchor="middle" font-size="12" fill="#1a2238">source p</text>
+
+  <!-- target masses -->
+  <g fill="#c2255c" stroke="#9c1847" stroke-width="1.5">
+    <circle cx="560" cy="130" r="12"/>
+    <circle cx="560" cy="210" r="16"/>
+    <circle cx="560" cy="290" r="14"/>
+  </g>
+  <text x="560" y="335" text-anchor="middle" font-size="12" fill="#1a2238">target q</text>
+
+  <!-- transport arrows gamma -->
+  <g stroke="#f08c00" stroke-width="2" fill="none" marker-end="url(#h2)">
+    <path d="M138 120 Q350 90 548 130"/>
+    <path d="M134 200 Q350 210 544 210"/>
+    <path d="M130 280 Q350 300 546 290"/>
+    <path d="M134 200 Q350 260 548 290" stroke="#999" stroke-dasharray="4 4"/>
+  </g>
+
+  <text x="340" y="180" text-anchor="middle" font-size="12" fill="#f08c00">gamma (coupling)</text>
+  <text x="340" y="250" text-anchor="middle" font-size="11.5" fill="#555">OT = min over gamma of E_gamma[c(x,y)]</text>
+  <defs><marker id="h2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker></defs>
+</svg>

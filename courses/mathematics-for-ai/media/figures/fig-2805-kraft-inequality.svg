@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <g stroke="#222" stroke-width="2" fill="none">
+    <line x1="340" y1="60" x2="240" y2="130"/>
+    <line x1="340" y1="60" x2="440" y2="130"/>
+    <line x1="240" y1="130" x2="170" y2="200"/>
+    <line x1="240" y1="130" x2="310" y2="200"/>
+    <line x1="440" y1="130" x2="510" y2="200"/>
+    <line x1="510" y1="200" x2="460" y2="270"/>
+    <line x1="510" y1="200" x2="560" y2="270"/>
+  </g>
+  <circle cx="340" cy="60" r="5" fill="#222"/>
+  <circle cx="240" cy="130" r="5" fill="#222"/>
+  <circle cx="440" cy="130" r="5" fill="#222"/>
+  <rect x="150" y="205" width="40" height="30" fill="#cfe8ff" stroke="#1f6feb" stroke-width="2"/>
+  <rect x="290" y="205" width="40" height="30" fill="#ffe8c8" stroke="#e08a00" stroke-width="2"/>
+  <rect x="490" y="205" width="40" height="30" fill="#cfe8ff" stroke="#1f6feb" stroke-width="2"/>
+  <rect x="440" y="275" width="40" height="30" fill="#ffe8c8" stroke="#e08a00" stroke-width="2"/>
+  <rect x="540" y="275" width="40" height="30" fill="#ffe8c8" stroke="#e08a00" stroke-width="2"/>
+  <text x="170" y="225" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle" font-weight="bold">a: 00</text>
+  <text x="310" y="225" font-family="sans-serif" font-size="12" fill="#e08a00" text-anchor="middle" font-weight="bold">b: 01</text>
+  <text x="510" y="225" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle" font-weight="bold">c: 10</text>
+  <text x="460" y="295" font-family="sans-serif" font-size="12" fill="#e08a00" text-anchor="middle" font-weight="bold">d: 110</text>
+  <text x="560" y="295" font-family="sans-serif" font-size="12" fill="#e08a00" text-anchor="middle" font-weight="bold">e: 111</text>
+  <text x="340" y="335" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">Σ 2^{-ℓi} = 4×(1/4) + 2×(1/8) = 1.25 &gt; 1? here 3/4+1/4 = 1 ✓</text>
+  <text x="340" y="45" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">codewords = leaves; prefix-free ⇔ no leaf is an ancestor of another</text>
+</svg>

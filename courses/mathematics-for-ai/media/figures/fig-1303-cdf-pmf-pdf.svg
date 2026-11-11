@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">دوال التوزيع: CDF (منفصل/مستمر) و PDF</text>
+
+  <!-- LEFT: discrete CDF (step) -->
+  <g>
+    <text x="170" y="50" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">CDF منفصل (خطوات)</text>
+    <line x1="50" y1="270" x2="300" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <line x1="50" y1="70" x2="50" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <path d="M50,270 H110 V220 H160 V160 H210 V110 H260 V70 H300" fill="none" stroke="#0f766e" stroke-width="2.4"/>
+    <circle cx="110" cy="220" r="4" fill="#0f766e"/>
+    <circle cx="160" cy="160" r="4" fill="#0f766e"/>
+    <circle cx="210" cy="110" r="4" fill="#0f766e"/>
+    <circle cx="260" cy="70" r="4" fill="#0f766e"/>
+  </g>
+
+  <!-- RIGHT: continuous CDF + PDF -->
+  <g>
+    <text x="500" y="50" font-size="13" fill="#0f766e" text-anchor="middle" font-weight="bold">CDF سلس + PDF</text>
+    <line x1="380" y1="200" x2="640" y2="200" stroke="#334155" stroke-width="1.4"/>
+    <line x1="380" y1="70" x2="380" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <!-- CDF smooth rising -->
+    <path d="M380,270 C460,260 520,150 640,90" fill="none" stroke="#0f766e" stroke-width="2.4"/>
+    <!-- PDF area below -->
+    <path d="M390,200 C460,200 520,140 600,130 C560,150 470,200 390,200 Z" fill="#fef3c7" stroke="#b45309" stroke-width="1.6"/>
+    <text x="500" y="180" font-size="12" fill="#b45309" text-anchor="middle">f(x)=F'(x)</text>
+  </g>
+
+  <rect x="120" y="288" width="440" height="24" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="340" y="305" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">F(x)=P(X≤x)؛ المستمرّ: F(x)=∫₋∞ˣ f(t)dt</text>
+</svg>

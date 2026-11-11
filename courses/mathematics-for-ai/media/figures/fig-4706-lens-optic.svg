@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">A lens / optic: forward &amp; backward passes</text>
+
+  <!-- S -->
+  <circle cx="130" cy="200" r="34" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="130" y="205" text-anchor="middle" font-size="14" fill="#1a2238">S</text>
+
+  <!-- lens box -->
+  <rect x="230" y="155" width="150" height="90" rx="10" fill="#fff3bf" stroke="#f08c00" stroke-width="2.5"/>
+  <text x="305" y="185" text-anchor="middle" font-size="13" fill="#1a2238">lens (get, set)</text>
+  <text x="305" y="210" text-anchor="middle" font-size="10.5" fill="#555">fwd: S → A</text>
+  <text x="305" y="228" text-anchor="middle" font-size="10.5" fill="#555">bwd: S × B → A</text>
+
+  <!-- A -->
+  <circle cx="520" cy="200" r="34" fill="#ffd6e7" stroke="#c2255c" stroke-width="2.5"/>
+  <text x="520" y="205" text-anchor="middle" font-size="14" fill="#1a2238">A</text>
+
+  <!-- forward -->
+  <line x1="164" y1="190" x2="228" y2="190" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ln1)"/>
+  <line x1="382" y1="190" x2="484" y2="195" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#ln1)"/>
+  <text x="196" y="180" font-size="11" fill="#2f9e44">get</text>
+
+  <!-- backward -->
+  <path d="M484 215 Q360 300 170 222" fill="none" stroke="#c2255c" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#ln2)"/>
+  <text x="330" y="290" text-anchor="middle" font-size="12" fill="#c2255c">backward (residual / gradient)</text>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12" fill="#1a2238">optics compose: (fwd₁∘fwd₂) with matching backward maps.</text>
+  <text x="340" y="370" text-anchor="middle" font-size="11.5" fill="#555">This is exactly the structure used by backpropagation.</text>
+  <defs>
+    <marker id="ln1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+    <marker id="ln2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#c2255c"/></marker>
+  </defs>
+</svg>

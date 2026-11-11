@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440">
+  <defs>
+    <marker id="hhA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#1b3a8a"/>
+    </marker>
+    <marker id="hhB" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#b03030"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="440" fill="#ffffff"/>
+
+  <text x="390" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Householder reflection:  H = I - 2 v vᵀ / (vᵀv)  &#8658;  H x = &#177; ||x|| e₁</text>
+  <text x="390" y="54" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">الانعكاس المتعامد يصفّر عموداً كاملاً دفعةً واحدة — و &#954;&#8322;(H) = 1 فلا يضخّم الخطأ</text>
+
+  <!-- ===== Left : reflection geometry ===== -->
+  <line x1="40" y1="300" x2="400" y2="300" stroke="#cccccc" stroke-width="1"/>
+  <line x1="110" y1="90" x2="110" y2="360" stroke="#cccccc" stroke-width="1"/>
+  <text x="392" y="296" text-anchor="end" font-size="13" fill="#666666" font-family="Times New Roman, serif">e&#8321;</text>
+  <text x="120" y="100" font-size="13" fill="#666666" font-family="Times New Roman, serif">e&#8322;</text>
+
+  <!-- hyperplane (bisector) -->
+  <line x1="30" y1="360" x2="390" y2="120" stroke="#555555" stroke-width="1.8" stroke-dasharray="6,4"/>
+  <text x="300" y="140" font-size="14" fill="#555555" font-family="Times New Roman, serif">hyperplane  v&#8313;  (mirror)</text>
+
+  <!-- x vector -->
+  <line x1="110" y1="300" x2="300" y2="215" stroke="#1b3a8a" stroke-width="3" marker-end="url(#hhA)"/>
+  <text x="312" y="212" font-size="16" fill="#1b3a8a" font-family="Times New Roman, serif">x</text>
+
+  <!-- H x along e1 -->
+  <line x1="110" y1="300" x2="360" y2="300" stroke="#b03030" stroke-width="3" marker-end="url(#hhB)"/>
+  <text x="300" y="326" font-size="16" fill="#b03030" font-family="Times New Roman, serif">H x = &#963; e&#8321;</text>
+
+  <!-- v = x - sigma e1 : from tip of Hx to tip of x ... actually v = x - sigma e1 ; draw from (360,300) to (300,215) is wrong direction. v = x - sigma e1 -->
+  <line x1="360" y1="300" x2="300" y2="215" stroke="#2f7a4a" stroke-width="2.6" marker-end="url(#hhA)"/>
+  <text x="286" y="262" font-size="15" fill="#2f7a4a" font-family="Times New Roman, serif">v = x - &#963; e&#8321;</text>
+
+  <text x="110" y="378" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">&#1589;&#1601;&#1585; &#1578;&#1581;&#1578; &#1575;&#1604;&#1602;&#1591;&#1585;: &#1593;&#1605;&#1608;&#1583; &#1603;&#1575;&#1605;&#1604; &#1601;&#1610; &#1582;&#1591;&#1608;&#1577; &#1608;&#1575;&#1581;&#1583;&#1577;</text>
+  <text x="110" y="398" text-anchor="middle" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#963; = -sign(x&#8321;) &#183; ||x||&#8322;</text>
+  <text x="110" y="418" text-anchor="middle" font-size="13" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">&#1575;&#1582;&#1578;&#1610;&#1575;&#1585; &#1575;&#1604;&#1573;&#1588;&#1575;&#1585;&#1577; &#1610;&#1605;&#1606;&#1593; &#1575;&#1604;&#1573;&#1604;&#1594;&#1575;&#1569; &#1575;&#1604;&#1603;&#1575;&#1585;&#1579;&#1610;</text>
+
+  <!-- ===== Right : stability boxes ===== -->
+  <text x="600" y="92" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">backward stability of QR</text>
+  <line x1="440" y1="104" x2="760" y2="104" stroke="#999999" stroke-width="1"/>
+
+  <rect x="446" y="118" width="308" height="52" fill="#eef3ff" stroke="#1b3a8a" stroke-width="2"/>
+  <text x="456" y="140" font-size="14" fill="#111111" font-family="Times New Roman, serif">computed  Q&#770; , R&#770;  satisfy</text>
+  <text x="456" y="162" font-size="15" fill="#111111" font-family="Times New Roman, serif">A + &#916;A = Q&#770; R&#770; ,  ||&#916;A||_F &#8804; c m n u ||A||_F</text>
+
+  <rect x="446" y="182" width="308" height="46" fill="#eef3ff" stroke="#1b3a8a" stroke-width="2"/>
+  <text x="456" y="204" font-size="14" fill="#111111" font-family="Times New Roman, serif">orthogonality preserved</text>
+  <text x="456" y="222" font-size="15" fill="#111111" font-family="Times New Roman, serif">||Q&#770;&#7488;Q&#770; - I||&#8322; &#8804; c n u</text>
+
+  <rect x="446" y="240" width="308" height="46" fill="#eef3ff" stroke="#1b3a8a" stroke-width="2"/>
+  <text x="456" y="262" font-size="14" fill="#111111" font-family="Times New Roman, serif">no amplification by Q</text>
+  <text x="456" y="280" font-size="15" fill="#111111" font-family="Times New Roman, serif">||fl(Q z) - Q z||&#8322; &#8804; c n u ||z||&#8322;</text>
+
+  <rect x="446" y="298" width="308" height="52" fill="#f7f0e2" stroke="#8a5a12" stroke-width="2"/>
+  <text x="456" y="320" font-size="14" fill="#111111" font-family="Times New Roman, serif">least squares via QR</text>
+  <text x="456" y="342" font-size="15" fill="#111111" font-family="Times New Roman, serif">||x&#770; - x|| / ||x|| &#8804; c u &#954;&#8322;(A) + O(u&#178;)</text>
+
+  <text x="600" y="372" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">&#1575;&#1604;&#1582;&#1591;&#1571; &#1575;&#1604;&#1582;&#1604;&#1601;&#1610; &#1605;&#1606; &#1585;&#1578;&#1576;&#1577; u &#1600; &#1605;&#1587;&#1578;&#1602;&#1604;&#1611; &#1593;&#1606; &#954;(A)</text>
+  <text x="600" y="392" text-anchor="middle" font-size="14" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">&#1571;&#1605;&#1575; &#1575;&#1604;&#1582;&#1591;&#1571; &#1575;&#1604;&#1571;&#1605;&#1575;&#1605;&#1610; &#1601;&#1610;&#1581;&#1605;&#1604; &#954;(A) &#1603;&#1575;&#1605;&#1604;&#1575;&#1611;</text>
+  <text x="600" y="416" text-anchor="middle" font-size="13" fill="#555555" font-family="Times New Roman, serif">&#954;&#8322;(Q) = 1 ;  ||Q A||_F = ||A||_F ;  ||Q z||&#8322; = ||z||&#8322;</text>
+</svg>

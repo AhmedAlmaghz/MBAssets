@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">EM as alternating e- and m- projections</text>
+
+  <!-- manifold Q (data manifold) -->
+  <path d="M80,80 C220,60 300,120 380,100 C460,80 540,140 620,120"
+        fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="120" y="60" font-family="sans-serif" font-size="12" fill="#1f6feb">Q (complete-data manifold)</text>
+
+  <!-- manifold M (model family) -->
+  <path d="M80,300 C220,320 300,250 380,280 C460,310 540,240 620,270"
+        fill="none" stroke="#2a7a2a" stroke-width="3"/>
+  <text x="120" y="330" font-family="sans-serif" font-size="12" fill="#2a7a2a">M (model family, e-flat)</text>
+
+  <!-- E-step: e-projection -->
+  <line x1="200" y1="272" x2="230" y2="118" stroke="#c00" stroke-width="2.2"/>
+  <polygon points="230,118 224,128 232,130" fill="#c00"/>
+  <circle cx="200" cy="272" r="6" fill="#2a7a2a"/>
+  <circle cx="230" cy="118" r="6" fill="#1f6feb"/>
+  <text x="240" y="150" font-family="sans-serif" font-size="12" fill="#c00">E-step: e-projection</text>
+
+  <!-- M-step: m-projection -->
+  <line x1="230" y1="118" x2="300" y2="272" stroke="#b8860b" stroke-width="2.2"/>
+  <polygon points="300,272 292,262 296,254" fill="#b8860b"/>
+  <circle cx="300" cy="272" r="6" fill="#2a7a2a"/>
+  <text x="310" y="180" font-family="sans-serif" font-size="12" fill="#b8860b">M-step: m-projection</text>
+
+  <!-- next iteration -->
+  <line x1="300" y1="272" x2="350" y2="112" stroke="#c00" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="350" y1="112" x2="410" y2="278" stroke="#b8860b" stroke-width="2" stroke-dasharray="5,4"/>
+  <circle cx="350" cy="112" r="5" fill="#1f6feb"/>
+  <circle cx="410" cy="278" r="5" fill="#2a7a2a"/>
+  <text x="440" y="200" font-family="sans-serif" font-size="12" fill="#555">repeat ...</text>
+
+  <!-- ELBO monotone -->
+  <rect x="80" y="340" width="520" height="34" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="340" y="361" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">each pair of projections increases the likelihood:  L(theta_{t+1}) &gt;= L(theta_t)</text>
+</svg>

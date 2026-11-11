@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="470" viewBox="0 0 1440 470">
+<defs>
+        <linearGradient id="header" x1="0" x2="1"><stop stop-color="#16345C"/><stop offset="1" stop-color="#276D7D"/></linearGradient>
+        <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 10 6 1 11" fill="none" stroke="#47728A" stroke-width="2"/></marker>
+        </defs>
+<rect width="1440" height="470" rx="28" fill="#F8FAFC"/>
+<path d="M0 0h1440v104H0z" fill="url(#header)"/>
+<text x="1390" y="65" text-anchor="end" fill="#FFFFFF" font-size="34" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">فهم الوسائط المتعددة</text>
+<path d="M299 260 H310" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="44" y="160" width="252" height="205" rx="22" fill="#EAF4FF" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="170.0" cy="205" r="20" fill="#1B6C7A"/>
+<text x="170.0" y="212" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Arial,sans-serif">1</text>
+<text x="170.0" y="260" text-anchor="middle" fill="#15304A" font-size="22" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">نص</text>
+<text x="170.0" y="302" text-anchor="middle" fill="#53677A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">Tokenizer</text>
+<path d="M573 260 H584" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="318" y="160" width="252" height="205" rx="22" fill="#EAF9F5" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="444.0" cy="205" r="20" fill="#1B6C7A"/>
+<text x="444.0" y="212" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Arial,sans-serif">2</text>
+<text x="444.0" y="260" text-anchor="middle" fill="#15304A" font-size="22" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">صورة</text>
+<text x="444.0" y="302" text-anchor="middle" fill="#53677A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">Patch / Vision Encoder</text>
+<path d="M847 260 H858" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="592" y="160" width="252" height="205" rx="22" fill="#FFF4E7" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="718.0" cy="205" r="20" fill="#1B6C7A"/>
+<text x="718.0" y="212" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Arial,sans-serif">3</text>
+<text x="718.0" y="260" text-anchor="middle" fill="#15304A" font-size="22" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">صوت</text>
+<text x="718.0" y="302" text-anchor="middle" fill="#53677A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">Audio Encoder</text>
+<path d="M1121 260 H1132" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="866" y="160" width="252" height="205" rx="22" fill="#F2EDFF" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="992.0" cy="205" r="20" fill="#1B6C7A"/>
+<text x="992.0" y="212" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Arial,sans-serif">4</text>
+<text x="992.0" y="260" text-anchor="middle" fill="#15304A" font-size="22" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">مواءمة ودمج</text>
+<text x="992.0" y="302" text-anchor="middle" fill="#53677A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">تمثيلات مشتركة</text>
+<rect x="1140" y="160" width="252" height="205" rx="22" fill="#EAF4FF" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="1266.0" cy="205" r="20" fill="#1B6C7A"/>
+<text x="1266.0" y="212" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Arial,sans-serif">5</text>
+<text x="1266.0" y="260" text-anchor="middle" fill="#15304A" font-size="22" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">مخرجات</text>
+<text x="1266.0" y="302" text-anchor="middle" fill="#53677A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">نص أو فعل أو وسيط</text>
+<text x="720" y="425" text-anchor="middle" fill="#52677B" font-size="17" font-family="Tahoma,Arial,sans-serif" direction="rtl">تختلف البنية التفصيلية، لكن الهدف ربط الإشارات بتمثيل قابل للاستدلال.</text>
+</svg>

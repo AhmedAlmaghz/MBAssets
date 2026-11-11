@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Why L1 yields sparsity and L2 does not: geometry of the constraint region</text>
+
+  <!-- L2 panel -->
+  <text x="170" y="56" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">L2 : |w|_2 &lt;= B  (circle)</text>
+  <line x1="20" y1="210" x2="330" y2="210" stroke="#222" stroke-width="1.6"/>
+  <line x1="170" y1="80" x2="170" y2="340" stroke="#222" stroke-width="1.6"/>
+  <text x="322" y="226" font-family="sans-serif" font-size="11" fill="#333">w1</text>
+  <text x="176" y="92" font-family="sans-serif" font-size="11" fill="#333">w2</text>
+
+  <ellipse cx="170" cy="210" rx="100" ry="70" fill="#eef4ff" stroke="#1f6feb" stroke-width="2.2"/>
+  <!-- loss contours -->
+  <ellipse cx="240" cy="150" rx="70" ry="48" fill="none" stroke="#888" stroke-width="1.4"/>
+  <ellipse cx="240" cy="150" rx="50" ry="34" fill="none" stroke="#888" stroke-width="1.4"/>
+  <ellipse cx="240" cy="150" rx="32" ry="22" fill="none" stroke="#888" stroke-width="1.4"/>
+  <circle cx="240" cy="150" r="4" fill="#c00"/>
+  <text x="248" y="140" font-family="sans-serif" font-size="11" fill="#c00">OLS optimum</text>
+  <!-- tangent point on circle, not on axis -->
+  <circle cx="208" cy="166" r="5" fill="#2a7a2a"/>
+  <text x="196" y="196" font-family="sans-serif" font-size="11" fill="#2a7a2a">ridge solution</text>
+  <text x="196" y="212" font-family="sans-serif" font-size="10" fill="#2a7a2a">(both w non-zero)</text>
+
+  <!-- L1 panel -->
+  <text x="510" y="56" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">L1 : |w|_1 &lt;= B  (diamond)</text>
+  <line x1="360" y1="210" x2="670" y2="210" stroke="#222" stroke-width="1.6"/>
+  <line x1="510" y1="80" x2="510" y2="340" stroke="#222" stroke-width="1.6"/>
+  <text x="662" y="226" font-family="sans-serif" font-size="11" fill="#333">w1</text>
+  <text x="516" y="92" font-family="sans-serif" font-size="11" fill="#333">w2</text>
+
+  <polygon points="510,110 610,210 510,310 410,210" fill="#fff6d8" stroke="#b8860b" stroke-width="2.2"/>
+  <!-- loss contours -->
+  <ellipse cx="580" cy="150" rx="70" ry="48" fill="none" stroke="#888" stroke-width="1.4"/>
+  <ellipse cx="580" cy="150" rx="50" ry="34" fill="none" stroke="#888" stroke-width="1.4"/>
+  <ellipse cx="580" cy="150" rx="32" ry="22" fill="none" stroke="#888" stroke-width="1.4"/>
+  <circle cx="580" cy="150" r="4" fill="#c00"/>
+  <text x="588" y="140" font-family="sans-serif" font-size="11" fill="#c00">OLS optimum</text>
+  <!-- corner solution -->
+  <circle cx="560" cy="160" r="5" fill="#2a7a2a"/>
+  <text x="530" y="200" font-family="sans-serif" font-size="11" fill="#2a7a2a">lasso solution</text>
+  <text x="530" y="216" font-family="sans-serif" font-size="10" fill="#2a7a2a">lands on a corner: w2 = 0</text>
+
+  <text x="340" y="366" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">the first contour of the loss that touches the constraint region determines the regularised optimum</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">VC dimension: the largest set that can be shattered</text>
+
+  <!-- left: 4 points shattered by axis-aligned rectangle -->
+  <text x="170" y="52" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">m = 4 : every labeling reachable</text>
+  <circle cx="110" cy="140" r="7" fill="#2a7a2a"/>
+  <circle cx="230" cy="110" r="7" fill="#c00"/>
+  <circle cx="100" cy="240" r="7" fill="#c00"/>
+  <circle cx="240" cy="250" r="7" fill="#2a7a2a"/>
+  <rect x="80" y="95" width="180" height="175" fill="none" stroke="#1f6feb" stroke-width="2.2" stroke-dasharray="6,4"/>
+  <text x="170" y="292" font-family="sans-serif" font-size="11" fill="#1f6feb">rectangle selects the two +</text>
+  <text x="170" y="312" font-family="sans-serif" font-size="11" fill="#555">all 16 labelings possible</text>
+  <text x="170" y="332" font-family="sans-serif" font-size="12" fill="#2a7a2a">shattered  (VCdim &gt;= 4)</text>
+
+  <line x1="340" y1="60" x2="340" y2="340" stroke="#bbb" stroke-width="1.2"/>
+
+  <!-- right: 5 points not shattered -->
+  <text x="510" y="52" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">m = 5 : one labeling impossible</text>
+  <circle cx="510" cy="105" r="7" fill="#c00"/>
+  <circle cx="590" cy="150" r="7" fill="#2a7a2a"/>
+  <circle cx="430" cy="150" r="7" fill="#2a7a2a"/>
+  <circle cx="470" cy="250" r="7" fill="#2a7a2a"/>
+  <circle cx="555" cy="250" r="7" fill="#2a7a2a"/>
+  <rect x="440" y="130" width="160" height="140" fill="none" stroke="#c00" stroke-width="2.2"/>
+  <text x="510" y="300" font-family="sans-serif" font-size="11" fill="#c00">to take the 4 outer + the box</text>
+  <text x="510" y="316" font-family="sans-serif" font-size="11" fill="#c00">must also contain the centre</text>
+  <text x="510" y="336" font-family="sans-serif" font-size="12" fill="#c00">NOT shattered  (VCdim = 4)</text>
+
+  <text x="510" y="120" font-family="sans-serif" font-size="11" fill="#333" text-anchor="middle">centre must be -</text>
+</svg>

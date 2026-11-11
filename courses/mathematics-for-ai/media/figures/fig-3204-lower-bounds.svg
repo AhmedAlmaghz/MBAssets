@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Lower bounds: no learner can beat the sample complexity barrier</text>
+
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">VC dimension d</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">n required</text>
+
+  <!-- upper bound line -->
+  <path d="M90,300 C200,250 320,190 620,90" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="470" y="80" font-family="sans-serif" font-size="12" fill="#1f6feb">upper bound (ERM achieves it)</text>
+
+  <!-- lower bound line -->
+  <path d="M90,315 C200,300 320,272 620,190" fill="none" stroke="#c00" stroke-width="3"/>
+  <text x="440" y="230" font-family="sans-serif" font-size="12" fill="#c00">lower bound (no learner beats it)</text>
+
+  <!-- gap shading -->
+  <path d="M90,300 C200,250 320,190 620,90 L620,190 C320,272 200,300 90,315 Z"
+        fill="#fff6d8" fill-opacity="0.6"/>
+  <text x="300" y="180" font-family="sans-serif" font-size="11" fill="#8a5a00">gap: constants and log factors</text>
+
+  <!-- formulas -->
+  <rect x="90" y="60" width="300" height="46" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="240" y="80" font-family="sans-serif" font-size="11" fill="#1f6feb" text-anchor="middle">realisable:  n = Theta( (d + ln(1/delta)) / eps )</text>
+  <text x="240" y="98" font-family="sans-serif" font-size="11" fill="#1f6feb" text-anchor="middle">agnostic:    n = Theta( (d + ln(1/delta)) / eps^2 )</text>
+
+  <text x="430" y="300" font-family="sans-serif" font-size="11" fill="#333">both are tight up to logarithmic factors</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Double descent: risk peaks at the interpolation point p = n</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="360" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">model capacity p (log scale)</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">risk</text>
+
+  <!-- underparametrised branch (classic U) -->
+  <path d="M90,286 C170,250 240,222 300,214 C340,210 370,206 392,176" fill="none" stroke="#1f6feb" stroke-width="2.8"/>
+  <text x="90" y="300" font-family="sans-serif" font-size="11" fill="#1f6feb">classical regime</text>
+
+  <!-- interpolation peak -->
+  <circle cx="392" cy="172" r="6" fill="#c00"/>
+  <line x1="392" y1="46" x2="392" y2="320" stroke="#c00" stroke-width="1.6" stroke-dasharray="7,4"/>
+  <text x="366" y="60" font-family="sans-serif" font-size="11" fill="#c00">p = n</text>
+
+  <!-- overparametrised branch: second descent -->
+  <path d="M392,172 C440,206 500,244 560,266 C600,280 620,286 630,288" fill="none" stroke="#2a7a2a" stroke-width="2.8"/>
+  <text x="500" y="258" font-family="sans-serif" font-size="11" fill="#2a7a2a">modern regime</text>
+  <text x="540" y="304" font-family="sans-serif" font-size="10" fill="#2a7a2a">second descent</text>
+
+  <!-- benign vs malignant -->
+  <path d="M392,172 C450,150 520,120 630,104" fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="470" y="112" font-family="sans-serif" font-size="11" fill="#b8860b">malignant (concentrated spectrum)</text>
+
+  <!-- labels of the three regimes -->
+  <text x="120" y="240" font-family="sans-serif" font-size="10" fill="#555">under</text>
+  <text x="112" y="254" font-family="sans-serif" font-size="10" fill="#555">p &lt; n</text>
+  <text x="404" y="330" font-family="sans-serif" font-size="10" fill="#c00">interpolation</text>
+  <text x="596" y="242" font-family="sans-serif" font-size="10" fill="#555">over</text>
+  <text x="588" y="256" font-family="sans-serif" font-size="10" fill="#555">p &gt; n</text>
+
+  <!-- condition box -->
+  <rect x="86" y="60" width="240" height="62" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="206" y="78" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">benign overfitting needs</text>
+  <text x="206" y="94" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">r_k(Sigma) &gt;= b n   and   n / R_k(Sigma) -&gt; 0</text>
+  <text x="206" y="110" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">with k / n -&gt; 0   (flat tail spectrum)</text>
+</svg>

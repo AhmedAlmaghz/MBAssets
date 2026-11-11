@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="20" y="28" font-family="sans-serif" font-size="13" fill="#1f6feb" font-weight="bold">Depth separation: composition multiplies oscillations</text>
+
+  <!-- axes -->
+  <line x1="70" y1="330" x2="630" y2="330" stroke="#999" stroke-width="1"/>
+  <line x1="70" y1="330" x2="70" y2="60" stroke="#999" stroke-width="1"/>
+  <text x="640" y="334" font-family="sans-serif" font-size="11" fill="#555">x</text>
+  <text x="50" y="52" font-family="sans-serif" font-size="11" fill="#555">f(x)</text>
+
+  <!-- depth 1: one triangle -->
+  <polyline points="90,330 160,180 230,330" fill="none" stroke="#999" stroke-width="1.5"/>
+  <text x="160" y="350" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">L=1</text>
+
+  <!-- depth 2: two -->
+  <polyline points="270,330 305,250 340,330 375,250 410,330" fill="none" stroke="#b8860b" stroke-width="1.8"/>
+  <text x="340" y="350" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">L=2 (2^L)</text>
+
+  <!-- depth 4: four+ (sawtooth) -->
+  <polyline points="450,330 470,270 490,330 510,270 530,330 550,270 570,330 590,270 610,330"
+            fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <text x="530" y="350" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">L=4 (~2^L regions)</text>
+
+  <text x="20" y="370" font-family="sans-serif" font-size="10" fill="#555">Telgarsky: deep net (width O(L)) needs shallow width &gt;= 2^{Omega(L/d)} to match</text>
+</svg>

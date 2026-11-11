@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Weak learning = strong learning: boosting in the PAC framework</text>
+
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="60" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">number of boosting rounds T</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">training error</text>
+
+  <!-- chance line -->
+  <line x1="70" y1="190" x2="640" y2="190" stroke="#888" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="580" y="182" font-family="sans-serif" font-size="11" fill="#666">0.5 (chance)</text>
+
+  <!-- weak learner level -->
+  <line x1="70" y1="240" x2="200" y2="240" stroke="#c00" stroke-width="2.4"/>
+  <text x="76" y="234" font-family="sans-serif" font-size="11" fill="#c00">0.5 - eta (weak learner)</text>
+
+  <!-- exponential decay of error -->
+  <path d="M90,232 C160,225 220,195 300,160 C400,120 520,95 620,86"
+        fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="450" y="110" font-family="sans-serif" font-size="12" fill="#1f6feb">error &lt;= exp(-2 T eta^2)</text>
+
+  <!-- target eps -->
+  <line x1="70" y1="100" x2="640" y2="100" stroke="#2a7a2a" stroke-width="1.8" stroke-dasharray="6,4"/>
+  <text x="580" y="92" font-family="sans-serif" font-size="11" fill="#2a7a2a">eps</text>
+  <circle cx="430" cy="120" r="5" fill="#2a7a2a"/>
+  <line x1="430" y1="120" x2="430" y2="320" stroke="#2a7a2a" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="404" y="338" font-family="sans-serif" font-size="11" fill="#2a7a2a">T* = ln(1/eps) / (2 eta^2)</text>
+
+  <rect x="90" y="46" width="250" height="40" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="215" y="62" font-family="sans-serif" font-size="11" fill="#8a5a00" text-anchor="middle">any learner slightly better than chance</text>
+  <text x="215" y="80" font-family="sans-serif" font-size="11" fill="#8a5a00" text-anchor="middle">can be amplified to arbitrary accuracy</text>
+</svg>

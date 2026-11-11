@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Prior to Posterior Update</text>
+
+  <!-- axes -->
+  <line x1="60" y1="280" x2="620" y2="280" stroke="#222"/>
+  <line x1="60" y1="40" x2="60" y2="280" stroke="#222"/>
+  <text x="340" y="302" text-anchor="middle" font-size="12" fill="#222">theta (probability)</text>
+
+  <!-- prior Beta(2,2): mild center peak -->
+  <path d="M60,280 C200,280 250,150 340,150 C430,150 480,280 620,280" fill="none" stroke="#999" stroke-width="2.5"/>
+  <!-- posterior Beta(9,4): peaked right -->
+  <path d="M60,280 C300,280 380,90 470,90 C540,90 580,230 620,270" fill="none" stroke="#2a6f97" stroke-width="2.5"/>
+  <path d="M60,280 C300,280 380,90 470,90 C540,90 580,230 620,270 L620,280 L60,280 Z" fill="#2a6f97" opacity="0.12"/>
+
+  <text x="200" y="265" font-size="12" fill="#999">prior Beta(2,2)</text>
+  <text x="500" y="105" font-size="12" fill="#2a6f97">posterior Beta(9,4)</text>
+  <text x="340" y="320" text-anchor="middle" font-size="12" fill="#555">Data shifts and sharpens the distribution (conjugacy).</text>
+</svg>

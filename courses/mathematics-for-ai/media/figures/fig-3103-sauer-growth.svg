@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Sauer lemma: growth function stops being exponential after m = d</text>
+
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">m (number of points)</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">Pi_H(m)</text>
+
+  <!-- 2^m exponential -->
+  <path d="M90,312 C150,300 200,270 260,200 C310,140 350,90 380,58"
+        fill="none" stroke="#c00" stroke-width="2.6"/>
+  <text x="290" y="90" font-family="sans-serif" font-size="12" fill="#c00">2^m (no finite VC dim)</text>
+
+  <!-- polynomial bound -->
+  <path d="M90,312 C150,300 200,288 260,278 C340,266 460,254 620,248"
+        fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="420" y="238" font-family="sans-serif" font-size="12" fill="#1f6feb">sum_{i=0}^{d} C(m,i)  &lt;=  (e m / d)^d</text>
+
+  <!-- vertical marker at m = d -->
+  <line x1="260" y1="320" x2="260" y2="60" stroke="#2a7a2a" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <text x="246" y="52" font-family="sans-serif" font-size="12" fill="#2a7a2a">m = d</text>
+  <text x="150" y="300" font-family="sans-serif" font-size="11" fill="#2a7a2a">2^m (both agree up to here)</text>
+
+  <!-- point of divergence -->
+  <circle cx="262" cy="278" r="5" fill="#1f6feb"/>
+  <circle cx="262" cy="278" r="5" fill="none" stroke="#c00" stroke-width="1.5"/>
+
+  <rect x="90" y="200" width="150" height="46" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="165" y="220" font-family="sans-serif" font-size="11" fill="#8a5a00" text-anchor="middle">d = VCdim(H)</text>
+  <text x="165" y="238" font-family="sans-serif" font-size="11" fill="#8a5a00" text-anchor="middle">bound is polynomial in m</text>
+</svg>

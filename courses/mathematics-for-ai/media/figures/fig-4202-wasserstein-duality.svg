@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Kantorovich–Rubinstein duality</text>
+
+  <!-- domain line -->
+  <line x1="60" y1="280" x2="620" y2="280" stroke="#888" stroke-width="1.5"/>
+  <text x="60" y="300" font-size="11" fill="#555">x / y axis (1D example)</text>
+
+  <!-- dual potentials -->
+  <path d="M80 280 Q200 150 320 280" fill="none" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="200" y="140" text-anchor="middle" font-size="12" fill="#3b5bdb">f(x)  (potential on p)</text>
+  <path d="M360 280 Q480 150 600 280" fill="none" stroke="#c2255c" stroke-width="2.5"/>
+  <text x="480" y="140" text-anchor="middle" font-size="12" fill="#c2255c">g(y)  (potential on q)</text>
+
+  <!-- 1-Lipschitz constraint -->
+  <text x="340" y="330" text-anchor="middle" font-size="12.5" fill="#1a2238">|f(x) − f(x')| ≤ |x − x'|  (Lipschitz-1)</text>
+  <text x="340" y="355" text-anchor="middle" font-size="12" fill="#555">W_1 = sup_{||f||_L≤1} E_p[f] − E_q[f]  =  E_p[f] + E_q[g]</text>
+</svg>

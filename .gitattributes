@@ -1,0 +1,11 @@
+# serve binary assets verbatim — never apply text conversion
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary
+*.pdf  binary
+*.ipynb text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.md   text eol=lf

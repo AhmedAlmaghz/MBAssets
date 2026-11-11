@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">A monad on a category</text>
+
+  <!-- T -->
+  <text x="340" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#1a2238">T = (T, η, μ)</text>
+
+  <!-- unit and multiplication -->
+  <circle cx="200" cy="200" r="40" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="200" y="205" text-anchor="middle" font-size="14" fill="#1a2238">A</text>
+
+  <circle cx="430" cy="200" r="46" fill="#ffd6e7" stroke="#c2255c" stroke-width="2.5"/>
+  <text x="430" y="197" text-anchor="middle" font-size="13" fill="#1a2238">T(A)</text>
+  <text x="430" y="216" text-anchor="middle" font-size="10" fill="#555">wrapped value</text>
+
+  <circle cx="600" cy="200" r="34" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="600" y="204" text-anchor="middle" font-size="11" fill="#1a2238">T²(A)</text>
+
+  <!-- eta -->
+  <line x1="240" y1="190" x2="382" y2="192" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#md1)"/>
+  <text x="310" y="180" text-anchor="middle" font-size="13" fill="#2f9e44">η_A: A → T(A)</text>
+
+  <!-- mu -->
+  <line x1="478" y1="205" x2="564" y2="203" stroke="#f08c00" stroke-width="2.5" marker-end="url(#md2)"/>
+  <text x="521" y="192" text-anchor="middle" font-size="11" fill="#f08c00">μ_A</text>
+  <path d="M578 190 Q540 130 470 168" fill="none" stroke="#f08c00" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#md2)"/>
+  <text x="505" y="130" font-size="11" fill="#f08c00">μ_A: T²(A) → T(A)</text>
+
+  <text x="340" y="340" text-anchor="middle" font-size="12" fill="#1a2238">laws: μ ∘ Tμ = μ ∘ μT  (associativity);</text>
+  <text x="340" y="362" text-anchor="middle" font-size="12" fill="#1a2238">μ ∘ η_T = id = μ ∘ Tη  (unit laws).</text>
+  <defs>
+    <marker id="md1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+    <marker id="md2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker>
+  </defs>
+</svg>

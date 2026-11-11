@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,300 C200,300 280,150 340,145 C400,150 480,300 640,300" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="340" y="128" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">max entropy (least committed)</text>
+  <path d="M200,300 C260,300 300,220 340,215 C380,220 420,300 480,300" fill="none" stroke="#c00" stroke-width="2"/>
+  <text x="400" y="248" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">low entropy (extra assumptions)</text>
+  <line x1="120" y1="265" x2="560" y2="265" stroke="#2da44e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="340" y="255" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">both satisfy the constraints</text>
+  <text x="340" y="350" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">p(x) proportional to exp( sum lambda_i f_i(x) )</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="340" fill="#ffffff"/>
+
+  <text x="340" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Eckart–Young–Mirsky: best rank-k approximation</text>
+  <text x="340" y="44" text-anchor="middle" font-size="13" fill="#475569">اقتطاع القيم المفردة عند الرتبة k يعطي أفضل تقريب من رتبة k (بالنورم الطيفي والفروبينيوس)</text>
+
+  <!-- axes -->
+  <line x1="80" y1="270" x2="640" y2="270" stroke="#0f172a" stroke-width="2"/>
+  <line x1="80" y1="270" x2="80" y2="80" stroke="#0f172a" stroke-width="2"/>
+  <text x="360" y="298" text-anchor="middle" font-size="13" fill="#0f172a">index i of singular value σᵢ</text>
+  <text x="52" y="175" font-size="13" fill="#0f172a" transform="rotate(-90 24 175)">magnitude</text>
+
+  <!-- bars: singular values -->
+  <!-- heights: 150,110,72,40,22,12,7,4 -->
+  <g fill="#1d4ed8">
+    <rect x="96"  y="120" width="42" height="150"/>
+    <rect x="162" y="160" width="42" height="110"/>
+    <rect x="228" y="198" width="42" height="72"/>
+    <rect x="294" y="230" width="42" height="40"/>
+    <rect x="360" y="248" width="42" height="22"/>
+    <rect x="426" y="258" width="42" height="12"/>
+    <rect x="492" y="263" width="42" height="7"/>
+    <rect x="558" y="266" width="42" height="4"/>
+  </g>
+  <g font-size="11" fill="#1d4ed8" text-anchor="middle">
+    <text x="117" y="114">σ₁</text>
+    <text x="183" y="154">σ₂</text>
+    <text x="249" y="192">σ₃</text>
+    <text x="315" y="224">σ₄</text>
+    <text x="381" y="242">σ₅</text>
+    <text x="447" y="252">σ₆</text>
+    <text x="513" y="257">σ₇</text>
+    <text x="579" y="260">σ₈</text>
+  </g>
+
+  <!-- tail error curve (sqrt of sum of squares of discarded) -->
+  <!-- cumulative from the right: tail energies: i=8:4, 7:8, 6:16, 5:26, 4:41, 3:73, 2:130, 1:187 (arbitrary units) -->
+  <polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 4"
+    points="117,266 183,260 249,252 315,241 381,229 447,215 513,197 579,170"/>
+  <g fill="#dc2626" font-size="11">
+    <circle cx="117" cy="266" r="3"/><circle cx="183" cy="260" r="3"/><circle cx="249" cy="252" r="3"/>
+    <circle cx="315" cy="241" r="3"/><circle cx="381" cy="229" r="3"/><circle cx="447" cy="215" r="3"/>
+    <circle cx="513" cy="197" r="3"/><circle cx="579" cy="170" r="3"/>
+  </g>
+  <text x="592" y="163" font-size="12" fill="#dc2626">خطأ الاقتطاع</text>
+
+  <!-- cut at k = 3 -->
+  <line x1="276" y1="86" x2="276" y2="276" stroke="#0f766e" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="276" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f766e">k = 3</text>
+  <text x="150" y="314" text-anchor="middle" font-size="12" fill="#0f766e">نحتفظ بها</text>
+  <text x="450" y="314" text-anchor="middle" font-size="12" fill="#dc2626">نُهملها ← خطأ = √(Σ σᵢ²)</text>
+
+  <!-- formula box -->
+  <rect x="90" y="322" width="500" height="0" fill="none"/>
+  <text x="340" y="332" text-anchor="middle" font-size="13.5" fill="#0f172a">
+    min ||A − B||_F  over rank(B) ≤ k   =   √( σ²_{k+1} + … + σ²_r ) ,   attained at B = Σ_{i≤k} σᵢ uᵢ vᵢᵀ
+  </text>
+</svg>

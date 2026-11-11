@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>إتقان المحوّلات والنماذج اللغوية الكبيرة | دليل عربي شامل من الصفر إلى الإنتاج</title>
+<meta name="description" content="12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.">
+<meta name="author" content="م/ أحمد صالح المغز">
+<meta name="theme-color" content="#2563eb">
+<meta property="og:type" content="book">
+<meta property="og:title" content="إتقان المحوّلات والنماذج اللغوية الكبيرة">
+<meta property="og:description" content="12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.">
+<meta property="og:image" content="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png">
+<meta property="og:locale" content="ar_AR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Cairo:wght@600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Book",
+ "name": "إتقان المحوّلات والنماذج اللغوية الكبيرة",
+ "alternateName": "Mastering Transformers and Large Language Models",
+ "description": "12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.",
+ "inLanguage": "ar",
+ "author": {
+  "@type": "Person",
+  "name": "م/ أحمد صالح المغز",
+  "alternateName": "Eng. Ahmed Saleh Al-Maghz"
+ },
+ "datePublished": "2026",
+ "numberOfPages": 1034,
+ "image": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png",
+ "publisher": {
+  "@type": "Organization",
+  "name": "MaghzBook"
+ },
+ "isAccessibleForFree": true
+}
+</script>
+<style>
+:root{
+  --accent:#2563eb; --accent-soft:#e9effd;
+  --ink:#101827; --ink-2:#334155; --muted:#64748b;
+  --line:#e2e8f0; --paper:#ffffff; --wash:#f8fafc;
+  --shadow:0 18px 48px -22px rgba(15,23,42,.38);
+  --radius:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--wash);color:var(--ink);
+  font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;
+  font-size:16px;line-height:1.9;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Cairo","IBM Plex Sans Arabic",Tahoma,sans-serif;line-height:1.45;margin:0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;right:-9999px}
+.skip:focus{right:16px;top:16px;background:#fff;padding:10px 16px;border-radius:8px;z-index:99}
+
+/* header */
+header{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;
+  min-height:68px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Cairo",sans-serif;
+  font-weight:800;font-size:19px;color:var(--ink)}
+.brand .dot{width:13px;height:13px;border-radius:4px;background:var(--accent);
+  box-shadow:0 0 0 5px var(--accent-soft)}
+.nav-links{display:flex;gap:20px;flex-wrap:wrap;font-size:14px;font-weight:600}
+.nav-links a{color:var(--ink-2)}
+
+/* hero */
+.hero{background:linear-gradient(135deg,#0b1220 0%,#111c31 52%,#112d6a 100%);
+  color:#f8fafc;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;
+  background:radial-gradient(900px 420px at 12% 0%,rgba(37,99,235,0.3),transparent 70%);
+  pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:280px 1fr;gap:56px;align-items:center;
+  padding:66px 0 74px;position:relative;z-index:1}
+.cover-frame{border-radius:16px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.7);
+  border:1px solid rgba(255,255,255,.14);background:#0f172a;transform:rotate(-2deg)}
+.cover-frame img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;
+  letter-spacing:.3px;color:#fff;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.2);padding:6px 14px;border-radius:999px}
+.hero h1{font-size:clamp(30px,4.6vw,52px);font-weight:800;margin:18px 0 10px;color:#fff}
+.hero .sub{font-size:clamp(17px,2vw,22px);color:#e2e8f0;font-weight:600;margin:0 0 16px}
+.hero .desc{color:#cbd5e1;max-width:680px;margin:0 0 28px;line-height:2}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 24px;border-radius:12px;
+  font-weight:700;font-size:15px;border:1px solid transparent;transition:.2s transform,.2s box-shadow}
+.btn:hover{text-decoration:none;transform:translateY(-2px)}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 12px 30px -10px var(--accent)}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.28)}
+.btn-light{background:#fff;color:var(--ink);border-color:var(--line)}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  margin:-34px auto 0;position:relative;z-index:3;box-shadow:var(--shadow)}
+.stat{background:#fff;padding:22px 12px;text-align:center}
+.stat b{display:block;font-family:"Cairo",sans-serif;font-size:26px;color:var(--accent);line-height:1.3}
+.stat span{font-size:12.5px;color:var(--muted);font-weight:600}
+
+/* sections */
+section{padding:72px 0}
+section.alt{background:#fff;border-block:1px solid var(--line)}
+.sec-head{max-width:760px;margin:0 auto 40px;text-align:center}
+.sec-head .kicker{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.4px}
+.sec-head h2{font-size:clamp(25px,3vw,36px);font-weight:800;margin:8px 0 12px}
+.sec-head p{color:var(--ink-2);margin:0}
+.about-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:38px;align-items:start}
+.prose p{color:var(--ink-2);font-size:17px;line-height:2.15;margin:0 0 18px}
+.feature-list{display:grid;gap:12px;margin:26px 0 0;padding:0;list-style:none}
+.feature-list li{display:flex;gap:12px;align-items:flex-start;background:#fff;
+  border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--ink-2)}
+.feature-list .tick{flex:0 0 24px;height:24px;border-radius:7px;background:var(--accent-soft);
+  color:var(--accent);display:grid;place-items:center;font-weight:800;font-size:14px}
+.info-card{background:var(--wash);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px;box-shadow:var(--shadow)}
+.info-card h3{font-size:19px;margin-bottom:16px}
+.kv{display:flex;justify-content:space-between;gap:14px;padding:10px 0;
+  border-bottom:1px dashed var(--line);font-size:14.5px}
+.kv:last-child{border-bottom:0}
+.kv span{color:var(--muted)}
+.kv b{color:var(--ink);font-weight:700;text-align:left;direction:ltr}
+
+/* curriculum */
+.parts{display:grid;gap:12px;max-width:900px;margin:0 auto}
+details.part{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+details.part[open]{border-color:var(--accent);box-shadow:var(--shadow)}
+details.part summary{cursor:pointer;list-style:none;padding:18px 22px;display:flex;
+  align-items:center;gap:16px;font-weight:700;font-size:17px}
+details.part summary::-webkit-details-marker{display:none}
+details.part summary::after{content:"＋";margin-inline-start:auto;color:var(--accent);font-size:20px}
+details.part[open] summary::after{content:"－"}
+.pnum{flex:0 0 40px;height:40px;border-radius:11px;background:var(--accent);color:#fff;
+  display:grid;place-items:center;font-family:"Cairo",sans-serif;font-weight:800}
+.part-title small{display:block;font-weight:500;color:var(--muted);font-size:13px}
+.chapters{list-style:none;margin:0;padding:6px 22px 20px;display:grid;gap:2px}
+.chapters li{display:flex;align-items:center;gap:12px;padding:9px 0;
+  border-top:1px solid var(--line);color:var(--ink-2);font-size:15px}
+.chapters li .n{flex:0 0 34px;color:var(--accent);font-weight:700;font-size:13px}
+.chapters li .minutes{margin-inline-start:auto;color:var(--muted);font-size:12.5px;white-space:nowrap}
+.badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;
+  background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+
+/* sample */
+.sample-box{display:grid;grid-template-columns:1fr 300px;gap:40px;align-items:center;
+  background:linear-gradient(135deg,var(--accent-soft),#fff);
+  border:1px solid var(--line);border-radius:var(--radius);padding:38px;box-shadow:var(--shadow)}
+.sample-box h2{font-size:28px;font-weight:800;margin:0 0 12px}
+.sample-box p{color:var(--ink-2);margin:0 0 22px}
+.sample-pdf{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;
+  text-align:center;box-shadow:var(--shadow)}
+.sample-pdf .icon{font-size:44px}
+.sample-pdf b{display:block;margin:8px 0 4px}
+.sample-pdf small{color:var(--muted)}
+
+/* links */
+.link-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.link-card{display:flex;gap:16px;align-items:flex-start;background:#fff;
+  border:1px solid var(--line);border-radius:14px;padding:18px 20px;transition:.2s}
+.link-card:hover{border-color:var(--accent);transform:translateY(-2px);text-decoration:none}
+.link-card .ic{flex:0 0 40px;height:40px;border-radius:11px;background:var(--accent-soft);
+  display:grid;place-items:center;font-size:19px}
+.link-card b{display:block;color:var(--ink);font-size:15.5px}
+.link-card small{color:var(--muted);font-size:12.5px;word-break:break-all;direction:ltr;text-align:right}
+.import-note{background:#fff;border:1px dashed var(--accent);border-radius:14px;
+  padding:18px 22px;margin-top:20px;color:var(--ink-2);font-size:14.5px}
+.import-note code{background:var(--wash);padding:2px 7px;border-radius:6px;
+  font-size:12.5px;direction:ltr;display:inline-block}
+
+footer{background:#0b1220;color:#94a3b8;padding:38px 0;font-size:14px}
+.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+footer strong{color:#f8fafc}
+
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:32px;padding:44px 0 66px}
+  .cover-frame{width:min(240px,55%);margin:0 auto;transform:none}
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .about-grid,.sample-box{grid-template-columns:1fr}
+  .link-grid{grid-template-columns:1fr}
+  section{padding:52px 0}
+}
+@media(max-width:520px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .nav-links{display:none}
+  .wrap{padding:0 16px}
+  .sample-box{padding:24px}
+}
+@media print{
+  header,footer,.cta{display:none}
+  .hero{background:#fff;color:var(--ink)}
+  .hero h1,.hero .sub,.hero .desc{color:var(--ink)}
+  details.part{break-inside:avoid}
+  details.part .chapters{display:block!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><span class="dot"></span> مغز بوك <span style="font-size:12px;color:#94a3b8;font-weight:600">MaghzBook</span></div>
+    <nav class="nav-links" aria-label="روابط سريعة">
+      <a href="#about">عن الكتاب</a>
+      <a href="#curriculum">خريطة الكتاب</a>
+      <a href="#sample">النموذج المجاني</a>
+      <a href="#resources">الملفات والروابط</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div class="cover-frame"><img src="../assets/cover.png" alt="غلاف كتاب إتقان المحوّلات والنماذج اللغوية الكبيرة" width="1024" height="1536"></div>
+    <div>
+      <span class="eyebrow">كتاب تقني عربي · 13 أجزاء · 72 فصلاً</span>
+      <h1>إتقان المحوّلات والنماذج اللغوية الكبيرة</h1>
+      <p class="sub">دليل عربي شامل من الصفر إلى الإنتاج</p>
+      <p class="desc">12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="../assets/sample.pdf">⬇ تحميل النموذج المجاني (أول جزأين)</a>
+        <a class="btn btn-ghost" href="#curriculum">استعراض المنهج</a>
+        <a class="btn btn-ghost" href="../dist/MLL-Book.pdf">الكتاب الكامل PDF</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="stats" role="list">
+    <div class="stat" role="listitem"><b>13</b><span>أجزاء</span></div>
+    <div class="stat" role="listitem"><b>72</b><span>فصول وملاحق</span></div>
+    <div class="stat" role="listitem"><b>1034</b><span>صفحة</span></div>
+    <div class="stat" role="listitem"><b>20</b><span>ساعة قراءة تقريباً</span></div>
+    <div class="stat" role="listitem"><b>64</b><span>دفاتر Jupyter</span></div>
+    <div class="stat" role="listitem"><b>0</b><span>ملفات كود مرافقة</span></div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="prose">
+      <div class="sec-head" style="text-align:right;margin:0 0 22px;max-width:none">
+        <div class="kicker">عن هذا الكتاب</div>
+        <h2>Mastering Transformers and Large Language Models</h2>
+      </div>
+      <p>12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.</p>
+      <p>صدر هذا الكتاب ضمن سلسلة الكتب التقنية العربية المتخصّصة، ليقدّم محتوىً كاملاً لا ملخّصاً: نصوص الفصول كاملة، أمثلة برمجية قابلة للتنفيذ، معادلات ورسوم، وتمارين تطبيقية. وهو متاح على منصة <strong>MaghzBook</strong> بصيغتي <strong>كتاب</strong> و<strong>دورة تدريبية</strong> بالمنهج ذاته.</p>
+      <ul class="feature-list">
+        <li><span class="tick">✓</span><span>نص كل فصل كاملاً داخل الدورة، لا ملخّصات أو مقتطفات.</span></li>
+        <li><span class="tick">✓</span><span>دفاتر Jupyter وملفات السكربتات مرتبطة بكل درس عند توافرها.</span></li>
+        <li><span class="tick">✓</span><span>نموذج مجاني يضمّ الجزأين الأول والثاني من ملف PDF الأصلي (152 صفحة).</span></li>
+        <li><span class="tick">✓</span><span>فهرس تفصيلي بجميع الأجزاء والفصول مع تقدير زمن القراءة لكل فصل.</span></li>
+        <li><span class="tick">✓</span><span>ملفات Blueprint جاهزة للاستيراد المباشر في MaghzBook.</span></li>
+      </ul>
+    </div>
+    <aside class="info-card">
+      <h3>بطاقة الكتاب</h3>
+      <div class="kv"><span>المؤلف</span><b>م/ أحمد صالح المغز</b></div>
+      <div class="kv"><span>سنة النشر</span><b>2026</b></div>
+      <div class="kv"><span>اللغة</span><b>العربية</b></div>
+      <div class="kv"><span>عدد الصفحات</span><b>1034</b></div>
+      <div class="kv"><span>عدد الفصول</span><b>72</b></div>
+      <div class="kv"><span>زمن القراءة</span><b>1,195 دقيقة</b></div>
+      <div class="kv"><span>النموذج المجاني</span><b>152 صفحة</b></div>
+      <div class="kv"><span>المعرّف (Slug)</span><b>mastering-llms-transformers</b></div>
+      <div class="kv"><span>المستودع</span><b>MLLBook</b></div>
+    </aside>
+  </div>
+</section>
+
+<section class="alt" id="curriculum">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">خريطة الكتاب</div>
+      <h2>الأجزاء والفصول</h2>
+      <p>13 أجزاء تضم 72 فصلاً وملحقاً. اضغط على أي جزء لعرض فصوله.</p>
+    </div>
+    <div class="parts"><details class="part" open><summary><span class="pnum">1</span><span class="part-title">الأساسيات<small>Part 1 — Part Foundations · 5 فصول</small></span></summary><ul class="chapters"><li><span class="n">01</span><span>إعداد البيئة والبنية التحتية للتطوير</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">02</span><span>الأسس الرياضية للتعلم العميق</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">03</span><span>الشبكات العصبية من الصفر: MLP والانتشار العكسي</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">04</span><span>التحسين والتدريب: من SGD إلى AdamW</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">05</span><span>قياس الأداء: مقاييس التصنيف والحيرة</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">2</span><span class="part-title">التمثيل اللغوي<small>Part 2 — Part Language Representation · 3 فصول</small></span></summary><ul class="chapters"><li><span class="n">06</span><span>التقطيع إلى وحدات: Tokenization</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">07</span><span>التمثيلات المتجهية للكلمات: Word2Vec وGloVe</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">08</span><span>الشبكات المتكررة: RNN وLSTM وGRU</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">3</span><span class="part-title">المحوّلات الأساسية<small>Part 3 — Part Transformers · 4 فصول</small></span></summary><ul class="chapters"><li><span class="n">09</span><span>من التكرار إلى الانتباه: آلية Attention التاريخية</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">10</span><span>الانتباه الذاتي متعدد الرؤوس</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">11</span><span>الترميز الموضعي والتطبيع وبنية المحوّل الكاملة</span><span class="badge">Notebook</span><span class="minutes">25 د</span></li><li><span class="n">12</span><span>عائلات المحوّلات: BERT وGPT وT5</span><span class="badge">Notebook</span><span class="minutes">25 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">4</span><span class="part-title">المعماريات الحديثة<small>Part 4 — Part Modern Architectures · 5 فصول</small></span></summary><ul class="chapters"><li><span class="n">13</span><span>حدود المحوّل الكلاسيكي</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">14</span><span>الترميز الموضعي المتقدم وآليات الانتباه الفعّالة</span><span class="badge">Notebook</span><span class="minutes">30 د</span></li><li><span class="n">15</span><span>خليط الخبراء: Mixture of Experts</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">16</span><span>نماذج الفضاء الحالة: SSM وMamba</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">17</span><span>المكوّنات الحديثة: RMSNorm وSwiGLU</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">5</span><span class="part-title">بناء LLM من الصفر<small>Part 5 — Part Building Llms · 6 فصول</small></span></summary><ul class="chapters"><li><span class="n">18</span><span>مصادر البيانات وتنظيفها</span><span class="badge">Notebook</span><span class="minutes">30 د</span></li><li><span class="n">19</span><span>تدريب Tokenizer مخصص</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">20</span><span>قوانين التوسّع: Chinchilla</span><span class="badge">Notebook</span><span class="minutes">25 د</span></li><li><span class="n">21</span><span>التوازي الموزّع للتدريب</span><span class="badge">Notebook</span><span class="minutes">30 د</span></li><li><span class="n">22</span><span>حفظ نقاط التفتيش ومراقبة التدريب</span><span class="badge">Notebook</span><span class="minutes">25 د</span></li><li><span class="n">23</span><span>خط إنتاج ما بعد التدريب</span><span class="badge">Notebook</span><span class="minutes">25 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">6</span><span class="part-title">إعادة استخدام النماذج<small>Part 6 — Part Model Reuse · 6 فصول</small></span></summary><ul class="chapters"><li><span class="n">24</span><span>التدريب المسبق المستمر: CPT</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">25</span><span>تقطير المعرفة: Knowledge Distillation</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">26</span><span>دمج النماذج: Model Merging</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">27</span><span>التقليم وضغط النماذج: Pruning</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">28</span><span>توسيع العمق: Depth Upscaling</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">29</span><span>إعادة استخدام النماذج: إطار القرار الشامل</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">7</span><span class="part-title">التخصيص الفعّال والمحاذاة<small>Part 7 — Part Peft Alignment · 5 فصول</small></span></summary><ul class="chapters"><li><span class="n">30</span><span>مقدمة إلى PEFT: التدريب الفعّال من حيث البارامترات</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">31</span><span>LoRA: التكيّف منخفض الرتبة بعمق</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">32</span><span>QLoRA والتكميم أثناء التدريب</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">33</span><span>RLHF وPPO بعمق</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">34</span><span>DPO وKTO وORPO: ما بعد RLHF</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">8</span><span class="part-title">النماذج متعددة الوسائط<small>Part 8 — Part Multimodal · 6 فصول</small></span></summary><ul class="chapters"><li><span class="n">35</span><span>أساسيات النماذج متعددة الوسائط</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">36</span><span>مُشفِّرات الرؤية: ViT وCLIP</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">37</span><span>نماذج الرؤية واللغة: VLMs</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">38</span><span>نماذج توليد الصور: Diffusion</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">39</span><span>الصوت والكلام متعدد الوسائط</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">40</span><span>النماذج الموحّدة: Any-to-Any</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">9</span><span class="part-title">التقييم الشامل<small>Part 9 — Part Evaluation · 6 فصول</small></span></summary><ul class="chapters"><li><span class="n">41</span><span>أسس القياس الكمّي</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">42</span><span>معايير القياس المرجعية: Benchmarks</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">43</span><span>LLM-as-a-Judge والتقييم البشري</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">44</span><span>اختبار السلامة والأمان: Red Teaming</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">45</span><span>التقييم النوعي وتحليل الأخطاء</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">46</span><span>خط التقييم المستمر</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">10</span><span class="part-title">التطبيقات والوكلاء الذكية<small>Part 10 — Part Applications Agents · 7 فصول</small></span></summary><ul class="chapters"><li><span class="n">47</span><span>أسس التوليد المعزّز بالاسترجاع: RAG</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">48</span><span>تقنيات RAG المتقدمة وGraphRAG</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">49</span><span>أسس الوكلاء الذكية: ReAct والأدوات</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">50</span><span>معماريات الوكلاء والأنظمة متعددة الوكلاء</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">51</span><span>الذاكرة طويلة المدى للوكلاء</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">52</span><span>هندسة الأوامر المتقدمة</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">53</span><span>تطبيقات متخصصة حسب المجال</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">11</span><span class="part-title">النشر والتشغيل<small>Part 11 — Part Llmops · 6 فصول</small></span></summary><ul class="chapters"><li><span class="n">54</span><span>أساسيات تقديم النماذج للاستدلال</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">55</span><span>تحسين الاستدلال المتقدم</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">56</span><span>البنية التحتية والتوسّع</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">57</span><span>المراقبة والتشغيل: Observability</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">58</span><span>الأمان والحوكمة في الإنتاج</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">59</span><span>إدارة التكلفة ونضج LLMOps</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">12</span><span class="part-title">الاتجاهات المستقبلية<small>Part 12 — Part Future · 5 فصول</small></span></summary><ul class="chapters"><li><span class="n">60</span><span>نماذج الاستدلال وTest-Time Compute</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">61</span><span>المحاذاة المتقدمة وسلامة الأنظمة الفائقة</span><span class="badge">Notebook</span><span class="minutes">20 د</span></li><li><span class="n">62</span><span>المعماريات التالية لما بعد Transformer</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">63</span><span>الحوسبة الفعالة والذكاء على الحافة</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li><li><span class="n">64</span><span>خارطة الطريق المهنية والتعلم المستمر</span><span class="badge">Notebook</span><span class="minutes">15 د</span></li></ul></details>
+<details class="part"><summary><span class="pnum">13</span><span class="part-title">الملاحق والمراجع<small>Appendices and Reference · 8 فصول</small></span></summary><ul class="chapters"><li><span class="n">a</span><span>الملحق أ: مسرد المصطلحات</span><span class="minutes">10 د</span></li><li><span class="n">b</span><span>الملحق ب: مرجع المعادلات</span><span class="minutes">10 د</span></li><li><span class="n">c</span><span>الملحق ج: المكتبات والأدوات</span><span class="minutes">10 د</span></li><li><span class="n">d</span><span>الملحق د: بيئة GPU والسحابة</span><span class="minutes">10 د</span></li><li><span class="n">e</span><span>الملحق هـ: حلول مختارة للتمارين</span><span class="minutes">10 د</span></li><li><span class="n">f</span><span>الملحق و: مصادر ومسارات تعلّم</span><span class="minutes">10 د</span></li><li><span class="n">g</span><span>الملحق ز: بنك أسئلة المقابلات</span><span class="minutes">10 د</span></li><li><span class="n">h</span><span>الملحق ح: الفهرس التفاعلي</span><span class="minutes">10 د</span></li></ul></details></div>
+  </div>
+</section>
+
+<section id="sample">
+  <div class="wrap">
+    <div class="sample-box">
+      <div>
+        <div class="kicker" style="font-size:13px;font-weight:800;color:var(--accent)">اقرأ قبل أن تقرّر</div>
+        <h2>نموذج مجاني: الجزءان الأول والثاني</h2>
+        <p>ملف PDF مُستخرج من الكتاب الكامل مع الحفاظ على التنسيق والخطوط والرسوم الأصلية، ويضمّ أول جزأين (152 صفحة من أصل 1034 صفحة). يكفي لتقييم الأسلوب وعمق الشرح وجودة الأمثلة قبل اقتناء النسخة الكاملة.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="../assets/sample.pdf">⬇ تحميل النموذج المجاني</a>
+          <a class="btn btn-light" href="../dist/MLL-Book.pdf">الكتاب الكامل PDF ↗</a>
+        </div>
+      </div>
+      <div class="sample-pdf">
+        <div class="icon">📄</div>
+        <b>sample.pdf</b>
+        <small>PDF · 152 صفحة · 4.0 ميغابايت</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="resources">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">الملفات والروابط</div>
+      <h2>كل ما تحتاجه في مكان واحد</h2>
+      <p>روابط مباشرة للملفات داخل المستودع، وجاهزة للاستيراد في MaghzBook.</p>
+    </div>
+    <div class="link-grid"><a class="link-card" href="../dist/MLL-Book.pdf"><span class="ic">📕</span><span><b>الكتاب الكامل (PDF)</b><small>dist/MLL-Book.pdf · 1034 صفحة</small></span></a>
+<a class="link-card" href="../assets/sample.pdf"><span class="ic">📄</span><span><b>النموذج المجاني (أول جزأين)</b><small>152 صفحة</small></span></a>
+<a class="link-card" href="../assets/cover.png"><span class="ic">🖼️</span><span><b>صورة الغلاف</b><small>assets/cover.png</small></span></a>
+<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/course.blueprint.json"><span class="ic">🎓</span><span><b>Blueprint: الدورة</b><small>maghzbook-course-mastering-llms-transformers-data.json</small></span></a>
+<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.blueprint.json"><span class="ic">📘</span><span><b>Blueprint: الكتاب</b><small>maghzbook-book-mastering-llms-transformers.json</small></span></a>
+<a class="link-card" href="https://github.com/AhmedAlmaghz/MLLBook"><span class="ic">🔗</span><span><b>مستودع GitHub</b><small>MLLBook · main</small></span></a>
+<a class="link-card" href="https://ahmedalmaghz.github.io/MLLBook/"><span class="ic">🌐</span><span><b>الصفحة الرسمية المنشورة</b><small>https://ahmedalmaghz.github.io/MLLBook/</small></span></a></div>
+    <div class="import-note">
+      <strong>للاستيراد في MaghzBook:</strong> انسخ رابط Blueprint أدناه وألصقه في «إدارة Blueprints ← استيراد من رابط GitHub». الملفات من النوع <code>course</code> و<code>book</code> تستند إلى معرّف ثابت (<code>mastering-llms-transformers</code>)، لذا يمكن إعادة الاستيراد بأمان دون تكرار أو فقدان تقدّم المتعلّمين.
+      <code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/course.blueprint.json</code><br><code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.blueprint.json</code>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong>إتقان المحوّلات والنماذج اللغوية الكبيرة</strong> · © 2026 م/ أحمد صالح المغز</div>
+    <div>منشور على <strong>MaghzBook</strong> · Eng. Ahmed Saleh Al-Maghz</div>
+  </div>
+</footer>
+</body>
+</html>

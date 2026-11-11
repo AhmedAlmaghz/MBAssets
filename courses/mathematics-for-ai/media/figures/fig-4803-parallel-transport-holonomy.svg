@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Parallel transport &amp; holonomy</text>
+
+  <!-- sphere arc (loop) -->
+  <circle cx="330" cy="210" r="100" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2" opacity="0.35"/>
+  <path d="M250 235 A130 100 0 0 1 430 250 A100 100 0 0 1 250 235" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- vector at start pointing up -->
+  <line x1="250" y1="235" x2="250" y2="165" stroke="#c2255c" stroke-width="3" marker-end="url(#hp1)"/>
+  <text x="225" y="160" font-size="11" fill="#c2255c">v (start)</text>
+
+  <!-- vector along loop at midpoint tangentially -->
+  <line x1="390" y1="222" x2="430" y2="222" stroke="#c2255c" stroke-width="3" marker-end="url(#hp1)"/>
+  <text x="440" y="226" font-size="10.5" fill="#c2255c"> transported</text>
+
+  <!-- vector at end pointing back -->
+  <line x1="250" y1="240" x2="250" y2="270" stroke="#f08c00" stroke-width="3" marker-end="url(#hp1)"/>
+  <text x="262" y="278" font-size="11" fill="#f08c00">v (returned, rotated)</text>
+
+  <text x="340" y="330" text-anchor="middle" font-size="11.5" fill="#1a2238">Parallel transport along a closed loop rotates v by the holonomy angle.</text>
+  <text x="340" y="356" text-anchor="middle" font-size="11" fill="#555">Flat: no rotation.  Curved: rotation = enclosed curvature (Ambrose–Singer).</text>
+  <defs>
+    <marker id="hp1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#c2255c"/></marker>
+  </defs>
+</svg>

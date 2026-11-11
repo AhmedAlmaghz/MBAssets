@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <!-- LEFT: Riemann (partition domain x) -->
+  <g>
+    <text x="165" y="28" font-size="14" fill="#b45309" text-anchor="middle" font-weight="bold">تكامل ريمان — تقسيم المجال (x)</text>
+    <!-- axes -->
+    <line x1="40" y1="270" x2="300" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <line x1="40" y1="70"  x2="40"  y2="270" stroke="#334155" stroke-width="1.4"/>
+    <!-- curve -->
+    <path d="M40,250 C90,200 130,120 175,140 C220,160 260,90 300,110" fill="none" stroke="#0f766e" stroke-width="2"/>
+    <!-- vertical strips -->
+    <g fill="#fef3c7" stroke="#b45309" stroke-width="1">
+      <rect x="40"  y="190" width="26" height="80"/>
+      <rect x="66"  y="160" width="26" height="110"/>
+      <rect x="92"  y="135" width="26" height="135"/>
+      <rect x="118" y="138" width="26" height="132"/>
+      <rect x="144" y="140" width="26" height="130"/>
+      <rect x="170" y="135" width="26" height="135"/>
+      <rect x="196" y="120" width="26" height="150"/>
+      <rect x="222" y="120" width="26" height="150"/>
+      <rect x="248" y="115" width="26" height="155"/>
+      <rect x="274" y="112" width="26" height="158"/>
+    </g>
+  </g>
+
+  <!-- RIGHT: Lebesgue (partition range y) -->
+  <g>
+    <text x="500" y="28" font-size="14" fill="#0f766e" text-anchor="middle" font-weight="bold">تكامل ليبيسغ — تقسيم المدى (y)</text>
+    <line x1="370" y1="270" x2="630" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <line x1="370" y1="70"  x2="370" y2="270" stroke="#334155" stroke-width="1.4"/>
+    <path d="M370,250 C420,200 460,120 505,140 C550,160 590,90 630,110" fill="none" stroke="#0f766e" stroke-width="2"/>
+    <!-- horizontal slices (measure of preimage) -->
+    <g fill="#e0f2f1" stroke="#0f766e" stroke-width="1">
+      <rect x="395" y="110" width="205" height="16"/>
+      <rect x="385" y="126" width="215" height="16"/>
+      <rect x="405" y="142" width="195" height="16"/>
+      <rect x="390" y="158" width="210" height="16"/>
+      <rect x="400" y="174" width="200" height="16"/>
+      <rect x="382" y="190" width="218" height="16"/>
+      <rect x="395" y="206" width="205" height="16"/>
+      <rect x="400" y="222" width="200" height="16"/>
+      <rect x="380" y="238" width="220" height="16"/>
+    </g>
+    <text x="500" y="284" font-size="12" fill="#64748b" text-anchor="middle">كل شريط = μ(f⁻¹(فترة)) × ارتفاع</text>
+  </g>
+</svg>

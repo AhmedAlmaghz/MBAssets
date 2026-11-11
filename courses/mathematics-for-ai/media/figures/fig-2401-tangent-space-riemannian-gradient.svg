@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <defs>
+    <marker id="d" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <path d="M60,300 C220,260 300,120 400,110 C500,120 600,250 640,280" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="350" y="80" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">manifold M</text>
+  <line x1="220" y1="215" x2="440" y2="175" stroke="#888" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="330" y="235" font-family="sans-serif" font-size="12" fill="#888" text-anchor="middle">T_x M (tangent space)</text>
+  <circle cx="330" cy="195" r="5" fill="#222"/>
+  <path d="M330,195 L400,110" fill="none" stroke="#c00" stroke-width="2" marker-end="url(#d)"/>
+  <text x="430" y="95" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">Euclidean grad</text>
+  <path d="M330,195 L440,172" fill="none" stroke="#2da44e" stroke-width="2.5" marker-end="url(#d)"/>
+  <text x="480" y="158" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">Riemannian grad = projection</text>
+  <text x="340" y="340" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">grad f(x) = P_{T_x M}( grad f-bar(x) )</text>
+</svg>

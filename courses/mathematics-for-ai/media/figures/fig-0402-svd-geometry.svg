@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="340" fill="#ffffff"/>
+
+  <text x="340" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">SVD: A = U Σ Vᵀ  —  rotate, then scale, then rotate</text>
+  <text x="340" y="44" text-anchor="middle" font-size="13" fill="#475569">كل تحويل خطي = تدوير في فضاء المدخلات ← إسقاط/تمديد على المحاور ← تدوير في فضاء المخرجات</text>
+
+  <defs>
+    <marker id="s1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/></marker>
+    <marker id="s2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/></marker>
+  </defs>
+
+  <!-- ============ Stage 1: unit circle ============ -->
+  <text x="85" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">x, ||x||=1</text>
+  <circle cx="85" cy="185" r="55" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="26" y1="185" x2="144" y2="185" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="85" y1="126" x2="85" y2="244" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="85" y1="185" x2="124" y2="146" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="128" y="140" font-size="12" fill="#1d4ed8">v₁</text>
+  <line x1="85" y1="185" x2="46" y2="224" stroke="#dc2626" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="34" y="240" font-size="12" fill="#dc2626">v₂</text>
+  <text x="85" y="272" text-anchor="middle" font-size="11.5" fill="#64748b">دائرة الوحدة</text>
+
+  <!-- arrow -->
+  <line x1="150" y1="185" x2="176" y2="185" stroke="#0f766e" stroke-width="2.5" marker-end="url(#s1)"/>
+  <text x="163" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#0f766e">Vᵀ</text>
+
+  <!-- ============ Stage 2: after V^T (still a circle) ============ -->
+  <text x="255" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Vᵀx</text>
+  <circle cx="255" cy="185" r="55" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="196" y1="185" x2="314" y2="185" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="255" y1="126" x2="255" y2="244" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="255" y1="185" x2="309" y2="185" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="313" y="182" font-size="12" fill="#1d4ed8">e₁</text>
+  <line x1="255" y1="185" x2="255" y2="131" stroke="#dc2626" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="240" y="126" font-size="12" fill="#dc2626">e₂</text>
+  <text x="255" y="272" text-anchor="middle" font-size="11.5" fill="#64748b">تدوير فقط (لا تشويه)</text>
+
+  <!-- arrow -->
+  <line x1="320" y1="185" x2="346" y2="185" stroke="#0f766e" stroke-width="2.5" marker-end="url(#s1)"/>
+  <text x="333" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#0f766e">Σ</text>
+
+  <!-- ============ Stage 3: after Sigma (axis-aligned ellipse) ============ -->
+  <text x="425" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">ΣVᵀx</text>
+  <ellipse cx="425" cy="185" rx="80" ry="33" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="336" y1="185" x2="514" y2="185" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="425" y1="140" x2="425" y2="230" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="425" y1="185" x2="503" y2="185" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="507" y="182" font-size="12" fill="#1d4ed8">σ₁e₁</text>
+  <line x1="425" y1="185" x2="425" y2="154" stroke="#dc2626" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="432" y="150" font-size="12" fill="#dc2626">σ₂e₂</text>
+  <text x="425" y="272" text-anchor="middle" font-size="11.5" fill="#64748b">تمديد/ضغط على المحاور</text>
+
+  <!-- arrow -->
+  <line x1="516" y1="185" x2="542" y2="185" stroke="#0f766e" stroke-width="2.5" marker-end="url(#s1)"/>
+  <text x="529" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#0f766e">U</text>
+
+  <!-- ============ Stage 4: after U (rotated ellipse) ============ -->
+  <text x="595" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Ax = UΣVᵀx</text>
+  <ellipse cx="595" cy="185" rx="80" ry="33" fill="none" stroke="#94a3b8" stroke-width="2" transform="rotate(-28 595 185)"/>
+  <line x1="536" y1="185" x2="654" y2="185" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="595" y1="140" x2="595" y2="230" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="595" y1="185" x2="666" y2="148" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="640" y="142" font-size="12" fill="#1d4ed8">σ₁u₁</text>
+  <line x1="595" y1="185" x2="571" y2="214" stroke="#dc2626" stroke-width="2.5" marker-end="url(#s2)"/>
+  <text x="548" y="228" font-size="12" fill="#dc2626">σ₂u₂</text>
+  <text x="595" y="272" text-anchor="middle" font-size="11.5" fill="#64748b">تدوير نهائي</text>
+
+  <!-- ============ bottom stripe: matrix picture ============ -->
+  <rect x="60" y="292" width="560" height="34" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="340" y="313" text-anchor="middle" font-size="14" fill="#0f172a">A x = Σᵢ σᵢ (vᵢᵀx) uᵉ — إسقاط على vᵢ، تمديد بـ σᵢ، إعادة البناء على uᵢ</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Homology &amp; Betti numbers of a torus</text>
+
+  <!-- torus -->
+  <circle cx="340" cy="200" r="110" fill="#fff3bf" stroke="#f08c00" stroke-width="2.5"/>
+  <ellipse cx="340" cy="200" rx="55" ry="110" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.5"/>
+  <text x="340" y="205" text-anchor="middle" font-size="13" fill="#1a2238" font-weight="600">T²</text>
+
+  <!-- labels -->
+  <text x="120" y="120" font-size="12" fill="#c2255c">H₀: one component (β₀=1)</text>
+  <path d="M150 130 L250 160" stroke="#c2255c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#s2)"/>
+
+  <text x="400" y="110" font-size="12" fill="#2f9e44">H₁: two loops (β₁=2)</text>
+  <path d="M430 120 L480 200" stroke="#2f9e44" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#s2)"/>
+
+  <text x="400" y="320" font-size="12" fill="#3b5bdb">H₂: one cavity (β₂=1)</text>
+  <path d="M420 305 L380 210" stroke="#3b5bdb" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#s2)"/>
+
+  <rect x="120" y="345" width="440" height="30" rx="6" fill="#f7f8fc" stroke="#f08c00" stroke-width="1.5"/>
+  <text x="340" y="365" text-anchor="middle" font-size="12" fill="#1a2238">Euler characteristic χ = β₀ − β₁ + β₂ = 1 − 2 + 1 = 0</text>
+  <defs><marker id="s2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+</svg>

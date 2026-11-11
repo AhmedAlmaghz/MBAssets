@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Tail Bounds: Markov &amp; Chebyshev</text>
+
+  <!-- axes -->
+  <line x1="50" y1="280" x2="630" y2="280" stroke="#222"/>
+  <line x1="50" y1="40" x2="50" y2="280" stroke="#222"/>
+
+  <!-- density -->
+  <path d="M50,280 C200,280 280,120 360,120 C460,120 540,240 630,270" fill="none" stroke="#2a6f97" stroke-width="2.5"/>
+  <!-- tail beyond a shaded -->
+  <path d="M470,200 C520,210 560,245 630,270 L630,280 L470,280 Z" fill="#b5333a" opacity="0.25"/>
+
+  <!-- threshold a -->
+  <line x1="470" y1="60" x2="470" y2="280" stroke="#b5333a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="478" y="55" font-size="12" fill="#b5333a">a</text>
+
+  <!-- mean -->
+  <line x1="340" y1="60" x2="340" y2="280" stroke="#e07a1f" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="300" y="55" font-size="11" fill="#e07a1f">mu</text>
+
+  <text x="560" y="230" font-size="11" fill="#b5333a">P(X&gt;=a)</text>
+  <text x="540" y="250" font-size="11" fill="#b5333a">&lt;= E[X]/a</text>
+
+  <text x="340" y="320" text-anchor="middle" font-size="12" fill="#555">Markov/Chebyshev bound the rare tail by mean or variance.</text>
+</svg>

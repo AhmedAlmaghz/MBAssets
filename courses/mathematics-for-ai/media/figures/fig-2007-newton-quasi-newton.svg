@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <path d="M40,320 C200,320 260,90 340,85 C420,90 480,320 640,320" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <circle cx="340" cy="85" r="5" fill="#2da44e"/>
+  <circle cx="90" cy="300" r="4" fill="#222"/>
+  <circle cx="160" cy="250" r="4" fill="#222"/>
+  <circle cx="230" cy="180" r="4" fill="#c00"/>
+  <circle cx="290" cy="120" r="4" fill="#222"/>
+  <path d="M90,300 L160,250 L230,180 L290,120 L340,90" fill="none" stroke="#c00" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M90,300 L340,90" fill="none" stroke="#2da44e" stroke-width="2.5"/>
+  <text x="150" y="230" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">gradient: zigzag</text>
+  <text x="250" y="180" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">Newton: direct</text>
+  <text x="340" y="348" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">Newton uses curvature H^{-1}</text>
+</svg>

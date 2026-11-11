@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Score-based SDE</text>
+
+  <!-- data manifold -->
+  <ellipse cx="340" cy="200" rx="150" ry="90" fill="#fff3bf" stroke="#f08c00" stroke-width="2" opacity="0.5"/>
+  <text x="340" y="204" text-anchor="middle" font-size="12" fill="#555">data distribution p_0</text>
+
+  <!-- trajectories -->
+  <g stroke="#3b5bdb" stroke-width="2" fill="none">
+    <path d="M340 200 Q300 150 280 110"/>
+    <path d="M340 200 Q360 150 380 120"/>
+    <path d="M340 200 Q340 140 340 100"/>
+    <path d="M340 200 Q310 160 300 130"/>
+    <path d="M340 200 Q370 165 390 140"/>
+  </g>
+  <circle cx="340" cy="200" r="5" fill="#c2255c"/>
+  <text x="345" y="216" font-size="11" fill="#c2255c">t=0</text>
+
+  <!-- sde label -->
+  <text x="500" y="100" text-anchor="middle" font-size="12" fill="#1a2238">dx = f(x,t) dt + g(t) dw</text>
+  <text x="500" y="122" text-anchor="middle" font-size="11" fill="#555">score s(x,t)=∇_x log p_t</text>
+
+  <!-- arrows reverse -->
+  <g stroke="#2f9e44" stroke-width="1.6" fill="none" marker-end="url(#f2)">
+    <path d="M280 110 Q300 150 340 200"/>
+    <path d="M380 120 Q360 150 340 200"/>
+  </g>
+
+  <text x="340" y="330" text-anchor="middle" font-size="12" fill="#1a2238">Forward (t→T): diffuse to N(0,I).  Reverse (T→0): follow score → data.</text>
+  <text x="340" y="354" text-anchor="middle" font-size="12" fill="#555">VP-SDE / VE-SDE unify diffusion &amp; score models.</text>
+  <defs>
+    <marker id="f2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+  </defs>
+</svg>

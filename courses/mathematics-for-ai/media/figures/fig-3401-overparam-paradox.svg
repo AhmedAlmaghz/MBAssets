@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Overparameterised nets interpolate, yet bounds of ch.31 blow up</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="360" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">capacity p (number of parameters, log scale)</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">error</text>
+
+  <!-- interpolation threshold -->
+  <line x1="392" y1="46" x2="392" y2="320" stroke="#b8860b" stroke-width="1.6" stroke-dasharray="7,4"/>
+  <text x="352" y="60" font-family="sans-serif" font-size="11" fill="#b8860b">p = n</text>
+  <text x="404" y="74" font-family="sans-serif" font-size="11" fill="#b8860b">interpolation</text>
+  <text x="404" y="88" font-family="sans-serif" font-size="11" fill="#b8860b">threshold</text>
+
+  <!-- training error: goes to zero and stays -->
+  <path d="M90,270 C180,205 260,150 380,110 L620,104" fill="none" stroke="#1f6feb" stroke-width="2.8"/>
+  <text x="470" y="96" font-family="sans-serif" font-size="12" fill="#1f6feb">R_hat = 0 (true labels)</text>
+
+  <!-- test error real labels: small at interpolation and beyond -->
+  <path d="M90,285 C210,235 300,205 392,196 C480,190 560,182 620,176" fill="none" stroke="#2a7a2a" stroke-width="2.8"/>
+  <text x="430" y="200" font-family="sans-serif" font-size="12" fill="#2a7a2a">R(h) real labels ~ 0.10</text>
+
+  <!-- test error random labels: near chance -->
+  <path d="M90,288 C210,250 300,220 392,150 C480,120 560,112 620,108" fill="none" stroke="#c00" stroke-width="2.6"/>
+  <text x="470" y="140" font-family="sans-serif" font-size="12" fill="#c00">R(h) random labels ~ 0.90</text>
+
+  <!-- VC / Rademacher bound: flat above 1 -->
+  <path d="M90,60 L620,60" fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="90" y="52" font-family="sans-serif" font-size="11" fill="#b8860b">ch.31 bound = 3.33 (vacuous, above max possible risk 1.0)</text>
+
+  <!-- max risk line -->
+  <line x1="90" y1="256" x2="640" y2="256" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="596" y="250" font-family="sans-serif" font-size="10" fill="#777" text-anchor="end">max risk = 1</text>
+
+  <!-- memorisation note -->
+  <rect x="86" y="286" width="196" height="34" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="184" y="301" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">memorising needs p*b >= n*log2|Y|</text>
+  <text x="184" y="315" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">bits, not parameters</text>
+</svg>

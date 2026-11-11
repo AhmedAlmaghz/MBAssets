@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <defs>
+  <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+  </marker>
+</defs>
+<rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="60" y1="120" x2="620" y2="120" stroke="#1f6feb" stroke-width="3"/>
+  <text x="340" y="110" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">p* (primal optimal)</text>
+  <line x1="60" y1="200" x2="620" y2="200" stroke="#c00" stroke-width="3"/>
+  <text x="340" y="220" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">d* (dual optimal), always d* &lt;= p*</text>
+  <path d="M320,120 L320,200" fill="none" stroke="#2da44e" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="380" y="165" font-family="sans-serif" font-size="13" fill="#2da44e" text-anchor="middle">duality gap</text>
+  <line x1="60" y1="280" x2="620" y2="280" stroke="#888" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="340" y="300" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">convex + Slater  =&gt;  gap = 0  (strong duality)</text>
+  <text x="340" y="350" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">weak duality always holds</text>
+</svg>

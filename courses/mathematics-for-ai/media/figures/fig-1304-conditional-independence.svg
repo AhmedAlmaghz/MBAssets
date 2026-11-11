@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="300" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">الاحتمال الشرطي والاستقلال</text>
+
+  <!-- Venn A, B -->
+  <g>
+    <rect x="120" y="60" width="260" height="200" rx="10" fill="#e0f2f1" stroke="#0f766e" stroke-width="1.8"/>
+    <ellipse cx="220" cy="150" rx="80" ry="70" fill="#fef3c7" stroke="#b45309" stroke-width="1.6"/>
+    <ellipse cx="300" cy="170" rx="80" ry="70" fill="none" stroke="#9d174d" stroke-width="1.6"/>
+    <!-- intersection shaded -->
+    <path d="M240,120 a80,70 0 0,0 0,100 a80,70 0 0,0 0,-100 Z" fill="#f59e0b" opacity="0.5"/>
+    <text x="200" y="100" font-size="15" fill="#b45309" font-weight="bold">A</text>
+    <text x="320" y="120" font-size="15" fill="#9d174d" font-weight="bold">B</text>
+    <text x="255" y="160" font-size="12" fill="#7c2d12" text-anchor="middle">A∩B</text>
+  </g>
+
+  <!-- formulas -->
+  <g font-size="14" fill="#334155">
+    <rect x="430" y="80" width="210" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="535" y="105" font-size="13.5" text-anchor="middle" font-style="italic">P(A|B)=P(A∩B)/P(B)</text>
+    <rect x="430" y="135" width="210" height="40" rx="8" fill="#fef3c7" stroke="#b45309"/>
+    <text x="535" y="160" font-size="13.5" text-anchor="middle" font-style="italic">مستقل: P(A∩B)=P(A)P(B)</text>
+    <rect x="430" y="190" width="210" height="40" rx="8" fill="#fce7f3" stroke="#9d174d"/>
+    <text x="535" y="215" font-size="13.5" text-anchor="middle" font-style="italic">بايز: P(A|B)=P(B|A)P(A)/P(B)</text>
+  </g>
+
+  <rect x="120" y="275" width="440" height="22" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="340" y="291" font-size="12" fill="#334155" text-anchor="middle" font-style="italic">الاستقلال ⟹ P(A|B)=P(A) (لا تأثير متبادل)</text>
+</svg>

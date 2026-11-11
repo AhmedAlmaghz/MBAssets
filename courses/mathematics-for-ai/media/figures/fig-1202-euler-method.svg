@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">طريقة أويلر: خطوات متعدّدة الحدود (polyline)</text>
+
+  <!-- axes -->
+  <line x1="60" y1="270" x2="640" y2="270" stroke="#334155" stroke-width="1.4"/>
+  <line x1="100" y1="290" x2="100" y2="40" stroke="#334155" stroke-width="1.4"/>
+
+  <!-- true curve -->
+  <path d="M100,90 C220,110 360,170 600,250" fill="none" stroke="#0f766e" stroke-width="2.6"/>
+  <text x="580" y="244" font-size="13" fill="#0f766e" font-style="italic">الحلّ الحقيقي</text>
+
+  <!-- Euler polyline (staircase) -->
+  <polyline points="100,90 180,120 250,150 320,178 390,200 460,220 530,238"
+            fill="none" stroke="#9d174d" stroke-width="2"/>
+  <!-- step markers -->
+  <g fill="#9d174d">
+    <circle cx="100" cy="90" r="4"/>
+    <circle cx="180" cy="120" r="4"/>
+    <circle cx="250" cy="150" r="4"/>
+    <circle cx="320" cy="178" r="4"/>
+    <circle cx="390" cy="200" r="4"/>
+    <circle cx="460" cy="220" r="4"/>
+    <circle cx="530" cy="238" r="4"/>
+  </g>
+  <!-- tangent at first point -->
+  <line x1="100" y1="90" x2="180" y2="120" stroke="#b45309" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="200" y="110" font-size="12" fill="#b45309" text-anchor="middle">ميل = ẋ</text>
+
+  <rect x="430" y="44" width="210" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="535" y="62" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">xₙ₊₁ = xₙ + h ẋₙ</text>
+  <text x="535" y="78" font-size="11.5" fill="#64748b" text-anchor="middle">خطأ عالمي O(h)</text>
+
+  <text x="340" y="305" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">الخطوات المستقيمة تنحرف عن المنحنى — خطأ القطع من الفصل 11</text>
+</svg>

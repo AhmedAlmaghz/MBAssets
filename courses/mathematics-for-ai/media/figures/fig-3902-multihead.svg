@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Multi-head attention</text>
+
+  <!-- input QKV -->
+  <rect x="60" y="150" width="50" height="40" rx="5" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="85" y="175" text-anchor="middle" font-size="12" fill="#1a2238">Q,K,V</text>
+
+  <!-- split heads -->
+  <line x1="110" y1="170" x2="160" y2="170" stroke="#888" stroke-width="1.6" marker-end="url(#m1)"/>
+  <defs><marker id="m1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+  <g>
+    <rect x="170" y="80" width="80" height="36" rx="5" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+    <rect x="170" y="130" width="80" height="36" rx="5" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+    <rect x="170" y="180" width="80" height="36" rx="5" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+    <text x="210" y="103" text-anchor="middle" font-size="11" fill="#1a2238">head 1</text>
+    <text x="210" y="153" text-anchor="middle" font-size="11" fill="#1a2238">head 2</text>
+    <text x="210" y="203" text-anchor="middle" font-size="11" fill="#1a2238">head h</text>
+  </g>
+  <text x="210" y="245" text-anchor="middle" font-size="10" fill="#555">(each: W_i^Q,K,V)</text>
+
+  <!-- concat -->
+  <rect x="290" y="120" width="80" height="50" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+  <text x="330" y="150" text-anchor="middle" font-size="11" fill="#1a2238">concat</text>
+  <line x1="250" y1="98" x2="288" y2="130" stroke="#888" stroke-width="1.4" marker-end="url(#m1)"/>
+  <line x1="250" y1="148" x2="288" y2="145" stroke="#888" stroke-width="1.4" marker-end="url(#m1)"/>
+  <line x1="250" y1="198" x2="288" y2="165" stroke="#888" stroke-width="1.4" marker-end="url(#m1)"/>
+
+  <!-- W^O -->
+  <rect x="410" y="120" width="70" height="50" rx="6" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="445" y="150" text-anchor="middle" font-size="12" fill="#1a2238">W^O</text>
+  <line x1="370" y1="145" x2="408" y2="145" stroke="#888" stroke-width="1.6" marker-end="url(#m1)"/>
+
+  <!-- output -->
+  <rect x="530" y="120" width="80" height="50" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+  <text x="570" y="150" text-anchor="middle" font-size="12" fill="#1a2238">MultiHead</text>
+  <line x1="480" y1="145" x2="528" y2="145" stroke="#2f9e44" stroke-width="2" marker-end="url(#m1)"/>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">head_i = Attention(Q W_i^Q, K W_i^K, V W_i^V); output = concat(h_1..h_h) W^O</text>
+</svg>

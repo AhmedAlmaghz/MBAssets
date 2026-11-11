@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Statistical manifold: dual geometry</text>
+
+  <!-- coordinate grid (distributions as points) -->
+  <g stroke="#e5e7f0" stroke-width="1">
+    <line x1="100" y1="140" x2="560" y2="140"/><line x1="100" y1="200" x2="560" y2="200"/>
+    <line x1="100" y1="260" x2="560" y2="260"/>
+    <line x1="180" y1="100" x2="180" y2="300"/><line x1="330" y1="100" x2="330" y2="300"/>
+    <line x1="480" y1="100" x2="480" y2="300"/>
+  </g>
+  <rect x="100" y="100" width="460" height="200" fill="none" stroke="#5b6b8c" stroke-width="1.5"/>
+  <text x="86" y="105" font-size="10.5" fill="#555">θ^1</text>
+  <text x="566" y="180" font-size="10.5" fill="#555">θ^2</text>
+
+  <!-- m-geodesic (α=1 flat) -->
+  <circle cx="180" cy="200" r="7" fill="#3b5bdb"/>
+  <text x="175" y="188" font-size="10.5" fill="#3b5bdb">p</text>
+  <circle cx="480" cy="200" r="7" fill="#c2255c"/>
+  <text x="498" y="198" font-size="10.5" fill="#c2255c">q</text>
+  <line x1="188" y1="200" x2="472" y2="200" stroke="#3b5bdb" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#sg2)"/>
+  <text x="330" y="192" text-anchor="middle" font-size="11" fill="#3b5bdb">1-geodesic (least squares)</text>
+
+  <!-- e-geodesic (α=-1 flat, exponential family) -->
+  <path d="M188 200 Q300 120 472 200" fill="none" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#sg2)"/>
+  <text x="270" y="130" font-size="11" fill="#2f9e44">(-1)-geodesic (exponential family)</text>
+
+  <!-- KL labels -->
+  <text x="150" y="335" font-size="10.5" fill="#3b5bdb">D_KL(p‖q) ≠ D_KL(q‖p)</text>
+  <text x="430" y="335" font-size="10.5" fill="#2f9e44">distances via g^(α) = Fisher for α=±1</text>
+
+  <text x="340" y="362" text-anchor="middle" font-size="11" fill="#555">Amari–Chentsov: only Fisher metric admits dual connections.</text>
+  <defs><marker id="sg2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+</svg>

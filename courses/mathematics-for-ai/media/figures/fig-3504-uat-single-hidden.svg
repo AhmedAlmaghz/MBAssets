@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="20" y="28" font-family="sans-serif" font-size="13" fill="#1f6feb" font-weight="bold">Universal approximation: single hidden layer</text>
+
+  <!-- axes -->
+  <line x1="80" y1="330" x2="620" y2="330" stroke="#999" stroke-width="1"/>
+  <line x1="80" y1="330" x2="80" y2="60" stroke="#999" stroke-width="1"/>
+  <text x="630" y="334" font-family="sans-serif" font-size="11" fill="#555">x</text>
+  <text x="60" y="52" font-family="sans-serif" font-size="11" fill="#555">f(x)</text>
+
+  <!-- target curve f(x)=parabola-ish, x in [-1,1] -> px=350+dataX*250 ; y in [0,1] -> py=330-dataY*240 -->
+  <polyline points="100,330 175,243 250,176 325,130 400,104 475,98 550,112 625,146"
+            fill="none" stroke="#c00" stroke-width="2.5"/>
+  <text x="430" y="80" font-family="sans-serif" font-size="11" fill="#c00">target f(x)</text>
+
+  <!-- approximation: sum of shifted sigmoids (stepped) -->
+  <polyline points="100,330 175,300 250,255 325,205 400,150 475,120 550,108 625,120"
+            fill="none" stroke="#2a7a2a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="120" y="300" font-family="sans-serif" font-size="11" fill="#2a7a2a">g(x) = sum c_j sigma(w_j x + b_j)</text>
+
+  <!-- neuron bumps -->
+  <circle cx="250" cy="255" r="4" fill="#1f6feb"/>
+  <circle cx="400" cy="150" r="4" fill="#1f6feb"/>
+  <circle cx="550" cy="108" r="4" fill="#1f6feb"/>
+  <text x="560" y="200" font-family="sans-serif" font-size="11" fill="#1f6feb">hidden units</text>
+
+  <text x="20" y="370" font-family="sans-serif" font-size="10" fill="#555">Cybenko/Hornik: F_m dense in C(K); sup|f-g| &lt; epsilon for some m</text>
+</svg>

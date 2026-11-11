@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Dually flat structure: e-coordinates (theta) and m-coordinates (mu)</text>
+
+  <!-- e-flat submanifold -->
+  <line x1="70" y1="300" x2="610" y2="120" stroke="#1f6feb" stroke-width="3"/>
+  <text x="500" y="108" font-family="sans-serif" font-size="12" fill="#1f6feb">M: e-flat (affine in theta)</text>
+
+  <!-- external point q -->
+  <circle cx="200" cy="120" r="6" fill="#c00"/>
+  <text x="180" y="106" font-family="sans-serif" font-size="13" fill="#c00">q</text>
+
+  <!-- m-geodesic from q to projection (orthogonal in m sense) -->
+  <line x1="200" y1="120" x2="330" y2="238" stroke="#c00" stroke-width="2.2"/>
+  <circle cx="330" cy="238" r="6" fill="#2a7a2a"/>
+  <text x="336" y="232" font-family="sans-serif" font-size="13" fill="#2a7a2a">p* = m-projection</text>
+
+  <!-- right angle mark -->
+  <path d="M300,222 L322,220 L324,242" fill="none" stroke="#555" stroke-width="1.6"/>
+  <text x="250" y="168" font-family="sans-serif" font-size="12" fill="#c00" transform="rotate(-30 250 168)">m-geodesic</text>
+
+  <!-- generic point p on M -->
+  <circle cx="470" cy="176" r="5" fill="#1f6feb"/>
+  <text x="478" y="170" font-family="sans-serif" font-size="12" fill="#1f6feb">p</text>
+  <line x1="330" y1="238" x2="470" y2="176" stroke="#1f6feb" stroke-width="2.2" stroke-dasharray="6,4"/>
+
+  <!-- Pythagorean box -->
+  <rect x="70" y="290" width="470" height="70" fill="#fff6d8" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="305" y="312" font-family="sans-serif" font-size="13" fill="#8a5a00" text-anchor="middle">D(q || p) = D(q || p*) + D(p* || p)    for all p in M</text>
+  <text x="305" y="332" font-family="sans-serif" font-size="12" fill="#8a5a00" text-anchor="middle">Legendre pair:  mu = grad psi(theta),  theta = grad phi(mu),  g = Hessian psi</text>
+  <text x="305" y="350" font-family="sans-serif" font-size="11" fill="#8a5a00" text-anchor="middle">phi(mu) = theta.mu - psi(theta)   (dual potential = - entropy)</text>
+</svg>

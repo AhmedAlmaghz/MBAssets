@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <!-- left: Rolle -->
+  <g>
+    <line x1="30" y1="250" x2="310" y2="250" stroke="#334155" stroke-width="1.4" marker-end="url(#a10)"/>
+    <line x1="55" y1="270" x2="55" y2="40" stroke="#334155" stroke-width="1.4" marker-end="url(#a10)"/>
+    <text x="110" y="30" font-size="15" fill="#334155" font-weight="bold">نظرية رول: f(a)=f(b)</text>
+    <!-- curve f(x)=-(x-2.5)^2+3 : a at x=0.5, b at 4.5 -->
+    <path d="M 82 150 C 130 250, 230 250, 297 150" fill="none" stroke="#0f766e" stroke-width="2.4"/>
+    <line x1="82" y1="150" x2="297" y2="150" stroke="#b91c1c" stroke-width="1.1" stroke-dasharray="4 3"/>
+    <circle cx="82" cy="150" r="4.5" fill="#1d4ed8"/>
+    <circle cx="297" cy="150" r="4.5" fill="#1d4ed8"/>
+    <text x="70" y="145" font-size="13" fill="#1d4ed8">a</text>
+    <text x="300" y="145" font-size="13" fill="#1d4ed8">b</text>
+    <!-- tangent horizontal at c -->
+    <line x1="130" y1="207" x2="250" y2="207" stroke="#b91c1c" stroke-width="2"/>
+    <circle cx="190" cy="207" r="4" fill="#b91c1c"/>
+    <text x="196" y="228" font-size="13" fill="#b91c1c">f′(c) = 0</text>
+  </g>
+
+  <!-- right: MVT -->
+  <g>
+    <line x1="360" y1="250" x2="650" y2="250" stroke="#334155" stroke-width="1.4" marker-end="url(#a10)"/>
+    <line x1="385" y1="270" x2="385" y2="40" stroke="#334155" stroke-width="1.4" marker-end="url(#a10)"/>
+    <text x="415" y="30" font-size="15" fill="#334155" font-weight="bold">القيمة الوسطى: قاطع ↔ مماس</text>
+    <path d="M 405 210 C 450 215, 500 190, 545 150 C 580 118, 605 85, 625 60" fill="none" stroke="#0f766e" stroke-width="2.4"/>
+    <!-- secant a(0.4)->b(4.1) -->
+    <line x1="407" y1="210" x2="623" y2="62" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <circle cx="407" cy="210" r="4.5" fill="#1d4ed8"/>
+    <circle cx="623" cy="62" r="4.5" fill="#1d4ed8"/>
+    <text x="395" y="222" font-size="13" fill="#1d4ed8">a</text>
+    <text x="628" y="58" font-size="13" fill="#1d4ed8">b</text>
+    <!-- parallel tangent at c -->
+    <line x1="470" y1="230" x2="610" y2="130" stroke="#b91c1c" stroke-width="2"/>
+    <circle cx="525" cy="190" r="4" fill="#b91c1c"/>
+    <text x="470" y="265" font-size="13" fill="#b91c1c">f′(c) = ميل القاطع</text>
+  </g>
+</svg>

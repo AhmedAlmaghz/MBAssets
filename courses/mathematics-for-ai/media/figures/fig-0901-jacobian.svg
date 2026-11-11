@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="300" fill="#fafaf7"/>
+
+  <!-- input vector -->
+  <g>
+    <rect x="40" y="60" width="110" height="170" rx="10" fill="#e0f2f1" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="95" y="50" font-size="14" fill="#0f766e" text-anchor="middle" font-weight="bold">المدخلات x</text>
+    <text x="95" y="95" font-size="14" fill="#334155" text-anchor="middle">x₁</text>
+    <text x="95" y="135" font-size="14" fill="#334155" text-anchor="middle">x₂</text>
+    <text x="95" y="175" font-size="14" fill="#334155" text-anchor="middle">⋮</text>
+    <text x="95" y="210" font-size="14" fill="#334155" text-anchor="middle">xₙ</text>
+  </g>
+
+  <!-- jacobian matrix -->
+  <g>
+    <rect x="230" y="60" width="220" height="170" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="340" y="50" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">اليعقوبية J (m×n)</text>
+    <!-- cells -->
+    <g font-size="13" fill="#9d174d" text-anchor="middle">
+      <rect x="250" y="80" width="80" height="34" rx="4" fill="#fce7f3" stroke="#e5a0c0"/>
+      <rect x="340" y="80" width="80" height="34" rx="4" fill="#fce7f3" stroke="#e5a0c0"/>
+      <rect x="250" y="126" width="80" height="34" rx="4" fill="#fce7f3" stroke="#e5a0c0"/>
+      <rect x="340" y="126" width="80" height="34" rx="4" fill="#fce7f3" stroke="#e5a0c0"/>
+      <text x="290" y="102">∂f₁/∂x₁</text>
+      <text x="380" y="102">∂f₁/∂xₙ</text>
+      <text x="290" y="148">∂fₘ/∂x₁</text>
+      <text x="380" y="148">∂fₘ/∂xₙ</text>
+    </g>
+    <text x="290" y="196" font-size="12" fill="#64748b" text-anchor="middle">الصف = خرج i</text>
+    <text x="380" y="196" font-size="12" fill="#64748b" text-anchor="middle">العمود = مدخل j</text>
+  </g>
+
+  <!-- output vector -->
+  <g>
+    <rect x="530" y="60" width="110" height="170" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+    <text x="585" y="50" font-size="14" fill="#b45309" text-anchor="middle" font-weight="bold">الخرج f(x)</text>
+    <text x="585" y="95" font-size="14" fill="#334155" text-anchor="middle">f₁</text>
+    <text x="585" y="135" font-size="14" fill="#334155" text-anchor="middle">f₂</text>
+    <text x="585" y="175" font-size="14" fill="#334155" text-anchor="middle">⋮</text>
+    <text x="585" y="210" font-size="14" fill="#334155" text-anchor="middle">fₘ</text>
+  </g>
+
+  <!-- arrows -->
+  <line x1="150" y1="145" x2="224" y2="145" stroke="#334155" stroke-width="1.6" marker-end="url(#a11)"/>
+  <defs>
+    <marker id="a11" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <line x1="450" y1="145" x2="524" y2="145" stroke="#334155" stroke-width="1.6" marker-end="url(#a11)"/>
+
+  <!-- bottom note -->
+  <rect x="150" y="245" width="380" height="36" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="340" y="268" font-size="13.5" fill="#334155" text-anchor="middle" font-style="italic">J = «خريطة الحساسيات الكاملة» بين المدخلات والخرجات</text>
+</svg>

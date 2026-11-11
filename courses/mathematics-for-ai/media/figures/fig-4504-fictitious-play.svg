@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Fictitious play &amp; replicator dynamics</text>
+
+  <!-- simplex triangle -->
+  <path d="M180 280 L520 280 L350 90 Z" fill="#f7f8fc" stroke="#5b6b8c" stroke-width="1.5"/>
+  <text x="350" y="80" text-anchor="middle" font-size="11" fill="#555">pure A</text>
+  <text x="520" y="305" text-anchor="middle" font-size="11" fill="#555">pure B</text>
+  <text x="150" y="305" text-anchor="middle" font-size="11" fill="#555">pure C</text>
+
+  <!-- orbit spiralling to equilibrium -->
+  <path d="M360 270 Q430 260 420 210 Q400 160 355 165 Q310 175 325 220 Q340 250 372 236 Q395 220 380 200"
+        fill="none" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#i2)"/>
+
+  <!-- equilibrium -->
+  <circle cx="375" cy="218" r="6" fill="#c2255c"/>
+  <text x="395" y="218" font-size="12" fill="#c2255c" font-weight="600">equilibrium</text>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12" fill="#555">Each player best-responds to observed frequencies; dynamics can converge to NE.</text>
+  <defs><marker id="i2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker></defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <rect x="40" y="120" width="600" height="160" fill="#f0f6ff" stroke="#bcd"/>
+  <polyline points="40,200 120,150 200,240 280,170 360,250 440,160 520,230 600,190 640,205" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="40" cy="200" r="4" fill="#222"/>
+  <text x="40" y="215" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">M_0</text>
+  <text x="340" y="105" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">band: |M_k &#8722; M_{k-1}| &#8804; c_k</text>
+  <text x="340" y="305" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">k (time step)</text>
+  <text x="600" y="205" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">M_n</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,315 C220,315 320,70 360,68 C400,70 500,315 680,315" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <path d="M40,315 C120,315 160,90 200,84 L200,320 L40,320 Z" fill="#ffd6d6"/>
+  <path d="M520,84 C560,90 600,315 680,315 L680,320 L520,320 Z" fill="#ffd6d6"/>
+  <line x1="200" y1="84" x2="200" y2="320" stroke="#c00" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="520" y1="84" x2="520" y2="320" stroke="#c00" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="120" y="180" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">reject</text>
+  <text x="600" y="180" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">reject</text>
+  <text x="360" y="200" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">accept H0 (alpha/2 each tail)</text>
+  <text x="360" y="345" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">test statistic</text>
+</svg>

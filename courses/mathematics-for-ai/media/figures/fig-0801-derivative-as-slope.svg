@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="a8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="680" height="340" fill="#fafaf7"/>
+  <line x1="40" y1="290" x2="650" y2="290" stroke="#334155" stroke-width="1.5" marker-end="url(#a8)"/>
+  <line x1="70" y1="310" x2="70" y2="30" stroke="#334155" stroke-width="1.5" marker-end="url(#a8)"/>
+  <text x="655" y="295" font-size="14" fill="#334155">x</text>
+  <text x="60" y="25" font-size="14" fill="#334155">f(x)</text>
+
+  <!-- curve f(x)=0.35(x-2)^2+1 : xpx = 70+55x, ypx = 290 - 55 f -->
+  <path d="M 152 193 C 230 230, 330 230, 410 193 C 470 166, 520 110, 560 30" fill="none" stroke="#0f766e" stroke-width="2.5"/>
+
+  <!-- point a at x=3 -> px 235, f=1.35 -> y=215.75 -->
+  <circle cx="235" cy="216" r="5" fill="#1d4ed8"/>
+  <text x="222" y="238" font-size="14" fill="#1d4ed8" font-weight="bold">a</text>
+
+  <!-- secant 1: h=3 -> x=6 px=400, f=3.35 y=105.75 -->
+  <line x1="235" y1="216" x2="400" y2="106" stroke="#94a3b8" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <circle cx="400" cy="106" r="4" fill="#94a3b8"/>
+  <text x="405" y="100" font-size="13" fill="#64748b">h = 3</text>
+
+  <!-- secant 2: h=1.6 -> x=4.6 px=323, f=2.3 y=163.5 -->
+  <line x1="235" y1="216" x2="323" y2="164" stroke="#f59e0b" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <circle cx="323" cy="164" r="4" fill="#f59e0b"/>
+  <text x="328" y="158" font-size="13" fill="#b45309">h = 1.6</text>
+
+  <!-- tangent: slope f'(3)=0.7 -> dy/dx=0.7 ; draw from (235,216) dx=140 dy=-98 -->
+  <line x1="130" y1="314" x2="400" y2="125" stroke="#b91c1c" stroke-width="2.2"/>
+  <text x="410" y="130" font-size="14" fill="#b91c1c" font-weight="bold">المماس</text>
+  <text x="410" y="148" font-size="13" fill="#b91c1c">الميل = f′(a)</text>
+
+  <!-- h arrows near bottom -->
+  <line x1="235" y1="285" x2="323" y2="285" stroke="#64748b" stroke-width="1" marker-end="url(#a8)" marker-start="url(#a8)"/>
+  <text x="262" y="280" font-size="12" fill="#64748b">h</text>
+</svg>

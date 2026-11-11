@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,280 C180,280 240,150 340,140 C440,150 500,280 640,280" fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <text x="340" y="120" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">mean mu</text>
+  <path d="M40,200 C180,200 240,80 340,70 C440,80 500,200 640,200" fill="none" stroke="#c00" stroke-width="2"/>
+  <text x="340" y="50" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">UCB = mu + kappa sigma</text>
+  <path d="M40,300 C200,300 260,230 340,220 C420,230 480,300 640,300" fill="none" stroke="#2da44e" stroke-width="2"/>
+  <text x="560" y="215" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">PI</text>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">larger kappa explores more; PI only measures probability</text>
+</svg>

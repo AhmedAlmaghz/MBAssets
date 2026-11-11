@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Receptive field growth across layers</text>
+
+  <!-- image -->
+  <text x="40" y="62" font-size="12" fill="#3b5bdb" font-weight="600">Input image</text>
+  <rect x="40" y="80" width="120" height="120" fill="#e8eeff" stroke="#3b5bdb" stroke-width="1.6"/>
+  <!-- layer1 RF 3x3 -->
+  <text x="200" y="62" font-size="12" fill="#555">Conv1 k=3 s=1</text>
+  <rect x="200" y="80" width="60" height="60" fill="#ffe0b2" stroke="#e8590c" stroke-width="1.6"/>
+  <rect x="200" y="80" width="20" height="20" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <text x="230" y="155" text-anchor="middle" font-size="11" fill="#555">RF=3</text>
+  <!-- layer2 RF 5x5 -->
+  <text x="300" y="62" font-size="12" fill="#555">Conv2 k=3 s=1</text>
+  <rect x="300" y="80" width="60" height="60" fill="#ffe0b2" stroke="#e8590c" stroke-width="1.6"/>
+  <rect x="300" y="80" width="36" height="36" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <text x="330" y="155" text-anchor="middle" font-size="11" fill="#555">RF=5</text>
+  <!-- layer3 RF 7x7 -->
+  <text x="400" y="62" font-size="12" fill="#555">Conv3 k=3 s=1</text>
+  <rect x="400" y="80" width="60" height="60" fill="#ffe0b2" stroke="#e8590c" stroke-width="1.6"/>
+  <rect x="400" y="80" width="52" height="52" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <text x="430" y="155" text-anchor="middle" font-size="11" fill="#555">RF=7</text>
+  <!-- deep RF s=2 k=4 -->
+  <text x="500" y="62" font-size="12" fill="#555">Conv4 k=4 s=2</text>
+  <rect x="500" y="80" width="60" height="60" fill="#ffe0b2" stroke="#e8590c" stroke-width="1.6"/>
+  <rect x="500" y="80" width="60" height="60" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <text x="530" y="155" text-anchor="middle" font-size="11" fill="#555">RF=10</text>
+
+  <!-- arrows showing growth -->
+  <path d="M260 110 L298 110" stroke="#888" stroke-width="1.6" fill="none" marker-end="url(#r1)"/>
+  <path d="M360 110 L398 110" stroke="#888" stroke-width="1.6" fill="none" marker-end="url(#r1)"/>
+  <path d="M460 110 L498 110" stroke="#888" stroke-width="1.6" fill="none" marker-end="url(#r1)"/>
+  <defs><marker id="r1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+
+  <text x="40" y="210" font-size="13" fill="#1a2238" font-weight="600">Recurrence:</text>
+  <text x="40" y="240" font-size="13" fill="#1a2238">RF_l = RF_{l-1} + (k_l - 1) * prod_{i &lt; l} s_i</text>
+  <text x="40" y="270" font-size="13" fill="#1a2238">With stride &gt; 1, the product factor makes the field jump faster.</text>
+
+  <g font-size="11" fill="#555" text-anchor="middle">
+    <text x="140" y="235">RF_0 = 1 (single pixel)</text>
+    <text x="230" y="235">RF_1 = 1 + (3-1)*1 = 3</text>
+    <text x="330" y="235">RF_2 = 3 + (3-1)*1 = 5</text>
+    <text x="430" y="235">RF_3 = 5 + (3-1)*1 = 7</text>
+    <text x="530" y="235">RF_4 = 7 + (4-1)*(1*1*1*2) = 10</text>
+  </g>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">A deep narrow net covers a large area with few params; depth trades params for spatial extent.</text>
+</svg>

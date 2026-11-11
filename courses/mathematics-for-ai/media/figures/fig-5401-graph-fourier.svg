@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">تحويل فورييه على الرسم: قاعدة القيم الذاتية للابلاسي</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Graph Fourier Transform via Laplacian eigenbasis</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <rect x="40" y="130" width="170" height="60" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="125" y="158" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700">L=D-A</text>
+  <text x="125" y="174" text-anchor="middle" font-size="10" fill="#5a6770">لابلاسي الرسم</text>
+  <line x1="210" y1="160" x2="260" y2="160" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <rect x="260" y="130" width="180" height="60" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="350" y="158" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">L u<tspan dy="3.75" font-size="70%">k</tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>=λ<tspan dy="3.75" font-size="70%">k</tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan> u<tspan dy="3.75" font-size="70%">k</tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan></tspan></text>
+  <text x="350" y="174" text-anchor="middle" font-size="10" fill="#5a6770">القاعدة الطيفية</text>
+  <line x1="440" y1="160" x2="490" y2="160" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <rect x="490" y="130" width="150" height="60" rx="7" fill="#f2f7fa" stroke="#7a9e3c" stroke-width="1.5"/>
+  <text x="565" y="158" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">x̂<tspan dy="3.75" font-size="70%">k</tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>=⟨ x,u<tspan dy="3.75" font-size="70%">k</tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>⟩</tspan></text>
+  <text x="565" y="174" text-anchor="middle" font-size="10" fill="#5a6770">تحويل فورييه الرسومي</text>
+  <text x="340" y="240" font-size="10.5" fill="#5a6770" direction="rtl">التردّد على الرسم = قيمة ذاتية للابلاسي: صغيرة ⇒ ناعم على الرسم، كبيرة ⇒ متذبذب.</text>
+  <text x="340" y="262" font-size="10.5" fill="#5a6770" direction="rtl">الترشيح الطيفي<tspan direction="ltr" unicode-bidi="isolate">: y=U g(λ)U<tspan dy="-4.41" font-size="70%">T</tspan><tspan dy="4.41" font-size="1">&#8203;</tspan> x — </tspan>و<tspan direction="ltr" unicode-bidi="isolate">ChebNet </tspan>يقرّبه بكثير حدود موضعي<tspan direction="ltr" unicode-bidi="isolate">.</tspan></text>
+  <text x="340" y="284" font-size="10.5" fill="#5a6770" direction="rtl">حدوده: الاعتماد على طيف الرسم ⇒ ضعف النقل بين الرسوم (الفصل 43).</text>
+</svg>

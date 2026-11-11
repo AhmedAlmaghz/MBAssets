@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Structural Risk Minimisation: trade off fit against capacity</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">capacity of H (index k, polynomial degree, tree depth, ...)</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">error</text>
+
+  <!-- empirical risk decreasing -->
+  <path d="M90,270 C200,240 300,180 620,90" fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <text x="470" y="80" font-family="sans-serif" font-size="12" fill="#1f6feb">R_hat (training error)</text>
+
+  <!-- confidence term increasing -->
+  <path d="M90,300 C200,290 300,240 620,120" fill="none" stroke="#c00" stroke-width="2.6"/>
+  <text x="480" y="140" font-family="sans-serif" font-size="12" fill="#c00">Omega(H, n, delta) (capacity term)</text>
+
+  <!-- generalisation error true: U shape -->
+  <path d="M110,290 C220,235 300,225 380,215 C470,205 560,225 620,270"
+        fill="none" stroke="#2a7a2a" stroke-width="3"/>
+  <text x="330" y="205" font-family="sans-serif" font-size="12" fill="#2a7a2a">R(h) true error (U-shaped)</text>
+
+  <!-- bound curve = sum -->
+  <path d="M90,300 C200,262 260,232 330,214 C420,196 520,215 620,258"
+        fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="180" y="240" font-family="sans-serif" font-size="11" fill="#b8860b">bound = R_hat + Omega</text>
+
+  <!-- minimum marker -->
+  <circle cx="330" cy="214" r="6" fill="#2a7a2a"/>
+  <line x1="330" y1="214" x2="330" y2="320" stroke="#2a7a2a" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="300" y="338" font-family="sans-serif" font-size="11" fill="#2a7a2a">k* chosen by SRM</text>
+
+  <!-- nested classes note -->
+  <rect x="90" y="50" width="180" height="46" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="180" y="70" font-family="sans-serif" font-size="11" fill="#1f6feb" text-anchor="middle">H_1 subset H_2 subset ... subset H_k</text>
+  <text x="180" y="88" font-family="sans-serif" font-size="11" fill="#1f6feb" text-anchor="middle">penalty grows with k</text>
+</svg>

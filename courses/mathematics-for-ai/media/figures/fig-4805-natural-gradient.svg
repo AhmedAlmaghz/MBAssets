@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Gradient vs natural gradient</text>
+
+  <!-- warped loss contours -->
+  <g fill="none" stroke="#c9d6ff" stroke-width="1.4">
+    <ellipse cx="370" cy="210" rx="130" ry="70" transform="rotate(-24 370 210)"/>
+    <ellipse cx="370" cy="210" rx="95" ry="52" transform="rotate(-24 370 210)"/>
+    <ellipse cx="370" cy="210" rx="62" ry="35" transform="rotate(-24 370 210)"/>
+    <ellipse cx="370" cy="210" rx="30" ry="18" transform="rotate(-24 370 210)"/>
+  </g>
+  <circle cx="370" cy="210" r="6" fill="#c2255c"/>
+  <text x="385" y="210" font-size="11" fill="#c2255c">θ*</text>
+
+  <!-- gradient descent: steepest in parameter metric -->
+  <path d="M180 300 Q200 200 240 235 Q290 220 340 235" fill="none" stroke="#3b5bdb" stroke-width="2.5" stroke-dasharray="5 3" marker-end="url(#gn1)"/>
+  <text x="150" y="330" font-size="11.5" fill="#3b5bdb">gradient descent (zigzag in warped space)</text>
+
+  <!-- natural gradient: steeper in distribution metric -->
+  <path d="M180 300 Q250 260 300 240 Q340 225 365 212" fill="none" stroke="#2f9e44" stroke-width="2.5" marker-end="url(#gn2)"/>
+  <text x="120" y="120" font-size="11.5" fill="#2f9e44">natural gradient (Fisher metric)</text>
+
+  <text x="340" y="360" text-anchor="middle" font-size="11" fill="#555">θ ← θ − η F(θ)⁻¹ ∇L(θ)  — metric-aware step.</text>
+  <defs>
+    <marker id="gn1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#3b5bdb"/></marker>
+    <marker id="gn2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,693 @@
+{
+  "schema": "maghzbook.assets",
+  "version": 1,
+  "generatedAt": "2026-11-11T15:39:07+00:00",
+  "host": {
+    "owner": "AhmedAlmaghz",
+    "repo": "MBAssets",
+    "branch": "main",
+    "rawBase": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main"
+  },
+  "paths": {
+    "landing": "landing/<slug>.html",
+    "cover": "books/<slug>/cover.png",
+    "book": "books/<slug>/book.pdf",
+    "sample": "books/<slug>/sample.pdf",
+    "bookBlueprint": "books/<slug>/book.blueprint.json",
+    "courseBlueprint": "courses/<slug>/course.blueprint.json",
+    "notebooks": "courses/<slug>/notebooks/",
+    "scripts": "courses/<slug>/scripts/"
+  },
+  "books": [
+    {
+      "key": "game-theory",
+      "slug": "game-theory-strategy",
+      "repo": "GameWorld-Book",
+      "dir": "GameTheory",
+      "accent": "#b45309",
+      "order": 1,
+      "pages": 248,
+      "priceCents": 7900,
+      "listPriceCents": 9900,
+      "tags": [
+        "game-theory",
+        "strategy",
+        "economics",
+        "mathematics"
+      ],
+      "chapters": 36,
+      "attachments": 0,
+      "files": {
+        "cover": "books/game-theory-strategy/cover.png",
+        "book": "books/game-theory-strategy/book.blueprint.json",
+        "sample": "books/game-theory-strategy/sample.pdf",
+        "course": "courses/game-theory-strategy/course.blueprint.json",
+        "landing": "landing/game-theory-strategy.html",
+        "figures": "courses/game-theory-strategy/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/game-theory-strategy/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/game-theory-strategy.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/game-theory-strategy/media"
+      },
+      "sizes": {
+        "cover": 1638224,
+        "book": 37992,
+        "sample": 1998083,
+        "course": 505619,
+        "landing": 29655
+      },
+      "sha256": {
+        "book": "f7ae6955cb0b7ee9c3e65fbe8ea56264230e6c261d4c77a5832bfa2e69a58254",
+        "sample": "71ef29f286404f367c9fbfd3db9c58e31b2df0d4f2af450e94da12639584e7bf",
+        "course": "f73ec0e3ecc65d8b1c75297b12b1560219a90b7305e3f15372d0821bc858bed2",
+        "landing": "d282eb6f3a27d4d38f332dacd2b1447f8c4500bb65d5e4095c4428879a2dc4e2"
+      }
+    },
+    {
+      "key": "general-ai",
+      "slug": "ai-for-everyone-skills",
+      "repo": "AI4ALL-Book",
+      "dir": "GeneralAI/AI-Skills-Book",
+      "accent": "#0891b2",
+      "order": 2,
+      "pages": 568,
+      "priceCents": 5900,
+      "listPriceCents": 7900,
+      "tags": [
+        "artificial-intelligence",
+        "prompt-engineering",
+        "digital-skills"
+      ],
+      "chapters": 34,
+      "attachments": 0,
+      "files": {
+        "cover": "books/ai-for-everyone-skills/cover.png",
+        "book": "books/ai-for-everyone-skills/book.blueprint.json",
+        "sample": "books/ai-for-everyone-skills/sample.pdf",
+        "course": "courses/ai-for-everyone-skills/course.blueprint.json",
+        "landing": "landing/ai-for-everyone-skills.html",
+        "figures": "courses/ai-for-everyone-skills/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/ai-for-everyone-skills/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/ai-for-everyone-skills.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/ai-for-everyone-skills/media"
+      },
+      "sizes": {
+        "cover": 1328728,
+        "book": 37721,
+        "sample": 2352298,
+        "course": 1196027,
+        "landing": 26656
+      },
+      "sha256": {
+        "book": "74ce1cc2ce212bfa93a4b18c0845f6b0c1c437c20075b4429a5ea6c1066983db",
+        "sample": "b03554a3850501da445631378fd7a338cc72d0f9f7156f729b748a4908a21168",
+        "course": "8d678bc35c05519e933a3bc344ea186fddeb03f47e670ce707f4ea8552ada60f",
+        "landing": "02d42692cf46b11cfac7803a3f97318b00b58b022111f1bc87d942949f72652d"
+      }
+    },
+    {
+      "key": "harness",
+      "slug": "agent-harness-engineering",
+      "repo": "HarnessAgent-Book",
+      "dir": "HarnessEngineering/HarnessBook",
+      "accent": "#4f46e5",
+      "order": 3,
+      "pages": 351,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "ai-agents",
+        "python",
+        "software-architecture",
+        "llm-ops"
+      ],
+      "chapters": 29,
+      "attachments": 63,
+      "files": {
+        "cover": "books/agent-harness-engineering/cover.png",
+        "book": "books/agent-harness-engineering/book.blueprint.json",
+        "sample": "books/agent-harness-engineering/sample.pdf",
+        "course": "courses/agent-harness-engineering/course.blueprint.json",
+        "landing": "landing/agent-harness-engineering.html",
+        "figures": "courses/agent-harness-engineering/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/agent-harness-engineering/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/agent-harness-engineering.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/agent-harness-engineering/media"
+      },
+      "sizes": {
+        "cover": 961503,
+        "book": 42139,
+        "sample": 3787769,
+        "course": 908324,
+        "landing": 29385
+      },
+      "sha256": {
+        "book": "62fb2dbdd7a6294abc8f5bd656609f2416ff1f07b0e843fd2f8911c7aface8cb",
+        "sample": "d426f439eab1345946f58fdc83d36926bc27aaf0941e112190f6a19d3f3f2773",
+        "course": "26dd0221e04ccf5bb7d56878dd60fa258a14944d7582da1fc2e4ea584d09598f",
+        "landing": "7c1253cf439a032cd0c584198fbe2f27be97bb6b28fca7b576f29464f17273d3"
+      }
+    },
+    {
+      "key": "jax",
+      "slug": "jax-from-zero-to-production",
+      "repo": "JAX-book",
+      "dir": "JAX",
+      "accent": "#7c3aed",
+      "order": 4,
+      "pages": 326,
+      "priceCents": 9900,
+      "listPriceCents": 14900,
+      "tags": [
+        "jax",
+        "deep-learning",
+        "numpy",
+        "xla"
+      ],
+      "chapters": 32,
+      "attachments": 0,
+      "files": {
+        "cover": "books/jax-from-zero-to-production/cover.png",
+        "book": "books/jax-from-zero-to-production/book.blueprint.json",
+        "sample": "books/jax-from-zero-to-production/sample.pdf",
+        "course": "courses/jax-from-zero-to-production/course.blueprint.json",
+        "landing": "landing/jax-from-zero-to-production.html",
+        "figures": "courses/jax-from-zero-to-production/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/jax-from-zero-to-production/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/jax-from-zero-to-production.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/jax-from-zero-to-production/media"
+      },
+      "sizes": {
+        "cover": 1763766,
+        "book": 37120,
+        "sample": 7411097,
+        "course": 501582,
+        "landing": 27666
+      },
+      "sha256": {
+        "book": "f0fc6ad39c975ae000b213ac9edcf0cb091791e443bc8fd8e4e9fbf36e79f1f7",
+        "sample": "23c1cb1c0d679f52d7074050a5626c7a24be478c619c3cbe10bbbaa4fd9063f8",
+        "course": "1c968262c92e278972448411633dca16da9fe414b2d85e8bb0846a061295f7dd",
+        "landing": "2ae71d01a7b7ac8e1cd86ddbc116f8ebf0c898c866c400fb35fc2eedc5598e74"
+      }
+    },
+    {
+      "key": "keras",
+      "slug": "keras-3-arabic-professional",
+      "repo": "KERAS-Book",
+      "dir": "Keras",
+      "accent": "#dc2626",
+      "order": 5,
+      "pages": 730,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "keras",
+        "deep-learning",
+        "tensorflow",
+        "computer-vision"
+      ],
+      "chapters": 49,
+      "attachments": 243,
+      "files": {
+        "cover": "books/keras-3-arabic-professional/cover.png",
+        "book": "books/keras-3-arabic-professional/book.blueprint.json",
+        "sample": "books/keras-3-arabic-professional/sample.pdf",
+        "course": "courses/keras-3-arabic-professional/course.blueprint.json",
+        "landing": "landing/keras-3-arabic-professional.html",
+        "figures": "courses/keras-3-arabic-professional/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/keras-3-arabic-professional/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/keras-3-arabic-professional.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/keras-3-arabic-professional/media"
+      },
+      "sizes": {
+        "cover": 1550502,
+        "book": 41210,
+        "sample": 15633220,
+        "course": 1145378,
+        "landing": 32051
+      },
+      "sha256": {
+        "book": "6ef09b2c6fb5941cf82d910dcd25bc483ce647c63b44160ee5fb6c241305b168",
+        "sample": "fcf863cfd17c99cef64e3f7da29d70ffebfde169a29b034cf4cdad58a120750e",
+        "course": "b2b28d7b9405f5a693d017c2ff1873e074888d826de38eca809398953045c399",
+        "landing": "3930ff92e8335e253efcfb2e55bafb5e9ba366956cd5bbe4305d0a0363d54adf"
+      }
+    },
+    {
+      "key": "math-ai",
+      "slug": "mathematics-for-ai",
+      "repo": "MathAI-book",
+      "dir": "MathAI book",
+      "accent": "#0f766e",
+      "order": 6,
+      "pages": 1676,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "mathematics",
+        "machine-learning",
+        "linear-algebra",
+        "optimization"
+      ],
+      "chapters": 54,
+      "attachments": 0,
+      "files": {
+        "cover": "books/mathematics-for-ai/cover.png",
+        "book": "books/mathematics-for-ai/book.blueprint.json",
+        "sample": "books/mathematics-for-ai/sample.pdf",
+        "course": "courses/mathematics-for-ai/course.blueprint.json",
+        "landing": "landing/mathematics-for-ai.html",
+        "figures": "courses/mathematics-for-ai/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mathematics-for-ai/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mathematics-for-ai.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mathematics-for-ai/media"
+      },
+      "sizes": {
+        "cover": 1841987,
+        "book": 52921,
+        "sample": 6823009,
+        "course": 7418270,
+        "landing": 33648
+      },
+      "sha256": {
+        "book": "9691d7b18d17178222604fffd12eb95dc9b115f30a93447d8530c011ef5ec6c9",
+        "sample": "489aad7ab96efc4f6e24235f921411f3482d000a69c9e624f52ff4f807684a3d",
+        "course": "f626d4a59dc05d7cd6905216ad9597db6a65c298ac0c06bc991ed1ce4c48fac4",
+        "landing": "cb19a4a93acc80fd88e7d37c823af54a926d05eec16da66f4249b359696a8f72"
+      }
+    },
+    {
+      "key": "mll-book",
+      "slug": "mastering-llms-transformers",
+      "repo": "MLLBook",
+      "dir": "MLL-Book/LLM-book",
+      "accent": "#2563eb",
+      "order": 7,
+      "pages": 1034,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "large-language-models",
+        "transformers",
+        "deep-learning",
+        "pytorch"
+      ],
+      "chapters": 72,
+      "attachments": 64,
+      "files": {
+        "cover": "books/mastering-llms-transformers/cover.png",
+        "book": "books/mastering-llms-transformers/book.blueprint.json",
+        "sample": "books/mastering-llms-transformers/sample.pdf",
+        "course": "courses/mastering-llms-transformers/course.blueprint.json",
+        "landing": "landing/mastering-llms-transformers.html",
+        "figures": "courses/mastering-llms-transformers/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-llms-transformers.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/media"
+      },
+      "sizes": {
+        "cover": 1034818,
+        "book": 53708,
+        "sample": 4244069,
+        "course": 1928127,
+        "landing": 36334
+      },
+      "sha256": {
+        "book": "9d5edb23d0ba1b207833fee3f0e85ee9fd0f6a2e7512b376d135bf699af0bdfc",
+        "sample": "2fff6c3fe3993a3c04dae9673370c99a89a24c7ff94d11e05163ca7b0a3efaab",
+        "course": "8c6868532356a232a303fc06cbd8f42fdceba4b0028048e5391ff628ecd8924d",
+        "landing": "6f807543cb3ad1a225c42839ae41a61d176369ff9c89001f3be820e148b1d5a2"
+      }
+    },
+    {
+      "key": "llm-lit",
+      "slug": "transformers-llms-theory-to-systems",
+      "repo": "LLM-Lit-Book",
+      "dir": "MLL-Book/LLM-lit-book",
+      "accent": "#7e22ce",
+      "order": 8,
+      "pages": 666,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "large-language-models",
+        "transformers",
+        "deep-learning",
+        "pytorch"
+      ],
+      "chapters": 48,
+      "attachments": 57,
+      "files": {
+        "cover": "books/transformers-llms-theory-to-systems/cover.png",
+        "book": "books/transformers-llms-theory-to-systems/book.blueprint.json",
+        "sample": "books/transformers-llms-theory-to-systems/sample.pdf",
+        "course": "courses/transformers-llms-theory-to-systems/course.blueprint.json",
+        "landing": "landing/transformers-llms-theory-to-systems.html",
+        "figures": "courses/transformers-llms-theory-to-systems/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/transformers-llms-theory-to-systems/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/transformers-llms-theory-to-systems.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/transformers-llms-theory-to-systems/media"
+      },
+      "sizes": {
+        "cover": 1782705,
+        "book": 48927,
+        "sample": 6911886,
+        "course": 1566824,
+        "landing": 35321
+      },
+      "sha256": {
+        "book": "16a919fd8ef9351d0b59bbd35ace973aa0cc8b3a126a5531340a22d6188f013a",
+        "sample": "e0d16c86c687727b65a876cd786628de2651908358660d68022fc59095ce2fd8",
+        "course": "00403cdeddcd682f2839e8bbf6559749a02c0fe5ecf2394dd63c57d389d11f47",
+        "landing": "dcaa2613d1f3966b9e45614ef6cffc70acc03043fd4de86c4513625f81ddc6da"
+      }
+    },
+    {
+      "key": "llm-pro",
+      "slug": "llm-engineering-69-chapters",
+      "repo": "LLM-Pro-Book",
+      "dir": "MLL-Book/LLM-Pro-Book",
+      "accent": "#ea580c",
+      "order": 9,
+      "pages": 1253,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "large-language-models",
+        "transformers",
+        "rag",
+        "fine-tuning"
+      ],
+      "chapters": 69,
+      "attachments": 138,
+      "files": {
+        "cover": "books/llm-engineering-69-chapters/cover.png",
+        "book": "books/llm-engineering-69-chapters/book.blueprint.json",
+        "sample": "books/llm-engineering-69-chapters/sample.pdf",
+        "course": "courses/llm-engineering-69-chapters/course.blueprint.json",
+        "landing": "landing/llm-engineering-69-chapters.html",
+        "figures": "courses/llm-engineering-69-chapters/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/llm-engineering-69-chapters/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/llm-engineering-69-chapters.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/llm-engineering-69-chapters/media"
+      },
+      "sizes": {
+        "cover": 1119506,
+        "book": 52845,
+        "sample": 9502681,
+        "course": 3434619,
+        "landing": 40377
+      },
+      "sha256": {
+        "book": "ca632ec998809aa32619c0806270dd1b2d4905334ad3d011baf7a45141de74c7",
+        "sample": "92365bc8a8cc2170805860224beed1d4fcc69a1cc93a1c3a7ac6739883f58799",
+        "course": "58915b710ca424a86e80b512c4883e8b3a13800f982d0700e46f630bfe74bd95",
+        "landing": "63d9e12bc9ddbccd093dca3439aefd9a9c24586c03c1418a9dd6b122f2e5f4dc"
+      }
+    },
+    {
+      "key": "opencv",
+      "slug": "opencv-5-ai-vision",
+      "repo": "OpenCV5Book",
+      "dir": "OpenCV/book",
+      "accent": "#059669",
+      "order": 10,
+      "pages": 190,
+      "priceCents": 9900,
+      "listPriceCents": 14900,
+      "tags": [
+        "opencv",
+        "computer-vision",
+        "image-processing",
+        "python"
+      ],
+      "chapters": 20,
+      "attachments": 0,
+      "files": {
+        "cover": "books/opencv-5-ai-vision/cover.png",
+        "book": "books/opencv-5-ai-vision/book.blueprint.json",
+        "sample": "books/opencv-5-ai-vision/sample.pdf",
+        "course": "courses/opencv-5-ai-vision/course.blueprint.json",
+        "landing": "landing/opencv-5-ai-vision.html",
+        "figures": "courses/opencv-5-ai-vision/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/opencv-5-ai-vision/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/opencv-5-ai-vision.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/opencv-5-ai-vision/media"
+      },
+      "sizes": {
+        "cover": 1717311,
+        "book": 26824,
+        "sample": 9062214,
+        "course": 345446,
+        "landing": 26037
+      },
+      "sha256": {
+        "book": "2172843adfcb58f62780ba55ba7cac5eeef178e6cf9d3908cfa2f2deb9554725",
+        "sample": "97852770973be6d7f349ea971f2f1d8845c6c9753977825aadee55d0c843a44e",
+        "course": "335960c808320944750c7b0c573ca3e67acdc3740c66358841a4aac492ec4572",
+        "landing": "425e4e80df139ab520845def9d09db86f960763a8dcc82f000bf6f91a064d329"
+      }
+    },
+    {
+      "key": "python",
+      "slug": "python-3-14-from-zero-to-pro",
+      "repo": "Python-Book",
+      "dir": "Python",
+      "accent": "#2563eb",
+      "order": 11,
+      "pages": 801,
+      "priceCents": 9900,
+      "listPriceCents": 14900,
+      "tags": [
+        "python",
+        "programming",
+        "software-engineering"
+      ],
+      "chapters": 29,
+      "attachments": 742,
+      "files": {
+        "cover": "books/python-3-14-from-zero-to-pro/cover.png",
+        "book": "books/python-3-14-from-zero-to-pro/book.blueprint.json",
+        "sample": "books/python-3-14-from-zero-to-pro/sample.pdf",
+        "course": "courses/python-3-14-from-zero-to-pro/course.blueprint.json",
+        "landing": "landing/python-3-14-from-zero-to-pro.html",
+        "figures": "courses/python-3-14-from-zero-to-pro/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/python-3-14-from-zero-to-pro/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/python-3-14-from-zero-to-pro.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/python-3-14-from-zero-to-pro/media"
+      },
+      "sizes": {
+        "cover": 1529034,
+        "book": 31492,
+        "sample": 12492449,
+        "course": 1605021,
+        "landing": 29188
+      },
+      "sha256": {
+        "book": "b982dfea375b4a14fce2a09ee5b1c07156285c5b5b5b8732fc68bb73377a272c",
+        "sample": "d7f2d345e02d41c9ed8c6d700a95556f80322563bff2c074c662bcaeca41c91b",
+        "course": "368731c0947df6f4b9ce9d44e108c94be8b66fe36f2bd968d2fe924d24ae108c",
+        "landing": "524ce2967eba8145f2ecd57e8966313f392d00cf6941e6d799bd5bafe3957f90"
+      }
+    },
+    {
+      "key": "pytorch",
+      "slug": "pytorch-keras-deep-learning",
+      "repo": "PytorchKeras-Book-glm53",
+      "dir": "Pytorch/book",
+      "accent": "#f97316",
+      "order": 12,
+      "pages": 513,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "pytorch",
+        "keras",
+        "deep-learning",
+        "computer-vision"
+      ],
+      "chapters": 36,
+      "attachments": 0,
+      "files": {
+        "cover": "books/pytorch-keras-deep-learning/cover.png",
+        "book": "books/pytorch-keras-deep-learning/book.blueprint.json",
+        "sample": "books/pytorch-keras-deep-learning/sample.pdf",
+        "course": "courses/pytorch-keras-deep-learning/course.blueprint.json",
+        "landing": "landing/pytorch-keras-deep-learning.html",
+        "figures": "courses/pytorch-keras-deep-learning/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/pytorch-keras-deep-learning/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/pytorch-keras-deep-learning.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/pytorch-keras-deep-learning/media"
+      },
+      "sizes": {
+        "cover": 1606677,
+        "book": 38931,
+        "sample": 12259000,
+        "course": 1006455,
+        "landing": 27399
+      },
+      "sha256": {
+        "book": "9a440b78a5107ff5e047974ead6db358b19550db8df3a990ded63ca116bd80f7",
+        "sample": "7ae39994e2d52f878ad4651a2eb488f44b73e64db4bb63f45b75e37ce60823a6",
+        "course": "d78ecaa5ace3b512159a04b5aeced407bebf49f90d71da648fd7a8e2f98f7f9f",
+        "landing": "bb51c17bde3c117aa9e9da429d9ef3917dbab428bdf11b90b12a1e3c5fb9068f"
+      }
+    },
+    {
+      "key": "sklearn",
+      "slug": "mastering-scikit-learn-1-9",
+      "repo": "SKLearn-Book",
+      "dir": "Sci-kit-Learn",
+      "accent": "#0d9488",
+      "order": 13,
+      "pages": 1308,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "scikit-learn",
+        "machine-learning",
+        "python",
+        "data-science"
+      ],
+      "chapters": 104,
+      "attachments": 0,
+      "files": {
+        "cover": "books/mastering-scikit-learn-1-9/cover.png",
+        "book": "books/mastering-scikit-learn-1-9/book.blueprint.json",
+        "sample": "books/mastering-scikit-learn-1-9/sample.pdf",
+        "course": "courses/mastering-scikit-learn-1-9/course.blueprint.json",
+        "landing": "landing/mastering-scikit-learn-1-9.html",
+        "figures": "courses/mastering-scikit-learn-1-9/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-scikit-learn-1-9/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-scikit-learn-1-9.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-scikit-learn-1-9/media"
+      },
+      "sizes": {
+        "cover": 1595001,
+        "book": 66848,
+        "sample": 13903970,
+        "course": 2455565,
+        "landing": 38155
+      },
+      "sha256": {
+        "book": "2aa672fcd67fe3464f8faeffe02a80572001544033ccc4528f95e9c2643aae64",
+        "sample": "de3c67bdd2d182f7768c31e6b8283313b76e9e57a9ea54b5384129ac7cca456f",
+        "course": "f17f380c586ed7e671ee7e0041cb8c7b8a059eee95450c0053593ee7c089dc74",
+        "landing": "85cffa54b9f2cec64b29c5dc964a0bb8d51a14179d4e738fcbb9c1930d040368"
+      }
+    },
+    {
+      "key": "tensorflow",
+      "slug": "tensorflow-professional-ar",
+      "repo": "TensorFlow-Book",
+      "dir": "TensorFlow",
+      "accent": "#f59e0b",
+      "order": 14,
+      "pages": 318,
+      "priceCents": 9900,
+      "listPriceCents": 14900,
+      "tags": [
+        "tensorflow",
+        "deep-learning",
+        "keras",
+        "mlops"
+      ],
+      "chapters": 31,
+      "attachments": 0,
+      "files": {
+        "cover": "books/tensorflow-professional-ar/cover.png",
+        "book": "books/tensorflow-professional-ar/book.blueprint.json",
+        "sample": "books/tensorflow-professional-ar/sample.pdf",
+        "course": "courses/tensorflow-professional-ar/course.blueprint.json",
+        "landing": "landing/tensorflow-professional-ar.html",
+        "figures": "courses/tensorflow-professional-ar/media"
+      },
+      "urls": {
+        "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/cover.png",
+        "book": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/book.blueprint.json",
+        "sample": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/sample.pdf",
+        "course": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/tensorflow-professional-ar/course.blueprint.json",
+        "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/tensorflow-professional-ar.html",
+        "figures": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/tensorflow-professional-ar/media"
+      },
+      "sizes": {
+        "cover": 1407676,
+        "book": 29574,
+        "sample": 5825920,
+        "course": 601455,
+        "landing": 26976
+      },
+      "sha256": {
+        "book": "b861d20995dce179fd31f863b14188783f74688d3c7b04249797698670578555",
+        "sample": "47da21809d86da6fdb74b53b9ea05891dab9b5e515404b907657baf53b74178c",
+        "course": "58ab10d6271038481df97868d610fb58c1f000a17f29d5bfb5f2e8d9a850df24",
+        "landing": "e2d816656fde8a33c7ff08a86b3534920097d4357542ff0b07a2971f42696a0a"
+      }
+    }
+  ]
+}

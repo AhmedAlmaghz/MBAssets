@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">التقارب الموحّد<tspan direction="ltr" unicode-bidi="isolate">: </tspan>أنبوب<tspan direction="ltr" unicode-bidi="isolate"> ε </tspan>حول النهاية</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770"><tspan direction="ltr" unicode-bidi="isolate">Uniform convergence: the ε-tube</tspan></text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <line x1="60" y1="200" x2="620" y2="200" stroke="#5a6770" stroke-width="1"/>
+  <line x1="60" y1="60" x2="60" y2="330" stroke="#5a6770" stroke-width="1"/>
+  <text x="66" y="72" font-size="11" fill="#5a6770">f(x)</text>
+  <path d="M 60 250 C 180 150 260 150 340 200 C 420 250 520 200 620 170" fill="none" stroke="#1f4e6b" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M 60 232 C 180 132 260 132 340 182 C 420 232 520 182 620 152" fill="none" stroke="#5a6770" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <path d="M 60 268 C 180 168 260 168 340 218 C 420 268 520 218 620 188" fill="none" stroke="#5a6770" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <path d="M 60 262 C 190 200 250 176 330 214 C 410 252 520 196 620 178" fill="none" stroke="#7a9e3c" stroke-width="1.6"/>
+  <text x="600" y="196" text-anchor="end" font-size="11" fill="#7a9e3c">S_N(x)</text>
+  <text x="600" y="162" text-anchor="end" font-size="11" fill="#1f4e6b">f(x)</text>
+  <line x1="200" y1="168" x2="200" y2="216" stroke="#b5473a" stroke-width="1.4"/>
+  <text x="196" y="192" text-anchor="end" font-size="11" fill="#b5473a"><tspan direction="ltr" unicode-bidi="isolate">ε</tspan></text>
+  <text x="330" y="300" text-anchor="middle" font-size="11.5" fill="#1c2b36">كلّ<tspan direction="ltr" unicode-bidi="isolate"> S<tspan dy="3.45" font-size="70%">N</tspan><tspan dy="-3.45" font-size="1">&#8203;</tspan> </tspan>لـ<tspan direction="ltr" unicode-bidi="isolate"> N≥ N<tspan dy="3.45" font-size="70%">ε</tspan><tspan dy="-3.45" font-size="1">&#8203;</tspan> </tspan>يقع داخل الأنبوب على كامل المجال</text>
+  <text x="330" y="322" text-anchor="middle" font-size="11.5" fill="#5a6770">معايير<tspan direction="ltr" unicode-bidi="isolate"> M </tspan>لفايرشتراس<tspan direction="ltr" unicode-bidi="isolate">: |u<tspan dy="3.45" font-size="70%">n</tspan><tspan dy="-3.45" font-size="1">&#8203;</tspan>(x)| ≤ M<tspan dy="3.45" font-size="70%">n</tspan><tspan dy="-3.45" font-size="1">&#8203;</tspan> </tspan>و<tspan direction="ltr" unicode-bidi="isolate"> Σ M<tspan dy="3.45" font-size="70%">n</tspan><tspan dy="-3.45" font-size="1">&#8203;</tspan> &lt; ∞</tspan></text>
+  <text x="330" y="348" font-size="10.5" fill="#5a6770" direction="rtl">الموحّد يحفظ الاستمرارية والتكامل والتفاضل — والنقطي لا يحفظها.</text>
+</svg>

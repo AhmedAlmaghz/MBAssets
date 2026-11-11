@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="280" fill="#fafaf7"/>
+
+  <!-- panel 1: bowl H>0 -->
+  <g>
+    <path d="M 50 100 Q 135 260 220 100" fill="none" stroke="#0f766e" stroke-width="2.4"/>
+    <circle cx="135" cy="212" r="5" fill="#1d4ed8"/>
+    <text x="135" y="45" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">حوض: H ≻ 0</text>
+    <text x="135" y="272" font-size="12.5" fill="#64748b" text-anchor="middle">كل الاتجاهات تصعد — صغرى محلية</text>
+  </g>
+
+  <!-- panel 2: saddle -->
+  <g>
+    <path d="M 285 100 C 315 170, 340 200, 365 190 C 390 200, 415 170, 445 100" fill="none" stroke="#b45309" stroke-width="2.4"/>
+    <circle cx="365" cy="190" r="5" fill="#1d4ed8"/>
+    <text x="365" y="45" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">سرج: إشارات مختلطة</text>
+    <text x="365" y="272" font-size="12.5" fill="#64748b" text-anchor="middle">صعود باتجاه ونزول بآخر — لا صغرى</text>
+  </g>
+
+  <!-- panel 3: peak -->
+  <g>
+    <path d="M 510 100 Q 580 20 650 100" fill="none" stroke="#9d174d" stroke-width="2.4" transform="translate(-35,0)"/>
+    <circle cx="545" cy="68" r="5" fill="#1d4ed8"/>
+    <text x="545" y="45" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">قمة: H ≺ 0</text>
+    <text x="545" y="272" font-size="12.5" fill="#64748b" text-anchor="middle">كل الاتجاهات تنزل — كبرى محلية</text>
+  </g>
+</svg>

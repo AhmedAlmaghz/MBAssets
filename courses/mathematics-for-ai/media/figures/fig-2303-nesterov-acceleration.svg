@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <defs>
+    <marker id="c" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <path d="M40,330 C240,330 300,80 340,75 C380,80 440,330 640,330" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="230" cy="250" r="5" fill="#222"/>
+  <text x="215" y="270" font-family="sans-serif" font-size="12" fill="#222" text-anchor="middle">x_k</text>
+  <path d="M230,250 L340,190" fill="none" stroke="#c00" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#c)"/>
+  <circle cx="340" cy="190" r="5" fill="#c00"/>
+  <text x="360" y="180" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">y_k (lookahead)</text>
+  <path d="M340,190 L300,140" fill="none" stroke="#2da44e" stroke-width="2.5" marker-end="url(#c)"/>
+  <text x="310" y="130" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">grad f(y_k)</text>
+  <text x="340" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">y_k = x_k + beta (x_k - x_{k-1});  x_{k+1} = y_k - eta grad f(y_k)</text>
+</svg>

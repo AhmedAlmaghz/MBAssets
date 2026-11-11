@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,70 C140,150 240,220 400,270 C480,288 560,300 640,306" fill="none" stroke="#c00" stroke-width="2.5"/>
+  <path d="M40,70 C120,110 200,150 300,190 C420,235 520,270 640,300" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="450" y="290" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">convex: O(1/k), slow</text>
+  <text x="470" y="215" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">strongly convex: linear</text>
+  <line x1="40" y1="70" x2="640" y2="70" stroke="#888" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="90" y="62" font-family="sans-serif" font-size="12" fill="#888" text-anchor="middle">error</text>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">iterations k</text>
+</svg>

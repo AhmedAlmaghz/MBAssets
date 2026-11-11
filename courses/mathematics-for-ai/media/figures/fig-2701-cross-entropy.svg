@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M40,300 C160,290 240,110 340,100 C440,110 520,290 640,300" fill="none" stroke="#c00" stroke-width="2.5"/>
+  <text x="340" y="85" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">H(p,q) = cross entropy</text>
+  <path d="M40,310 C160,305 240,200 340,190 C440,200 520,305 640,310" fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <text x="340" y="180" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">H(p) = entropy of truth (floor)</text>
+  <path d="M340,100 L340,190" fill="none" stroke="#2da44e" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="390" y="150" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">D_KL(p||q)</text>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">minimising H(p,q) = minimising D_KL since H(p) is fixed</text>
+</svg>

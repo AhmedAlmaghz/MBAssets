@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <defs>
+  <marker id="b" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+  </marker>
+</defs>
+<rect width="680" height="360" fill="#fbfbfd"/>
+  <ellipse cx="340" cy="190" rx="190" ry="120" fill="#e8f4ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="340" y="85" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">feasible / non-smooth part g</text>
+  <circle cx="340" cy="190" r="6" fill="#222"/>
+  <text x="340" y="215" font-family="sans-serif" font-size="12" fill="#222" text-anchor="middle">x_k</text>
+  <path d="M340,190 L270,150" fill="none" stroke="#c00" stroke-width="2.5" marker-end="url(#b)"/>
+  <text x="250" y="135" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">grad f step</text>
+  <circle cx="270" cy="150" r="5" fill="#c00"/>
+  <path d="M270,150 L235,175" fill="none" stroke="#2da44e" stroke-width="2.5" marker-end="url(#b)"/>
+  <circle cx="235" cy="176" r="5" fill="#2da44e"/>
+  <text x="165" y="205" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">prox</text>
+  <text x="340" y="340" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">x_{k+1} = prox_{eta g}( x_k - eta grad f(x_k) )</text>
+</svg>

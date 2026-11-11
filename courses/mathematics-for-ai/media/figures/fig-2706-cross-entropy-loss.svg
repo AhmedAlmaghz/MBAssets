@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="90" y="70" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">loss</text>
+  <text x="600" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">z (logit)</text>
+  <path d="M40,280 C200,270 300,90 400,60 C500,40 560,40 600,40" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="420" y="80" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">CE when y = 1 (correct)</text>
+  <path d="M40,40 C140,45 240,120 340,200 C440,270 540,300 600,305" fill="none" stroke="#c00" stroke-width="2.5"/>
+  <text x="450" y="290" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">CE when y = 0 (wrong)</text>
+  <circle cx="340" cy="160" r="5" fill="#222"/>
+  <line x1="340" y1="160" x2="340" y2="320" stroke="#888" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="340" y="150" font-family="sans-serif" font-size="11" fill="#222" text-anchor="middle">loss = ln 2 at z = 0</text>
+  <text x="340" y="355" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">gradient = prediction minus label: smooth and bounded</text>
+</svg>

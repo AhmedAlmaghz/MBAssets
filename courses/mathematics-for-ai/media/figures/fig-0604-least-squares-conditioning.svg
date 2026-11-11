@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" width="780" height="450">
+  <defs>
+    <marker id="lsA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#1b3a8a"/>
+    </marker>
+    <marker id="lsB" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#b03030"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="450" fill="#ffffff"/>
+
+  <text x="390" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Least squares:  &#954;&#8322;(AᵀA) = &#954;&#8322;(A)²  &#8658;  normal equations lose twice the digits</text>
+  <text x="390" y="54" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">تشكيل المعادلات السوية يربّع رقم الحالة: من فقدان 4 خانات إلى فقدان 8</text>
+
+  <!-- ===== Left : geometry ===== -->
+  <line x1="60" y1="330" x2="420" y2="330" stroke="#cccccc" stroke-width="1"/>
+  <line x1="60" y1="330" x2="60" y2="110" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- range(A) line -->
+  <line x1="60" y1="330" x2="400" y2="200" stroke="#1b3a8a" stroke-width="2.4"/>
+  <text x="300" y="196" font-size="14" fill="#1b3a8a" font-family="Times New Roman, serif">range(A)</text>
+
+  <!-- b -->
+  <line x1="60" y1="330" x2="290" y2="130" stroke="#111111" stroke-width="3" marker-end="url(#lsA)"/>
+  <text x="300" y="128" font-size="16" fill="#111111" font-family="Times New Roman, serif">b</text>
+
+  <!-- A x  (projection) -->
+  <line x1="60" y1="330" x2="322" y2="243" stroke="#b03030" stroke-width="3" marker-end="url(#lsB)"/>
+  <text x="332" y="252" font-size="16" fill="#b03030" font-family="Times New Roman, serif">A x</text>
+
+  <!-- residual -->
+  <line x1="322" y1="243" x2="290" y2="130" stroke="#2f7a4a" stroke-width="2.6" marker-end="url(#lsA)"/>
+  <text x="290" y="180" font-size="15" fill="#2f7a4a" font-family="Times New Roman, serif">r = b - A x</text>
+
+  <!-- right-angle marker at Ax -->
+  <path d="M322,243 L316,224 L297,231" fill="none" stroke="#2f7a4a" stroke-width="1.8"/>
+
+  <!-- theta arc -->
+  <path d="M110,330 L110,314 M130,318" fill="none" stroke="#777777" stroke-width="1.4"/>
+  <text x="96" y="308" font-size="14" fill="#777777" font-family="Times New Roman, serif">&#952;</text>
+
+  <text x="60" y="360" font-size="14" fill="#111111" font-family="Times New Roman, serif">r &#8869; range(A) ;  ||r||&#8322; = ||b||&#8322; sin &#952;</text>
+  <text x="60" y="384" font-size="14" fill="#111111" font-family="Times New Roman, serif">residual small &#8658; &#952; small &#8658; &#954;² term harmless</text>
+  <text x="60" y="408" font-size="13" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">&#1605;&#1604;&#1585;&#1576;&#1593;&#1575;&#1578; &#1575;&#1604;&#1589;&#1594;&#1585;&#1609; &#1578;&#1581;&#1587;&#1575;&#1587;&#1575;&#1587; &#1605;&#1593; &#954; &#1608;&#1600; &#954;&#178; &#1605;&#1593;&#1575;&#1611;</text>
+  <text x="60" y="430" font-size="13" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">&#1608;&#1604;&#1603;&#1606; &#1605;&#1593;&#1575;&#1605;&#1604; &#954;&#178; &#1605;&#1590;&#1585;&#1608;&#1576; &#1601;&#1610; ||r|| / (||A|| ||x||)</text>
+
+  <!-- ===== Right : bars kappa vs kappa^2 ===== -->
+  <text x="620" y="92" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">condition numbers  (log scale)</text>
+  <line x1="470" y1="104" x2="760" y2="104" stroke="#999999" stroke-width="1"/>
+
+  <text x="470" y="140" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954;&#8322;(A) = 10&#8308;</text>
+  <rect x="620" y="126" width="120" height="20" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="1.6"/>
+  <text x="626" y="142" font-size="13" fill="#111111" font-family="Times New Roman, serif">4 digits lost</text>
+
+  <text x="470" y="182" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954;&#8322;(AᵀA) = 10&#8311;</text>
+  <rect x="620" y="168" width="140" height="20" fill="#b03030" fill-opacity="0.5" stroke="#7a1f1f" stroke-width="1.6"/>
+  <text x="626" y="184" font-size="13" fill="#7a1f1f" font-family="Times New Roman, serif">8 digits lost</text>
+
+  <text x="470" y="224" font-size="14" fill="#b03030" font-family="Times New Roman, serif">fp32 limit  &#8776; 7 digits</text>
+  <rect x="620" y="210" width="140" height="20" fill="#ffffff" stroke="#b03030" stroke-width="1.6" stroke-dasharray="5,3"/>
+  <text x="626" y="226" font-size="13" fill="#b03030" font-family="Times New Roman, serif">&#1601;&#1610; fp32: &#1604;&#1575; &#1588;&#1610;&#1569; &#1610;&#1576;&#1602;&#1609;</text>
+
+  <line x1="470" y1="248" x2="760" y2="248" stroke="#999999" stroke-width="1"/>
+
+  <text x="470" y="276" font-size="14" fill="#111111" font-family="Times New Roman, serif">three routes</text>
+  <rect x="470" y="288" width="290" height="34" fill="#eef3ff" stroke="#1b3a8a" stroke-width="1.6"/>
+  <text x="478" y="310" font-size="14" fill="#111111" font-family="Times New Roman, serif">normal equations  AᵀA x = Aᵀb  &#1600; cost  mn&#178;   &#954;&#178;</text>
+  <rect x="470" y="328" width="290" height="34" fill="#eaf5ec" stroke="#2f7a4a" stroke-width="1.6"/>
+  <text x="478" y="350" font-size="14" fill="#111111" font-family="Times New Roman, serif">Householder QR    R x = Qᵀb   &#1600; cost  2mn&#178;  &#954;</text>
+  <rect x="470" y="368" width="290" height="34" fill="#eaf5ec" stroke="#2f7a4a" stroke-width="1.6"/>
+  <text x="478" y="390" font-size="14" fill="#111111" font-family="Times New Roman, serif">SVD / truncated   x = V &#931;&#8314; Uᵀb  &#1600; rank-revealing</text>
+
+  <text x="615" y="428" text-anchor="middle" font-size="13" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">QR و SVD أغلى قليلاً لكنهما مستقرّان</text>
+</svg>

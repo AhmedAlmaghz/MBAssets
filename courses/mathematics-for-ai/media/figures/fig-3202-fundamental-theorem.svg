@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Fundamental theorem of PAC learning: finite VC dim  &lt;=&gt;  PAC learnable</text>
+
+  <!-- left box: learnable -->
+  <rect x="50" y="90" width="240" height="120" fill="#e8f5e8" stroke="#2a7a2a" stroke-width="2"/>
+  <text x="170" y="124" font-family="sans-serif" font-size="13" fill="#2a7a2a" text-anchor="middle">d_VC(H) finite</text>
+  <text x="170" y="148" font-family="sans-serif" font-size="11" fill="#2a7a2a" text-anchor="middle">ERM is a successful</text>
+  <text x="170" y="166" font-family="sans-serif" font-size="11" fill="#2a7a2a" text-anchor="middle">PAC learner</text>
+  <text x="170" y="192" font-family="sans-serif" font-size="11" fill="#2a7a2a" text-anchor="middle">n = O( (d + ln(1/delta)) / eps )</text>
+
+  <!-- right box: not learnable -->
+  <rect x="390" y="90" width="240" height="120" fill="#ffeaea" stroke="#c00" stroke-width="2"/>
+  <text x="510" y="124" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">d_VC(H) infinite</text>
+  <text x="510" y="148" font-family="sans-serif" font-size="11" fill="#c00" text-anchor="middle">no algorithm can PAC</text>
+  <text x="510" y="166" font-family="sans-serif" font-size="11" fill="#c00" text-anchor="middle">learn H (distribution-free)</text>
+  <text x="510" y="192" font-family="sans-serif" font-size="11" fill="#c00" text-anchor="middle">no free lunch applies</text>
+
+  <!-- arrows with labels -->
+  <line x1="292" y1="140" x2="386" y2="140" stroke="#1f6feb" stroke-width="2"/>
+  <polygon points="386,140 378,135 378,145" fill="#1f6feb"/>
+  <line x1="386" y1="176" x2="292" y2="176" stroke="#1f6feb" stroke-width="2"/>
+  <polygon points="292,176 300,171 300,181" fill="#1f6feb"/>
+  <text x="339" y="128" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">iff</text>
+
+  <!-- bottom: examples -->
+  <rect x="50" y="240" width="580" height="110" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="340" y="266" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">consequences</text>
+  <text x="70" y="290" font-family="sans-serif" font-size="11" fill="#333">half-spaces in R^d :  d_VC = d+1  =&gt;  learnable with n ~ d / eps</text>
+  <text x="70" y="310" font-family="sans-serif" font-size="11" fill="#333">convex polygons :  d_VC = infinity  =&gt;  not PAC learnable</text>
+  <text x="70" y="330" font-family="sans-serif" font-size="11" fill="#333">1-NN :  d_VC = infinity  -- yet useful in practice: PAC is sufficient, not necessary</text>
+  <text x="70" y="348" font-family="sans-serif" font-size="10" fill="#555">the theorem characterises learnability, it does not rank practical algorithms</text>
+</svg>

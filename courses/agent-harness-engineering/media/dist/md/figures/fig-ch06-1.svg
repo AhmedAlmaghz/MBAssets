@@ -1,0 +1,37 @@
+<svg class="dg" viewBox="41.0 119.5 806.5 301.5" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="440" rx="16" fill="#FFFFFF"/>
+<rect x="648" y="168" width="152" height="84" rx="12" fill="#E6F4F1" stroke="#0E7C6B" stroke-width="1.4"/>
+<text x="724.0" y="206.1" font-size="14.000000000000002" font-weight="600" fill="#0E7C6B" text-anchor="middle" direction="rtl">تحليل البلاغ</text>
+<text x="724.0" y="221.5" font-size="10.64" fill="#0E7C6B" fill-opacity="0.78" text-anchor="middle" direction="rtl">plan</text>
+<rect x="472" y="168" width="152" height="84" rx="12" fill="#EEF0FE" stroke="#4338CA" stroke-width="1.4"/>
+<text x="548.0" y="206.1" font-size="14.000000000000002" font-weight="600" fill="#4338CA" text-anchor="middle" direction="rtl">كتابة الرقعة</text>
+<text x="548.0" y="221.5" font-size="10.64" fill="#4338CA" fill-opacity="0.78" text-anchor="middle" direction="rtl">write</text>
+<rect x="296" y="168" width="152" height="84" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="372.0" y="206.1" font-size="14.000000000000002" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">تشغيل الاختبارات</text>
+<text x="372.0" y="221.5" font-size="10.64" fill="#B45309" fill-opacity="0.78" text-anchor="middle" direction="rtl">test</text>
+<rect x="120" y="168" width="152" height="84" rx="12" fill="#F3EEFE" stroke="#6D28D9" stroke-width="1.4"/>
+<text x="196.0" y="206.1" font-size="14.000000000000002" font-weight="600" fill="#6D28D9" text-anchor="middle" direction="rtl">مراجعة الجودة</text>
+<text x="196.0" y="221.5" font-size="10.64" fill="#6D28D9" fill-opacity="0.78" text-anchor="middle" direction="rtl">review</text>
+<circle cx="826" cy="210" r="11" fill="#334155"/>
+<text x="826" y="246" font-size="10.080000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">START</text>
+<path d="M 812 210 L 800 210" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 648 210 L 624 210" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 472 210 L 448 210" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 296 210 L 272 210" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 120 210 L 74 210" fill="none" stroke="#0E7C6B" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="60" cy="210" r="11" fill="#0E7C6B"/>
+<text x="60" y="246" font-size="10.080000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">END</text>
+<path d="M 372 252 L 372 252 L 372 300" fill="none" stroke="#BE123C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="372" y1="300" x2="548" y2="300" stroke="#BE123C" stroke-width="1.6"/>
+<path d="M 548 300 L 548 258" fill="none" stroke="#BE123C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="368" y="314" width="190" height="24" rx="12.0" fill="#FDECF1" stroke="#F3B7C6"/>
+<text x="463.0" y="330.0" font-size="11.200000000000001" fill="#BE123C" font-weight="600" text-anchor="middle" direction="rtl">فشل ← تغذية راجعة</text>
+<rect x="472" y="128" width="152" height="24" rx="12.0" fill="#EEF1F5" stroke="#C3CCD8"/>
+<text x="548.0" y="144.0" font-size="11.200000000000001" fill="#334155" font-weight="600" text-anchor="middle" direction="rtl">max_visits = 3</text>
+<path d="M 548 154 L 548 166" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="430" y="384" font-size="13.440000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">الحافة الشرطية هي التي تقرر المسار — لا النموذج وحده</text>
+<text x="430" y="410" font-size="11.760000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">كل عقدة محصورة بسقف زيارات ولقطة حالة ذرية قبل الانتقال</text>
+</svg>

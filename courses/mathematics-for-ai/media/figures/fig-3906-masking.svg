@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Attention masking: padding &amp; causal</text>
+
+  <!-- causal mask matrix -->
+  <text x="90" y="62" text-anchor="middle" font-size="13" fill="#1a2238" font-weight="600">Causal mask</text>
+  <g>
+    <rect x="50" y="75" width="180" height="180" fill="none" stroke="#5b6b8c" stroke-width="1"/>
+    <rect x="50" y="75" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="95" y="120" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="140" y="165" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="95" y="75" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="140" y="120" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="185" y="75" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="185" y="120" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <rect x="185" y="165" width="45" height="45" fill="#2f9e44" fill-opacity="0.55"/>
+    <!-- upper triangle blocked -->
+    <g fill="#e03131" fill-opacity="0.25">
+      <rect x="95" y="75" width="45" height="45"/>
+    </g>
+    <text x="140" y="270" text-anchor="middle" font-size="11" fill="#555">token t attends only to <= t</text>
+  </g>
+
+  <!-- padding mask -->
+  <text x="470" y="62" text-anchor="middle" font-size="13" fill="#1a2238" font-weight="600">Padding mask</text>
+  <g>
+    <rect x="400" y="100" width="40" height="40" fill="#2f9e44" fill-opacity="0.55" stroke="#5b6b8c"/>
+    <rect x="440" y="100" width="40" height="40" fill="#2f9e44" fill-opacity="0.55" stroke="#5b6b8c"/>
+    <rect x="480" y="100" width="40" height="40" fill="#e03131" fill-opacity="0.3" stroke="#5b6b8c"/>
+    <rect x="520" y="100" width="40" height="40" fill="#e03131" fill-opacity="0.3" stroke="#5b6b8c"/>
+  </g>
+  <text x="470" y="180" text-anchor="middle" font-size="11" fill="#555">red = PAD tokens excluded</text>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">Mask = -inf added before softmax so PAD / future tokens get zero weight.</text>
+</svg>

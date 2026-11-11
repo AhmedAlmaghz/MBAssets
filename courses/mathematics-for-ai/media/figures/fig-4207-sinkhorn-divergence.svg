@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Sinkhorn divergence (debiased)</text>
+
+  <!-- p -->
+  <circle cx="180" cy="200" r="60" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2" opacity="0.6"/>
+  <text x="180" y="205" text-anchor="middle" font-size="15" fill="#1a2238">p</text>
+
+  <!-- q -->
+  <circle cx="500" cy="200" r="60" fill="#ffd6e7" stroke="#c2255c" stroke-width="2" opacity="0.6"/>
+  <text x="500" y="205" text-anchor="middle" font-size="15" fill="#1a2238">q</text>
+
+  <!-- labels between -->
+  <text x="300" y="130" text-anchor="middle" font-size="12" fill="#3b5bdb">W_e(p,p)</text>
+  <text x="340" y="200" text-anchor="middle" font-size="13" fill="#f08c00">W_e(p,q)</text>
+  <text x="390" y="265" text-anchor="middle" font-size="12" fill="#c2255c">W_e(q,q)</text>
+
+  <!-- connecting lines -->
+  <path d="M240 200 Q340 120 440 200" fill="none" stroke="#f08c00" stroke-width="2"/>
+  <path d="M180 145 Q120 110 250 195" fill="none" stroke="#3b5bdb" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M560 145 Q600 110 430 195" fill="none" stroke="#c2255c" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <text x="340" y="310" text-anchor="middle" font-size="12.5" fill="#1a2238">S_e(p,q) = W_e(p,q) − 1/2 W_e(p,p) − 1/2 W_e(q,q)</text>
+  <text x="340" y="345" text-anchor="middle" font-size="12" fill="#555">Subtract self-distances → debiased, fast, valid OT metric.</text>
+</svg>

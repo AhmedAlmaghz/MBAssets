@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Q-learning (temporal-difference)</text>
+
+  <!-- nodes -->
+  <circle cx="160" cy="170" r="30" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="160" y="166" text-anchor="middle" font-size="12" fill="#1a2238">state s</text>
+  <text x="160" y="184" text-anchor="middle" font-size="10" fill="#555">action a</text>
+
+  <circle cx="470" cy="170" r="30" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2.5"/>
+  <text x="470" y="166" text-anchor="middle" font-size="12" fill="#1a2238">state s'</text>
+  <text x="470" y="184" text-anchor="middle" font-size="10" fill="#555">next</text>
+
+  <!-- TD arrow with reward -->
+  <line x1="192" y1="170" x2="438" y2="170" stroke="#f08c00" stroke-width="2.5" marker-end="url(#c2)"/>
+  <text x="315" y="150" text-anchor="middle" font-size="12" fill="#f08c00">reward r</text>
+
+  <!-- bootstrap -->
+  <path d="M470 200 Q470 250 315 262 Q160 272 130 205" fill="none" stroke="#2f9e44" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#c3)"/>
+  <text x="315" y="285" text-anchor="middle" font-size="11.5" fill="#2f9e44">bootstrap: γ max_{a'} Q(s', a')</text>
+
+  <rect x="120" y="320" width="440" height="44" rx="8" fill="#fff3bf" stroke="#f08c00" stroke-width="1.5"/>
+  <text x="340" y="338" text-anchor="middle" font-size="12.5" fill="#1a2238">Q(s,a) ← Q(s,a) + α[ r + γ max Q(s',a') − Q(s,a) ]</text>
+  <text x="340" y="357" text-anchor="middle" font-size="11" fill="#555">Model-free, off-policy TD control.</text>
+  <defs>
+    <marker id="c2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#f08c00"/></marker>
+    <marker id="c3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="50" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="50" y1="40" x2="50" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M60,310 C120,300 150,250 170,180 C200,90 240,60 300,50 L640,46" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="170" cy="180" r="4" fill="#222"/>
+  <text x="200" y="150" font-family="sans-serif" font-size="14" fill="#222" text-anchor="middle">2 e^{&#8722;2 n t&#178; / (b&#8722;a)&#178;}</text>
+  <text x="120" y="305" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">n=1</text>
+  <text x="640" y="340" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">n (sample size)</text>
+  <text x="70" y="60" font-family="sans-serif" font-size="13" fill="#222" text-anchor="start">P(|X&#772; &#8722; &#956;| &#8805; t)</text>
+</svg>

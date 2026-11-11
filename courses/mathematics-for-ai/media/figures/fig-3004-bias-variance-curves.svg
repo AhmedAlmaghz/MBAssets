@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Bias-variance curves against model capacity</text>
+
+  <line x1="70" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#222" stroke-width="2"/>
+  <text x="355" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">model capacity (degree, depth, number of features, 1/lambda)</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">error</text>
+
+  <!-- bias^2 decreasing -->
+  <path d="M90,120 C200,150 300,230 620,300" fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <text x="120" y="112" font-family="sans-serif" font-size="12" fill="#1f6feb">bias^2</text>
+
+  <!-- variance increasing -->
+  <path d="M90,300 C200,280 300,180 620,80" fill="none" stroke="#c00" stroke-width="2.6"/>
+  <text x="560" y="72" font-family="sans-serif" font-size="12" fill="#c00">variance</text>
+
+  <!-- irreducible noise -->
+  <line x1="90" y1="290" x2="620" y2="290" stroke="#888" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="200" y="284" font-family="sans-serif" font-size="11" fill="#666">sigma^2 (irreducible)</text>
+
+  <!-- total risk U -->
+  <path d="M110,290 C220,240 300,222 380,216 C470,212 560,240 620,290"
+        fill="none" stroke="#2a7a2a" stroke-width="3"/>
+  <text x="360" y="205" font-family="sans-serif" font-size="12" fill="#2a7a2a">total risk</text>
+
+  <!-- training error monotone down -->
+  <path d="M90,300 C200,270 300,190 620,60" fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="500" y="55" font-family="sans-serif" font-size="11" fill="#b8860b">training error</text>
+
+  <!-- optimum -->
+  <circle cx="380" cy="216" r="6" fill="#2a7a2a"/>
+  <line x1="380" y1="216" x2="380" y2="320" stroke="#2a7a2a" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="352" y="338" font-family="sans-serif" font-size="11" fill="#2a7a2a">sweet spot</text>
+
+  <!-- underfit / overfit zones -->
+  <text x="130" y="330" font-family="sans-serif" font-size="11" fill="#1f6feb">underfitting</text>
+  <text x="540" y="330" font-family="sans-serif" font-size="11" fill="#c00">overfitting</text>
+</svg>

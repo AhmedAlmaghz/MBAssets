@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <!-- manifold surface -->
+  <path d="M60,300 C160,250 220,180 300,150 C380,120 470,140 620,90"
+        fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <path d="M70,320 C170,272 230,205 310,175 C390,145 480,165 630,115"
+        fill="none" stroke="#9dc4f5" stroke-width="2"/>
+  <path d="M50,280 C150,230 210,158 290,128 C370,98 460,118 610,68"
+        fill="none" stroke="#9dc4f5" stroke-width="2"/>
+
+  <!-- coordinate curves -->
+  <path d="M120,286 C140,240 170,205 205,178" fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="4,3"/>
+  <path d="M300,268 C300,225 305,190 315,160" fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="4,3"/>
+  <path d="M470,232 C455,195 440,170 430,148" fill="none" stroke="#555" stroke-width="1.4" stroke-dasharray="4,3"/>
+
+  <!-- point theta -->
+  <circle cx="205" cy="178" r="6" fill="#c00"/>
+  <text x="213" y="170" font-family="sans-serif" font-size="13" fill="#c00">p_theta</text>
+
+  <!-- tangent plane -->
+  <path d="M140,196 L275,150 L300,205 L165,250 Z" fill="#ffe9b8" fill-opacity="0.55" stroke="#b8860b" stroke-width="1.6"/>
+  <text x="185" y="238" font-family="sans-serif" font-size="12" fill="#8a5a00">T_theta M  (tangent space)</text>
+
+  <!-- tangent vector -->
+  <line x1="205" y1="178" x2="255" y2="128" stroke="#2a7a2a" stroke-width="2.4"/>
+  <polygon points="255,128 246,132 250,141" fill="#2a7a2a"/>
+  <text x="258" y="120" font-family="sans-serif" font-size="12" fill="#2a7a2a">score  d_i l = d_i log p</text>
+
+  <!-- axis labels -->
+  <text x="40" y="345" font-family="sans-serif" font-size="13" fill="#333">M = { p_theta : theta in Theta }</text>
+  <text x="40" y="365" font-family="sans-serif" font-size="12" fill="#555">A family of distributions = a differentiable manifold</text>
+
+  <!-- box: density -->
+  <g transform="translate(520,240)">
+    <rect x="0" y="0" width="140" height="90" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+    <text x="70" y="20" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">p_theta (x)</text>
+    <path d="M10,80 Q45,20 70,45 T130,80" fill="none" stroke="#1f6feb" stroke-width="2"/>
+    <line x1="10" y1="80" x2="130" y2="80" stroke="#333" stroke-width="1.2"/>
+  </g>
+  <text x="590" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">each point</text>
+  <text x="590" y="362" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">= one density</text>
+</svg>

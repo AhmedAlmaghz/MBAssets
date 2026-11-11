@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">توزيع فيغنر–فيل: دقّة عالية وحدود متقاطعة</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Wigner–Ville distribution &amp; cross-terms</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <line x1="60" y1="290" x2="620" y2="290" stroke="#5a6770" stroke-width="1"/>
+  <line x1="60" y1="90" x2="60" y2="290" stroke="#5a6770" stroke-width="1"/>
+  <text x="620" y="304" font-size="11" fill="#5a6770">t</text>
+  <text x="54" y="100" text-anchor="end" font-size="11" fill="#5a6770"><tspan direction="ltr" unicode-bidi="isolate">ω</tspan></text>
+  <g fill="#1f4e6b">
+    <rect x="150" y="150" width="70" height="50"/><rect x="400" y="220" width="70" height="50"/>
+  </g>
+  <rect x="255" y="180" width="170" height="40" fill="#b5473a" opacity="0.35"/>
+  <text x="270" y="206" font-size="11" fill="#b5473a">حدّ متقاطع (cross-term)</text>
+  <text x="340" y="326" font-size="10.5" fill="#5a6770" direction="rtl">التركيز الطيفي ممتاز للمكوّن المنفرد، لكن لمكوّنين يظهر حدٌّ متقاطع بينهما.</text>
+  <text x="340" y="348" font-size="10.5" fill="#5a6770" direction="rtl">العلاج: تنعيم (توزيعات كوهين، Choi–Williams) على حساب الدقّة.</text>
+</svg>

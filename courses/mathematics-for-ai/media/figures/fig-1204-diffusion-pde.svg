@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">معادلة الحرارة (انتشار) تُنعّم الإشارة عبر الزمن</text>
+
+  <!-- axes -->
+  <line x1="60" y1="270" x2="640" y2="270" stroke="#334155" stroke-width="1.4"/>
+
+  <!-- u(x,0): sharp bump -->
+  <path d="M120,270 L120,110 L180,110 L180,270" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="150" y="290" font-size="12" fill="#b45309" text-anchor="middle">t=0 (حادّ)</text>
+
+  <!-- u(x,t1): smoother -->
+  <path d="M110,270 C150,150 190,150 230,270" fill="#e0f2f1" stroke="#0f766e" stroke-width="2"/>
+  <text x="170" y="290" font-size="12" fill="#0f766e" text-anchor="middle">t=1</text>
+
+  <!-- u(x,t2): very smooth -->
+  <path d="M90,270 C200,120 320,120 420,270" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="270" y="290" font-size="12" fill="#1d4ed8" text-anchor="middle">t=3 (ملس)</text>
+
+  <!-- heat equation box -->
+  <rect x="460" y="60" width="180" height="44" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="550" y="80" font-size="13" fill="#334155" text-anchor="middle" font-style="italic">∂ₜu = α ∇²u</text>
+  <text x="550" y="98" font-size="11.5" fill="#64748b" text-anchor="middle">كلّ مشتقّة = تايلور (ch11)</text>
+
+  <text x="340" y="305" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">الانتشار = تطبيق للابلاسيان (انحناء) مراراً — أساس blur وتنعيم</text>
+</svg>

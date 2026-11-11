@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <path d="M40,330 C240,330 300,80 340,75 C380,80 440,330 640,330" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="340" y="60" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">narrow valley</text>
+  <polyline points="90,290 130,260 120,230 180,205 165,170 230,145 215,115 290,95 280,85 335,78" fill="none" stroke="#c00" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="470" y="150" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">plain GD: zigzag</text>
+  <polyline points="90,290 140,265 200,235 260,200 310,160 335,120 340,80" fill="none" stroke="#2da44e" stroke-width="2.5"/>
+  <text x="470" y="230" font-family="sans-serif" font-size="12" fill="#2da44e" text-anchor="middle">momentum: smooth</text>
+  <circle cx="340" cy="80" r="5" fill="#2da44e"/>
+  <text x="340" y="352" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">v = beta v + grad f ;  x = x - eta v</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">خطأ الاقتطاع: ذيلُ الطيف يحكم الدقّة</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Truncation error and spectral decay</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <line x1="70" y1="300" x2="610" y2="300" stroke="#5a6770" stroke-width="1"/>
+  <line x1="70" y1="90" x2="70" y2="300" stroke="#5a6770" stroke-width="1"/>
+  <text x="610" y="314" font-size="11" fill="#5a6770">k</text>
+  <text x="64" y="100" text-anchor="end" font-size="11" fill="#5a6770">|c_k|</text>
+  <g fill="#1f4e6b">
+    <rect x="90" y="150" width="22" height="150"/><rect x="140" y="196" width="22" height="104"/>
+    <rect x="190" y="228" width="22" height="72"/><rect x="240" y="252" width="22" height="48"/>
+    <rect x="290" y="268" width="22" height="32"/><rect x="340" y="278" width="22" height="22"/>
+    <rect x="390" y="286" width="22" height="14"/><rect x="440" y="292" width="22" height="8"/>
+    <rect x="490" y="296" width="22" height="4"/><rect x="540" y="298" width="22" height="2"/>
+  </g>
+  <line x1="70" y1="118" x2="620" y2="118" stroke="#b5473a" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="614" y="112" text-anchor="end" font-size="11" fill="#b5473a">N: حدّ الاقتطاع — الذيل هو الخطأ</text>
+  <text x="340" y="342" font-size="10.5" fill="#5a6770" direction="rtl">دوالّ ناعمة ⇒ ذيلٌ أُسّيّ الاضمحلال؛ وقفزات ⇒ اضمحلال 1/k فقط (بطيء).</text>
+</svg>

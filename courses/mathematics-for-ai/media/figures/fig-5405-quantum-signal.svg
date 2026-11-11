@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">معالجة الإشارة الكمّية: QFT وتسريع الطيف</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Quantum signal processing &amp; QFT</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <rect x="40" y="140" width="170" height="60" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="125" y="168" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">|x⟩</tspan></text>
+  <text x="125" y="184" text-anchor="middle" font-size="10" fill="#5a6770">حالة كمّية للإشارة</text>
+  <line x1="210" y1="170" x2="260" y2="170" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <rect x="260" y="140" width="180" height="60" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="350" y="168" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700">QFT</text>
+  <text x="350" y="184" text-anchor="middle" font-size="10" fill="#5a6770">تحويل فورييه كمّي</text>
+  <line x1="440" y1="170" x2="490" y2="170" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <rect x="490" y="140" width="150" height="60" rx="7" fill="#f2f7fa" stroke="#7a9e3c" stroke-width="1.5"/>
+  <text x="565" y="168" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">O(log<tspan dy="-5.25" font-size="70%">2</tspan><tspan dy="5.25" font-size="1">&#8203;</tspan> N)</tspan></text>
+  <text x="565" y="184" text-anchor="middle" font-size="10" fill="#5a6770">بوابات بدل<tspan direction="ltr" unicode-bidi="isolate"> O(N log N)</tspan></text>
+  <text x="340" y="250" font-size="10.5" fill="#5a6770" direction="rtl">التحدّي: قراءة النتيجة (readout) تكلف قياسات كثيرة — فتأكل المكسب النظري.</text>
+  <text x="340" y="272" font-size="10.5" fill="#5a6770" direction="rtl">الواقع العملي اليوم: محاكاة كلاسيكية لأفكار كمّية في الخوارزميات الطيفية.</text>
+</svg>

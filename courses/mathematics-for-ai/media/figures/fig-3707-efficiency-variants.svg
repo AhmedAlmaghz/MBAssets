@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Efficiency variants of convolution</text>
+
+  <!-- Standard -->
+  <text x="40" y="62" font-size="12" fill="#3b5bdb" font-weight="600">Standard conv</text>
+  <rect x="40" y="75" width="50" height="50" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <rect x="100" y="75" width="50" height="50" fill="#ffe0b2" stroke="#e8590c" stroke-width="1.4"/>
+  <text x="95" y="150" text-anchor="middle" font-size="10" fill="#555">k^2 C_in C_out</text>
+  <text x="95" y="165" text-anchor="middle" font-size="10" fill="#555">params</text>
+
+  <!-- Depthwise -->
+  <text x="200" y="62" font-size="12" fill="#2f9e44" font-weight="600">Depthwise</text>
+  <rect x="200" y="75" width="50" height="50" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <rect x="260" y="75" width="50" height="50" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <text x="255" y="150" text-anchor="middle" font-size="10" fill="#555">k^2 C_in</text>
+  <text x="255" y="165" text-anchor="middle" font-size="10" fill="#555">params</text>
+
+  <!-- Pointwise -->
+  <text x="360" y="62" font-size="12" fill="#e8590c" font-weight="600">Pointwise 1x1</text>
+  <rect x="360" y="75" width="50" height="50" fill="#ffd43b" stroke="#e8590c" stroke-width="1.4"/>
+  <text x="385" y="150" text-anchor="middle" font-size="10" fill="#555">C_in C_out</text>
+  <text x="385" y="165" text-anchor="middle" font-size="10" fill="#555">params</text>
+
+  <!-- Depthwise-separable = depthwise + pointwise -->
+  <text x="460" y="62" font-size="12" fill="#7048e8" font-weight="600">Separable (DW+PW)</text>
+  <rect x="460" y="75" width="40" height="40" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <rect x="510" y="75" width="40" height="40" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="1.4"/>
+  <rect x="460" y="120" width="90" height="14" fill="#ffd43b" stroke="#e8590c" stroke-width="1.4"/>
+  <text x="505" y="170" text-anchor="middle" font-size="10" fill="#555">k^2 C_in + C_in C_out</text>
+
+  <!-- Grouped -->
+  <text x="40" y="220" font-size="12" fill="#3b5bdb" font-weight="600">Grouped conv (g groups)</text>
+  <g fill="none" stroke="#3b5bdb" stroke-width="1.4">
+    <rect x="40" y="235" width="36" height="36"/><rect x="78" y="235" width="36" height="36"/><rect x="116" y="235" width="36" height="36"/><rect x="154" y="235" width="36" height="36"/>
+  </g>
+  <text x="115" y="300" text-anchor="middle" font-size="10" fill="#555">params = (k^2 C_in C_out)/g  (groups share nothing)</text>
+
+  <!-- Winograd -->
+  <text x="300" y="220" font-size="12" fill="#e8590c" font-weight="600">Winograd (transform-domain)</text>
+  <g stroke="#5b6b8c" stroke-width="1.2" fill="none">
+    <rect x="320" y="245" width="100" height="50"/>
+    <line x1="370" y1="245" x2="370" y2="295"/>
+  </g>
+  <g font-size="10" fill="#1a2238" text-anchor="middle">
+    <text x="345" y="275">X'</text><text x="395" y="275">K'</text>
+  </g>
+  <text x="370" y="320" text-anchor="middle" font-size="10" fill="#555">fewer MACs than direct conv for small k</text>
+
+  <!-- ratio callout -->
+  <g>
+    <rect x="430" y="235" width="200" height="70" fill="#fff3bf" stroke="#f08c00" stroke-width="1.5" rx="6"/>
+    <text x="445" y="260" font-size="11" fill="#1a2238">Standard:  k^2 C_in C_out</text>
+    <text x="445" y="282" font-size="11" fill="#1a2238">Separable: k^2 C_in + C_in C_out</text>
+    <text x="445" y="300" font-size="11" fill="#e8590c" font-weight="700">ratio ~ k^2 C_out / (k^2 + C_out)</text>
+  </g>
+
+  <text x="340" y="360" text-anchor="middle" font-size="12.5" fill="#555">Example k=3, C_in=C_out=256: separable needs ~1/9 the params of standard for the same receptive mix.</text>
+</svg>

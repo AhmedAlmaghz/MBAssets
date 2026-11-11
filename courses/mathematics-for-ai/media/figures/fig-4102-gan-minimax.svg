@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">GAN minimax game</text>
+
+  <!-- data -->
+  <rect x="40" y="150" width="80" height="60" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="80" y="172" text-anchor="middle" font-size="12" fill="#1a2238">real x</text>
+  <text x="80" y="190" text-anchor="middle" font-size="11" fill="#1a2238">p_data</text>
+
+  <!-- noise -->
+  <rect x="40" y="250" width="80" height="60" rx="6" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+  <text x="80" y="272" text-anchor="middle" font-size="12" fill="#1a2238">noise z</text>
+  <text x="80" y="290" text-anchor="middle" font-size="11" fill="#1a2238">p(z)</text>
+
+  <!-- generator -->
+  <rect x="170" y="250" width="90" height="60" rx="8" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="215" y="285" text-anchor="middle" font-size="12" fill="#1a2238">G(z)</text>
+  <line x1="120" y1="280" x2="168" y2="280" stroke="#888" stroke-width="1.6" marker-end="url(#b1)"/>
+
+  <!-- discriminator -->
+  <rect x="340" y="170" width="110" height="60" rx="8" fill="#ffd6e7" stroke="#c2255c" stroke-width="2"/>
+  <text x="395" y="195" text-anchor="middle" font-size="12" fill="#1a2238">D(.)</text>
+  <text x="395" y="213" text-anchor="middle" font-size="11" fill="#1a2238">[0,1]</text>
+  <line x1="120" y1="180" x2="338" y2="190" stroke="#888" stroke-width="1.6" marker-end="url(#b1)"/>
+  <line x1="260" y1="280" x2="360" y2="225" stroke="#888" stroke-width="1.6" marker-end="url(#b1)"/>
+
+  <!-- output -->
+  <rect x="540" y="175" width="100" height="50" rx="6" fill="#fff3bf" stroke="#f08c00" stroke-width="2"/>
+  <text x="590" y="200" text-anchor="middle" font-size="12" fill="#1a2238">real / fake</text>
+  <line x1="450" y1="200" x2="538" y2="200" stroke="#888" stroke-width="1.6" marker-end="url(#b1)"/>
+
+  <!-- saddle point -->
+  <text x="395" y="300" text-anchor="middle" font-size="12" fill="#c2255c">min_G max_D V(D,G)</text>
+  <text x="395" y="322" text-anchor="middle" font-size="11.5" fill="#555">Nash eq: p_g = p_data ⇒ D(x)=1/2</text>
+
+  <text x="340" y="360" text-anchor="middle" font-size="12.5" fill="#555">V = E[log D(x)] + E[log(1 − D(G(z)))]  (zero-sum).</text>
+  <defs><marker id="b1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+</svg>

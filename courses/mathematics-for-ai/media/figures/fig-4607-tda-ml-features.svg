@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">From barcode to ML feature vector</text>
+
+  <!-- point cloud -->
+  <circle cx="150" cy="120" r="5" fill="#3b5bdb"/><circle cx="180" cy="150" r="5" fill="#3b5bdb"/>
+  <circle cx="120" cy="170" r="5" fill="#3b5bdb"/><circle cx="170" cy="200" r="5" fill="#3b5bdb"/>
+  <circle cx="140" cy="240" r="5" fill="#3b5bdb"/>
+  <text x="150" y="285" text-anchor="middle" font-size="11" fill="#555">data cloud</text>
+
+  <!-- arrow to barcode -->
+  <line x1="210" y1="185" x2="290" y2="185" stroke="#888" stroke-width="2" marker-end="url(#u2)"/>
+  <text x="250" y="170" text-anchor="middle" font-size="10.5" fill="#555">persist</text>
+
+  <!-- barcode -->
+  <g>
+    <line x1="300" y1="120" x2="430" y2="120" stroke="#2f9e44" stroke-width="5"/>
+    <line x1="300" y1="150" x2="380" y2="150" stroke="#f08c00" stroke-width="5"/>
+    <line x1="300" y1="180" x2="360" y2="180" stroke="#c2255c" stroke-width="5"/>
+    <line x1="300" y1="210" x2="450" y2="210" stroke="#2f9e44" stroke-width="5"/>
+    <text x="300" y="255" font-size="10.5" fill="#555">barcode / PD</text>
+  </g>
+
+  <!-- arrow to vector -->
+  <line x1="460" y1="185" x2="540" y2="185" stroke="#888" stroke-width="2" marker-end="url(#u2)"/>
+
+  <!-- feature vector -->
+  <text x="600" y="130" font-size="11" fill="#1a2238">φ(x) = [</text>
+  <text x="600" y="155" font-size="11" fill="#1a2238">0.85, 0.40,</text>
+  <text x="600" y="178" font-size="11" fill="#1a2238">0.30, 0.92,</text>
+  <text x="600" y="201" font-size="11" fill="#1a2238">... ]  persistence</text>
+  <text x="600" y="230" font-size="11" fill="#2f9e44">→ classifier</text>
+
+  <text x="340" y="330" text-anchor="middle" font-size="12" fill="#1a2238">Kernelize PD or vectorize → TDA features for ML pipelines.</text>
+  <defs><marker id="u2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker></defs>
+</svg>

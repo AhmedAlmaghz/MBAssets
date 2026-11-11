@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Seq2seq encoder-decoder</text>
+
+  <!-- encoder -->
+  <text x="140" y="62" font-size="13" fill="#3b5bdb" font-weight="600">Encoder</text>
+  <g>
+    <rect x="60" y="80" width="50" height="40" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="130" y="80" width="50" height="40" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="200" y="80" width="50" height="40" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <text x="85" y="105" text-anchor="middle" font-size="11" fill="#1a2238">x1</text>
+    <text x="155" y="105" text-anchor="middle" font-size="11" fill="#1a2238">x2</text>
+    <text x="225" y="105" text-anchor="middle" font-size="11" fill="#1a2238">x3</text>
+    <line x1="110" y1="100" x2="128" y2="100" stroke="#e8590c" stroke-width="2" marker-end="url(#e1)"/>
+    <line x1="180" y1="100" x2="198" y2="100" stroke="#e8590c" stroke-width="2" marker-end="url(#e1)"/>
+    <defs><marker id="e1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#e8590c"/></marker></defs>
+  </g>
+  <text x="130" y="150" text-anchor="middle" font-size="12" fill="#1a2238">context c = h_T</text>
+
+  <!-- context line -->
+  <line x1="225" y1="140" x2="430" y2="140" stroke="#7048e8" stroke-width="2.4" marker-end="url(#c1)"/>
+  <defs><marker id="c1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#7048e8"/></marker></defs>
+
+  <!-- decoder -->
+  <text x="520" y="62" font-size="13" fill="#2f9e44" font-weight="600">Decoder</text>
+  <g>
+    <rect x="450" y="80" width="50" height="40" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="520" y="80" width="50" height="40" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="590" y="80" width="50" height="40" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <text x="475" y="105" text-anchor="middle" font-size="11" fill="#1a2238">y1</text>
+    <text x="545" y="105" text-anchor="middle" font-size="11" fill="#1a2238">y2</text>
+    <text x="615" y="105" text-anchor="middle" font-size="11" fill="#1a2238">y3</text>
+    <line x1="500" y1="100" x2="518" y2="100" stroke="#7048e8" stroke-width="2" marker-end="url(#c1)"/>
+    <line x1="570" y1="100" x2="588" y2="100" stroke="#7048e8" stroke-width="2" marker-end="url(#c1)"/>
+  </g>
+
+  <text x="340" y="230" text-anchor="middle" font-size="13" fill="#1a2238">Teacher forcing: feed true y_{t-1} during training, predicted y_{t-1} at test.</text>
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">Context vector c compresses the whole source; attention (ch39) removes this bottleneck.</text>
+</svg>

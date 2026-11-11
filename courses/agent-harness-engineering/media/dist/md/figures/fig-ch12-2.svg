@@ -1,0 +1,38 @@
+<svg class="dg" viewBox="81.0 33.5 737.0 334.5" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="380" rx="16" fill="#FFFFFF"/>
+<line x1="90" y1="300" x2="810" y2="300" stroke="#D7DEE7" stroke-width="1.2"/>
+<line x1="90" y1="70" x2="90" y2="300" stroke="#D7DEE7" stroke-width="1.2"/>
+<rect x="130" y="95.0" width="38" height="205.0" rx="4" fill="#0E7C6B" fill-opacity="0.85"/>
+<rect x="176" y="136.0" width="38" height="164.0" rx="4" fill="#BE123C" fill-opacity="0.8"/>
+<text x="149" y="87.00000000000003" font-size="10.64" font-weight="400" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle">100</text>
+<text x="195" y="128.0" font-size="10.64" font-weight="400" fill="#BE123C" fill-opacity="1.0" text-anchor="middle">80</text>
+<text x="172" y="322" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">k=1</text>
+<rect x="268" y="95.0" width="38" height="205.0" rx="4" fill="#0E7C6B" fill-opacity="0.85"/>
+<rect x="314" y="168.8" width="38" height="131.2" rx="4" fill="#BE123C" fill-opacity="0.8"/>
+<text x="287" y="87.00000000000003" font-size="10.64" font-weight="400" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle">100</text>
+<text x="333" y="160.8" font-size="10.64" font-weight="400" fill="#BE123C" fill-opacity="1.0" text-anchor="middle">64</text>
+<text x="310" y="322" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">k=2</text>
+<rect x="406" y="95.0" width="38" height="205.0" rx="4" fill="#0E7C6B" fill-opacity="0.85"/>
+<rect x="452" y="195.0" width="38" height="105.0" rx="4" fill="#BE123C" fill-opacity="0.8"/>
+<text x="425" y="87.00000000000003" font-size="10.64" font-weight="400" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle">100</text>
+<text x="471" y="187.04000000000002" font-size="10.64" font-weight="400" fill="#BE123C" fill-opacity="1.0" text-anchor="middle">51</text>
+<text x="448" y="322" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">k=3</text>
+<rect x="544" y="95.0" width="38" height="205.0" rx="4" fill="#0E7C6B" fill-opacity="0.85"/>
+<rect x="590" y="215.9" width="38" height="84.0" rx="4" fill="#BE123C" fill-opacity="0.8"/>
+<text x="563" y="87.00000000000003" font-size="10.64" font-weight="400" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle">100</text>
+<text x="609" y="207.95" font-size="10.64" font-weight="400" fill="#BE123C" fill-opacity="1.0" text-anchor="middle">41</text>
+<text x="586" y="322" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">k=4</text>
+<rect x="682" y="95.0" width="38" height="205.0" rx="4" fill="#0E7C6B" fill-opacity="0.85"/>
+<rect x="728" y="232.8" width="38" height="67.2" rx="4" fill="#BE123C" fill-opacity="0.8"/>
+<text x="701" y="87.00000000000003" font-size="10.64" font-weight="400" fill="#0E7C6B" fill-opacity="1.0" text-anchor="middle">100</text>
+<text x="747" y="224.76" font-size="10.64" font-weight="400" fill="#BE123C" fill-opacity="1.0" text-anchor="middle">33</text>
+<text x="724" y="322" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">k=5</text>
+<rect x="106" y="42" width="12" height="12" rx="3" fill="#0E7C6B"/>
+<text x="124" y="52" font-size="11.760000000000002" font-weight="400" fill="#3C4A5A" fill-opacity="1.0" text-anchor="end" direction="rtl" unicode-bidi="plaintext">pass@k — نجاح مرة واحدة على الأقل</text>
+<rect x="106" y="64" width="12" height="12" rx="3" fill="#BE123C"/>
+<text x="124" y="74" font-size="11.760000000000002" font-weight="400" fill="#3C4A5A" fill-opacity="1.0" text-anchor="end" direction="rtl" unicode-bidi="plaintext">pass^k — النجاح في كل المحاولات</text>
+<text x="430" y="356" font-size="12.88" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">مع p = 0.80: النجاح المتسق ينهار من 80% إلى 33% خلال خمس محاولات</text>
+</svg>

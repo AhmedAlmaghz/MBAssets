@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Expectation = Center of Mass</text>
+
+  <!-- axes -->
+  <line x1="50" y1="280" x2="630" y2="280" stroke="#222"/>
+  <line x1="50" y1="40" x2="50" y2="280" stroke="#222"/>
+  <text x="340" y="305" text-anchor="middle" font-size="12" fill="#222">x</text>
+
+  <!-- density (scaled bell) -->
+  <path d="M50,280 C170,280 250,90 340,90 C430,90 510,280 630,280" fill="none" stroke="#2a6f97" stroke-width="2.5"/>
+  <path d="M50,280 C170,280 250,90 340,90 C430,90 510,280 630,280 L630,280 L50,280 Z" fill="#2a6f97" opacity="0.12"/>
+
+  <!-- mean line -->
+  <line x1="340" y1="90" x2="340" y2="280" stroke="#b5333a" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="340" cy="90" r="4" fill="#b5333a"/>
+  <text x="350" y="80" font-size="12" fill="#b5333a">mu = E[X]</text>
+
+  <!-- balance point marker -->
+  <rect x="332" y="280" width="16" height="8" fill="#e07a1f"/>
+  <text x="60" y="265" font-size="11" fill="#e07a1f">integrate x f(x)</text>
+
+  <text x="340" y="320" text-anchor="middle" font-size="12" fill="#555">E[X] = int x dF_X(x); the density balances at the mean.</text>
+</svg>

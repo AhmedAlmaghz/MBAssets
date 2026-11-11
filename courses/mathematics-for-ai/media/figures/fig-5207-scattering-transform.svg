@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">تحويل التشتّت: تمثيلٌ ثابت للترجمة بلا تعلّم</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Scattering transform: stable, untrained features</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <rect x="40" y="140" width="140" height="56" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="110" y="166" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700">x</text>
+  <text x="110" y="182" text-anchor="middle" font-size="10" fill="#5a6770">الإشارة</text>
+  <line x1="180" y1="168" x2="220" y2="140" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <line x1="180" y1="178" x2="220" y2="200" stroke="#5a6770" stroke-width="1.4" marker-end="url(#ah)"/>
+  <rect x="220" y="114" width="170" height="52" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="305" y="138" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">|x*ψ<tspan dy="3.75" font-size="70%">λ<tspan dy="2.62" font-size="70%">1</tspan><tspan dy="-2.62" font-size="1">&#8203;</tspan></tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>|</tspan></text>
+  <text x="305" y="154" text-anchor="middle" font-size="10" fill="#5a6770">مويجة + مقدار</text>
+  <rect x="220" y="174" width="170" height="52" rx="7" fill="#f2f7fa" stroke="#1f4e6b" stroke-width="1.5"/>
+  <text x="305" y="198" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700"><tspan direction="ltr" unicode-bidi="isolate">| |x*ψ<tspan dy="3.75" font-size="70%">λ<tspan dy="2.62" font-size="70%">1</tspan><tspan dy="-2.62" font-size="1">&#8203;</tspan></tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>|*ψ<tspan dy="3.75" font-size="70%">λ<tspan dy="2.62" font-size="70%">2</tspan><tspan dy="-2.62" font-size="1">&#8203;</tspan></tspan><tspan dy="-3.75" font-size="1">&#8203;</tspan>|</tspan></text>
+  <text x="305" y="214" text-anchor="middle" font-size="10" fill="#5a6770">طبقة ثانية</text>
+  <rect x="440" y="140" width="200" height="86" rx="7" fill="#f2f7fa" stroke="#7a9e3c" stroke-width="1.5"/>
+  <text x="540" y="181" text-anchor="middle" font-size="12.5" fill="#1c2b36" font-weight="700">S = تمثيلٌ ثابت للترجمة</text>
+  <text x="540" y="197" text-anchor="middle" font-size="10" fill="#5a6770">قليل التباين + تمييزي</text>
+  <text x="340" y="268" font-size="10.5" fill="#5a6770" direction="rtl">العمق يحدّد بعدد المقاييس؛ ولا توجد معاملات تُتعلّم — شبكة مبنية على الرياضيات البحتة.</text>
+  <text x="340" y="290" font-size="10.5" fill="#5a6770" direction="rtl">مفيد حيث البيانات قليلة: معلومات قبلية بدل التعلّم من الصفر.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Nash equilibrium (best replies)</text>
+
+  <!-- row strategy axis -->
+  <line x1="90" y1="300" x2="590" y2="300" stroke="#888" stroke-width="1.5"/>
+  <text x="90" y="322" font-size="11" fill="#c2255c">Row prob of U = p</text>
+  <text x="340" y="322" font-size="11" fill="#555">best-reply (Column) meets best-reply (Row)</text>
+
+  <!-- best reply of column vs p -->
+  <path d="M120 120 L120 90" stroke="#3b5bdb" stroke-width="3"/>
+  <path d="M120 90 Q220 60 300 200 Q380 300 560 280" fill="none" stroke="#3b5bdb" stroke-width="3"/>
+  <text x="130" y="85" font-size="12" fill="#3b5bdb">Column best reply q(p)</text>
+
+  <!-- best reply of row vs q -->
+  <path d="M120 260 Q220 290 300 160 Q380 60 560 110" fill="none" stroke="#c2255c" stroke-width="3"/>
+  <text x="450" y="150" font-size="12" fill="#c2255c">Row best reply p(q)</text>
+
+  <!-- intersection -->
+  <circle cx="330" cy="180" r="8" fill="#2f9e44"/>
+  <text x="345" y="185" font-size="12" fill="#2f9e44" font-weight="600">Nash equilibrium</text>
+
+  <text x="340" y="360" text-anchor="middle" font-size="12" fill="#555">Mixed NE: neither side improves by deviating unilaterally.</text>
+</svg>

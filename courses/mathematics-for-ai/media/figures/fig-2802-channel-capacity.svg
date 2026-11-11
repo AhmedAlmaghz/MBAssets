@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="60" y1="310" x2="640" y2="310" stroke="#222" stroke-width="2"/>
+  <line x1="60" y1="40" x2="60" y2="310" stroke="#222" stroke-width="2"/>
+  <path d="M60,310 Q200,240 340,150 T620,60" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="560" y="48" font-family="sans-serif" font-size="13" fill="#1f6feb">C = log2(1+SNR)</text>
+  <line x1="60" y1="180" x2="640" y2="180" stroke="#c00" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="560" y="172" font-family="sans-serif" font-size="12" fill="#c00">R (code rate)</text>
+  <rect x="60" y="180" width="580" height="130" fill="#d8f5d8" fill-opacity="0.5"/>
+  <text x="300" y="250" font-family="sans-serif" font-size="13" fill="#2a7a2a" text-anchor="middle">R &lt; C : reliable transmission possible</text>
+  <text x="300" y="90" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">R &gt; C : errors unavoidable</text>
+  <text x="350" y="340" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">SNR (dB)</text>
+  <text x="30" y="175" font-family="sans-serif" font-size="12" fill="#555">bits/use</text>
+</svg>

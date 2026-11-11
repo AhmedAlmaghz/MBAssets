@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="a9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="680" height="220" fill="#fafaf7"/>
+
+  <!-- boxes -->
+  <rect x="30" y="80" width="120" height="56" rx="10" fill="#e0f2f1" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="90" y="103" font-size="15" fill="#0f766e" text-anchor="middle" font-weight="bold">x</text>
+  <text x="90" y="124" font-size="12" fill="#334155" text-anchor="middle">المدخل</text>
+
+  <rect x="215" y="80" width="140" height="56" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="285" y="103" font-size="15" fill="#b45309" text-anchor="middle" font-weight="bold">u = f(x)</text>
+  <text x="285" y="124" font-size="12" fill="#334155" text-anchor="middle">الطبقة الأولى</text>
+
+  <rect x="420" y="80" width="140" height="56" rx="10" fill="#fce7f3" stroke="#9d174d" stroke-width="1.5"/>
+  <text x="490" y="103" font-size="15" fill="#9d174d" text-anchor="middle" font-weight="bold">y = g(u)</text>
+  <text x="490" y="124" font-size="12" fill="#334155" text-anchor="middle">الطبقة الثانية</text>
+
+  <!-- forward arrows -->
+  <line x1="150" y1="108" x2="209" y2="108" stroke="#334155" stroke-width="1.6" marker-end="url(#a9)"/>
+  <text x="180" y="96" font-size="12" fill="#64748b" text-anchor="middle">Δx</text>
+  <line x1="355" y1="108" x2="414" y2="108" stroke="#334155" stroke-width="1.6" marker-end="url(#a9)"/>
+  <text x="385" y="96" font-size="12" fill="#64748b" text-anchor="middle">Δu</text>
+
+  <!-- sensitivities under arrows -->
+  <text x="180" y="160" font-size="14" fill="#b45309" text-anchor="middle" font-weight="bold">حساسية f′(x)</text>
+  <text x="385" y="160" font-size="14" fill="#9d174d" text-anchor="middle" font-weight="bold">حساسية g′(u)</text>
+
+  <!-- output -->
+  <line x1="560" y1="108" x2="625" y2="108" stroke="#334155" stroke-width="1.6" marker-end="url(#a9)"/>
+  <text x="645" y="113" font-size="15" fill="#0f766e" font-weight="bold">y</text>
+
+  <!-- chain formula box -->
+  <rect x="140" y="180" width="400" height="32" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="340" y="201" font-size="14" fill="#334155" text-anchor="middle" font-style="italic">dy/dx = g′(u) · f′(x)  — «الحساسيات تتضاعف عبر السلسلة»</text>
+</svg>

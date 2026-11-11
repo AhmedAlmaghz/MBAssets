@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title description">
+<defs>
+        <linearGradient id="header" x1="0" x2="1"><stop stop-color="#16345C"/><stop offset="1" stop-color="#276D7D"/></linearGradient>
+        <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M1 1 10 6 1 11" fill="none" stroke="#47728A" stroke-width="2"/></marker>
+        </defs>
+<rect width="1200" height="500" rx="28" fill="#F8FAFC"/>
+<path d="M0 0h1200v112H0z" fill="url(#header)"/>
+<title id="title">مخطط مفاهيم الفصل 10</title>
+<desc id="description">الموضوعات الأساسية المستخرجة من عناوين الفصل: لماذا Query و Key و Value تحديدًا؟، المعادلة الكاملة، لماذا رؤوس متعددة؟ (Multi-Head Attention)، الخلط بين Padding Mask و Causal Mask</desc>
+<text x="600" y="49" text-anchor="middle" fill="#FFFFFF" font-size="25" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="600" dy="0">الفصل العاشر: آلية الانتباه الذاتي — قلب الثورة النابض</tspan>
+</text>
+<text x="600" y="100" text-anchor="middle" fill="#D7EEF0" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">مسار قراءة بصري لموضوعات الفصل</text>
+<path d="M887 322 H861" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="895" y="205" width="238" height="190" rx="20" fill="#EAF1FF" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="925" cy="238" r="17" fill="#1B6C7A"/><text x="925" y="244" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial,sans-serif">1</text>
+<text x="1014.0" y="279" text-anchor="middle" fill="#203B54" font-size="19" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="1014.0" dy="0">لماذا Query و Key و</tspan>
+<tspan x="1014.0" dy="27">Value تحديدًا؟</tspan>
+</text>
+<path d="M611 322 H585" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="619" y="205" width="238" height="190" rx="20" fill="#EAF9F5" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="649" cy="238" r="17" fill="#1B6C7A"/><text x="649" y="244" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial,sans-serif">2</text>
+<text x="738.0" y="292" text-anchor="middle" fill="#203B54" font-size="19" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="738.0" dy="0">المعادلة الكاملة</tspan>
+</text>
+<path d="M335 322 H309" stroke="#47728A" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="343" y="205" width="238" height="190" rx="20" fill="#FFF4E7" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="373" cy="238" r="17" fill="#1B6C7A"/><text x="373" y="244" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial,sans-serif">3</text>
+<text x="462.0" y="266" text-anchor="middle" fill="#203B54" font-size="19" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="462.0" dy="0">لماذا رؤوس متعددة؟</tspan>
+<tspan x="462.0" dy="27">(Multi-Head</tspan>
+<tspan x="462.0" dy="27">Attention)</tspan>
+</text>
+<rect x="67" y="205" width="238" height="190" rx="20" fill="#F2EDFF" stroke="#D7E2EE" stroke-width="2"/>
+<circle cx="97" cy="238" r="17" fill="#1B6C7A"/><text x="97" y="244" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial,sans-serif">4</text>
+<text x="186.0" y="279" text-anchor="middle" fill="#203B54" font-size="19" font-weight="700" font-family="Tahoma,Arial,sans-serif" direction="rtl">
+<tspan x="186.0" dy="0">الخلط بين Padding</tspan>
+<tspan x="186.0" dy="27">Mask و Causal Mask</tspan>
+</text>
+<text x="600" y="455" text-anchor="middle" fill="#60758A" font-size="16" font-family="Tahoma,Arial,sans-serif" direction="rtl">تسلسل الموضوعات كما ورد في بنية الفصل</text>
+</svg>

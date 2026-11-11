@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">متسلسلة القوى ونصف قطر التقارب (هَدَمار)</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Power series: radius of convergence</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <g>
+    <line x1="60" y1="210" x2="620" y2="210" stroke="#5a6770" stroke-width="1"/>
+    <line x1="340" y1="70" x2="340" y2="340" stroke="#5a6770" stroke-width="1"/>
+    <text x="626" y="214" font-size="11" fill="#5a6770">Re</text>
+    <text x="344" y="76" font-size="11" fill="#5a6770">Im</text>
+    <circle cx="340" cy="210" r="150" fill="#eaf4fb" stroke="#1f4e6b" stroke-width="2"/>
+    <circle cx="340" cy="210" r="5" fill="#1f4e6b"/>
+    <text x="340" y="216" text-anchor="middle" font-size="11" fill="#1f4e6b">z_0</text>
+    <line x1="340" y1="210" x2="490" y2="210" stroke="#1f4e6b" stroke-width="2"/>
+    <text x="415" y="204" text-anchor="middle" font-size="11.5" fill="#1f4e6b" font-weight="700">R</text>
+    <text x="255" y="150" text-anchor="middle" font-size="11.5" fill="#7a9e3c">|z-z_0|&lt;R: تقارب مطلق</text>
+    <text x="545" y="150" text-anchor="middle" font-size="11.5" fill="#b5473a">|z-z_0|&gt;R: تباعد</text>
+    <circle cx="490" cy="210" r="4" fill="#5a6770"/>
+    <text x="500" y="206" font-size="10.5" fill="#5a6770">الحدّ |z|=R غير حاسم</text>
+    <text x="70" y="196" font-size="11" fill="#5a6770">1/R = limsup |a_n|^{1/n}</text>
+    <text x="70" y="232" font-size="11" fill="#5a6770"><tspan direction="ltr" unicode-bidi="isolate">Σ a<tspan dy="3.30" font-size="70%">n</tspan><tspan dy="-3.30" font-size="1">&#8203;</tspan> (z-z<tspan dy="3.30" font-size="70%">0</tspan><tspan dy="-3.30" font-size="1">&#8203;</tspan>)<tspan dy="-4.62" font-size="70%">n</tspan><tspan dy="4.62" font-size="1">&#8203;</tspan></tspan></text>
+  </g>
+  <text x="340" y="366" font-size="10.5" fill="#5a6770" direction="rtl">متى عرفت نصف القطر، عرفت أين يصلح تقريب تايلور — وهذا هو شرط صلاحية الانحدار المحلّي.</text>
+</svg>

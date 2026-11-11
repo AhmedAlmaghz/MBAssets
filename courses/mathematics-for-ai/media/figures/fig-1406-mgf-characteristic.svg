@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="Latin Modern, serif">
+  <rect width="680" height="340" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">MGF and Characteristic Function</text>
+
+  <!-- MGF plot -->
+  <g transform="translate(40,60)">
+    <text x="140" y="-8" text-anchor="middle" font-size="13" fill="#222">M_X(t) = E[e^{tX}]</text>
+    <line x1="20" y1="200" x2="280" y2="200" stroke="#222"/>
+    <line x1="140" y1="20" x2="140" y2="200" stroke="#222"/>
+    <path d="M20,200 C100,200 130,120 150,60 C170,20 210,5 280,2" fill="none" stroke="#2a6f97" stroke-width="2.5"/>
+    <path d="M20,200 C100,200 120,150 140,200 C160,250 200,260 280,260" fill="none" stroke="#e07a1f" stroke-width="2" opacity="0.7"/>
+    <text x="290" y="205" font-size="11" fill="#222">t</text>
+  </g>
+
+  <!-- CF plot -->
+  <g transform="translate(380,60)">
+    <text x="140" y="-8" text-anchor="middle" font-size="13" fill="#222">phi_X(t) = E[e^{itX}]</text>
+    <line x1="20" y1="200" x2="280" y2="200" stroke="#222"/>
+    <line x1="140" y1="60" x2="140" y2="240" stroke="#222"/>
+    <path d="M20,200 C50,120 90,120 140,200 C190,280 230,280 260,200 C275,170 280,170 280,170" fill="none" stroke="#3a923a" stroke-width="2.5"/>
+    <text x="290" y="205" font-size="11" fill="#222">t</text>
+    <text x="110" y="250" font-size="11" fill="#3a923a">oscillates</text>
+  </g>
+
+  <text x="340" y="320" text-anchor="middle" font-size="12" fill="#555">MGF identifies a distribution; product of MGFs = sum of independent RVs.</text>
+</svg>

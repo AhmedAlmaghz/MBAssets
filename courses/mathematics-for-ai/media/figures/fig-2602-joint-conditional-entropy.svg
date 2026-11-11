@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <circle cx="270" cy="185" r="120" fill="#cfe8ff" fill-opacity="0.5" stroke="#1f6feb" stroke-width="2.5"/>
+  <circle cx="410" cy="185" r="120" fill="#ffe8e8" fill-opacity="0.5" stroke="#c00" stroke-width="2.5"/>
+  <text x="200" y="185" font-family="sans-serif" font-size="14" fill="#1f6feb" text-anchor="middle">H(X|Y)</text>
+  <text x="480" y="185" font-family="sans-serif" font-size="14" fill="#c00" text-anchor="middle">H(Y|X)</text>
+  <text x="340" y="185" font-family="sans-serif" font-size="13" fill="#2da44e" text-anchor="middle">I(X;Y)</text>
+  <text x="340" y="205" font-family="sans-serif" font-size="11" fill="#2da44e" text-anchor="middle">overlap</text>
+  <text x="340" y="60" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">union = H(X,Y) = joint entropy</text>
+  <text x="340" y="340" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">chain rule: H(X,Y) = H(X) + H(Y|X)</text>
+</svg>

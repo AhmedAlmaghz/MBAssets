@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="680" height="300" fill="#fafaf7"/>
+
+  <!-- panel 1: removable -->
+  <g>
+    <line x1="20" y1="240" x2="210" y2="240" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="40" y1="260" x2="40" y2="30" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="45" y1="200" x2="115" y2="140" stroke="#0f766e" stroke-width="2.2"/>
+    <line x1="125" y1="128" x2="200" y2="60" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="120" cy="134" r="5" fill="#fafaf7" stroke="#0f766e" stroke-width="2"/>
+    <circle cx="120" cy="90" r="4.5" fill="#b91c1c"/>
+    <line x1="120" y1="240" x2="120" y2="90" stroke="#b91c1c" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="55" y="285" font-size="14" fill="#334155" font-weight="bold">1) قابل للاختزال</text>
+    <text x="55" y="272" font-size="12" fill="#64748b">نقطة ثقب: نعيد التعريف</text>
+  </g>
+
+  <!-- panel 2: jump -->
+  <g>
+    <line x1="230" y1="240" x2="420" y2="240" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="250" y1="260" x2="250" y2="30" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="255" y1="190" x2="320" y2="130" stroke="#0f766e" stroke-width="2.2"/>
+    <line x1="320" y1="80" x2="400" y2="40" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="320" cy="130" r="4.5" fill="#0f766e"/>
+    <circle cx="320" cy="80" r="5" fill="#fafaf7" stroke="#0f766e" stroke-width="2"/>
+    <line x1="320" y1="130" x2="320" y2="80" stroke="#b91c1c" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="262" y="285" font-size="14" fill="#334155" font-weight="bold">2) قفزة</text>
+    <text x="262" y="272" font-size="12" fill="#64748b">النهايتان الأحاديتان مختلفتان</text>
+  </g>
+
+  <!-- panel 3: infinite -->
+  <g>
+    <line x1="440" y1="240" x2="630" y2="240" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="460" y1="260" x2="460" y2="30" stroke="#334155" stroke-width="1.2" marker-end="url(#arr2)"/>
+    <line x1="465" y1="200" x2="525" y2="150" stroke="#0f766e" stroke-width="2.2"/>
+    <line x1="533" y1="120" x2="600" y2="35" stroke="#0f766e" stroke-width="2.2"/>
+    <line x1="530" y1="235" x2="540" y2="45" stroke="#b91c1c" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="465" y="285" font-size="14" fill="#334155" font-weight="bold">3) لانهائي</text>
+    <text x="465" y="272" font-size="12" fill="#64748b">قيم تنفجر قرب النقطة</text>
+  </g>
+
+  <!-- panel 4: oscillatory -->
+  <g>
+    <line x1="20" y1="285" x2="630" y2="285" stroke="none"/>
+    <g stroke="#0f766e" stroke-width="2" fill="none">
+      <path d="M 455 240 C 480 200, 495 260, 520 220 C 545 180, 555 265, 585 190 C 610 130, 620 250, 630 160"/>
+    </g>
+    <line x1="440" y1="240" x2="630" y2="240" stroke="#334155" stroke-width="1.2"/>
+    <circle cx="530" cy="160" r="4.5" fill="#b91c1c"/>
+    <text x="540" y="60" font-size="14" fill="#334155" font-weight="bold">4) تذبذبي</text>
+    <text x="540" y="47" font-size="12" fill="#64748b">sin(1/x) قرب الصفر</text>
+  </g>
+</svg>

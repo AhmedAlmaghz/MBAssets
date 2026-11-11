@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="300" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">أنماط التقارب (تضمينات)</text>
+
+  <!-- nested ellipses -->
+  <g>
+    <!-- largest: in distribution -->
+    <ellipse cx="340" cy="165" rx="260" ry="105" fill="#e0f2f1" stroke="#0f766e" stroke-width="1.6"/>
+    <text x="540" y="80" font-size="13" fill="#0f766e" font-weight="bold">بالتوزيع</text>
+    <!-- middle: in probability -->
+    <ellipse cx="340" cy="165" rx="180" ry="72" fill="#fef3c7" stroke="#b45309" stroke-width="1.6"/>
+    <text x="470" y="110" font-size="13" fill="#b45309" font-weight="bold">بالاحتمال</text>
+    <!-- middle2: L^p -->
+    <ellipse cx="340" cy="165" rx="110" ry="46" fill="#fce7f3" stroke="#9d174d" stroke-width="1.6"/>
+    <text x="375" y="135" font-size="12.5" fill="#9d174d" font-weight="bold">في Lᵖ</text>
+    <!-- smallest: a.s. -->
+    <ellipse cx="340" cy="165" rx="55" ry="24" fill="#fca5a5" stroke="#7f1d1d" stroke-width="1.6"/>
+    <text x="340" y="169" font-size="11.5" fill="#7f1d1d" font-weight="bold" text-anchor="middle">تقريباً</text>
+    <text x="340" y="195" font-size="11.5" fill="#7f1d1d" text-anchor="middle">يقيناً</text>
+  </g>
+
+  <rect x="120" y="265" width="440" height="24" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="340" y="282" font-size="12" fill="#334155" text-anchor="middle" font-style="italic">a.s. ⟹ بالاحتمال ⟹ بالتوزيع؛ Lᵖ ⟹ بالاحتمال (لـ p≥1)</text>
+</svg>

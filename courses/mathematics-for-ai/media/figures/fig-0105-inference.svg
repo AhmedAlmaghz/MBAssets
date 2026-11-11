@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="300" fill="#ffffff"/>
+  <text x="340" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">قواعد الاستدلال: وضع القضية (MP) وقاعدة الاستيعاب (Resolution)</text>
+
+  <defs>
+    <marker id="arw3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1e40af"/>
+    </marker>
+  </defs>
+
+  <!-- الصف الأول: Modus Ponens -->
+  <rect x="30" y="62" width="150" height="48" rx="4" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="105" y="91" text-anchor="middle" font-size="16" fill="#1e3a8a">P → Q</text>
+  <rect x="30" y="126" width="150" height="48" rx="4" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="105" y="155" text-anchor="middle" font-size="16" fill="#1e3a8a">P</text>
+  <path d="M186 86 L246 108" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arw3)"/>
+  <path d="M186 150 L246 112" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arw3)"/>
+  <rect x="252" y="88" width="150" height="48" rx="4" fill="#bbf7d0" stroke="#166534" stroke-width="2"/>
+  <text x="327" y="117" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">Q</text>
+  <text x="327" y="72" text-anchor="middle" font-size="12" fill="#166534">Modus Ponens</text>
+
+  <!-- الصف الثاني: Resolution -->
+  <rect x="440" y="176" width="180" height="48" rx="4" fill="#fef3c7" stroke="#a16207" stroke-width="2"/>
+  <text x="530" y="205" text-anchor="middle" font-size="16" fill="#713f12">P ∨ Q</text>
+  <rect x="440" y="240" width="180" height="48" rx="4" fill="#fef3c7" stroke="#a16207" stroke-width="2"/>
+  <text x="530" y="269" text-anchor="middle" font-size="16" fill="#713f12">¬P ∨ R</text>
+  <path d="M436 200 L376 222" stroke="#a16207" stroke-width="2" fill="none" marker-end="url(#arw3)"/>
+  <path d="M436 264 L376 242" stroke="#a16207" stroke-width="2" fill="none" marker-end="url(#arw3)"/>
+  <rect x="196" y="202" width="176" height="48" rx="4" fill="#bbf7d0" stroke="#166534" stroke-width="2"/>
+  <text x="284" y="231" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">Q ∨ R</text>
+  <text x="284" y="186" text-anchor="middle" font-size="12" fill="#166534">Resolution</text>
+
+  <text x="105" y="196" text-anchor="middle" font-size="12" fill="#475569">مقدّمة</text>
+  <text x="105" y="200" text-anchor="middle" font-size="12" fill="#475569">كبرى/صغرى</text>
+  <text x="120" y="292" text-anchor="middle" font-size="11" fill="#475569">شكل (1.5): كل قاعدة استدلال تُحوّل مقدّمات إلى نتيجة صحيحة دائماً</text>
+</svg>

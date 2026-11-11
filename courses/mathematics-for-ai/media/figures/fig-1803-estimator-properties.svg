@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="320" x2="640" y2="320" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="320" stroke="#222" stroke-width="2"/>
+  <path d="M60,315 C260,315 300,90 360,80 C420,90 460,315 660,315" fill="none" stroke="#888" stroke-width="1.8"/>
+  <circle cx="360" cy="80" r="4" fill="#222"/>
+  <text x="360" y="68" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">theta (target)</text>
+  <circle cx="330" cy="120" r="4" fill="#1f6feb"/>
+  <circle cx="380" cy="140" r="4" fill="#2da44e"/>
+  <circle cx="300" cy="180" r="4" fill="#c00"/>
+  <path d="M300,180 C340,150 360,110 330,120" fill="none" stroke="#bbb" stroke-width="1"/>
+  <path d="M380,140 C370,110 365,95 360,80" fill="none" stroke="#bbb" stroke-width="1"/>
+  <text x="120" y="200" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">low bias</text>
+  <text x="430" y="220" font-family="sans-serif" font-size="13" fill="#2da44e" text-anchor="middle">low var</text>
+  <text x="240" y="250" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">high MSE</text>
+  <text x="330" y="345" font-family="sans-serif" font-size="13" fill="#555" text-anchor="middle">estimator spread</text>
+</svg>

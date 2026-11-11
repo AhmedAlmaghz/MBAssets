@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Convolutional NTK (ConvNTK)</text>
+
+  <!-- image patches -->
+  <g stroke="#5b6b8c" stroke-width="1" fill="none">
+    <rect x="60" y="100" width="120" height="120"/>
+    <line x1="100" y1="100" x2="100" y2="220"/><line x1="140" y1="100" x2="140" y2="220"/>
+    <line x1="60" y1="140" x2="180" y2="140"/><line x1="60" y1="180" x2="180" y2="180"/>
+  </g>
+  <g fill="#c9d6ff" fill-opacity="0.5">
+    <rect x="60" y="100" width="40" height="40"/>
+    <rect x="140" y="180" width="40" height="40"/>
+  </g>
+  <text x="120" y="255" text-anchor="middle" font-size="11" fill="#555">local receptive patches</text>
+
+  <!-- translation-invariant kernel -->
+  <g>
+    <rect x="280" y="110" width="200" height="70" rx="8" fill="#fff3bf" stroke="#f08c00" stroke-width="2"/>
+    <text x="380" y="135" text-anchor="middle" font-size="11" fill="#1a2238">Theta_conv(x,x') =</text>
+    <text x="380" y="155" text-anchor="middle" font-size="11" fill="#1a2238">sum over aligned patches</text>
+    <text x="380" y="173" text-anchor="middle" font-size="11" fill="#1a2238">of patch NTKs</text>
+  </g>
+
+  <!-- kernel is Toeplitz / translation equivariant -->
+  <g>
+    <rect x="540" y="100" width="100" height="100" rx="6" fill="none" stroke="#5b6b8c" stroke-width="1"/>
+    <g fill="#2f9e44" fill-opacity="0.4">
+      <rect x="540" y="100" width="25" height="25"/><rect x="565" y="125" width="25" height="25"/>
+      <rect x="590" y="150" width="25" height="25"/><rect x="615" y="175" width="25" height="25"/>
+    </g>
+  </g>
+  <text x="590" y="220" text-anchor="middle" font-size="10" fill="#555">Toeplitz (translation inv.)</text>
+
+  <line x1="180" y1="160" x2="278" y2="145" stroke="#888" stroke-width="1.4" marker-end="url(#n1)"/>
+  <line x1="480" y1="150" x2="538" y2="145" stroke="#888" stroke-width="1.4" marker-end="url(#n1)"/>
+
+  <text x="340" y="355" text-anchor="middle" font-size="12.5" fill="#555">ConvNTK is translation-equivariant: kernel depends on relative shift of patches, not absolute position.</text>
+</svg>

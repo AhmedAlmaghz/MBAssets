@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="320" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">بقايا تايلور (Lagrange): الخطأ = Rₙ(x)</text>
+
+  <!-- axes -->
+  <line x1="50" y1="270" x2="640" y2="270" stroke="#334155" stroke-width="1.4"/>
+  <line x1="120" y1="290" x2="120" y2="40" stroke="#334155" stroke-width="1.4"/>
+
+  <!-- function f -->
+  <path d="M120,230 C220,200 300,90 380,120 C470,156 540,80 620,70" fill="none" stroke="#0f766e" stroke-width="2.6"/>
+  <text x="600" y="62" font-size="13" fill="#0f766e" font-style="italic">f(x)</text>
+
+  <!-- Taylor poly P_n (tangent-like, lower) -->
+  <path d="M120,230 C230,210 320,170 400,180 C480,190 560,150 620,140" fill="none" stroke="#9d174d" stroke-width="2"/>
+  <text x="600" y="134" font-size="13" fill="#9d174d" font-style="italic">Pₙ(x)</text>
+
+  <!-- shaded error region between f and P_n -->
+  <path d="M120,230 C220,200 300,90 380,120 C470,156 540,80 620,70 L620,140 C560,150 480,190 400,180 C320,170 230,210 120,230 Z" fill="#fef3c7" opacity="0.55"/>
+
+  <!-- bracket for remainder -->
+  <line x1="380" y1="120" x2="380" y2="176" stroke="#b45309" stroke-width="1.2"/>
+  <text x="392" y="152" font-size="13" fill="#b45309" font-style="italic">Rₙ(x)</text>
+
+  <!-- formula box -->
+  <rect x="430" y="222" width="210" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="535" y="246" font-size="13" fill="#334155" text-anchor="middle" font-style="italic">|Rₙ| ≤ M|x−a|^{n+1}/(n+1)!</text>
+
+  <text x="340" y="305" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">البقايا محصورة بأقصى مشتقّة × قوة المسافة</text>
+</svg>

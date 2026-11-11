@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="680" height="300" fill="#fafaf7"/>
+
+  <text x="340" y="26" font-size="14" fill="#334155" text-anchor="middle" font-weight="bold">تكامل ليبيسغ–ستيلتjes عبر دالة كثافة التوزيع F</text>
+
+  <!-- axes -->
+  <line x1="50" y1="250" x2="630" y2="250" stroke="#334155" stroke-width="1.4"/>
+  <line x1="50" y1="40"  x2="50"  y2="250" stroke="#334155" stroke-width="1.4"/>
+
+  <!-- step CDF F -->
+  <g stroke="#0f766e" stroke-width="2.4" fill="none">
+    <path d="M50,250 H130"/>
+    <path d="M130,250 V180 H230"/>
+    <path d="M230,180 V120 H330"/>
+    <path d="M330,120 V70 H630"/>
+  </g>
+  <!-- jump dots -->
+  <g fill="#b45309">
+    <circle cx="130" cy="180" r="4"/>
+    <circle cx="230" cy="120" r="4"/>
+    <circle cx="330" cy="70" r="4"/>
+  </g>
+  <g fill="#64748b" font-size="12" text-anchor="middle">
+    <text x="130" y="272">x₁</text>
+    <text x="230" y="272">x₂</text>
+    <text x="330" y="272">x₃</text>
+  </g>
+
+  <!-- height of jumps -->
+  <g fill="#9d174d" font-size="12" text-anchor="start">
+    <text x="138" y="218">ΔF₁</text>
+    <text x="238" y="158">ΔF₂</text>
+    <text x="338" y="102">ΔF₃</text>
+  </g>
+
+  <text x="360" y="60" font-size="13" fill="#0f766e" font-style="italic">F(x) = P(X ≤ x)</text>
+
+  <!-- formula box -->
+  <rect x="430" y="200" width="200" height="42" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="530" y="226" font-size="14" fill="#334155" text-anchor="middle" font-style="italic">∫ h dF = Σ h(xᵢ)ΔFᵢ</text>
+
+  <text x="340" y="292" font-size="12.5" fill="#334155" text-anchor="middle" font-style="italic">الكتلة عند xᵢ هي قفزة ΔFᵢ — لا حاجة لكثافة</text>
+</svg>

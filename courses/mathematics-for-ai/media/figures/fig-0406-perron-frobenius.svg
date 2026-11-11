@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" font-family="Segoe UI, Tahoma, Arial, sans-serif">
+  <rect width="680" height="340" fill="#ffffff"/>
+
+  <text x="340" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Perron–Frobenius: the positive eigenvector (PageRank)</text>
+  <text x="340" y="44" text-anchor="middle" font-size="13" fill="#475569">مصفوفة غير سالبة ⟹ قيمة ذاتية عظمى حقيقية موجبة بمتجه ذاتي موجب هو الحلّ المستقر</text>
+
+  <defs>
+    <marker id="p1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/></marker>
+  </defs>
+
+  <!-- ================= LEFT: web graph ================= -->
+  <text x="175" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">graph: who links to whom</text>
+
+  <g stroke="#0f766e" stroke-width="2.2" fill="none">
+    <line x1="118" y1="128" x2="222" y2="118" marker-end="url(#p1)"/>
+    <line x1="240" y1="128" x2="140" y2="222" marker-end="url(#p1)"/>
+    <line x1="122" y1="240" x2="112" y2="152" marker-end="url(#p1)"/>
+    <line x1="140" y1="248" x2="222" y2="248" marker-end="url(#p1)"/>
+    <line x1="240" y1="240" x2="128" y2="128" marker-end="url(#p1)"/>
+  </g>
+
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <circle cx="110" cy="120" r="20" fill="#1d4ed8"/><text x="110" y="125" fill="#ffffff">A</text>
+    <circle cx="230" cy="110" r="20" fill="#0f766e"/><text x="230" y="115" fill="#ffffff">B</text>
+    <circle cx="110" cy="240" r="20" fill="#b45309"/><text x="110" y="245" fill="#ffffff">C</text>
+    <circle cx="230" cy="240" r="20" fill="#7c3aed"/><text x="230" y="245" fill="#ffffff">D</text>
+  </g>
+
+  <!-- teleport loop -->
+  <path d="M 92 104 C 60 70 150 62 128 102" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#p1)"/>
+  <text x="60" y="62" font-size="11.5" fill="#dc2626">teleport α = 0.15</text>
+  <text x="175" y="292" text-anchor="middle" font-size="11.5" fill="#64748b">G = α·(1/n)11ᵀ + (1−α)·P</text>
+  <text x="175" y="310" text-anchor="middle" font-size="11.5" fill="#64748b">مصفوفة عشوائية موجبة بالكامل</text>
+
+  <!-- ================= RIGHT: stationary distribution ================= -->
+  <text x="500" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">π = πG ,  Σπᵢ = 1 ,  πᵢ &gt; 0</text>
+
+  <line x1="360" y1="268" x2="650" y2="268" stroke="#0f172a" stroke-width="2"/>
+  <line x1="360" y1="268" x2="360" y2="92" stroke="#0f172a" stroke-width="2"/>
+  <text x="505" y="292" text-anchor="middle" font-size="12" fill="#0f172a">page</text>
+  <text x="46" y="180" font-size="12" fill="#0f172a" transform="rotate(-90 36 180)">rank π</text>
+
+  <!-- bars: A .38 -> 152 ; B .22 -> 88 ; C .24 -> 96 ; D .16 -> 64 -->
+  <g>
+    <rect x="386" y="116" width="46" height="152" fill="#1d4ed8"/>
+    <rect x="456" y="180" width="46" height="88"  fill="#0f766e"/>
+    <rect x="526" y="172" width="46" height="96"  fill="#b45309"/>
+    <rect x="596" y="204" width="46" height="64"  fill="#7c3aed"/>
+  </g>
+  <g font-size="12" font-weight="bold" text-anchor="middle" fill="#334155">
+    <text x="409" y="110">0.38</text>
+    <text x="479" y="174">0.22</text>
+    <text x="549" y="166">0.24</text>
+    <text x="619" y="198">0.16</text>
+  </g>
+  <g font-size="13" font-weight="bold" text-anchor="middle" fill="#334155">
+    <text x="409" y="284">A</text>
+    <text x="479" y="284">B</text>
+    <text x="549" y="284">C</text>
+    <text x="619" y="284">D</text>
+  </g>
+
+  <text x="505" y="316" text-anchor="middle" font-size="12" fill="#64748b">ترتيب الصفحات = المتجه الذاتي الأيسر للقيمة الذاتية 1</text>
+  <text x="340" y="334" text-anchor="middle" font-size="12.5" fill="#0f172a">ρ(G) = 1 بسيط، وكل قيمة ذاتية أخرى تحقق |λ| &lt; 1 ⟹ تكرار القوة (power iteration) يتقارب</text>
+</svg>

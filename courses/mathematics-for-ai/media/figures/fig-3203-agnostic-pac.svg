@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="26" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Realisable vs agnostic: the best hypothesis in H may still err</text>
+
+  <!-- left: realizable -->
+  <text x="170" y="56" font-family="sans-serif" font-size="12" fill="#2a7a2a" text-anchor="middle">realisable case</text>
+  <ellipse cx="170" cy="190" rx="130" ry="110" fill="#e8f5e8" stroke="#2a7a2a" stroke-width="2.2"/>
+  <text x="170" y="186" font-family="sans-serif" font-size="12" fill="#2a7a2a" text-anchor="middle">H</text>
+  <circle cx="170" cy="220" r="7" fill="#c00"/>
+  <text x="182" y="224" font-family="sans-serif" font-size="11" fill="#c00">true target f in H</text>
+  <text x="170" y="330" font-family="sans-serif" font-size="11" fill="#333" text-anchor="middle">R* = 0 attainable</text>
+  <text x="170" y="348" font-family="sans-serif" font-size="11" fill="#333" text-anchor="middle">n ~ (d ln(1/eps) + ln(1/delta)) / eps</text>
+
+  <line x1="340" y1="70" x2="340" y2="330" stroke="#bbb" stroke-width="1.2"/>
+
+  <!-- right: agnostic -->
+  <text x="510" y="56" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">agnostic case</text>
+  <ellipse cx="510" cy="190" rx="130" ry="110" fill="#eef4ff" stroke="#1f6feb" stroke-width="2.2"/>
+  <text x="510" y="180" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">H</text>
+  <circle cx="580" cy="160" r="7" fill="#c00"/>
+  <text x="560" y="140" font-family="sans-serif" font-size="11" fill="#c00">true f outside H</text>
+  <path d="M510,250 C520,215 545,205 570,200" fill="none" stroke="#b8860b" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="466" y="268" font-family="sans-serif" font-size="10" fill="#8a5a00">best in H</text>
+  <text x="510" y="330" font-family="sans-serif" font-size="11" fill="#333" text-anchor="middle">R(A(S)) &lt;= inf_H R + eps</text>
+  <text x="510" y="348" font-family="sans-serif" font-size="11" fill="#333" text-anchor="middle">n ~ (d + ln(1/delta)) / eps^2</text>
+</svg>

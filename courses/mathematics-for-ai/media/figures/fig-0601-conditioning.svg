@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" width="780" height="460">
+  <defs>
+    <marker id="cdA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#1b3a8a"/>
+    </marker>
+    <marker id="cdB" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#b03030"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="780" height="460" fill="#ffffff"/>
+
+  <text x="390" y="30" text-anchor="middle" font-size="19" fill="#111111" font-family="Times New Roman, serif">Conditioning:  rel. forward error  &#8804;  &#954;(f,x) &#215; rel. backward error</text>
+  <text x="390" y="54" text-anchor="middle" font-size="14" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">رقم الحالة هو معامل التضخيم: نفس خطأ الإدخال يتضخّم &#954; مرّة في المخرج</text>
+
+  <!-- ===== Row 1 : well conditioned ===== -->
+  <text x="60" y="96" font-size="15" fill="#111111" font-family="Times New Roman, serif">input space</text>
+  <circle cx="120" cy="170" r="46" fill="#eef3ff" stroke="#1b3a8a" stroke-width="2"/>
+  <circle cx="120" cy="170" r="4" fill="#1b3a8a"/>
+  <text x="120" y="240" text-anchor="middle" font-size="14" fill="#333333" font-family="Times New Roman, serif">|&#916;x| / |x| = u = 1.1e-16</text>
+  <text x="120" y="260" text-anchor="middle" font-size="13" fill="#555555" font-family="Segoe UI, Tahoma, sans-serif">كرة الخطأ الخلفي</text>
+
+  <line x1="180" y1="170" x2="300" y2="170" stroke="#1b3a8a" stroke-width="2.4" marker-end="url(#cdA)"/>
+  <text x="240" y="160" text-anchor="middle" font-size="15" fill="#1b3a8a" font-family="Times New Roman, serif">f , &#954; = 2</text>
+
+  <circle cx="390" cy="170" r="58" fill="#dbe6ff" stroke="#1b3a8a" stroke-width="2.4"/>
+  <circle cx="390" cy="170" r="4" fill="#1b3a8a"/>
+  <text x="390" y="252" text-anchor="middle" font-size="14" fill="#111111" font-family="Times New Roman, serif">rel. err &#8776; 2.2e-16</text>
+  <text x="390" y="272" text-anchor="middle" font-size="13" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">16 خانة صحيحة — لا خسارة</text>
+
+  <!-- ===== Row 2 : ill conditioned ===== -->
+  <text x="60" y="316" font-size="15" fill="#111111" font-family="Times New Roman, serif">input space</text>
+  <circle cx="120" cy="372" r="46" fill="#eef3ff" stroke="#1b3a8a" stroke-width="2"/>
+  <circle cx="120" cy="372" r="4" fill="#1b3a8a"/>
+  <text x="120" y="440" text-anchor="middle" font-size="14" fill="#333333" font-family="Times New Roman, serif">|&#916;x| / |x| = u</text>
+
+  <line x1="180" y1="372" x2="300" y2="372" stroke="#b03030" stroke-width="2.4" marker-end="url(#cdB)"/>
+  <text x="240" y="362" text-anchor="middle" font-size="15" fill="#b03030" font-family="Times New Roman, serif">f , &#954; = 10⁶</text>
+
+  <circle cx="390" cy="372" r="120" fill="none" stroke="#b03030" stroke-width="2.4" stroke-dasharray="7,5"/>
+  <circle cx="390" cy="372" r="4" fill="#b03030"/>
+  <text x="390" y="330" text-anchor="middle" font-size="14" fill="#b03030" font-family="Times New Roman, serif">كرة الخطأ تتجاوز الرسم</text>
+  <text x="390" y="410" text-anchor="middle" font-size="14" fill="#111111" font-family="Times New Roman, serif">rel. err &#8776; 1.1e-10</text>
+  <text x="390" y="430" text-anchor="middle" font-size="13" fill="#333333" font-family="Segoe UI, Tahoma, sans-serif">فقدنا 6 خانات = log₁&#8320; &#954;</text>
+
+  <!-- ===== Right column : digits lost table ===== -->
+  <text x="640" y="96" text-anchor="middle" font-size="16" fill="#111111" font-family="Times New Roman, serif">digits lost &#8776; log₁&#8320; &#954;</text>
+  <line x1="520" y1="108" x2="760" y2="108" stroke="#999999" stroke-width="1"/>
+
+  <text x="524" y="136" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954; = 1</text>
+  <rect x="620" y="122" width="4" height="16" fill="#7f9ade" stroke="#0f2a66" stroke-width="1.2"/>
+  <text x="632" y="136" font-size="13" fill="#333333" font-family="Times New Roman, serif">0</text>
+
+  <text x="524" y="166" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954; = 10&#185;</text>
+  <rect x="620" y="152" width="17" height="16" fill="#7f9ade" stroke="#0f2a66" stroke-width="1.2"/>
+  <text x="645" y="166" font-size="13" fill="#333333" font-family="Times New Roman, serif">1</text>
+
+  <text x="524" y="196" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954; = 10&#178;</text>
+  <rect x="620" y="182" width="34" height="16" fill="#7f9ade" stroke="#0f2a66" stroke-width="1.2"/>
+  <text x="662" y="196" font-size="13" fill="#333333" font-family="Times New Roman, serif">2</text>
+
+  <text x="524" y="226" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954; = 10&#8308;</text>
+  <rect x="620" y="212" width="68" height="16" fill="#7f9ade" stroke="#0f2a66" stroke-width="1.2"/>
+  <text x="696" y="226" font-size="13" fill="#333333" font-family="Times New Roman, serif">4</text>
+
+  <text x="524" y="256" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954; = 10&#8311;</text>
+  <rect x="620" y="242" width="136" height="16" fill="#b03030" fill-opacity="0.55" stroke="#7a1f1f" stroke-width="1.2"/>
+  <text x="524" y="242" font-size="12" fill="#b03030" font-family="Segoe UI, Tahoma, sans-serif">&#1602;&#1585;&#1610;&#1576; &#1605;&#1606; &#1581;&#1583; fp32</text>
+  <text x="764" y="256" text-anchor="end" font-size="13" fill="#b03030" font-family="Times New Roman, serif">8</text>
+
+  <text x="524" y="286" font-size="14" fill="#b03030" font-family="Times New Roman, serif">&#954; = 10&#185;&#8310;</text>
+  <rect x="620" y="272" width="136" height="16" fill="#b03030" fill-opacity="0.55" stroke="#7a1f1f" stroke-width="1.2"/>
+  <text x="764" y="286" text-anchor="end" font-size="13" fill="#7a1f1f" font-family="Times New Roman, serif">&#8805; 16</text>
+
+  <line x1="520" y1="306" x2="760" y2="306" stroke="#999999" stroke-width="1"/>
+  <text x="640" y="330" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">fp64 : u = 1.1e-16 (&#8776; 16 digits)</text>
+  <text x="640" y="352" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">fp32 : u = 6.0e-8  (&#8776; 7 digits)</text>
+  <text x="640" y="374" text-anchor="middle" font-size="15" fill="#111111" font-family="Times New Roman, serif">bf16 : u = 3.9e-3  (&#8776; 2 digits)</text>
+
+  <line x1="520" y1="392" x2="760" y2="392" stroke="#999999" stroke-width="1"/>
+  <text x="520" y="414" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954;(f,x) = |x f&#8242;(x)| / |f(x)|</text>
+  <text x="520" y="436" font-size="14" fill="#111111" font-family="Times New Roman, serif">&#954;(A) = ||A||&#183;||A&#8315;&#185;|| = &#963;&#8321;/&#963;_min</text>
+
+  <line x1="40" y1="292" x2="470" y2="292" stroke="#cccccc" stroke-width="1" stroke-dasharray="5,4"/>
+</svg>

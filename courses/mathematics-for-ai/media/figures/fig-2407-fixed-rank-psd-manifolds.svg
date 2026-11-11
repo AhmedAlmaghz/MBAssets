@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <rect x="60" y="80" width="200" height="180" fill="#e8f4ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="160" y="120" font-family="sans-serif" font-size="13" fill="#1f6feb" text-anchor="middle">low-rank X = U S V^T</text>
+  <text x="160" y="155" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">rank(X) = r</text>
+  <text x="160" y="190" font-family="sans-serif" font-size="12" fill="#1f6feb" text-anchor="middle">dim = r(m+n-r)</text>
+  <text x="160" y="225" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">retraction: truncated SVD</text>
+  <path d="M300,120 L520,60 L620,300 L400,320 Z" fill="#ffe8e8" stroke="#c00" stroke-width="2"/>
+  <text x="460" y="160" font-family="sans-serif" font-size="13" fill="#c00" text-anchor="middle">PSD cone</text>
+  <text x="460" y="190" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="middle">X &gt;= 0 (convex cone)</text>
+  <text x="460" y="225" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">projection: clip negative</text>
+  <text x="460" y="250" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">eigenvalues to zero</text>
+  <text x="340" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">applications: LoRA, matrix completion, covariance / kernels</text>
+</svg>

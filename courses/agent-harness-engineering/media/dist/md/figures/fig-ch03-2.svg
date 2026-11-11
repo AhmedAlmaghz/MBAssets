@@ -1,0 +1,38 @@
+<svg class="dg" viewBox="21.0 75.0 814.0 199.5" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="300" rx="16" fill="#FFFFFF"/>
+<rect x="30" y="96" width="148" height="92" rx="12" fill="#E6F4F1" stroke="#0E7C6B" stroke-width="1.4"/>
+<text x="104.0" y="137.8" font-size="14.560000000000002" font-weight="600" fill="#0E7C6B" text-anchor="middle" direction="rtl">قالب النظام</text>
+<text x="104.0" y="154.1" font-size="11.200000000000001" fill="#0E7C6B" fill-opacity="0.78" text-anchor="middle" direction="rtl">System Template</text>
+<circle cx="46" cy="96" r="13" fill="#0E7C6B"/>
+<text x="46" y="100.7" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<path d="M 178 142 L 192 142" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="192" y="96" width="148" height="92" rx="12" fill="#EEF0FE" stroke="#4338CA" stroke-width="1.4"/>
+<text x="266.0" y="137.8" font-size="14.560000000000002" font-weight="600" fill="#4338CA" text-anchor="middle" direction="rtl">حقن البيانات</text>
+<text x="266.0" y="154.1" font-size="11.200000000000001" fill="#4338CA" fill-opacity="0.78" text-anchor="middle" direction="rtl">Data Slots</text>
+<circle cx="208" cy="96" r="13" fill="#4338CA"/>
+<text x="208" y="100.7" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<path d="M 340 142 L 354 142" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="354" y="96" width="148" height="92" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="428.0" y="137.8" font-size="14.560000000000002" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">تعقيم الحقن</text>
+<text x="428.0" y="154.1" font-size="11.200000000000001" fill="#B45309" fill-opacity="0.78" text-anchor="middle" direction="rtl">Injection Guard</text>
+<circle cx="370" cy="96" r="13" fill="#B45309"/>
+<text x="370" y="100.7" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<path d="M 502 142 L 516 142" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="516" y="96" width="148" height="92" rx="12" fill="#F3EEFE" stroke="#6D28D9" stroke-width="1.4"/>
+<text x="590.0" y="137.8" font-size="14.560000000000002" font-weight="600" fill="#6D28D9" text-anchor="middle" direction="rtl">تجميد البادئة</text>
+<text x="590.0" y="154.1" font-size="11.200000000000001" fill="#6D28D9" fill-opacity="0.78" text-anchor="middle" direction="rtl">Cache Prefix</text>
+<circle cx="532" cy="96" r="13" fill="#6D28D9"/>
+<text x="532" y="100.7" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<path d="M 664 142 L 678 142" fill="none" stroke="#6B7A8C" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="678" y="96" width="148" height="92" rx="12" fill="#E4F4F8" stroke="#0E7490" stroke-width="1.4"/>
+<text x="752.0" y="137.8" font-size="14.560000000000002" font-weight="600" fill="#0E7490" text-anchor="middle" direction="rtl">الإرسال</text>
+<text x="752.0" y="154.1" font-size="11.200000000000001" fill="#0E7490" fill-opacity="0.78" text-anchor="middle" direction="rtl">Provider</text>
+<circle cx="694" cy="96" r="13" fill="#0E7490"/>
+<text x="694" y="100.7" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<rect x="30" y="210" width="790" height="56" rx="12" fill="#EEF1F5" fill-opacity="0.5" stroke="#C3CCD8" stroke-width="1"/>
+<text x="425" y="236" font-size="12.88" font-weight="400" fill="#3C4A5A" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">كل خطوة قابلة للاختبار منفصلة: قالب ← بيانات ← تعقيم ← إرسال</text>
+<text x="425" y="256" font-size="11.760000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">لا يُبنى الموجه داخل f-string متناثر في الكود</text>
+</svg>

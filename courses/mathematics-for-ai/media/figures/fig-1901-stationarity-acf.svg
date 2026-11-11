@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="180" x2="660" y2="180" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="180" stroke="#222" stroke-width="2"/>
+  <polyline points="40,180 70,130 100,190 130,120 160,200 190,110 220,195 250,125 280,185 310,115 340,200 370,120 400,190 430,110 460,195 490,125 520,185 550,115 580,200 610,120 640,185 660,150" fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <text x="350" y="70" font-family="sans-serif" font-size="14" fill="#222" text-anchor="middle">stationary series</text>
+  <line x1="40" y1="240" x2="660" y2="240" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="240" x2="40" y2="330" stroke="#222" stroke-width="2"/>
+  <circle cx="80" cy="250" r="6" fill="#1f6feb"/>
+  <circle cx="150" cy="265" r="5" fill="#1f6feb"/>
+  <circle cx="220" cy="280" r="4" fill="#1f6feb"/>
+  <circle cx="290" cy="292" r="3" fill="#1f6feb"/>
+  <circle cx="360" cy="300" r="2.5" fill="#1f6feb"/>
+  <circle cx="430" cy="306" r="2" fill="#1f6feb"/>
+  <line x1="80" y1="250" x2="80" y2="320" stroke="#888" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="150" y1="265" x2="150" y2="320" stroke="#888" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="350" y="255" font-family="sans-serif" font-size="13" fill="#222" text-anchor="middle">ACF rho(h) decays</text>
+  <text x="350" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">lag h</text>
+</svg>

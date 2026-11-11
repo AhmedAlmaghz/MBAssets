@@ -1,0 +1,28 @@
+<svg class="dg" viewBox="85.5 62.0 774.0 322.0" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="410" rx="16" fill="#FFFFFF"/>
+<line x1="96" y1="286" x2="800" y2="286" stroke="#D7DEE7" stroke-width="1.2"/>
+<line x1="96" y1="70" x2="96" y2="286" stroke="#D7DEE7" stroke-width="1.2"/>
+<line x1="96" y1="96" x2="800" y2="96" stroke="#6B7A8C" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="102" y="88" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="end" direction="rtl" unicode-bidi="plaintext">سقف التأخير</text>
+<line x1="96" y1="286" x2="96" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="96" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">1</text>
+<line x1="236" y1="286" x2="236" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="236" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">2</text>
+<line x1="376" y1="286" x2="376" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="376" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">3</text>
+<line x1="516" y1="286" x2="516" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="516" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">4</text>
+<line x1="656" y1="286" x2="656" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="656" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">5</text>
+<line x1="796" y1="286" x2="796" y2="292" stroke="#D7DEE7" stroke-width="1"/>
+<text x="796" y="308" font-size="11.200000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" font-family="monospace">6</text>
+<text x="800" y="330" font-size="12.32" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="end" direction="rtl" unicode-bidi="plaintext">رقم المحاولة</text>
+<path d="M 96 280.0 L 236 274.0 L 376 262.0 L 516 238.0 L 656 190.0 L 796 96.0" fill="none" stroke="#BE123C" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M 96 280.0 L 236 274.0 L 376 262.0 L 516 238.0 L 656 190.0 L 796 96.0 L 796 162.0 L 656 256.0 L 516 284.0 L 376 284.0 L 236 284.0 L 96 284.0 Z" fill="#B45309" fill-opacity="0.25"/>
+<path d="M 96 284.0 L 236 284.0 L 376 284.0 L 516 284.0 L 656 256.0 L 796 162.0" fill="none" stroke="#B45309" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="430" y="372" font-size="13.440000000000001" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">التشويش يمنع «القطيع الهائج»: كل عميل ينتظر مدة مختلفة</text>
+<text x="96" y="332" font-size="11.760000000000002" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="end" direction="rtl" unicode-bidi="plaintext">تأخير</text>
+</svg>

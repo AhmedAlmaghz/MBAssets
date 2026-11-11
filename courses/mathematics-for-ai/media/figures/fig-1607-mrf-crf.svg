@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Markov Random Field (Undirected)</text>
+
+  <defs>
+    <marker id="a5" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <!-- 2x2 grid of nodes with undirected edges -->
+  <circle cx="240" cy="110" r="26" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <circle cx="420" cy="110" r="26" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <circle cx="240" cy="210" r="26" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <circle cx="420" cy="210" r="26" fill="#fff" stroke="#2a6f97" stroke-width="2"/>
+  <line x1="266" y1="110" x2="394" y2="110" stroke="#222" stroke-width="2"/>
+  <line x1="240" y1="136" x2="240" y2="184" stroke="#222" stroke-width="2"/>
+  <line x1="420" y1="136" x2="420" y2="184" stroke="#222" stroke-width="2"/>
+  <line x1="266" y1="210" x2="394" y2="210" stroke="#222" stroke-width="2"/>
+  <!-- diagonal clique edge -->
+  <line x1="262" y1="132" x2="398" y2="188" stroke="#e07a1f" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="340" y="178" font-size="10" fill="#e07a1f">clique</text>
+
+  <rect x="500" y="120" width="150" height="90" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="575" y="145" text-anchor="middle" font-size="12" fill="#222">p(x) = 1/Z</text>
+  <text x="575" y="165" text-anchor="middle" font-size="11" fill="#222">exp(-SUM U_c)</text>
+  <text x="575" y="190" text-anchor="middle" font-size="11" fill="#555">Gibbs / MRF</text>
+
+  <text x="340" y="285" text-anchor="middle" font-size="12" fill="#555">Clique potentials U_c define local interactions; Z normalizes.</text>
+</svg>

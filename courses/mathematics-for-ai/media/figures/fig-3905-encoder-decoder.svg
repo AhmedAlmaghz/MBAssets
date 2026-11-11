@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Encoder-decoder Transformer</text>
+
+  <!-- encoder stack -->
+  <text x="110" y="62" text-anchor="middle" font-size="13" fill="#3b5bdb" font-weight="600">Encoder</text>
+  <g>
+    <rect x="70" y="80" width="90" height="50" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <rect x="70" y="150" width="90" height="50" rx="6" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+    <text x="115" y="110" text-anchor="middle" font-size="11" fill="#1a2238">Self-Attn</text>
+    <text x="115" y="180" text-anchor="middle" font-size="11" fill="#1a2238">Self-Attn</text>
+  </g>
+  <text x="115" y="240" text-anchor="middle" font-size="11" fill="#555">x N layers</text>
+  <!-- context to decoder -->
+  <line x1="160" y1="200" x2="300" y2="200" stroke="#7048e8" stroke-width="2.4" marker-end="url(#e1)"/>
+  <defs><marker id="e1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#7048e8"/></marker></defs>
+  <text x="230" y="190" text-anchor="middle" font-size="10" fill="#7048e8">K,V</text>
+
+  <!-- decoder stack -->
+  <text x="470" y="62" text-anchor="middle" font-size="13" fill="#2f9e44" font-weight="600">Decoder</text>
+  <g>
+    <rect x="420" y="70" width="100" height="44" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="420" y="135" width="100" height="44" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <rect x="420" y="200" width="100" height="44" rx="6" fill="#c8e6c9" stroke="#2f9e44" stroke-width="2"/>
+    <text x="470" y="97" text-anchor="middle" font-size="11" fill="#1a2238">Masked Self</text>
+    <text x="470" y="162" text-anchor="middle" font-size="11" fill="#1a2238">Cross-Attn</text>
+    <text x="470" y="227" text-anchor="middle" font-size="11" fill="#1a2238">FFN</text>
+  </g>
+  <!-- masked self input from decoder outputs -->
+  <line x1="420" y1="115" x2="420" y2="135" stroke="#888" stroke-width="1.4"/>
+
+  <text x="340" y="350" text-anchor="middle" font-size="12.5" fill="#555">Encoder builds K,V; decoder uses masked self-attn + cross-attn to generate autoregressively.</text>
+</svg>

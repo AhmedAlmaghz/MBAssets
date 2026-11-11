@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360">
+  <rect width="680" height="360" fill="#fbfbfd"/>
+  <line x1="40" y1="190" x2="660" y2="190" stroke="#222" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="190" stroke="#222" stroke-width="2"/>
+  <polyline points="40,190 90,160 140,180 190,140 240,165 290,130 340,155 390,120 440,150 490,135 540,165 590,140 640,160" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <line x1="40" y1="190" x2="660" y2="190" stroke="#888" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="350" y="205" font-family="sans-serif" font-size="13" fill="#888" text-anchor="middle">E[M_t] constant (fair game)</text>
+  <line x1="440" y1="60" x2="440" y2="150" stroke="#c00" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <circle cx="440" cy="150" r="5" fill="#c00"/>
+  <text x="470" y="75" font-family="sans-serif" font-size="12" fill="#c00" text-anchor="start">stopping time tau</text>
+  <text x="350" y="260" font-family="sans-serif" font-size="14" fill="#222" text-anchor="middle">E[M_tau] = E[M_0]</text>
+  <text x="350" y="345" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">t</text>
+</svg>

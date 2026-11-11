@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+
+  <text x="340" y="28" font-family="sans-serif" font-size="13" fill="#333" text-anchor="middle">Implicit bias: gradient flow converges in direction to the max margin solution</text>
+
+  <!-- decision boundary region -->
+  <line x1="70" y1="330" x2="640" y2="330" stroke="#222" stroke-width="1.6"/>
+  <line x1="70" y1="70" x2="70" y2="330" stroke="#222" stroke-width="1.6"/>
+  <text x="355" y="358" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">w_1</text>
+  <text x="26" y="180" font-family="sans-serif" font-size="12" fill="#555">w_2</text>
+
+  <!-- feasible cone (constraints) -->
+  <path d="M120,330 L300,150 L520,330 Z" fill="#eef4ff" stroke="none"/>
+  <line x1="120" y1="330" x2="300" y2="150" stroke="#1f6feb" stroke-width="1.6"/>
+  <line x1="520" y1="330" x2="300" y2="150" stroke="#1f6feb" stroke-width="1.6"/>
+  <text x="150" y="316" font-family="sans-serif" font-size="10" fill="#1f6feb">y_i w.x_i &gt;= 1</text>
+
+  <!-- margin tube around the boundary -->
+  <line x1="300" y1="150" x2="300" y2="330" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="306" y="168" font-family="sans-serif" font-size="10" fill="#777">margin tube</text>
+
+  <!-- gradient trajectory -->
+  <path d="M100,300 C150,268 200,240 260,214 C300,196 340,190 392,186" fill="none" stroke="#c00" stroke-width="2.8"/>
+  <circle cx="100" cy="300" r="5" fill="#c00"/>
+  <text x="72" y="318" font-family="sans-serif" font-size="10" fill="#c00">w_0</text>
+
+  <circle cx="392" cy="188" r="6" fill="#2a7a2a"/>
+  <text x="380" y="178" font-family="sans-serif" font-size="11" fill="#2a7a2a">w_SVM</text>
+  <text x="404" y="212" font-family="sans-serif" font-size="10" fill="#2a7a2a">max l2 margin</text>
+
+  <!-- adam direction -->
+  <path d="M100,300 C170,290 240,282 340,276" fill="none" stroke="#b8860b" stroke-width="2.4" stroke-dasharray="6,4"/>
+  <circle cx="340" cy="276" r="5" fill="#b8860b"/>
+  <text x="300" y="296" font-family="sans-serif" font-size="10" fill="#b8860b">max l_inf margin</text>
+
+  <!-- norm growth box -->
+  <rect x="430" y="86" width="200" height="62" fill="#fdf6e6" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="530" y="104" font-family="sans-serif" font-size="10" fill="#b8860b" text-anchor="middle">||w_t|| = Theta(log t)</text>
+  <text x="530" y="120" font-family="sans-serif" font-size="10" fill="#b8860b" text-anchor="middle">gamma* - gamma_t = O(1/log t)</text>
+  <text x="530" y="136" font-family="sans-serif" font-size="10" fill="#b8860b" text-anchor="middle">early stop: lambda ~ 2/(eta t)</text>
+
+  <!-- separable note -->
+  <rect x="90" y="80" width="176" height="34" fill="#eef4ff" stroke="#1f6feb" stroke-width="1.2"/>
+  <text x="178" y="96" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">separable data, exp / logistic loss</text>
+  <text x="178" y="110" font-family="sans-serif" font-size="10" fill="#1f6feb" text-anchor="middle">no explicit regulariser</text>
+</svg>

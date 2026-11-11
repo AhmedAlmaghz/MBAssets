@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="680" height="380" fill="#fbfbfd"/>
+  <text x="340" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a2238">Diffusion: reverse (denoising) process</text>
+
+  <!-- xt -->
+  <rect x="40" y="150" width="90" height="80" rx="8" fill="#ffe3e3" stroke="#c2255c" stroke-width="2"/>
+  <text x="85" y="186" text-anchor="middle" font-size="14" fill="#1a2238">xt</text>
+  <text x="85" y="206" text-anchor="middle" font-size="11" fill="#1a2238">noise</text>
+
+  <!-- epsilon net -->
+  <rect x="200" y="165" width="100" height="50" rx="8" fill="#ffe0b2" stroke="#e8590c" stroke-width="2"/>
+  <text x="250" y="195" text-anchor="middle" font-size="11" fill="#1a2238">ε_θ(x_t, t)</text>
+  <line x1="130" y1="190" x2="198" y2="190" stroke="#888" stroke-width="1.6" marker-end="url(#e1)"/>
+
+  <!-- predict noise -->
+  <text x="340" y="120" text-anchor="middle" font-size="12" fill="#2f9e44">predict ε ∼ noise added</text>
+  <line x1="250" y1="178" x2="330" y2="128" stroke="#2f9e44" stroke-width="1.4" marker-end="url(#e2)"/>
+
+  <!-- x0 hat -->
+  <rect x="360" y="150" width="90" height="80" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+  <text x="405" y="186" text-anchor="middle" font-size="14" fill="#1a2238">x0_hat</text>
+  <text x="405" y="206" text-anchor="middle" font-size="10" fill="#555">remove ε</text>
+  <line x1="300" y1="190" x2="358" y2="190" stroke="#888" stroke-width="1.6" marker-end="url(#e1)"/>
+
+  <!-- sample -->
+  <rect x="520" y="150" width="90" height="80" rx="8" fill="#c9d6ff" stroke="#3b5bdb" stroke-width="2"/>
+  <text x="565" y="186" text-anchor="middle" font-size="14" fill="#1a2238">x</text>
+  <text x="565" y="206" text-anchor="middle" font-size="11" fill="#1a2238">sample</text>
+  <line x1="450" y1="190" x2="518" y2="190" stroke="#888" stroke-width="1.6" marker-end="url(#e1)"/>
+
+  <text x="340" y="290" text-anchor="middle" font-size="12.5" fill="#1a2238">L_simple = E || ε − ε_θ(√ᾱ_t x0 + √(1−ᾱ_t) ε, t) ||²</text>
+  <text x="340" y="318" text-anchor="middle" font-size="12" fill="#555">Train ε_θ to predict the noise; reverse step removes it.</text>
+  <defs>
+    <marker id="e1" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#888"/></marker>
+    <marker id="e2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2f9e44"/></marker>
+  </defs>
+</svg>

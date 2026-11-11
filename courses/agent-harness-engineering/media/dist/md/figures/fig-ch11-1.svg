@@ -1,0 +1,46 @@
+<svg class="dg" viewBox="11.5 31.5 837.0 362.5" width="100%" height="auto" role="img" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Sans Arabic','Segoe UI',sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6B7A8C"/></marker>
+</defs>
+<rect x="0" y="0" width="860" height="400" rx="16" fill="#FFFFFF"/>
+<rect x="20" y="40" width="260" height="310" rx="14" fill="#EEF0FE" fill-opacity="1.0" stroke="#B9BFF7" stroke-width="1"/>
+<text x="264" y="64" font-size="12.5" font-weight="600" fill="#4338CA" text-anchor="start" direction="rtl">المشرف والعمّال</text>
+<rect x="108" y="76" width="84" height="44" rx="12" fill="#4338CA" stroke="#4338CA" stroke-width="1.4"/>
+<text x="150.0" y="101.7" font-size="12.88" font-weight="600" fill="#FFFFFF" text-anchor="middle" direction="rtl">مشرف</text>
+<rect x="36" y="186" width="64" height="44" rx="12" fill="#EEF0FE" stroke="#4338CA" stroke-width="1.4"/>
+<text x="68.0" y="211.6" font-size="12.32" font-weight="600" fill="#4338CA" text-anchor="middle" direction="rtl">W1</text>
+<path d="M 150 120 L 68 186" fill="none" stroke="#6B7A8C" stroke-width="1.1" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="108" y="186" width="64" height="44" rx="12" fill="#EEF0FE" stroke="#4338CA" stroke-width="1.4"/>
+<text x="140.0" y="211.6" font-size="12.32" font-weight="600" fill="#4338CA" text-anchor="middle" direction="rtl">W2</text>
+<path d="M 150 120 L 140 186" fill="none" stroke="#6B7A8C" stroke-width="1.1" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="180" y="186" width="64" height="44" rx="12" fill="#EEF0FE" stroke="#4338CA" stroke-width="1.4"/>
+<text x="212.0" y="211.6" font-size="12.32" font-weight="600" fill="#4338CA" text-anchor="middle" direction="rtl">W3</text>
+<path d="M 150 120 L 212 186" fill="none" stroke="#6B7A8C" stroke-width="1.1" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="150" y="264" font-size="10.64" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">تحكم مركزي</text>
+<rect x="300" y="40" width="260" height="310" rx="14" fill="#FDF3E3" fill-opacity="1.0" stroke="#EBCB98" stroke-width="1"/>
+<text x="544" y="64" font-size="12.5" font-weight="600" fill="#B45309" text-anchor="start" direction="rtl">السرب والتسليم</text>
+<rect x="318" y="82" width="64" height="40" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="350.0" y="105.6" font-size="12.32" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">A1</text>
+<rect x="438" y="112" width="64" height="40" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="470.0" y="135.6" font-size="12.32" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">A2</text>
+<rect x="330" y="196" width="64" height="40" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="362.0" y="219.6" font-size="12.32" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">A3</text>
+<rect x="452" y="218" width="64" height="40" rx="12" fill="#FDF3E3" stroke="#B45309" stroke-width="1.4"/>
+<text x="484.0" y="241.6" font-size="12.32" font-weight="600" fill="#B45309" text-anchor="middle" direction="rtl">A4</text>
+<path d="M 382 102 L 438 122" fill="none" stroke="#B45309" stroke-width="1.2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 452 152 L 394 196" fill="none" stroke="#B45309" stroke-width="1.2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M 394 226 L 452 232" fill="none" stroke="#B45309" stroke-width="1.2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="430" y="290" font-size="10.64" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">تسليم مباشر بين الوكلاء</text>
+<rect x="580" y="40" width="260" height="310" rx="14" fill="#F3EEFE" fill-opacity="1.0" stroke="#D3C4F8" stroke-width="1"/>
+<text x="824" y="64" font-size="12.5" font-weight="600" fill="#6D28D9" text-anchor="start" direction="rtl">خط الأنابيب</text>
+<rect x="620" y="76" width="180" height="48" rx="12" fill="#F3EEFE" stroke="#6D28D9" stroke-width="1.4"/>
+<text x="710.0" y="103.7" font-size="12.88" font-weight="600" fill="#6D28D9" text-anchor="middle" direction="rtl">بحث</text>
+<path d="M 710 124 L 710 150" fill="none" stroke="#6D28D9" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="620" y="154" width="180" height="48" rx="12" fill="#F3EEFE" stroke="#6D28D9" stroke-width="1.4"/>
+<text x="710.0" y="181.7" font-size="12.88" font-weight="600" fill="#6D28D9" text-anchor="middle" direction="rtl">تحليل</text>
+<path d="M 710 202 L 710 228" fill="none" stroke="#6D28D9" stroke-width="1.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="620" y="232" width="180" height="48" rx="12" fill="#F3EEFE" stroke="#6D28D9" stroke-width="1.4"/>
+<text x="710.0" y="259.7" font-size="12.88" font-weight="600" fill="#6D28D9" text-anchor="middle" direction="rtl">كتابة</text>
+<text x="710" y="306" font-size="10.64" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">تدفق متسلسل</text>
+<text x="430" y="382" font-size="12.88" font-weight="400" fill="#6B7A8C" fill-opacity="1.0" text-anchor="middle" direction="rtl" unicode-bidi="plaintext">اختر الطوبولوجيا بحسب الحاجة للتحكم: مشرف = تدقيق، سرب = مرونة، خط = تدفق</text>
+</svg>

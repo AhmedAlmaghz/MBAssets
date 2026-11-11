@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Latin Modern, serif">
+  <rect width="680" height="320" fill="#fafafa"/>
+  <text x="340" y="26" text-anchor="middle" font-size="16" fill="#222">Fisher Information &amp; Cramer-Rao Bound</text>
+
+  <g transform="translate(160,60)">
+    <!-- axes -->
+    <line x1="0" y1="200" x2="360" y2="200" stroke="#222"/>
+    <line x1="180" y1="20" x2="180" y2="230" stroke="#222"/>
+
+    <!-- CR bound ellipse (inner, smaller) -->
+    <ellipse cx="180" cy="150" rx="50" ry="90" fill="none" stroke="#2a6f97" stroke-width="2.5"/>
+    <text x="120" y="60" font-size="11" fill="#2a6f97">Cov &gt;= I^{-1}</text>
+
+    <!-- estimator cloud ellipse (outer) -->
+    <ellipse cx="180" cy="150" rx="90" ry="150" fill="#2a6f97" opacity="0.10"/>
+    <ellipse cx="180" cy="150" rx="90" ry="150" fill="none" stroke="#e07a1f" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="280" y="60" font-size="11" fill="#e07a1f">estimator Cov</text>
+
+    <!-- mean -->
+    <circle cx="180" cy="150" r="4" fill="#b5333a"/>
+    <text x="190" y="145" font-size="11" fill="#b5333a">theta</text>
+  </g>
+
+  <text x="500" y="120" font-size="12" fill="#222">I(theta) =</text>
+  <text x="500" y="140" font-size="12" fill="#222">E[ grad l grad l^T ]</text>
+  <text x="500" y="170" font-size="12" fill="#222">is PSD;</text>
+  <text x="500" y="190" font-size="12" fill="#222">bounds any</text>
+  <text x="500" y="210" font-size="12" fill="#222">unbiased est.</text>
+  <text x="340" y="300" text-anchor="middle" font-size="12" fill="#555">Cramer-Rao: Cov(theta_hat) &gt;= I(theta)^{-1}. Fisher info drives natural gradient.</text>
+</svg>

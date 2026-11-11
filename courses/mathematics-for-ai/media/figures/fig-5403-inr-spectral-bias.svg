@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Tajawal, Noto Naskh Arabic, sans-serif">
+  <rect width="680" height="380" fill="#ffffff"/>
+  <text x="664" y="26" text-anchor="end" font-size="15" fill="#1f4e6b" font-weight="700">التمثيلات الضمنية والتحيّز الطيفي</text>
+  <text x="664" y="44" text-anchor="end" font-size="11" fill="#5a6770">Implicit neural representations &amp; spectral bias</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6770"/></marker></defs>
+  <line x1="60" y1="290" x2="620" y2="290" stroke="#5a6770" stroke-width="1"/>
+  <line x1="60" y1="90" x2="60" y2="290" stroke="#5a6770" stroke-width="1"/>
+  <text x="620" y="304" font-size="11" fill="#5a6770">k (تردّد)</text>
+  <text x="54" y="100" text-anchor="end" font-size="11" fill="#5a6770">|c_k|</text>
+  <g fill="#b5473a">
+    <rect x="90" y="140" width="40" height="160"/><rect x="160" y="180" width="40" height="120"/>
+    <rect x="230" y="220" width="40" height="80"/><rect x="300" y="250" width="40" height="50"/>
+    <rect x="370" y="268" width="40" height="32"/><rect x="440" y="280" width="40" height="20"/>
+  </g>
+  <g fill="#7a9e3c">
+    <rect x="510" y="150" width="50" height="150"/><rect x="560" y="160" width="50" height="140"/>
+  </g>
+  <text x="180" y="126" font-size="11" fill="#b5473a">يتعلّم أولاً: التردّدات المنخفضة</text>
+  <text x="500" y="136" font-size="11" fill="#7a9e3c">SIREN/RFF تُسرّع العالية</text>
+  <text x="340" y="326" font-size="10.5" fill="#5a6770" direction="rtl">الشبكات العادية تتعلّم المنخفض أولاً (spectral bias) ⇒ تشويش في التفاصيل.</text>
+  <text x="340" y="348" font-size="10.5" fill="#5a6770" direction="rtl">الحلول: تفعيل دوري (SIREN)، أو ميزات فورييه عشوائية، أو ترميز موضعي.</text>
+</svg>
