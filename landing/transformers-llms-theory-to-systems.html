@@ -2,6 +2,38 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
+<meta name="app-url" content="">
+<meta name="mb-root" content="">
+<script>
+/* Internal links by default. Set APP_URL (build-time env var, injected into
+   <meta name="app-url">, or window.APP_URL at runtime) to prefix every link. */
+(function () {
+  var m = document.querySelector('meta[name="app-url"]');
+  var r = document.querySelector('meta[name="mb-root"]');
+  var base = String((window.APP_URL || (m && m.content) || '')).trim().replace(/\/+$/, '');
+  var root = String((r && r.content) || '').replace(/^\/+/, '');
+  function resolve(path) {
+    if (!path || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|data:)/i.test(path)) return path;
+    var p = root + String(path).replace(/^\/+/, '');
+    return base ? base + '/' + p : p;
+  }
+  function apply(node) {
+    (node || document).querySelectorAll('[data-mb-path]').forEach(function (el) {
+      var attr = el.getAttribute('data-mb-attr') || ({
+        A: 'href', IMG: 'src', SOURCE: 'src', LINK: 'href', META: 'content', SCRIPT: 'src'
+      })[el.tagName] || 'href';
+      el.setAttribute(attr, resolve(el.getAttribute('data-mb-path')));
+    });
+  }
+  window.MaghzBookURL = { base: base, root: root, resolve: resolve, apply: apply,
+                          ENV: 'APP_URL' };
+  if (base) {
+    if (document.readyState === 'loading')
+      document.addEventListener('DOMContentLoaded', function () { apply(); });
+    else apply();
+  }
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>المحوّلات والنماذج اللغوية الكبيرة | من النظرية إلى بناء أنظمة ذكية</title>
 <meta name="description" content="48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.">
@@ -10,7 +42,7 @@
 <meta property="og:type" content="book">
 <meta property="og:title" content="المحوّلات والنماذج اللغوية الكبيرة">
 <meta property="og:description" content="48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.">
-<meta property="og:image" content="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png">
+<meta property="og:image" content="../books/transformers-llms-theory-to-systems/cover.png" data-mb-path="books/transformers-llms-theory-to-systems/cover.png">
 <meta property="og:locale" content="ar_AR">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +62,7 @@
  },
  "datePublished": "2026",
  "numberOfPages": 666,
- "image": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png",
+ "image": "../books/transformers-llms-theory-to-systems/cover.png",
  "publisher": {
   "@type": "Organization",
   "name": "MaghzBook"
@@ -217,16 +249,16 @@ footer strong{color:#f8fafc}
 <main id="main">
 <div class="hero">
   <div class="wrap hero-grid">
-    <div class="cover-frame"><img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png" alt="غلاف كتاب المحوّلات والنماذج اللغوية الكبيرة" width="1024" height="1536"></div>
+    <div class="cover-frame"><img src="../books/transformers-llms-theory-to-systems/cover.png" alt="غلاف كتاب المحوّلات والنماذج اللغوية الكبيرة" width="1024" height="1536" data-mb-path="books/transformers-llms-theory-to-systems/cover.png"></div>
     <div>
       <span class="eyebrow">كتاب تقني عربي · 10 أجزاء · 48 فصلاً</span>
       <h1>المحوّلات والنماذج اللغوية الكبيرة</h1>
       <p class="sub">من النظرية إلى بناء أنظمة ذكية</p>
       <p class="desc">48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/sample.pdf">⬇ تحميل النموذج المجاني (أول جزأين)</a>
+        <a class="btn btn-primary" href="../books/transformers-llms-theory-to-systems/sample.pdf" data-mb-path="books/transformers-llms-theory-to-systems/sample.pdf">⬇ تحميل النموذج المجاني (أول جزأين)</a>
         <a class="btn btn-ghost" href="#curriculum">استعراض المنهج</a>
-        <a class="btn btn-ghost" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.pdf">الكتاب الكامل PDF</a>
+        <a class="btn btn-ghost" href="../books/transformers-llms-theory-to-systems/book.pdf" data-mb-path="books/transformers-llms-theory-to-systems/book.pdf">الكتاب الكامل PDF</a>
       </div>
     </div>
   </div>
@@ -303,8 +335,8 @@ footer strong{color:#f8fafc}
         <h2>نموذج مجاني: الجزءان الأول والثاني</h2>
         <p>ملف PDF مُستخرج من الكتاب الكامل مع الحفاظ على التنسيق والخطوط والرسوم الأصلية، ويضمّ أول جزأين (95 صفحة من أصل 666 صفحة). يكفي لتقييم الأسلوب وعمق الشرح وجودة الأمثلة قبل اقتناء النسخة الكاملة.</p>
         <div class="cta">
-          <a class="btn btn-primary" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/sample.pdf">⬇ تحميل النموذج المجاني</a>
-          <a class="btn btn-light" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.pdf">الكتاب الكامل PDF ↗</a>
+          <a class="btn btn-primary" href="../books/transformers-llms-theory-to-systems/sample.pdf" data-mb-path="books/transformers-llms-theory-to-systems/sample.pdf">⬇ تحميل النموذج المجاني</a>
+          <a class="btn btn-light" href="../books/transformers-llms-theory-to-systems/book.pdf" data-mb-path="books/transformers-llms-theory-to-systems/book.pdf">الكتاب الكامل PDF ↗</a>
         </div>
       </div>
       <div class="sample-pdf">
@@ -323,16 +355,16 @@ footer strong{color:#f8fafc}
       <h2>كل ما تحتاجه في مكان واحد</h2>
       <p>روابط مباشرة للملفات داخل المستودع، وجاهزة للاستيراد في MaghzBook.</p>
     </div>
-    <div class="link-grid"><a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.pdf"><span class="ic">📕</span><span><b>الكتاب الكامل (PDF)</b><small>dist/llm-ds.pdf · 666 صفحة</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/sample.pdf"><span class="ic">📄</span><span><b>النموذج المجاني (أول جزأين)</b><small>95 صفحة</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png"><span class="ic">🖼️</span><span><b>صورة الغلاف</b><small>assets/cover.png</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/transformers-llms-theory-to-systems/course.blueprint.json"><span class="ic">🎓</span><span><b>Blueprint: الدورة</b><small>maghzbook-course-transformers-llms-theory-to-systems-data.json</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.blueprint.json"><span class="ic">📘</span><span><b>Blueprint: الكتاب</b><small>maghzbook-book-transformers-llms-theory-to-systems.json</small></span></a>
+    <div class="link-grid"><a class="link-card" href="../books/transformers-llms-theory-to-systems/book.pdf" data-mb-path="books/transformers-llms-theory-to-systems/book.pdf"><span class="ic">📕</span><span><b>الكتاب الكامل (PDF)</b><small>dist/llm-ds.pdf · 666 صفحة</small></span></a>
+<a class="link-card" href="../books/transformers-llms-theory-to-systems/sample.pdf" data-mb-path="books/transformers-llms-theory-to-systems/sample.pdf"><span class="ic">📄</span><span><b>النموذج المجاني (أول جزأين)</b><small>95 صفحة</small></span></a>
+<a class="link-card" href="../books/transformers-llms-theory-to-systems/cover.png" data-mb-path="books/transformers-llms-theory-to-systems/cover.png"><span class="ic">🖼️</span><span><b>صورة الغلاف</b><small>assets/cover.png</small></span></a>
+<a class="link-card" href="../courses/transformers-llms-theory-to-systems/course.blueprint.json" data-mb-path="courses/transformers-llms-theory-to-systems/course.blueprint.json"><span class="ic">🎓</span><span><b>Blueprint: الدورة</b><small>maghzbook-course-transformers-llms-theory-to-systems-data.json</small></span></a>
+<a class="link-card" href="../books/transformers-llms-theory-to-systems/book.blueprint.json" data-mb-path="books/transformers-llms-theory-to-systems/book.blueprint.json"><span class="ic">📘</span><span><b>Blueprint: الكتاب</b><small>maghzbook-book-transformers-llms-theory-to-systems.json</small></span></a>
 <a class="link-card" href="https://github.com/AhmedAlmaghz/LLM-Lit-Book"><span class="ic">🔗</span><span><b>مستودع GitHub</b><small>LLM-Lit-Book · main</small></span></a>
-<a class="link-card" href="https://ahmedalmaghz.github.io/LLM-Lit-Book/"><span class="ic">🌐</span><span><b>الصفحة الرسمية المنشورة</b><small>https://ahmedalmaghz.github.io/LLM-Lit-Book/</small></span></a></div>
+<a class="link-card" href="./transformers-llms-theory-to-systems.html" data-mb-path="landing/transformers-llms-theory-to-systems.html"><span class="ic">🌐</span><span><b>الصفحة الرسمية المنشورة</b><small>./transformers-llms-theory-to-systems.html</small></span></a></div>
     <div class="import-note">
       <strong>للاستيراد في MaghzBook:</strong> انسخ رابط Blueprint أدناه وألصقه في «إدارة Blueprints ← استيراد من رابط GitHub». الملفات من النوع <code>course</code> و<code>book</code> تستند إلى معرّف ثابت (<code>transformers-llms-theory-to-systems</code>)، لذا يمكن إعادة الاستيراد بأمان دون تكرار أو فقدان تقدّم المتعلّمين.
-      <code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/transformers-llms-theory-to-systems/course.blueprint.json</code><br><code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.blueprint.json</code>
+      <code>../courses/transformers-llms-theory-to-systems/course.blueprint.json</code><br><code>../books/transformers-llms-theory-to-systems/book.blueprint.json</code>
     </div>
   </div>
 </section>

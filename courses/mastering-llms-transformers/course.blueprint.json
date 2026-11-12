@@ -27,42 +27,42 @@
         "title": "إتقان المحوّلات والنماذج اللغوية الكبيرة",
         "subtitle": "دليل عربي شامل من الصفر إلى الإنتاج",
         "description": "12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.",
-        "landingMd": "# إتقان المحوّلات والنماذج اللغوية الكبيرة\n\n**دليل عربي شامل من الصفر إلى الإنتاج**\n\n12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.\n\n![إتقان المحوّلات والنماذج اللغوية الكبيرة](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات** — 5 فصول وملاحق\n- **التمثيل اللغوي** — 3 فصول وملاحق\n- **المحوّلات الأساسية** — 4 فصول وملاحق\n- **المعماريات الحديثة** — 5 فصول وملاحق\n- **بناء LLM من الصفر** — 6 فصول وملاحق\n- **إعادة استخدام النماذج** — 6 فصول وملاحق\n- **التخصيص الفعّال والمحاذاة** — 5 فصول وملاحق\n- **النماذج متعددة الوسائط** — 6 فصول وملاحق\n- **التقييم الشامل** — 6 فصول وملاحق\n- **التطبيقات والوكلاء الذكية** — 7 فصول وملاحق\n- **النشر والتشغيل** — 6 فصول وملاحق\n- **الاتجاهات المستقبلية** — 5 فصول وملاحق\n- **الملاحق والمراجع** — 8 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 152 صفحة](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [صفحة الكتاب التعريفية](https://ahmedalmaghz.github.io/MLLBook/)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# إتقان المحوّلات والنماذج اللغوية الكبيرة\n\n**دليل عربي شامل من الصفر إلى الإنتاج**\n\n12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.\n\n![إتقان المحوّلات والنماذج اللغوية الكبيرة](books/mastering-llms-transformers/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات** — 5 فصول وملاحق\n- **التمثيل اللغوي** — 3 فصول وملاحق\n- **المحوّلات الأساسية** — 4 فصول وملاحق\n- **المعماريات الحديثة** — 5 فصول وملاحق\n- **بناء LLM من الصفر** — 6 فصول وملاحق\n- **إعادة استخدام النماذج** — 6 فصول وملاحق\n- **التخصيص الفعّال والمحاذاة** — 5 فصول وملاحق\n- **النماذج متعددة الوسائط** — 6 فصول وملاحق\n- **التقييم الشامل** — 6 فصول وملاحق\n- **التطبيقات والوكلاء الذكية** — 7 فصول وملاحق\n- **النشر والتشغيل** — 6 فصول وملاحق\n- **الاتجاهات المستقبلية** — 5 فصول وملاحق\n- **الملاحق والمراجع** — 8 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 152 صفحة](books/mastering-llms-transformers/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/mastering-llms-transformers/book.pdf)\n- [صفحة الكتاب التعريفية](landing/mastering-llms-transformers.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "Mastering Transformers and Large Language Models",
         "subtitle": "A complete Arabic guide from zero to production",
         "description": "Twelve parts, 64 chapters, 12 capstone projects and 8 appendices, with 76 runnable Jupyter notebooks: from mathematical foundations and attention to building, tuning, evaluating and deploying an LLM.",
-        "landingMd": "# Mastering Transformers and Large Language Models\n\n**A complete Arabic guide from zero to production**\n\nTwelve parts, 64 chapters, 12 capstone projects and 8 appendices, with 76 runnable Jupyter notebooks: from mathematical foundations and attention to building, tuning, evaluating and deploying an LLM.\n\n![Mastering Transformers and Large Language Models](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## What you will learn\n\n- **Part 1 — Part Foundations** — 5 chapters & appendices\n- **Part 2 — Part Language Representation** — 3 chapters & appendices\n- **Part 3 — Part Transformers** — 4 chapters & appendices\n- **Part 4 — Part Modern Architectures** — 5 chapters & appendices\n- **Part 5 — Part Building Llms** — 6 chapters & appendices\n- **Part 6 — Part Model Reuse** — 6 chapters & appendices\n- **Part 7 — Part Peft Alignment** — 5 chapters & appendices\n- **Part 8 — Part Multimodal** — 6 chapters & appendices\n- **Part 9 — Part Evaluation** — 6 chapters & appendices\n- **Part 10 — Part Applications Agents** — 7 chapters & appendices\n- **Part 11 — Part Llmops** — 6 chapters & appendices\n- **Part 12 — Part Future** — 5 chapters & appendices\n- **Appendices and Reference** — 8 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 152 pages](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [Full book (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [Book landing page](https://ahmedalmaghz.github.io/MLLBook/)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Mastering Transformers and Large Language Models\n\n**A complete Arabic guide from zero to production**\n\nTwelve parts, 64 chapters, 12 capstone projects and 8 appendices, with 76 runnable Jupyter notebooks: from mathematical foundations and attention to building, tuning, evaluating and deploying an LLM.\n\n![Mastering Transformers and Large Language Models](books/mastering-llms-transformers/cover.png)\n\n## What you will learn\n\n- **Part 1 — Part Foundations** — 5 chapters & appendices\n- **Part 2 — Part Language Representation** — 3 chapters & appendices\n- **Part 3 — Part Transformers** — 4 chapters & appendices\n- **Part 4 — Part Modern Architectures** — 5 chapters & appendices\n- **Part 5 — Part Building Llms** — 6 chapters & appendices\n- **Part 6 — Part Model Reuse** — 6 chapters & appendices\n- **Part 7 — Part Peft Alignment** — 5 chapters & appendices\n- **Part 8 — Part Multimodal** — 6 chapters & appendices\n- **Part 9 — Part Evaluation** — 6 chapters & appendices\n- **Part 10 — Part Applications Agents** — 7 chapters & appendices\n- **Part 11 — Part Llmops** — 6 chapters & appendices\n- **Part 12 — Part Future** — 5 chapters & appendices\n- **Appendices and Reference** — 8 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 152 pages](books/mastering-llms-transformers/sample.pdf)\n\n- [Full book (PDF)](books/mastering-llms-transformers/book.pdf)\n- [Book landing page](landing/mastering-llms-transformers.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "Maîtriser les transformeurs et les grands modèles de langage",
         "subtitle": "Un guide arabe complet, de zéro à la production",
         "description": "12 parties, 64 chapitres, 12 projets finaux et 8 annexes, avec 76 notebooks Jupyter exécutables : des fondations mathématiques et de l'attention à la construction et au déploiement d'un LLM.",
-        "landingMd": "# Maîtriser les transformeurs et les grands modèles de langage\n\n**Un guide arabe complet, de zéro à la production**\n\n12 parties, 64 chapitres, 12 projets finaux et 8 annexes, avec 76 notebooks Jupyter exécutables : des fondations mathématiques et de l'attention à la construction et au déploiement d'un LLM.\n\n![Maîtriser les transformeurs et les grands modèles de langage](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## Ce que vous apprendrez\n\n- **Part 1 — Part Foundations** — 5 chapitres et annexes\n- **Part 2 — Part Language Representation** — 3 chapitres et annexes\n- **Part 3 — Part Transformers** — 4 chapitres et annexes\n- **Part 4 — Part Modern Architectures** — 5 chapitres et annexes\n- **Part 5 — Part Building Llms** — 6 chapitres et annexes\n- **Part 6 — Part Model Reuse** — 6 chapitres et annexes\n- **Part 7 — Part Peft Alignment** — 5 chapitres et annexes\n- **Part 8 — Part Multimodal** — 6 chapitres et annexes\n- **Part 9 — Part Evaluation** — 6 chapitres et annexes\n- **Part 10 — Part Applications Agents** — 7 chapitres et annexes\n- **Part 11 — Part Llmops** — 6 chapitres et annexes\n- **Part 12 — Part Future** — 5 chapitres et annexes\n- **Appendices and Reference** — 8 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 152 pages](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [Livre complet (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [Page du livre](https://ahmedalmaghz.github.io/MLLBook/)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Maîtriser les transformeurs et les grands modèles de langage\n\n**Un guide arabe complet, de zéro à la production**\n\n12 parties, 64 chapitres, 12 projets finaux et 8 annexes, avec 76 notebooks Jupyter exécutables : des fondations mathématiques et de l'attention à la construction et au déploiement d'un LLM.\n\n![Maîtriser les transformeurs et les grands modèles de langage](books/mastering-llms-transformers/cover.png)\n\n## Ce que vous apprendrez\n\n- **Part 1 — Part Foundations** — 5 chapitres et annexes\n- **Part 2 — Part Language Representation** — 3 chapitres et annexes\n- **Part 3 — Part Transformers** — 4 chapitres et annexes\n- **Part 4 — Part Modern Architectures** — 5 chapitres et annexes\n- **Part 5 — Part Building Llms** — 6 chapitres et annexes\n- **Part 6 — Part Model Reuse** — 6 chapitres et annexes\n- **Part 7 — Part Peft Alignment** — 5 chapitres et annexes\n- **Part 8 — Part Multimodal** — 6 chapitres et annexes\n- **Part 9 — Part Evaluation** — 6 chapitres et annexes\n- **Part 10 — Part Applications Agents** — 7 chapitres et annexes\n- **Part 11 — Part Llmops** — 6 chapitres et annexes\n- **Part 12 — Part Future** — 5 chapitres et annexes\n- **Appendices and Reference** — 8 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 152 pages](books/mastering-llms-transformers/sample.pdf)\n\n- [Livre complet (PDF)](books/mastering-llms-transformers/book.pdf)\n- [Page du livre](landing/mastering-llms-transformers.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "Dominar los transformadores y los grandes modelos de lenguaje",
         "subtitle": "Guía árabe completa de cero a producción",
         "description": "12 partes, 64 capítulos, 12 proyectos finales y 8 apéndices, con 76 cuadernos Jupyter ejecutables: desde los fundamentos matemáticos y la atención hasta construir y desplegar un LLM.",
-        "landingMd": "# Dominar los transformadores y los grandes modelos de lenguaje\n\n**Guía árabe completa de cero a producción**\n\n12 partes, 64 capítulos, 12 proyectos finales y 8 apéndices, con 76 cuadernos Jupyter ejecutables: desde los fundamentos matemáticos y la atención hasta construir y desplegar un LLM.\n\n![Dominar los transformadores y los grandes modelos de lenguaje](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## Qué aprenderás\n\n- **Part 1 — Part Foundations** — 5 capítulos y apéndices\n- **Part 2 — Part Language Representation** — 3 capítulos y apéndices\n- **Part 3 — Part Transformers** — 4 capítulos y apéndices\n- **Part 4 — Part Modern Architectures** — 5 capítulos y apéndices\n- **Part 5 — Part Building Llms** — 6 capítulos y apéndices\n- **Part 6 — Part Model Reuse** — 6 capítulos y apéndices\n- **Part 7 — Part Peft Alignment** — 5 capítulos y apéndices\n- **Part 8 — Part Multimodal** — 6 capítulos y apéndices\n- **Part 9 — Part Evaluation** — 6 capítulos y apéndices\n- **Part 10 — Part Applications Agents** — 7 capítulos y apéndices\n- **Part 11 — Part Llmops** — 6 capítulos y apéndices\n- **Part 12 — Part Future** — 5 capítulos y apéndices\n- **Appendices and Reference** — 8 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 152 páginas](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [Libro completo (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [Página del libro](https://ahmedalmaghz.github.io/MLLBook/)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Dominar los transformadores y los grandes modelos de lenguaje\n\n**Guía árabe completa de cero a producción**\n\n12 partes, 64 capítulos, 12 proyectos finales y 8 apéndices, con 76 cuadernos Jupyter ejecutables: desde los fundamentos matemáticos y la atención hasta construir y desplegar un LLM.\n\n![Dominar los transformadores y los grandes modelos de lenguaje](books/mastering-llms-transformers/cover.png)\n\n## Qué aprenderás\n\n- **Part 1 — Part Foundations** — 5 capítulos y apéndices\n- **Part 2 — Part Language Representation** — 3 capítulos y apéndices\n- **Part 3 — Part Transformers** — 4 capítulos y apéndices\n- **Part 4 — Part Modern Architectures** — 5 capítulos y apéndices\n- **Part 5 — Part Building Llms** — 6 capítulos y apéndices\n- **Part 6 — Part Model Reuse** — 6 capítulos y apéndices\n- **Part 7 — Part Peft Alignment** — 5 capítulos y apéndices\n- **Part 8 — Part Multimodal** — 6 capítulos y apéndices\n- **Part 9 — Part Evaluation** — 6 capítulos y apéndices\n- **Part 10 — Part Applications Agents** — 7 capítulos y apéndices\n- **Part 11 — Part Llmops** — 6 capítulos y apéndices\n- **Part 12 — Part Future** — 5 capítulos y apéndices\n- **Appendices and Reference** — 8 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 152 páginas](books/mastering-llms-transformers/sample.pdf)\n\n- [Libro completo (PDF)](books/mastering-llms-transformers/book.pdf)\n- [Página del libro](landing/mastering-llms-transformers.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "精通 Transformer 与大语言模型",
         "subtitle": "从零到生产的完整阿拉伯语指南",
         "description": "12 大部分、64 章、12 个结课项目与 8 个附录，附 76 个可运行 Jupyter 笔记本：从数学基础与注意力机制到构建、调优、评估与部署 LLM。",
-        "landingMd": "# 精通 Transformer 与大语言模型\n\n**从零到生产的完整阿拉伯语指南**\n\n12 大部分、64 章、12 个结课项目与 8 个附录，附 76 个可运行 Jupyter 笔记本：从数学基础与注意力机制到构建、调优、评估与部署 LLM。\n\n![精通 Transformer 与大语言模型](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## 你将学到什么\n\n- **Part 1 — Part Foundations** — 5 章与附录\n- **Part 2 — Part Language Representation** — 3 章与附录\n- **Part 3 — Part Transformers** — 4 章与附录\n- **Part 4 — Part Modern Architectures** — 5 章与附录\n- **Part 5 — Part Building Llms** — 6 章与附录\n- **Part 6 — Part Model Reuse** — 6 章与附录\n- **Part 7 — Part Peft Alignment** — 5 章与附录\n- **Part 8 — Part Multimodal** — 6 章与附录\n- **Part 9 — Part Evaluation** — 6 章与附录\n- **Part 10 — Part Applications Agents** — 7 章与附录\n- **Part 11 — Part Llmops** — 6 章与附录\n- **Part 12 — Part Future** — 5 章与附录\n- **Appendices and Reference** — 8 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 152 页](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [完整电子书 PDF](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [图书介绍页](https://ahmedalmaghz.github.io/MLLBook/)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# 精通 Transformer 与大语言模型\n\n**从零到生产的完整阿拉伯语指南**\n\n12 大部分、64 章、12 个结课项目与 8 个附录，附 76 个可运行 Jupyter 笔记本：从数学基础与注意力机制到构建、调优、评估与部署 LLM。\n\n![精通 Transformer 与大语言模型](books/mastering-llms-transformers/cover.png)\n\n## 你将学到什么\n\n- **Part 1 — Part Foundations** — 5 章与附录\n- **Part 2 — Part Language Representation** — 3 章与附录\n- **Part 3 — Part Transformers** — 4 章与附录\n- **Part 4 — Part Modern Architectures** — 5 章与附录\n- **Part 5 — Part Building Llms** — 6 章与附录\n- **Part 6 — Part Model Reuse** — 6 章与附录\n- **Part 7 — Part Peft Alignment** — 5 章与附录\n- **Part 8 — Part Multimodal** — 6 章与附录\n- **Part 9 — Part Evaluation** — 6 章与附录\n- **Part 10 — Part Applications Agents** — 7 章与附录\n- **Part 11 — Part Llmops** — 6 章与附录\n- **Part 12 — Part Future** — 5 章与附录\n- **Appendices and Reference** — 8 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 152 页](books/mastering-llms-transformers/sample.pdf)\n\n- [完整电子书 PDF](books/mastering-llms-transformers/book.pdf)\n- [图书介绍页](landing/mastering-llms-transformers.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "ट्रांसफ़ॉर्मर और LLM में महारत",
         "subtitle": "शून्य से प्रोडक्शन तक संपूर्ण अरबी मार्गदर्शिका",
         "description": "12 भाग, 64 अध्याय, 12 कैपस्टोन प्रोजेक्ट और 8 परिशिष्ट, 76 चलने योग्य Jupyter नोटबुक के साथ: गणितीय आधार और अटेंशन से लेकर LLM निर्माण व परिनियोजन तक।",
-        "landingMd": "# ट्रांसफ़ॉर्मर और LLM में महारत\n\n**शून्य से प्रोडक्शन तक संपूर्ण अरबी मार्गदर्शिका**\n\n12 भाग, 64 अध्याय, 12 कैपस्टोन प्रोजेक्ट और 8 परिशिष्ट, 76 चलने योग्य Jupyter नोटबुक के साथ: गणितीय आधार और अटेंशन से लेकर LLM निर्माण व परिनियोजन तक।\n\n![ट्रांसफ़ॉर्मर और LLM में महारत](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Part 1 — Part Foundations** — 5 अध्याय और परिशिष्ट\n- **Part 2 — Part Language Representation** — 3 अध्याय और परिशिष्ट\n- **Part 3 — Part Transformers** — 4 अध्याय और परिशिष्ट\n- **Part 4 — Part Modern Architectures** — 5 अध्याय और परिशिष्ट\n- **Part 5 — Part Building Llms** — 6 अध्याय और परिशिष्ट\n- **Part 6 — Part Model Reuse** — 6 अध्याय और परिशिष्ट\n- **Part 7 — Part Peft Alignment** — 5 अध्याय और परिशिष्ट\n- **Part 8 — Part Multimodal** — 6 अध्याय और परिशिष्ट\n- **Part 9 — Part Evaluation** — 6 अध्याय और परिशिष्ट\n- **Part 10 — Part Applications Agents** — 7 अध्याय और परिशिष्ट\n- **Part 11 — Part Llmops** — 6 अध्याय और परिशिष्ट\n- **Part 12 — Part Future** — 5 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 8 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 152 पृष्ठ](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.pdf)\n- [पुस्तक परिचय पृष्ठ](https://ahmedalmaghz.github.io/MLLBook/)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# ट्रांसफ़ॉर्मर और LLM में महारत\n\n**शून्य से प्रोडक्शन तक संपूर्ण अरबी मार्गदर्शिका**\n\n12 भाग, 64 अध्याय, 12 कैपस्टोन प्रोजेक्ट और 8 परिशिष्ट, 76 चलने योग्य Jupyter नोटबुक के साथ: गणितीय आधार और अटेंशन से लेकर LLM निर्माण व परिनियोजन तक।\n\n![ट्रांसफ़ॉर्मर और LLM में महारत](books/mastering-llms-transformers/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Part 1 — Part Foundations** — 5 अध्याय और परिशिष्ट\n- **Part 2 — Part Language Representation** — 3 अध्याय और परिशिष्ट\n- **Part 3 — Part Transformers** — 4 अध्याय और परिशिष्ट\n- **Part 4 — Part Modern Architectures** — 5 अध्याय और परिशिष्ट\n- **Part 5 — Part Building Llms** — 6 अध्याय और परिशिष्ट\n- **Part 6 — Part Model Reuse** — 6 अध्याय और परिशिष्ट\n- **Part 7 — Part Peft Alignment** — 5 अध्याय और परिशिष्ट\n- **Part 8 — Part Multimodal** — 6 अध्याय और परिशिष्ट\n- **Part 9 — Part Evaluation** — 6 अध्याय और परिशिष्ट\n- **Part 10 — Part Applications Agents** — 7 अध्याय और परिशिष्ट\n- **Part 11 — Part Llmops** — 6 अध्याय और परिशिष्ट\n- **Part 12 — Part Future** — 5 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 8 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 13 | 72 | 1034 | 20 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 152 पृष्ठ](books/mastering-llms-transformers/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/mastering-llms-transformers/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/mastering-llms-transformers.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,13 +96,13 @@
               {
                 "languageCode": "en",
                 "title": "Environment",
-                "body": "## Chapter 01 — Environment\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch01-environment.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch01-environment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch01-environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Environment\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch01-environment.ipynb](courses/mastering-llms-transformers/notebooks/ch01-environment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch01-environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch01-environment.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch01-environment.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch01-environment.ipynb",
                 "kind": "notebook",
                 "isFree": true,
                 "order": 0
@@ -124,13 +124,13 @@
               {
                 "languageCode": "en",
                 "title": "Mathematics",
-                "body": "## Chapter 02 — Mathematics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch02-mathematics.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch02-mathematics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch02-mathematics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Mathematics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch02-mathematics.ipynb](courses/mastering-llms-transformers/notebooks/ch02-mathematics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch02-mathematics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch02-mathematics.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch02-mathematics.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch02-mathematics.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -152,13 +152,13 @@
               {
                 "languageCode": "en",
                 "title": "Mlp Backpropagation",
-                "body": "## Chapter 03 — Mlp Backpropagation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MLP\n\n### Companion files\n\n- [ch03-mlp-backpropagation.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch03-mlp-backpropagation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch03-mlp-backpropagation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Mlp Backpropagation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MLP\n\n### Companion files\n\n- [ch03-mlp-backpropagation.ipynb](courses/mastering-llms-transformers/notebooks/ch03-mlp-backpropagation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch03-mlp-backpropagation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch03-mlp-backpropagation.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch03-mlp-backpropagation.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch03-mlp-backpropagation.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -180,13 +180,13 @@
               {
                 "languageCode": "en",
                 "title": "Optimization",
-                "body": "## Chapter 04 — Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SGD, AdamW\n\n### Companion files\n\n- [ch04-optimization.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch04-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch04-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SGD, AdamW\n\n### Companion files\n\n- [ch04-optimization.ipynb](courses/mastering-llms-transformers/notebooks/ch04-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch04-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch04-optimization.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch04-optimization.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch04-optimization.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -208,13 +208,13 @@
               {
                 "languageCode": "en",
                 "title": "Metrics",
-                "body": "## Chapter 05 — Metrics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch05-metrics.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch05-metrics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch05-metrics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Metrics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 1:** Part 1 — Part Foundations  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch05-metrics.ipynb](courses/mastering-llms-transformers/notebooks/ch05-metrics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-01-foundations/ch05-metrics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch05-metrics.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch05-metrics.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch05-metrics.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -253,13 +253,13 @@
               {
                 "languageCode": "en",
                 "title": "Tokenization",
-                "body": "## Chapter 06 — Tokenization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenization\n\n### Companion files\n\n- [ch06-tokenization.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch06-tokenization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch06-tokenization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Tokenization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenization\n\n### Companion files\n\n- [ch06-tokenization.ipynb](courses/mastering-llms-transformers/notebooks/ch06-tokenization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch06-tokenization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch06-tokenization.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch06-tokenization.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch06-tokenization.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -281,13 +281,13 @@
               {
                 "languageCode": "en",
                 "title": "Word Embeddings",
-                "body": "## Chapter 07 — Word Embeddings\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Word2Vec, GloVe\n\n### Companion files\n\n- [ch07-word-embeddings.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch07-word-embeddings.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch07-word-embeddings.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Word Embeddings\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Word2Vec, GloVe\n\n### Companion files\n\n- [ch07-word-embeddings.ipynb](courses/mastering-llms-transformers/notebooks/ch07-word-embeddings.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch07-word-embeddings.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch07-word-embeddings.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch07-word-embeddings.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch07-word-embeddings.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -309,13 +309,13 @@
               {
                 "languageCode": "en",
                 "title": "Recurrent Networks",
-                "body": "## Chapter 08 — Recurrent Networks\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Companion files\n\n- [ch08-recurrent-networks.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch08-recurrent-networks.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch08-recurrent-networks.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Recurrent Networks\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 2:** Part 2 — Part Language Representation  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Companion files\n\n- [ch08-recurrent-networks.ipynb](courses/mastering-llms-transformers/notebooks/ch08-recurrent-networks.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-02-language-representation/ch08-recurrent-networks.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch08-recurrent-networks.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch08-recurrent-networks.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch08-recurrent-networks.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -354,13 +354,13 @@
               {
                 "languageCode": "en",
                 "title": "Attention History",
-                "body": "## Chapter 09 — Attention History\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Attention\n\n### Companion files\n\n- [ch09-attention-history.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch09-attention-history.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch09-attention-history.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Attention History\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Attention\n\n### Companion files\n\n- [ch09-attention-history.ipynb](courses/mastering-llms-transformers/notebooks/ch09-attention-history.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch09-attention-history.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch09-attention-history.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch09-attention-history.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch09-attention-history.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -382,13 +382,13 @@
               {
                 "languageCode": "en",
                 "title": "Self Attention",
-                "body": "## Chapter 10 — Self Attention\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch10-self-attention.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch10-self-attention.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch10-self-attention.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Self Attention\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch10-self-attention.ipynb](courses/mastering-llms-transformers/notebooks/ch10-self-attention.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch10-self-attention.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch10-self-attention.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch10-self-attention.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch10-self-attention.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -410,13 +410,13 @@
               {
                 "languageCode": "en",
                 "title": "Transformer Architecture",
-                "body": "## Chapter 11 — Transformer Architecture\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch11-transformer-architecture.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch11-transformer-architecture.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch11-transformer-architecture.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Transformer Architecture\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch11-transformer-architecture.ipynb](courses/mastering-llms-transformers/notebooks/ch11-transformer-architecture.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch11-transformer-architecture.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch11-transformer-architecture.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch11-transformer-architecture.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch11-transformer-architecture.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -438,13 +438,13 @@
               {
                 "languageCode": "en",
                 "title": "Transformer Families",
-                "body": "## Chapter 12 — Transformer Families\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** BERT, GPT\n\n### Companion files\n\n- [ch12-transformer-families.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch12-transformer-families.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch12-transformer-families.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — Transformer Families\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 3:** Part 3 — Part Transformers  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** BERT, GPT\n\n### Companion files\n\n- [ch12-transformer-families.ipynb](courses/mastering-llms-transformers/notebooks/ch12-transformer-families.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-03-transformers/ch12-transformer-families.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch12-transformer-families.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch12-transformer-families.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch12-transformer-families.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -483,13 +483,13 @@
               {
                 "languageCode": "en",
                 "title": "Transformer Limits",
-                "body": "## Chapter 13 — Transformer Limits\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch13-transformer-limits.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch13-transformer-limits.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch13-transformer-limits.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Transformer Limits\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch13-transformer-limits.ipynb](courses/mastering-llms-transformers/notebooks/ch13-transformer-limits.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch13-transformer-limits.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch13-transformer-limits.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch13-transformer-limits.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch13-transformer-limits.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -511,13 +511,13 @@
               {
                 "languageCode": "en",
                 "title": "Modern Attention",
-                "body": "## Chapter 14 — Modern Attention\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch14-modern-attention.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch14-modern-attention.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch14-modern-attention.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Modern Attention\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch14-modern-attention.ipynb](courses/mastering-llms-transformers/notebooks/ch14-modern-attention.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch14-modern-attention.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch14-modern-attention.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch14-modern-attention.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch14-modern-attention.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -539,13 +539,13 @@
               {
                 "languageCode": "en",
                 "title": "Mixture Of Experts",
-                "body": "## Chapter 15 — Mixture Of Experts\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Mixture, Experts\n\n### Companion files\n\n- [ch15-mixture-of-experts.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch15-mixture-of-experts.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch15-mixture-of-experts.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Mixture Of Experts\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Mixture, Experts\n\n### Companion files\n\n- [ch15-mixture-of-experts.ipynb](courses/mastering-llms-transformers/notebooks/ch15-mixture-of-experts.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch15-mixture-of-experts.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch15-mixture-of-experts.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch15-mixture-of-experts.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch15-mixture-of-experts.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -567,13 +567,13 @@
               {
                 "languageCode": "en",
                 "title": "State Space Models",
-                "body": "## Chapter 16 — State Space Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SSM, Mamba\n\n### Companion files\n\n- [ch16-state-space-models.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch16-state-space-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch16-state-space-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — State Space Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SSM, Mamba\n\n### Companion files\n\n- [ch16-state-space-models.ipynb](courses/mastering-llms-transformers/notebooks/ch16-state-space-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch16-state-space-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch16-state-space-models.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch16-state-space-models.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch16-state-space-models.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -595,13 +595,13 @@
               {
                 "languageCode": "en",
                 "title": "Modern Components",
-                "body": "## Chapter 17 — Modern Components\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RMSNorm, SwiGLU\n\n### Companion files\n\n- [ch17-modern-components.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch17-modern-components.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch17-modern-components.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Modern Components\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 4:** Part 4 — Part Modern Architectures  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RMSNorm, SwiGLU\n\n### Companion files\n\n- [ch17-modern-components.ipynb](courses/mastering-llms-transformers/notebooks/ch17-modern-components.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-04-modern-architectures/ch17-modern-components.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch17-modern-components.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch17-modern-components.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch17-modern-components.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -640,13 +640,13 @@
               {
                 "languageCode": "en",
                 "title": "Data Pipeline",
-                "body": "## Chapter 18 — Data Pipeline\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch18-data-pipeline.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch18-data-pipeline.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch18-data-pipeline.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Data Pipeline\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch18-data-pipeline.ipynb](courses/mastering-llms-transformers/notebooks/ch18-data-pipeline.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch18-data-pipeline.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch18-data-pipeline.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch18-data-pipeline.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch18-data-pipeline.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -668,13 +668,13 @@
               {
                 "languageCode": "en",
                 "title": "Custom Tokenizer",
-                "body": "## Chapter 19 — Custom Tokenizer\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenizer\n\n### Companion files\n\n- [ch19-custom-tokenizer.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch19-custom-tokenizer.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch19-custom-tokenizer.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Custom Tokenizer\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenizer\n\n### Companion files\n\n- [ch19-custom-tokenizer.ipynb](courses/mastering-llms-transformers/notebooks/ch19-custom-tokenizer.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch19-custom-tokenizer.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch19-custom-tokenizer.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch19-custom-tokenizer.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch19-custom-tokenizer.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -696,13 +696,13 @@
               {
                 "languageCode": "en",
                 "title": "Scaling Laws",
-                "body": "## Chapter 20 — Scaling Laws\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Chinchilla\n\n### Companion files\n\n- [ch20-scaling-laws.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch20-scaling-laws.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch20-scaling-laws.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 20 — Scaling Laws\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Chinchilla\n\n### Companion files\n\n- [ch20-scaling-laws.ipynb](courses/mastering-llms-transformers/notebooks/ch20-scaling-laws.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch20-scaling-laws.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch20-scaling-laws.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch20-scaling-laws.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch20-scaling-laws.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -724,13 +724,13 @@
               {
                 "languageCode": "en",
                 "title": "Distributed Training",
-                "body": "## Chapter 21 — Distributed Training\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch21-distributed-training.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch21-distributed-training.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch21-distributed-training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 21 — Distributed Training\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 30 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch21-distributed-training.ipynb](courses/mastering-llms-transformers/notebooks/ch21-distributed-training.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch21-distributed-training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch21-distributed-training.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch21-distributed-training.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch21-distributed-training.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -752,13 +752,13 @@
               {
                 "languageCode": "en",
                 "title": "Checkpointing Monitoring",
-                "body": "## Chapter 22 — Checkpointing Monitoring\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch22-checkpointing-monitoring.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch22-checkpointing-monitoring.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch22-checkpointing-monitoring.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 22 — Checkpointing Monitoring\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch22-checkpointing-monitoring.ipynb](courses/mastering-llms-transformers/notebooks/ch22-checkpointing-monitoring.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch22-checkpointing-monitoring.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch22-checkpointing-monitoring.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch22-checkpointing-monitoring.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch22-checkpointing-monitoring.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -780,13 +780,13 @@
               {
                 "languageCode": "en",
                 "title": "Post Training",
-                "body": "## Chapter 23 — Post Training\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch23-post-training.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch23-post-training.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch23-post-training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 23 — Post Training\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 5:** Part 5 — Part Building Llms  \n**Estimated reading time:** 25 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch23-post-training.ipynb](courses/mastering-llms-transformers/notebooks/ch23-post-training.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-05-building-llms/ch23-post-training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch23-post-training.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch23-post-training.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch23-post-training.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -825,13 +825,13 @@
               {
                 "languageCode": "en",
                 "title": "Continued Pretraining",
-                "body": "## Chapter 24 — Continued Pretraining\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CPT\n\n### Companion files\n\n- [ch24-continued-pretraining.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch24-continued-pretraining.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch24-continued-pretraining.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 24 — Continued Pretraining\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CPT\n\n### Companion files\n\n- [ch24-continued-pretraining.ipynb](courses/mastering-llms-transformers/notebooks/ch24-continued-pretraining.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch24-continued-pretraining.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch24-continued-pretraining.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch24-continued-pretraining.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch24-continued-pretraining.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -853,13 +853,13 @@
               {
                 "languageCode": "en",
                 "title": "Knowledge Distillation",
-                "body": "## Chapter 25 — Knowledge Distillation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Knowledge, Distillation\n\n### Companion files\n\n- [ch25-knowledge-distillation.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch25-knowledge-distillation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch25-knowledge-distillation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 25 — Knowledge Distillation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Knowledge, Distillation\n\n### Companion files\n\n- [ch25-knowledge-distillation.ipynb](courses/mastering-llms-transformers/notebooks/ch25-knowledge-distillation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch25-knowledge-distillation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch25-knowledge-distillation.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch25-knowledge-distillation.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch25-knowledge-distillation.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -881,13 +881,13 @@
               {
                 "languageCode": "en",
                 "title": "Model Merging",
-                "body": "## Chapter 26 — Model Merging\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Model, Merging\n\n### Companion files\n\n- [ch26-model-merging.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch26-model-merging.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch26-model-merging.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 26 — Model Merging\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Model, Merging\n\n### Companion files\n\n- [ch26-model-merging.ipynb](courses/mastering-llms-transformers/notebooks/ch26-model-merging.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch26-model-merging.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch26-model-merging.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch26-model-merging.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch26-model-merging.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -909,13 +909,13 @@
               {
                 "languageCode": "en",
                 "title": "Pruning",
-                "body": "## Chapter 27 — Pruning\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pruning\n\n### Companion files\n\n- [ch27-pruning.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch27-pruning.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch27-pruning.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 27 — Pruning\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pruning\n\n### Companion files\n\n- [ch27-pruning.ipynb](courses/mastering-llms-transformers/notebooks/ch27-pruning.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch27-pruning.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch27-pruning.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch27-pruning.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch27-pruning.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -937,13 +937,13 @@
               {
                 "languageCode": "en",
                 "title": "Depth Upscaling",
-                "body": "## Chapter 28 — Depth Upscaling\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Depth, Upscaling\n\n### Companion files\n\n- [ch28-depth-upscaling.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch28-depth-upscaling.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch28-depth-upscaling.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 28 — Depth Upscaling\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Depth, Upscaling\n\n### Companion files\n\n- [ch28-depth-upscaling.ipynb](courses/mastering-llms-transformers/notebooks/ch28-depth-upscaling.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch28-depth-upscaling.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch28-depth-upscaling.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch28-depth-upscaling.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch28-depth-upscaling.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -965,13 +965,13 @@
               {
                 "languageCode": "en",
                 "title": "Model Reuse Framework",
-                "body": "## Chapter 29 — Model Reuse Framework\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch29-model-reuse-framework.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch29-model-reuse-framework.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch29-model-reuse-framework.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 29 — Model Reuse Framework\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 6:** Part 6 — Part Model Reuse  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch29-model-reuse-framework.ipynb](courses/mastering-llms-transformers/notebooks/ch29-model-reuse-framework.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-06-model-reuse/ch29-model-reuse-framework.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch29-model-reuse-framework.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch29-model-reuse-framework.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch29-model-reuse-framework.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1010,13 +1010,13 @@
               {
                 "languageCode": "en",
                 "title": "Peft",
-                "body": "## Chapter 30 — Peft\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PEFT\n\n### Companion files\n\n- [ch30-peft.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch30-peft.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch30-peft.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 30 — Peft\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PEFT\n\n### Companion files\n\n- [ch30-peft.ipynb](courses/mastering-llms-transformers/notebooks/ch30-peft.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch30-peft.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch30-peft.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch30-peft.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch30-peft.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1038,13 +1038,13 @@
               {
                 "languageCode": "en",
                 "title": "Lora",
-                "body": "## Chapter 31 — Lora\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LoRA\n\n### Companion files\n\n- [ch31-lora.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch31-lora.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch31-lora.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 31 — Lora\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LoRA\n\n### Companion files\n\n- [ch31-lora.ipynb](courses/mastering-llms-transformers/notebooks/ch31-lora.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch31-lora.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch31-lora.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch31-lora.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch31-lora.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1066,13 +1066,13 @@
               {
                 "languageCode": "en",
                 "title": "Qlora",
-                "body": "## Chapter 32 — Qlora\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** QLoRA\n\n### Companion files\n\n- [ch32-qlora.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch32-qlora.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch32-qlora.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 32 — Qlora\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** QLoRA\n\n### Companion files\n\n- [ch32-qlora.ipynb](courses/mastering-llms-transformers/notebooks/ch32-qlora.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch32-qlora.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch32-qlora.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch32-qlora.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch32-qlora.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1094,13 +1094,13 @@
               {
                 "languageCode": "en",
                 "title": "Rlhf Ppo",
-                "body": "## Chapter 33 — Rlhf Ppo\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RLHF, PPO\n\n### Companion files\n\n- [ch33-rlhf-ppo.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch33-rlhf-ppo.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch33-rlhf-ppo.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 33 — Rlhf Ppo\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RLHF, PPO\n\n### Companion files\n\n- [ch33-rlhf-ppo.ipynb](courses/mastering-llms-transformers/notebooks/ch33-rlhf-ppo.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch33-rlhf-ppo.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch33-rlhf-ppo.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch33-rlhf-ppo.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch33-rlhf-ppo.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1122,13 +1122,13 @@
               {
                 "languageCode": "en",
                 "title": "Dpo Kto Orpo",
-                "body": "## Chapter 34 — Dpo Kto Orpo\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** DPO, KTO, ORPO, RLHF\n\n### Companion files\n\n- [ch34-dpo-kto-orpo.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch34-dpo-kto-orpo.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch34-dpo-kto-orpo.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 34 — Dpo Kto Orpo\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 7:** Part 7 — Part Peft Alignment  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** DPO, KTO, ORPO, RLHF\n\n### Companion files\n\n- [ch34-dpo-kto-orpo.ipynb](courses/mastering-llms-transformers/notebooks/ch34-dpo-kto-orpo.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-07-peft-alignment/ch34-dpo-kto-orpo.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch34-dpo-kto-orpo.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch34-dpo-kto-orpo.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch34-dpo-kto-orpo.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1167,13 +1167,13 @@
               {
                 "languageCode": "en",
                 "title": "Multimodal Basics",
-                "body": "## Chapter 35 — Multimodal Basics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch35-multimodal-basics.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch35-multimodal-basics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch35-multimodal-basics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 35 — Multimodal Basics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch35-multimodal-basics.ipynb](courses/mastering-llms-transformers/notebooks/ch35-multimodal-basics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch35-multimodal-basics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch35-multimodal-basics.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch35-multimodal-basics.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch35-multimodal-basics.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1195,13 +1195,13 @@
               {
                 "languageCode": "en",
                 "title": "Vision Encoders",
-                "body": "## Chapter 36 — Vision Encoders\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ViT, CLIP\n\n### Companion files\n\n- [ch36-vision-encoders.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch36-vision-encoders.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch36-vision-encoders.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 36 — Vision Encoders\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ViT, CLIP\n\n### Companion files\n\n- [ch36-vision-encoders.ipynb](courses/mastering-llms-transformers/notebooks/ch36-vision-encoders.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch36-vision-encoders.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch36-vision-encoders.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch36-vision-encoders.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch36-vision-encoders.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1223,13 +1223,13 @@
               {
                 "languageCode": "en",
                 "title": "Vision Language Models",
-                "body": "## Chapter 37 — Vision Language Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** VLMs\n\n### Companion files\n\n- [ch37-vision-language-models.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch37-vision-language-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch37-vision-language-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 37 — Vision Language Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** VLMs\n\n### Companion files\n\n- [ch37-vision-language-models.ipynb](courses/mastering-llms-transformers/notebooks/ch37-vision-language-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch37-vision-language-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch37-vision-language-models.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch37-vision-language-models.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch37-vision-language-models.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1251,13 +1251,13 @@
               {
                 "languageCode": "en",
                 "title": "Diffusion Models",
-                "body": "## Chapter 38 — Diffusion Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Diffusion\n\n### Companion files\n\n- [ch38-diffusion-models.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch38-diffusion-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch38-diffusion-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 38 — Diffusion Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Diffusion\n\n### Companion files\n\n- [ch38-diffusion-models.ipynb](courses/mastering-llms-transformers/notebooks/ch38-diffusion-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch38-diffusion-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch38-diffusion-models.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch38-diffusion-models.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch38-diffusion-models.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1279,13 +1279,13 @@
               {
                 "languageCode": "en",
                 "title": "Speech Audio",
-                "body": "## Chapter 39 — Speech Audio\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch39-speech-audio.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch39-speech-audio.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch39-speech-audio.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 39 — Speech Audio\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch39-speech-audio.ipynb](courses/mastering-llms-transformers/notebooks/ch39-speech-audio.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch39-speech-audio.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch39-speech-audio.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch39-speech-audio.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch39-speech-audio.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1307,13 +1307,13 @@
               {
                 "languageCode": "en",
                 "title": "Unified Multimodal",
-                "body": "## Chapter 40 — Unified Multimodal\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Any-to-Any\n\n### Companion files\n\n- [ch40-unified-multimodal.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch40-unified-multimodal.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch40-unified-multimodal.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 40 — Unified Multimodal\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 8:** Part 8 — Part Multimodal  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Any-to-Any\n\n### Companion files\n\n- [ch40-unified-multimodal.ipynb](courses/mastering-llms-transformers/notebooks/ch40-unified-multimodal.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-08-multimodal/ch40-unified-multimodal.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch40-unified-multimodal.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch40-unified-multimodal.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch40-unified-multimodal.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1352,13 +1352,13 @@
               {
                 "languageCode": "en",
                 "title": "Evaluation Metrics",
-                "body": "## Chapter 41 — Evaluation Metrics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch41-evaluation-metrics.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch41-evaluation-metrics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch41-evaluation-metrics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 41 — Evaluation Metrics\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch41-evaluation-metrics.ipynb](courses/mastering-llms-transformers/notebooks/ch41-evaluation-metrics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch41-evaluation-metrics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch41-evaluation-metrics.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch41-evaluation-metrics.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch41-evaluation-metrics.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1380,13 +1380,13 @@
               {
                 "languageCode": "en",
                 "title": "Benchmarks",
-                "body": "## Chapter 42 — Benchmarks\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Benchmarks\n\n### Companion files\n\n- [ch42-benchmarks.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch42-benchmarks.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch42-benchmarks.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 42 — Benchmarks\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Benchmarks\n\n### Companion files\n\n- [ch42-benchmarks.ipynb](courses/mastering-llms-transformers/notebooks/ch42-benchmarks.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch42-benchmarks.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch42-benchmarks.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch42-benchmarks.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch42-benchmarks.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1408,13 +1408,13 @@
               {
                 "languageCode": "en",
                 "title": "Llm As Judge",
-                "body": "## Chapter 43 — Llm As Judge\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM-as-a-Judge\n\n### Companion files\n\n- [ch43-llm-as-judge.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch43-llm-as-judge.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch43-llm-as-judge.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 43 — Llm As Judge\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM-as-a-Judge\n\n### Companion files\n\n- [ch43-llm-as-judge.ipynb](courses/mastering-llms-transformers/notebooks/ch43-llm-as-judge.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch43-llm-as-judge.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch43-llm-as-judge.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch43-llm-as-judge.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch43-llm-as-judge.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1436,13 +1436,13 @@
               {
                 "languageCode": "en",
                 "title": "Safety Red Teaming",
-                "body": "## Chapter 44 — Safety Red Teaming\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Red, Teaming\n\n### Companion files\n\n- [ch44-safety-red-teaming.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch44-safety-red-teaming.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch44-safety-red-teaming.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 44 — Safety Red Teaming\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Red, Teaming\n\n### Companion files\n\n- [ch44-safety-red-teaming.ipynb](courses/mastering-llms-transformers/notebooks/ch44-safety-red-teaming.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch44-safety-red-teaming.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch44-safety-red-teaming.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch44-safety-red-teaming.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch44-safety-red-teaming.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1464,13 +1464,13 @@
               {
                 "languageCode": "en",
                 "title": "Qualitative Evaluation",
-                "body": "## Chapter 45 — Qualitative Evaluation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch45-qualitative-evaluation.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch45-qualitative-evaluation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch45-qualitative-evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 45 — Qualitative Evaluation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch45-qualitative-evaluation.ipynb](courses/mastering-llms-transformers/notebooks/ch45-qualitative-evaluation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch45-qualitative-evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch45-qualitative-evaluation.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch45-qualitative-evaluation.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch45-qualitative-evaluation.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1492,13 +1492,13 @@
               {
                 "languageCode": "en",
                 "title": "Continuous Evaluation",
-                "body": "## Chapter 46 — Continuous Evaluation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch46-continuous-evaluation.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch46-continuous-evaluation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch46-continuous-evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 46 — Continuous Evaluation\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 9:** Part 9 — Part Evaluation  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch46-continuous-evaluation.ipynb](courses/mastering-llms-transformers/notebooks/ch46-continuous-evaluation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-09-evaluation/ch46-continuous-evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch46-continuous-evaluation.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch46-continuous-evaluation.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch46-continuous-evaluation.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1537,13 +1537,13 @@
               {
                 "languageCode": "en",
                 "title": "Rag Fundamentals",
-                "body": "## Chapter 47 — Rag Fundamentals\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch47-rag-fundamentals.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch47-rag-fundamentals.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch47-rag-fundamentals.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 47 — Rag Fundamentals\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch47-rag-fundamentals.ipynb](courses/mastering-llms-transformers/notebooks/ch47-rag-fundamentals.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch47-rag-fundamentals.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch47-rag-fundamentals.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch47-rag-fundamentals.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch47-rag-fundamentals.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1565,13 +1565,13 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Rag",
-                "body": "## Chapter 48 — Advanced Rag\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG, GraphRAG\n\n### Companion files\n\n- [ch48-advanced-rag.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch48-advanced-rag.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch48-advanced-rag.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 48 — Advanced Rag\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG, GraphRAG\n\n### Companion files\n\n- [ch48-advanced-rag.ipynb](courses/mastering-llms-transformers/notebooks/ch48-advanced-rag.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch48-advanced-rag.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch48-advanced-rag.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch48-advanced-rag.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch48-advanced-rag.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1593,13 +1593,13 @@
               {
                 "languageCode": "en",
                 "title": "Agents Fundamentals",
-                "body": "## Chapter 49 — Agents Fundamentals\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ReAct\n\n### Companion files\n\n- [ch49-agents-fundamentals.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch49-agents-fundamentals.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch49-agents-fundamentals.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 49 — Agents Fundamentals\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ReAct\n\n### Companion files\n\n- [ch49-agents-fundamentals.ipynb](courses/mastering-llms-transformers/notebooks/ch49-agents-fundamentals.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch49-agents-fundamentals.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch49-agents-fundamentals.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch49-agents-fundamentals.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch49-agents-fundamentals.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1621,13 +1621,13 @@
               {
                 "languageCode": "en",
                 "title": "Multi Agent Systems",
-                "body": "## Chapter 50 — Multi Agent Systems\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch50-multi-agent-systems.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch50-multi-agent-systems.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch50-multi-agent-systems.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 50 — Multi Agent Systems\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch50-multi-agent-systems.ipynb](courses/mastering-llms-transformers/notebooks/ch50-multi-agent-systems.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch50-multi-agent-systems.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch50-multi-agent-systems.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch50-multi-agent-systems.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch50-multi-agent-systems.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1649,13 +1649,13 @@
               {
                 "languageCode": "en",
                 "title": "Long Term Memory",
-                "body": "## Chapter 51 — Long Term Memory\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch51-long-term-memory.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch51-long-term-memory.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch51-long-term-memory.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 51 — Long Term Memory\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch51-long-term-memory.ipynb](courses/mastering-llms-transformers/notebooks/ch51-long-term-memory.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch51-long-term-memory.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch51-long-term-memory.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch51-long-term-memory.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch51-long-term-memory.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1677,13 +1677,13 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Prompting",
-                "body": "## Chapter 52 — Advanced Prompting\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch52-advanced-prompting.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch52-advanced-prompting.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch52-advanced-prompting.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 52 — Advanced Prompting\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch52-advanced-prompting.ipynb](courses/mastering-llms-transformers/notebooks/ch52-advanced-prompting.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch52-advanced-prompting.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch52-advanced-prompting.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch52-advanced-prompting.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch52-advanced-prompting.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1705,13 +1705,13 @@
               {
                 "languageCode": "en",
                 "title": "Domain Applications",
-                "body": "## Chapter 53 — Domain Applications\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch53-domain-applications.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch53-domain-applications.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch53-domain-applications.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 53 — Domain Applications\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 10:** Part 10 — Part Applications Agents  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch53-domain-applications.ipynb](courses/mastering-llms-transformers/notebooks/ch53-domain-applications.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-10-applications-agents/ch53-domain-applications.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch53-domain-applications.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch53-domain-applications.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch53-domain-applications.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1750,13 +1750,13 @@
               {
                 "languageCode": "en",
                 "title": "Model Serving",
-                "body": "## Chapter 54 — Model Serving\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch54-model-serving.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch54-model-serving.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch54-model-serving.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 54 — Model Serving\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch54-model-serving.ipynb](courses/mastering-llms-transformers/notebooks/ch54-model-serving.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch54-model-serving.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch54-model-serving.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch54-model-serving.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch54-model-serving.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1778,13 +1778,13 @@
               {
                 "languageCode": "en",
                 "title": "Inference Optimization",
-                "body": "## Chapter 55 — Inference Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch55-inference-optimization.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch55-inference-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch55-inference-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 55 — Inference Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch55-inference-optimization.ipynb](courses/mastering-llms-transformers/notebooks/ch55-inference-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch55-inference-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch55-inference-optimization.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch55-inference-optimization.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch55-inference-optimization.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1806,13 +1806,13 @@
               {
                 "languageCode": "en",
                 "title": "Infrastructure Scaling",
-                "body": "## Chapter 56 — Infrastructure Scaling\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch56-infrastructure-scaling.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch56-infrastructure-scaling.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch56-infrastructure-scaling.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 56 — Infrastructure Scaling\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch56-infrastructure-scaling.ipynb](courses/mastering-llms-transformers/notebooks/ch56-infrastructure-scaling.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch56-infrastructure-scaling.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch56-infrastructure-scaling.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch56-infrastructure-scaling.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch56-infrastructure-scaling.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1834,13 +1834,13 @@
               {
                 "languageCode": "en",
                 "title": "Observability",
-                "body": "## Chapter 57 — Observability\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Observability\n\n### Companion files\n\n- [ch57-observability.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch57-observability.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch57-observability.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 57 — Observability\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Observability\n\n### Companion files\n\n- [ch57-observability.ipynb](courses/mastering-llms-transformers/notebooks/ch57-observability.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch57-observability.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch57-observability.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch57-observability.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch57-observability.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1862,13 +1862,13 @@
               {
                 "languageCode": "en",
                 "title": "Security Governance",
-                "body": "## Chapter 58 — Security Governance\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch58-security-governance.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch58-security-governance.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch58-security-governance.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 58 — Security Governance\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch58-security-governance.ipynb](courses/mastering-llms-transformers/notebooks/ch58-security-governance.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch58-security-governance.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch58-security-governance.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch58-security-governance.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch58-security-governance.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1890,13 +1890,13 @@
               {
                 "languageCode": "en",
                 "title": "Cost Optimization",
-                "body": "## Chapter 59 — Cost Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLMOps\n\n### Companion files\n\n- [ch59-cost-optimization.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch59-cost-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch59-cost-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 59 — Cost Optimization\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 11:** Part 11 — Part Llmops  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLMOps\n\n### Companion files\n\n- [ch59-cost-optimization.ipynb](courses/mastering-llms-transformers/notebooks/ch59-cost-optimization.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-11-llmops/ch59-cost-optimization.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch59-cost-optimization.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch59-cost-optimization.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch59-cost-optimization.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1935,13 +1935,13 @@
               {
                 "languageCode": "en",
                 "title": "Reasoning Models",
-                "body": "## Chapter 60 — Reasoning Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Test-Time, Compute\n\n### Companion files\n\n- [ch60-reasoning-models.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch60-reasoning-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch60-reasoning-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 60 — Reasoning Models\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Test-Time, Compute\n\n### Companion files\n\n- [ch60-reasoning-models.ipynb](courses/mastering-llms-transformers/notebooks/ch60-reasoning-models.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch60-reasoning-models.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch60-reasoning-models.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch60-reasoning-models.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch60-reasoning-models.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1963,13 +1963,13 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Alignment",
-                "body": "## Chapter 61 — Advanced Alignment\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch61-advanced-alignment.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch61-advanced-alignment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch61-advanced-alignment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 61 — Advanced Alignment\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch61-advanced-alignment.ipynb](courses/mastering-llms-transformers/notebooks/ch61-advanced-alignment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch61-advanced-alignment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch61-advanced-alignment.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch61-advanced-alignment.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch61-advanced-alignment.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -1991,13 +1991,13 @@
               {
                 "languageCode": "en",
                 "title": "Post Transformer",
-                "body": "## Chapter 62 — Post Transformer\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Transformer\n\n### Companion files\n\n- [ch62-post-transformer.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch62-post-transformer.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch62-post-transformer.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 62 — Post Transformer\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Transformer\n\n### Companion files\n\n- [ch62-post-transformer.ipynb](courses/mastering-llms-transformers/notebooks/ch62-post-transformer.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch62-post-transformer.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch62-post-transformer.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch62-post-transformer.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch62-post-transformer.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -2019,13 +2019,13 @@
               {
                 "languageCode": "en",
                 "title": "Edge Computing",
-                "body": "## Chapter 63 — Edge Computing\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch63-edge-computing.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch63-edge-computing.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch63-edge-computing.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 63 — Edge Computing\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch63-edge-computing.ipynb](courses/mastering-llms-transformers/notebooks/ch63-edge-computing.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch63-edge-computing.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch63-edge-computing.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch63-edge-computing.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch63-edge-computing.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0
@@ -2047,13 +2047,13 @@
               {
                 "languageCode": "en",
                 "title": "Career Roadmap",
-                "body": "## Chapter 64 — Career Roadmap\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch64-career-roadmap.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch64-career-roadmap.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch64-career-roadmap.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 64 — Career Roadmap\n\n**Book:** Mastering Transformers and Large Language Models  \n**Part 12:** Part 12 — Part Future  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Mastering Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch64-career-roadmap.ipynb](courses/mastering-llms-transformers/notebooks/ch64-career-roadmap.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/MLLBook/blob/main/content/docs/part-12-future/ch64-career-roadmap.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
                 "name": "ch64-career-roadmap.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/notebooks/ch64-career-roadmap.ipynb",
+                "url": "courses/mastering-llms-transformers/notebooks/ch64-career-roadmap.ipynb",
                 "kind": "notebook",
                 "isFree": false,
                 "order": 0

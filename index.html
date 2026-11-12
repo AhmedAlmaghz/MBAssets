@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="app-url" content="">
+<meta name="mb-root" content="">
+<script>
+/* Internal links by default. Set APP_URL (build-time env var, injected into
+   <meta name="app-url">, or window.APP_URL at runtime) to prefix every link. */
+(function () {
+  var m = document.querySelector('meta[name="app-url"]');
+  var r = document.querySelector('meta[name="mb-root"]');
+  var base = String((window.APP_URL || (m && m.content) || '')).trim().replace(/\/+$/, '');
+  var root = String((r && r.content) || '').replace(/^\/+/, '');
+  function resolve(path) {
+    if (!path || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|data:)/i.test(path)) return path;
+    var p = root + String(path).replace(/^\/+/, '');
+    return base ? base + '/' + p : p;
+  }
+  function apply(node) {
+    (node || document).querySelectorAll('[data-mb-path]').forEach(function (el) {
+      var attr = el.getAttribute('data-mb-attr') || ({
+        A: 'href', IMG: 'src', SOURCE: 'src', LINK: 'href', META: 'content', SCRIPT: 'src'
+      })[el.tagName] || 'href';
+      el.setAttribute(attr, resolve(el.getAttribute('data-mb-path')));
+    });
+  }
+  window.MaghzBookURL = { base: base, root: root, resolve: resolve, apply: apply,
+                          ENV: 'APP_URL' };
+  if (base) {
+    if (document.readyState === 'loading')
+      document.addEventListener('DOMContentLoaded', function () { apply(); });
+    else apply();
+  }
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#060a12">
+<title>MaghzBook — الكتب والدورات العربية التي تصنع الاحتراف</title>
+<meta name="description" content="14 كتابًا عربيًا مرجعيًا و14 دورة مطابقة في الذكاء الاصطناعي وتعلّم الآلة والبرمجة: 643 درسًا، 9,982 صفحة، و1,307 ملفًا جاهزًا للتطبيق.">
+<meta name="author" content="م/ أحمد صالح المغز">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MaghzBook — الكتب والدورات العربية التي تصنع الاحتراف">
+<meta property="og:description" content="مكتبة عربية تقنية كاملة: كتب مرجعية، دورات مطابقة، نصوص كاملة وملفات تطبيقية.">
+<meta property="og:image" content="./books/game-theory-strategy/cover.png" data-mb-path="books/game-theory-strategy/cover.png" data-mb-attr="content">
+<meta property="og:locale" content="ar_AR">
+<link rel="icon" href="./brand/favicon.png" data-mb-path="brand/favicon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"MaghzBook","inLanguage":"ar","description":"14 كتابًا عربيًا تقنيًا و14 دورة مطابقة","numberOfItems":14,"publisher":{"@type":"Organization","name":"MaghzBook"},"author":{"@type":"Person","name":"م/ أحمد صالح المغز"}}
+</script>
+<style>
+:root{
+  --bg:#060a12; --bg2:#0a1120; --panel:#0f1a2d; --panel2:#132139;
+  --line:rgba(255,255,255,.09); --ink:#eef3fb; --muted:#98a9c4;
+  --gold:#f6bd4b; --gold2:#ef8b3c; --cyan:#5cc8f2;
+  --shadow:0 24px 60px rgba(0,0,0,.45);
+  --font-body:"MB Plex","Segoe UI",Tahoma,system-ui,sans-serif;
+  --font-head:"MB Cairo","MB Plex","Segoe UI",Tahoma,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);
+  font-size:16px;line-height:1.9;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;
+  background:radial-gradient(900px 600px at 85% -8%,rgba(246,189,75,.13),transparent 65%),
+             radial-gradient(760px 540px at 8% 4%,rgba(92,200,242,.10),transparent 62%),
+             radial-gradient(1000px 700px at 50% 110%,rgba(99,102,241,.10),transparent 60%)}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.28;
+  background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:64px 64px;mask-image:linear-gradient(#000,transparent 75%)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button,input{font:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1200px,calc(100% - 40px));margin-inline:auto}
+.skip{position:absolute;top:-60px;right:12px;background:var(--gold);color:#101010;
+  padding:10px 18px;border-radius:8px;z-index:99}
+.skip:focus{top:12px}
+.grad{background:linear-gradient(100deg,var(--gold),#ffe39a 45%,var(--gold2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;
+  color:var(--gold);border:1px solid rgba(246,189,75,.28);background:rgba(246,189,75,.07);
+  padding:7px 16px;border-radius:999px;font-weight:600}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);
+  box-shadow:0 0 12px var(--gold)}
+h1,h2,h3{font-family:var(--font-head);line-height:1.35;margin:0}
+h1{font-size:clamp(34px,5.2vw,64px);letter-spacing:-.02em;font-weight:800}
+h2{font-size:clamp(27px,3.6vw,43px);font-weight:800;letter-spacing:-.015em}
+.lede{color:var(--muted);font-size:clamp(15px,1.5vw,18px);line-height:2;max-width:62ch;margin:0}
+section{padding:92px 0;position:relative;scroll-margin-top:92px}
+.sec-head{margin-bottom:44px}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88em;
+  color:var(--gold);background:rgba(246,189,75,.09);padding:2px 6px;border-radius:6px}
+.sec-head .lede{margin-top:14px}
+.sec-head h2{margin-top:20px}
+
+/* header */
+header{position:sticky;top:0;z-index:50;backdrop-filter:blur(18px);
+  background:rgba(6,10,18,.78);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:28px;height:76px}
+.nav .logo{display:flex;align-items:center;gap:12px;font-family:var(--font-head);
+  font-weight:800;font-size:19px;letter-spacing:.01em}
+.nav .logo img{width:150px;height:auto}
+.nav .links{display:flex;gap:26px;margin-inline-start:auto;font-size:14.5px;color:var(--muted)}
+.nav .links a{transition:color .2s}
+.nav .links a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:13px 24px;border-radius:12px;font-family:var(--font-head);font-weight:700;
+  font-size:15px;transition:transform .22s,box-shadow .22s,background .22s,border-color .22s;
+  border:1px solid transparent;white-space:nowrap;cursor:pointer}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(105deg,var(--gold),var(--gold2));color:#14100a;
+  box-shadow:0 12px 30px rgba(239,139,60,.25)}
+.btn-primary:hover{box-shadow:0 18px 38px rgba(239,139,60,.38)}
+.btn-ghost{border-color:var(--line);background:rgba(255,255,255,.035);color:var(--ink)}
+.btn-ghost:hover{border-color:rgba(246,189,75,.5);background:rgba(246,189,75,.08)}
+.btn-sm{padding:9px 16px;font-size:13px;border-radius:10px}
+
+/* hero */
+.hero{padding-top:78px;padding-bottom:64px}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:36px;align-items:center}
+.hero h1{margin:24px 0 20px}
+.hero .lede{font-size:clamp(16px,1.6vw,19px);max-width:56ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero-trust{display:flex;flex-wrap:wrap;gap:12px 26px;margin-top:36px;
+  color:var(--muted);font-size:13.5px}
+.hero-trust span{display:inline-flex;align-items:center;gap:8px}
+.hero-trust i{width:18px;height:18px;border-radius:50%;background:rgba(92,200,242,.14);
+  border:1px solid rgba(92,200,242,.4);display:inline-grid;place-items:center;
+  font-style:normal;font-size:11px;color:var(--cyan)}
+.hero-art{position:relative;height:520px;perspective:1300px}
+.hero-art .halo{position:absolute;inset:8% 4%;border-radius:50%;
+  background:radial-gradient(circle,rgba(246,189,75,.16),transparent 66%);filter:blur(18px)}
+.hero-art .ring{position:absolute;inset:12% 8%;border:1px dashed rgba(255,255,255,.10);
+  border-radius:50%;transform:rotate(-14deg)}
+.hero-art .bk{position:absolute;width:clamp(150px,17vw,205px);aspect-ratio:2/3;
+  object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 30px 60px rgba(0,0,0,.62),0 0 0 1px rgba(0,0,0,.4);
+  transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.hero-art .bk1{top:9%;right:6%;transform:rotateY(-20deg) rotate(-9deg) translateZ(0);z-index:2}
+.hero-art .bk2{top:20%;right:36%;transform:rotateY(-8deg) rotate(2deg) translateZ(60px);z-index:4}
+.hero-art .bk3{top:34%;right:64%;transform:rotateY(-24deg) rotate(11deg) translateZ(-40px);z-index:1}
+.hero-art:hover .bk1{transform:rotateY(-14deg) rotate(-6deg) translateY(-10px)}
+.hero-art:hover .bk2{transform:rotateY(-4deg) rotate(0deg) translateY(-16px) translateZ(80px)}
+.hero-art:hover .bk3{transform:rotateY(-18deg) rotate(8deg) translateY(-8px)}
+.float-badge{position:absolute;bottom:9%;right:2%;z-index:6;padding:14px 18px;
+  border-radius:14px;background:rgba(15,26,45,.92);border:1px solid var(--line);
+  box-shadow:var(--shadow);backdrop-filter:blur(10px);font-size:13px;color:var(--muted)}
+.float-badge b{display:block;font-family:var(--font-head);font-size:24px;color:var(--gold)}
+
+/* stats */
+.stats-band{border-block:1px solid var(--line);background:linear-gradient(90deg,rgba(255,255,255,.02),rgba(246,189,75,.035),rgba(255,255,255,.02))}
+.stats-grid{display:grid;grid-template-columns:repeat(5,1fr);padding:38px 0}
+.stat{text-align:center;padding:8px 12px;border-inline-end:1px solid var(--line)}
+.stat:last-child{border-inline-end:0}
+.stat b{display:block;font-family:var(--font-head);font-size:clamp(28px,3.4vw,42px);
+  font-weight:800;line-height:1.2;color:var(--ink)}
+.stat span{color:var(--muted);font-size:13.5px}
+
+/* features */
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.feature{padding:28px 24px;border:1px solid var(--line);border-radius:18px;
+  background:linear-gradient(160deg,rgba(19,33,57,.85),rgba(10,17,32,.75));
+  transition:border-color .25s,transform .25s}
+.feature:hover{border-color:rgba(246,189,75,.4);transform:translateY(-4px)}
+.feature .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;
+  background:rgba(246,189,75,.10);border:1px solid rgba(246,189,75,.22);margin-bottom:20px}
+.feature .ic svg{width:24px;height:24px;fill:none;stroke:var(--gold);stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round}
+.feature h3{font-size:18px;font-weight:700;margin-bottom:8px}
+.feature p{margin:0;color:var(--muted);font-size:14px;line-height:1.9}
+
+/* books */
+.toolbar{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-bottom:28px}
+.search{position:relative;flex:1 1 280px;max-width:380px}
+.search input{width:100%;padding:13px 42px 13px 16px;border-radius:12px;
+  border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--ink);font-size:14px}
+.search input::placeholder{color:#75869f}
+.search svg{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;
+  fill:none;stroke:#8ea2c0;stroke-width:2}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:9px 15px;border-radius:999px;border:1px solid var(--line);
+  background:rgba(255,255,255,.03);color:var(--muted);font-size:13px;cursor:pointer;
+  font-family:var(--font-head);font-weight:600;transition:all .2s}
+.chip:hover{color:var(--ink);border-color:rgba(255,255,255,.24)}
+.chip[aria-pressed="true"]{background:linear-gradient(105deg,var(--gold),var(--gold2));
+  color:#14100a;border-color:transparent}
+.count{color:var(--muted);font-size:13px;margin-bottom:20px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(228px,1fr))}
+.book{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;
+  overflow:hidden;background:linear-gradient(170deg,rgba(19,33,57,.9),rgba(9,15,28,.9));
+  transition:transform .28s,border-color .28s,box-shadow .28s}
+.book:hover{transform:translateY(-6px);border-color:rgba(246,189,75,.42);
+  box-shadow:0 26px 50px rgba(0,0,0,.45)}
+.book .cover{position:relative;display:block;aspect-ratio:2/3;overflow:hidden;background:#0b1220}
+.book .cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.book:hover .cover img{transform:scale(1.045)}
+.book .cover::after{content:"";position:absolute;inset:auto 0 0;height:42%;
+  background:linear-gradient(transparent,rgba(6,10,18,.85))}
+.book .badge{position:absolute;top:12px;right:12px;z-index:2;padding:5px 11px;border-radius:999px;
+  font-size:11.5px;font-weight:700;font-family:var(--font-head);color:#0d1119;
+  background:linear-gradient(105deg,var(--gold),var(--gold2))}
+.book .body{padding:18px;display:flex;flex-direction:column;flex:1;gap:10px}
+.book h3{font-size:17.5px;font-weight:700;line-height:1.5}
+.book .sub{color:var(--muted);font-size:13px;line-height:1.8;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:47px}
+.book .meta{display:flex;flex-wrap:wrap;gap:8px 14px;color:#8fa2bf;font-size:12px;
+  padding-top:4px;border-top:1px solid var(--line)}
+.book .meta b{color:var(--ink);font-weight:600}
+.book .actions{display:flex;gap:8px;margin-top:auto;padding-top:6px}
+.book .actions .btn{flex:1;padding:9px 8px;font-size:12.5px;border-radius:10px}
+.book .accent-line{height:3px;background:var(--accent,#f6bd4b)}
+.empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted);
+  border:1px dashed var(--line);border-radius:18px}
+
+/* courses */
+.courses{background:linear-gradient(180deg,transparent,rgba(15,26,45,.5),transparent)}
+.course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.course{display:flex;align-items:center;gap:18px;padding:18px 20px;border:1px solid var(--line);
+  border-radius:15px;background:rgba(15,26,45,.7);transition:border-color .25s,background .25s}
+.course:hover{border-color:rgba(92,200,242,.42);background:rgba(19,33,57,.9)}
+.course .no{width:42px;height:42px;flex:0 0 42px;border-radius:12px;display:grid;place-items:center;
+  font-family:var(--font-head);font-weight:800;color:var(--accent,#5cc8f2);
+  background:rgba(255,255,255,.05);border:1px solid var(--line)}
+.course .info{flex:1;min-width:0}
+.course h3{font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.course .cmeta{color:var(--muted);font-size:12.5px;margin-top:4px}
+.course .bar{height:4px;border-radius:99px;background:rgba(255,255,255,.07);margin-top:9px;overflow:hidden}
+.course .bar i{display:block;height:100%;border-radius:99px;
+  background:linear-gradient(90deg,var(--cyan),var(--accent,#f6bd4b))}
+.course .go{flex:0 0 auto;color:var(--cyan);font-size:12.5px;font-family:var(--font-head);font-weight:700}
+.course:hover .go{color:var(--gold)}
+
+/* journey */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:step}
+.step{position:relative;padding:32px 26px;border:1px solid var(--line);border-radius:18px;
+  background:rgba(15,26,45,.55)}
+.step::before{counter-increment:step;content:"0" counter(step);display:block;
+  font-family:var(--font-head);font-size:30px;font-weight:800;color:var(--gold);margin-bottom:14px}
+.step h3{font-size:19px;font-weight:700;margin-bottom:8px}
+.step p{margin:0;color:var(--muted);font-size:14px;line-height:1.95}
+
+/* cta */
+.cta{margin:0 0 92px;padding:64px 50px;border-radius:26px;text-align:center;
+  border:1px solid rgba(246,189,75,.24);
+  background:radial-gradient(700px 300px at 50% -20%,rgba(246,189,75,.18),transparent 70%),
+             linear-gradient(120deg,#101c33,#18162d)}
+.cta h2{font-size:clamp(26px,3.6vw,42px)}
+.cta p{color:var(--muted);max-width:60ch;margin:16px auto 30px;line-height:2}
+.cta .hero-cta{justify-content:center;margin-top:0}
+
+footer{border-top:1px solid var(--line);padding:54px 0 30px;background:rgba(6,10,18,.6)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px}
+.foot-grid img{width:170px;margin-bottom:16px}
+.foot-grid p{color:var(--muted);font-size:13.5px;line-height:2;margin:0;max-width:42ch}
+.foot-grid h4{font-family:var(--font-head);font-size:15px;margin:0 0 14px}
+.foot-grid ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.foot-grid a{color:var(--muted);font-size:13.5px;transition:color .2s}
+.foot-grid a:hover{color:var(--gold)}
+.copyright{text-align:center;color:#6d7f99;font-size:12.5px;margin-top:40px;
+  padding-top:22px;border-top:1px solid var(--line)}
+
+@media (max-width:960px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{height:400px;order:-1}
+  .hero-art .bk{width:clamp(120px,24vw,175px)}
+  .features,.steps{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(3,1fr);gap:22px 0}
+  .stat:nth-child(3){border-inline-end:0}
+  .course-grid{grid-template-columns:minmax(0,1fr)}
+  .course h3{white-space:normal}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .nav .links{display:none}
+}
+@media (max-width:600px){
+  section{padding:64px 0}
+  .wrap{width:min(1200px,calc(100% - 28px))}
+  .features,.steps,.stats-grid{grid-template-columns:1fr 1fr}
+  .stat{border-inline-end:0}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:14px}
+  .book h3{font-size:15px}
+  .cta{padding:44px 22px}
+  .foot-grid{grid-template-columns:1fr}
+  .hero-art{height:330px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top"><img src="./brand/lockup-white.png" data-mb-path="brand/lockup-white.png" alt="MaghzBook"></a>
+    <nav class="links" aria-label="التنقل الرئيسي">
+      <a href="#books">الكتب</a><a href="#courses">الدورات</a>
+      <a href="#why">لماذا MaghzBook</a><a href="#start">كيف تبدأ</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="#books">تصفّح المكتبة</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> المكتبة العربية التقنية · إصدار 2026</span>
+      <h1>العِلم التقني،<br><span class="grad">مكتوبًا لك… بالعربية</span></h1>
+      <p class="lede">14 كتابًا مرجعيًا و14 دورة مطابقة في الذكاء الاصطناعي وتعلّم الآلة والبرمجة.
+      نصوص كاملة لا ملخّصات، مسارات واضحة من الصفر إلى الاحتراف، وملفات جاهزة لتطبّق بها ما تعلّمته.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#books">استكشف الكتب <span aria-hidden="true">←</span></a>
+        <a class="btn btn-ghost" href="#courses">الدورات المطابقة</a>
+      </div>
+      <div class="hero-trust">
+        <span><i>✓</i> نصوص الدروس كاملة</span>
+        <span><i>✓</i> نموذج مجاني لكل كتاب</span>
+        <span><i>✓</i> جاهز للتطبيق مباشرة</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="halo"></div><div class="ring"></div>
+      <img class="bk bk1" src="./books/keras-3-arabic-professional/cover.png" data-mb-path="books/keras-3-arabic-professional/cover.png" alt="">
+      <img class="bk bk2" src="./books/game-theory-strategy/cover.png" data-mb-path="books/game-theory-strategy/cover.png" alt="">
+      <img class="bk bk3" src="./books/python-3-14-from-zero-to-pro/cover.png" data-mb-path="books/python-3-14-from-zero-to-pro/cover.png" alt="">
+      <div class="float-badge"><b id="hero-pages">0</b> صفحة محتوى أصيل</div>
+    </div>
+  </div>
+</section>
+
+<div class="stats-band">
+  <div class="wrap stats-grid">
+    <div class="stat"><b class="num" data-to="14">0</b><span>كتابًا مرجعيًا</span></div>
+    <div class="stat"><b class="num" data-to="14">0</b><span>دورة مطابقة</span></div>
+    <div class="stat"><b class="num" data-to="643">0</b><span>درسًا كامل النص</span></div>
+    <div class="stat"><b class="num" data-to="9982">0</b><span>صفحة محتوى</span></div>
+    <div class="stat"><b class="num" data-to="1307">0</b><span>ملفًا تطبيقيًا</span></div>
+  </div>
+</div>
+
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> لماذا MaghzBook</span>
+      <h2>ليست مقالات متفرّقة…<br><span class="grad">منظومة تعلّم كاملة</span></h2>
+      <p class="lede">كل كتاب مبني كمسار: فصول مترابطة، دورة بنفس المعرّف، وملفات عمل حقيقية.
+      لتنتقل من القراءة إلى الفهم ثم إلى التطبيق دون أن تبحث عن مصدر آخر.</p>
+    </div>
+    <div class="features">
+      <div class="feature"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 5.5v16M8 8h7M8 12h7"/></svg></div>
+        <h3>محتوى كامل</h3><p>643 درسًا بنصوصها الكاملة بالعربية والإنجليزية، مع تمارين وحالات تطبيقية، لا ملخّصات.</p></div>
+      <div class="feature"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 7h7l2 2h9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7V5a2 2 0 0 1 2-2h4"/></svg></div>
+        <h3>تعلّم بالتطبيق</h3><p>1,307 مرفق بين دفاتر Jupyter وسكربتات وصور شرح، مرتبة حسب كل درس.</p></div>
+      <div class="feature"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/><path d="m7 7 10 10"/></svg></div>
+        <h3>كتاب + دورة</h3><p>لكل كتاب دورة بنفس الـ slug، حتى يبقى تقدّمك ومسارك مرتبطين عند الاستيراد.</p></div>
+      <div class="feature"><div class="ic"><svg viewBox="0 0 24 24"><path d="m8 9-3 3 3 3M16 9l3 3-3 3M13 5l-2 14"/></svg></div>
+        <h3>جاهز للتطبيق</h3><p>Blueprints، فهرس آلي، وروابط داخلية بالكامل مع متغير بيئة <code>APP_URL</code> عند الحاجة.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="books">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> المكتبة</span>
+      <h2>14 كتابًا… <span class="grad">لكل مسارٍ مرجعٌ كامل</span></h2>
+      <p class="lede">من الرياضيات ونظرية الألعاب إلى وكلاء الذكاء الاصطناعي والمحوّلات العملاقة.
+      ابحث بالاسم أو الموضوع، ثم افتح صفحة الكتاب أو حمّل النموذج المجاني.</p>
+    </div>
+    <div class="toolbar">
+      <label class="search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="ابحث عن كتاب، موضوع، أو تقنية…" aria-label="ابحث في الكتب">
+      </label>
+      <div class="chips" id="chips" role="group" aria-label="تصفية حسب التخصص"></div>
+    </div>
+    <div class="count" id="count"></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="courses" id="courses">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> الدورات</span>
+      <h2>ومع كل كتاب… <span class="grad">دورةٌ تُكمِله</span></h2>
+      <p class="lede">118 وحدة و643 درسًا موزّعة على 14 مسارًا. كل دورة تحمل نصوص دروسها كاملة
+      ومرفقاتها، وترتبط بالكتاب عبر معرّف واحد.</p>
+    </div>
+    <div class="course-grid" id="course-grid"></div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> كيف تبدأ</span>
+      <h2>ثلاث خطوات… <span class="grad">وصارت المهارة ملكك</span></h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>اختر مسارك</h3><p>تصفّح المكتبة حسب الموضوع، أو ابحث عن التقنية التي تريد إتقانها، وافتح صفحة الكتاب للتعرّف على فصوله.</p></div>
+      <div class="step"><h3>اقرأ النموذج المجاني</h3><p>حمّل أول جزأين من كل كتاب مجانًا، واطّلع على الأسلوب والمستوى قبل أن تلتزم بالمسار كاملًا.</p></div>
+      <div class="step"><h3>تعلّم وطبّق</h3><p>تابع الدورة المطابقة درسًا بدرس، ونفّذ الدفاتر والسكربتات المرفقة لتحويل المعرفة إلى عمل حقيقي.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cta">
+    <h2>رحلتك إلى الاحتراف <span class="grad">تبدأ من صفحة واحدة</span></h2>
+    <p>مكتبة كاملة بين يديك: كتب، دورات، نصوص، وملفات تطبيقية — بلا تشتّت، وبلا مصادر ناقصة.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="./landing/index.html" data-mb-path="landing/index.html">افتح فهرس المكتبة <span aria-hidden="true">←</span></a>
+      <a class="btn btn-ghost" href="./catalog.json" data-mb-path="catalog.json">بيانات الكتالوج (JSON)</a>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <img src="./brand/lockup-white.png" data-mb-path="brand/lockup-white.png" alt="MaghzBook">
+      <p>مكتبة عربية تقنية للكتب والدورات: محتوى كامل، مسارات متكاملة، وملفات جاهزة للتطبيق.</p>
+    </div>
+    <div><h4>تصفّح</h4><ul>
+      <li><a href="#books">الكتب</a></li><li><a href="#courses">الدورات</a></li>
+      <li><a href="./landing/index.html" data-mb-path="landing/index.html">فهرس المكتبة</a></li>
+    </ul></div>
+    <div><h4>للتطبيق</h4><ul>
+      <li><a href="./catalog.json" data-mb-path="catalog.json">catalog.json</a></li>
+      <li><a href="./manifest.json" data-mb-path="manifest.json">manifest.json</a></li>
+      <li><a href="./README.md" data-mb-path="README.md">دليل الحزمة</a></li>
+    </ul></div>
+  </div>
+  <div class="wrap copyright">© 2026 م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz — جميع الحقوق محفوظة.</div>
+</footer>
+
+<script>
+/* Embedded catalog (no fetch, works from file:// and any static host). */
+var DATA = [{"slug":"agent-harness-engineering","title":"هندسة وكلاء الذكاء الاصطناعي","titleEn":"AI Agent Engineering","subtitle":"بناء إطار التحكم (The Agent Harness) من الصفر إلى الاحتراف","description":"15 فصلاً و13 ملحقاً تبني منظومة وكلاء إنتاجية كاملة: حلقة التنفيذ وآلات الحالة، سجل الأدوات وهندسة السياق، قواطع الدائرة وصناديق الرمل، نقاط الحفظ الموقّعة، بوابات CI/CD والتتبع الموزّع، مع 22 دفتر Jupyter و64 كتلة كود مُختبَرة.","accent":"#4f46e5","pages":351,"chapters":29,"tags":["ai-agents","python","software-architecture","llm-ops"],"cover":"books/agent-harness-engineering/cover.png","landing":"landing/agent-harness-engineering.html","sample":"books/agent-harness-engineering/sample.pdf","pdf":"books/agent-harness-engineering/book.pdf","course":"courses/agent-harness-engineering/course.blueprint.json","modules":7,"lessons":29,"attachments":63,"groups":["ai","code"]},{"slug":"ai-for-everyone-skills","title":"من الصفر إلى الاحتراف","titleEn":"AI From Zero to Mastery","subtitle":"الذكاء الاصطناعي في حياتك ودراستك وعملك","description":"دليل قصصي عملي لغير المتخصصين: 34 فصلاً في 7 أجزاء تأخذك من أول حوار مع نموذج لغوي إلى بناء مسار عمل موثوق، مع تمارين محقّقة ومهارات قابلة للتطبيق في الدراسة والعمل.","accent":"#0891b2","pages":568,"chapters":34,"tags":["artificial-intelligence","prompt-engineering","digital-skills"],"cover":"books/ai-for-everyone-skills/cover.png","landing":"landing/ai-for-everyone-skills.html","sample":"books/ai-for-everyone-skills/sample.pdf","pdf":"books/ai-for-everyone-skills/book.pdf","course":"courses/ai-for-everyone-skills/course.blueprint.json","modules":7,"lessons":34,"attachments":0,"groups":["ai"]},{"slug":"game-theory-strategy","title":"نظرية الألعاب","titleEn":"Game Theory","subtitle":"من الصفر إلى الاحتراف — كيف تُقرأ أحداث العالم بلغة الاستراتيجية","description":"من المصفوفات وتوازن ناش إلى الألعاب المتكررة وتصميم الآليات: 30 فصلاً في 9 أجزاء يعلّمك تفكيك أي موقف تنافسي إلى لاعبين وقواعد ومخرجات، بأسلوب قصصي وتمارين محلولة وحالات تطبيقية.","accent":"#b45309","pages":248,"chapters":36,"tags":["game-theory","strategy","economics","mathematics"],"cover":"books/game-theory-strategy/cover.png","landing":"landing/game-theory-strategy.html","sample":"books/game-theory-strategy/sample.pdf","pdf":"books/game-theory-strategy/book.pdf","course":"courses/game-theory-strategy/course.blueprint.json","modules":10,"lessons":36,"attachments":0,"groups":["math"]},{"slug":"jax-from-zero-to-production","title":"JAX من الصفر إلى الإنتاج","titleEn":"JAX: From Zero to Production","subtitle":"الدليل الشامل في التعلّم العميق والتبديلات القابلة للتركيب","description":"32 فصلاً في 6 أجزاء: من jax.numpy والتبديلات الأربع jit وgrad وvmap وshard_map، إلى Flax وOptax وOrbax والتدريب الموزّع ونشر النماذج، مع ملاحق مقارنة ومعادلات وتمارين.","accent":"#7c3aed","pages":326,"chapters":32,"tags":["jax","deep-learning","numpy","xla"],"cover":"books/jax-from-zero-to-production/cover.png","landing":"landing/jax-from-zero-to-production.html","sample":"books/jax-from-zero-to-production/sample.pdf","pdf":"books/jax-from-zero-to-production/book.pdf","course":"courses/jax-from-zero-to-production/course.blueprint.json","modules":6,"lessons":32,"attachments":0,"groups":["dl"]},{"slug":"keras-3-arabic-professional","title":"Keras 3 بالعربية","titleEn":"Keras 3 in Arabic","subtitle":"من أول نموذج إلى أنظمة الرؤية واللغة والإنتاج","description":"43 فصلاً و6 ملاحق تغطي الطبقات ودوال الخسارة والمُحسّنات، الشبكات التلافيفية والمحوّلات والنماذج التوليدية، ثم الهندسة الإنتاجية و3 مشاريع ختامية، مع 270 مقتطف كود مُستخرج من النص.","accent":"#dc2626","pages":730,"chapters":49,"tags":["keras","deep-learning","tensorflow","computer-vision"],"cover":"books/keras-3-arabic-professional/cover.png","landing":"landing/keras-3-arabic-professional.html","sample":"books/keras-3-arabic-professional/sample.pdf","pdf":"books/keras-3-arabic-professional/book.pdf","course":"courses/keras-3-arabic-professional/course.blueprint.json","modules":10,"lessons":49,"attachments":243,"groups":["dl"]},{"slug":"llm-engineering-69-chapters","title":"كتاب هندسة النماذج اللغوية الكبيرة","titleEn":"Large Language Model Engineering","subtitle":"69 فصلاً من الانتباه إلى التقييم والوكلاء","description":"12 جزءاً و69 فصلاً مع 69 دفتر Jupyter و69 سكربتاً مرافقاً: التضمينات، بنية المحوّل، المعماريات الحديثة، بناء LLM من الصفر، RAG والضبط الدقيق، النماذج متعددة الوسائط والتقييم والوكلاء.","accent":"#ea580c","pages":1253,"chapters":69,"tags":["large-language-models","transformers","rag","fine-tuning"],"cover":"books/llm-engineering-69-chapters/cover.png","landing":"landing/llm-engineering-69-chapters.html","sample":"books/llm-engineering-69-chapters/sample.pdf","pdf":"books/llm-engineering-69-chapters/book.pdf","course":"courses/llm-engineering-69-chapters/course.blueprint.json","modules":12,"lessons":69,"attachments":138,"groups":["ai"]},{"slug":"mastering-llms-transformers","title":"إتقان المحوّلات والنماذج اللغوية الكبيرة","titleEn":"Mastering Transformers and Large Language Models","subtitle":"دليل عربي شامل من الصفر إلى الإنتاج","description":"12 جزءاً و64 فصلاً و12 مشروعاً ختامياً و8 ملاحق، مع 76 دفتر Jupyter قابل للتشغيل: من الأسس الرياضية والانتباه إلى بناء LLM من الصفر وضبطه وتقييمه ونشره.","accent":"#2563eb","pages":1034,"chapters":72,"tags":["large-language-models","transformers","deep-learning","pytorch"],"cover":"books/mastering-llms-transformers/cover.png","landing":"landing/mastering-llms-transformers.html","sample":"books/mastering-llms-transformers/sample.pdf","pdf":"books/mastering-llms-transformers/book.pdf","course":"courses/mastering-llms-transformers/course.blueprint.json","modules":13,"lessons":72,"attachments":64,"groups":["ai","dl"]},{"slug":"mastering-scikit-learn-1-9","title":"إتقان scikit-learn 1.9","titleEn":"Mastering scikit-learn 1.9","subtitle":"من الصفر إلى الاحتراف — دليل شامل لتعلّم الآلة التطبيقي","description":"104 فصلاً في 12 جزءاً على بيئة حقيقية scikit-learn 1.9.1 وPython 3.14: تجهيز البيانات وهندسة الخصائص، النماذج الخطية والمجموعات والتجميع، التحقق المتقاطع وخطوط الأنابيب ونشر النماذج، مع كتل كود قابلة للتنفيذ وتمارين مصحّحة.","accent":"#0d9488","pages":1308,"chapters":104,"tags":["scikit-learn","machine-learning","python","data-science"],"cover":"books/mastering-scikit-learn-1-9/cover.png","landing":"landing/mastering-scikit-learn-1-9.html","sample":"books/mastering-scikit-learn-1-9/sample.pdf","pdf":"books/mastering-scikit-learn-1-9/book.pdf","course":"courses/mastering-scikit-learn-1-9/course.blueprint.json","modules":12,"lessons":104,"attachments":0,"groups":["ml","code"]},{"slug":"mathematics-for-ai","title":"رياضيات الذكاء الاصطناعي","titleEn":"Mathematics of Artificial Intelligence","subtitle":"من البذرة الأولى إلى أحدث النظريات — مرجع أكاديمي متسلسل","description":"54 فصلاً في 9 أجزاء: المنطق والمجموعات، الجبر الخطي والتفاضل المصفوفي، الاحتمالات والتحسين، نظرية المعلومات والتعلّم الإحصائي، الشبكات العصنية والإشارات، بمعادلات LaTeX ورسوم متجهية وبراهين.","accent":"#0f766e","pages":1676,"chapters":54,"tags":["mathematics","machine-learning","linear-algebra","optimization"],"cover":"books/mathematics-for-ai/cover.png","landing":"landing/mathematics-for-ai.html","sample":"books/mathematics-for-ai/sample.pdf","pdf":"books/mathematics-for-ai/book.pdf","course":"courses/mathematics-for-ai/course.blueprint.json","modules":9,"lessons":54,"attachments":0,"groups":["ml","math"]},{"slug":"opencv-5-ai-vision","title":"OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي","titleEn":"OpenCV 5 and AI Computer Vision","subtitle":"من البكسل إلى أنظمة الرؤية الإنتاجية","description":"19 فصلاً وملحق مرجعي: قراءة الصور والفيديو، العمليات النقطية والمرشّحات والحواف، التحويلات الهندسية والعتبات وال contours، المطابقة والميزات، DNN والتتبّع والأداء، بأمثلة Python كاملة.","accent":"#059669","pages":190,"chapters":20,"tags":["opencv","computer-vision","image-processing","python"],"cover":"books/opencv-5-ai-vision/cover.png","landing":"landing/opencv-5-ai-vision.html","sample":"books/opencv-5-ai-vision/sample.pdf","pdf":"books/opencv-5-ai-vision/book.pdf","course":"courses/opencv-5-ai-vision/course.blueprint.json","modules":5,"lessons":20,"attachments":0,"groups":["dl","code"]},{"slug":"python-3-14-from-zero-to-pro","title":"بايثون 3.14 — من الصفر إلى الاحتراف","titleEn":"Python 3.14 — From Zero to Pro","subtitle":"كتاب عربي متكامل في أربع صيغ متزامنة","description":"26 فصلاً في 6 أجزاء و3 ملاحق: من عقلية المبرمج والمتغيرات إلى الدوال والكائنات والأنواع الحديثة، ثم الويب وتحليل البيانات والاختبار والنشر، مع 29 دفتر Jupyter وأكواد قابلة للتنفيذ لكل فصل.","accent":"#2563eb","pages":801,"chapters":29,"tags":["python","programming","software-engineering"],"cover":"books/python-3-14-from-zero-to-pro/cover.png","landing":"landing/python-3-14-from-zero-to-pro.html","sample":"books/python-3-14-from-zero-to-pro/sample.pdf","pdf":"books/python-3-14-from-zero-to-pro/book.pdf","course":"courses/python-3-14-from-zero-to-pro/course.blueprint.json","modules":7,"lessons":29,"attachments":742,"groups":["code"]},{"slug":"pytorch-keras-deep-learning","title":"PyTorch و Keras: الدليل الشامل في التعلم العميق","titleEn":"PyTorch and Keras: The Complete Deep Learning Guide","subtitle":"من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية","description":"31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.","accent":"#f97316","pages":513,"chapters":36,"tags":["pytorch","keras","deep-learning","computer-vision"],"cover":"books/pytorch-keras-deep-learning/cover.png","landing":"landing/pytorch-keras-deep-learning.html","sample":"books/pytorch-keras-deep-learning/sample.pdf","pdf":"books/pytorch-keras-deep-learning/book.pdf","course":"courses/pytorch-keras-deep-learning/course.blueprint.json","modules":5,"lessons":36,"attachments":0,"groups":["dl"]},{"slug":"tensorflow-professional-ar","title":"TensorFlow الاحترافي","titleEn":"Professional TensorFlow","subtitle":"من الأساس إلى الإنتاج — مرجع عربي شامل للتعلّم العميق","description":"24 فصلاً في 4 أجزاء و7 ملاحق على Python 3.14 وTensorFlow 2.21: التنسورات والاشتقاق الآلي وKeras، الشبكات التلافيفية والمتسلسلات والمحوّلات والنماذج التوليدية، ثم الأداء والنشر وMLOps، بأمثلة محلولة وتمارين.","accent":"#f59e0b","pages":318,"chapters":31,"tags":["tensorflow","deep-learning","keras","mlops"],"cover":"books/tensorflow-professional-ar/cover.png","landing":"landing/tensorflow-professional-ar.html","sample":"books/tensorflow-professional-ar/sample.pdf","pdf":"books/tensorflow-professional-ar/book.pdf","course":"courses/tensorflow-professional-ar/course.blueprint.json","modules":5,"lessons":31,"attachments":0,"groups":["dl","ml"]},{"slug":"transformers-llms-theory-to-systems","title":"المحوّلات والنماذج اللغوية الكبيرة","titleEn":"Transformers and Large Language Models","subtitle":"من النظرية إلى بناء أنظمة ذكية","description":"48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.","accent":"#7e22ce","pages":666,"chapters":48,"tags":["large-language-models","transformers","deep-learning","pytorch"],"cover":"books/transformers-llms-theory-to-systems/cover.png","landing":"landing/transformers-llms-theory-to-systems.html","sample":"books/transformers-llms-theory-to-systems/sample.pdf","pdf":"books/transformers-llms-theory-to-systems/book.pdf","course":"courses/transformers-llms-theory-to-systems/course.blueprint.json","modules":10,"lessons":48,"attachments":57,"groups":["ai","dl"]}];
+var GROUPS = {"ai":{"label":"الذكاء الاصطناعي"},"dl":{"label":"التعلّم العميق"},"ml":{"label":"تعلّم الآلة والبيانات"},"code":{"label":"البرمجة والهندسة"},"math":{"label":"الرياضيات والاستراتيجية"}};
+var MB = window.MaghzBookURL;
+function u(p){ return MB.resolve(p); }
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function fmt(n){ return Number(n).toLocaleString('en-US'); }
+
+/* Local fonts, resolved through APP_URL so no external request is ever made. */
+(function(){
+  var css = '@font-face{font-family:"MB Cairo";src:url("' + u('brand/fonts/Cairo-Variable.ttf') +
+    '") format("truetype");font-weight:400 900;font-display:swap}' +
+    '@font-face{font-family:"MB Plex";src:url("' + u('brand/fonts/IBMPlexSansArabic-Regular.ttf') +
+    '") format("truetype");font-weight:400;font-display:swap}';
+  var s = document.createElement('style'); s.textContent = css; document.head.appendChild(s);
+})();
+
+/* Books */
+var grid = document.getElementById('grid');
+var countEl = document.getElementById('count');
+var q = document.getElementById('q');
+var chips = document.getElementById('chips');
+var active = 'all';
+
+function chipHtml(){
+  var h = '<button class="chip" type="button" data-g="all" aria-pressed="true">الكل</button>';
+  Object.keys(GROUPS).forEach(function(k){
+    h += '<button class="chip" type="button" data-g="' + k + '" aria-pressed="false">' +
+         esc(GROUPS[k].label) + '</button>';
+  });
+  return h;
+}
+chips.innerHTML = chipHtml();
+
+function bookCard(b){
+  var el = document.createElement('article');
+  el.className = 'book';
+  el.style.setProperty('--accent', b.accent);
+  el.innerHTML =
+    '<div class="accent-line"></div>' +
+    '<a class="cover" href="' + u(b.landing) + '" aria-label="صفحة كتاب ' + esc(b.title) + '">' +
+      '<span class="badge">نموذج مجاني</span>' +
+      '<img src="' + u(b.cover) + '" alt="غلاف ' + esc(b.title) + '" loading="lazy" width="640" height="960">' +
+    '</a>' +
+    '<div class="body">' +
+      '<h3>' + esc(b.title) + '</h3>' +
+      '<p class="sub">' + esc(b.subtitle) + '</p>' +
+      '<div class="meta"><span><b>' + fmt(b.pages) + '</b> صفحة</span>' +
+        '<span><b>' + fmt(b.lessons) + '</b> درسًا</span>' +
+        '<span><b>' + fmt(b.modules) + '</b> وحدات</span></div>' +
+      '<div class="actions">' +
+        '<a class="btn btn-primary btn-sm" href="' + u(b.landing) + '">صفحة الكتاب</a>' +
+        '<a class="btn btn-ghost btn-sm" href="' + u(b.sample) + '">النموذج</a>' +
+      '</div>' +
+    '</div>';
+  return el;
+}
+
+function render(){
+  var term = (q.value || '').trim().toLowerCase();
+  var list = DATA.filter(function(b){
+    if (active !== 'all' && b.groups.indexOf(active) === -1) return false;
+    if (!term) return true;
+    var hay = [b.title, b.titleEn, b.subtitle, b.description, b.tags.join(' ')].join(' ').toLowerCase();
+    return hay.indexOf(term) !== -1;
+  });
+  grid.innerHTML = '';
+  if (!list.length){
+    grid.innerHTML = '<div class="empty">لا توجد كتب مطابقة. جرّب كلمة أخرى أو اختر «الكل».</div>';
+  } else {
+    var frag = document.createDocumentFragment();
+    list.forEach(function(b){ frag.appendChild(bookCard(b)); });
+    grid.appendChild(frag);
+  }
+  countEl.textContent = 'عرض ' + fmt(list.length) + ' من ' + fmt(DATA.length) + ' كتابًا';
+  MB.apply(grid);   // keep data-mb-path elements (none here) in sync with APP_URL
+}
+q.addEventListener('input', render);
+chips.addEventListener('click', function(e){
+  var btn = e.target.closest('.chip'); if (!btn) return;
+  active = btn.dataset.g;
+  Array.prototype.forEach.call(chips.querySelectorAll('.chip'), function(c){
+    c.setAttribute('aria-pressed', String(c === btn));
+  });
+  render();
+});
+render();
+
+/* Courses */
+var cg = document.getElementById('course-grid');
+var maxLessons = Math.max.apply(null, DATA.map(function(b){ return b.lessons; }));
+var cf = document.createDocumentFragment();
+DATA.slice().sort(function(a,b){ return b.lessons - a.lessons; }).forEach(function(b, i){
+  var el = document.createElement('a');
+  el.className = 'course'; el.href = u(b.landing);
+  el.style.setProperty('--accent', b.accent);
+  var pct = Math.max(8, Math.round(b.lessons / maxLessons * 100));
+  el.innerHTML =
+    '<div class="no">' + (i + 1) + '</div>' +
+    '<div class="info"><h3>' + esc(b.title) + '</h3>' +
+      '<div class="cmeta">' + fmt(b.modules) + ' وحدات · ' + fmt(b.lessons) + ' درسًا · ' +
+      fmt(b.attachments) + ' مرفق</div>' +
+      '<div class="bar"><i style="width:' + pct + '%"></i></div></div>' +
+    '<span class="go">الدورة ←</span>';
+  cf.appendChild(el);
+});
+cg.appendChild(cf);
+
+/* Number animation */
+function animate(el, to){
+  var t0 = performance.now(), dur = 1100;
+  function step(t){
+    var p = Math.min(1, (t - t0) / dur);
+    var e = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(Math.round(to * e));
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+var heroPages = document.getElementById('hero-pages');
+heroPages.textContent = fmt(9982);
+var nums = Array.prototype.slice.call(document.querySelectorAll('.num'));
+var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (reduce || !('IntersectionObserver' in window)){
+  nums.forEach(function(el){ el.textContent = fmt(el.dataset.to); });
+} else {
+  var seen = false;
+  var io = new IntersectionObserver(function(entries){
+    if (!seen && entries.some(function(e){ return e.isIntersecting; })){
+      seen = true;
+      nums.forEach(function(el){ animate(el, Number(el.dataset.to)); });
+      io.disconnect();
+    }
+  }, {threshold:.3});
+  io.observe(document.querySelector('.stats-grid'));
+}
+</script>
+</body>
+</html>

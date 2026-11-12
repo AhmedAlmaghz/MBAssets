@@ -2,6 +2,38 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
+<meta name="app-url" content="">
+<meta name="mb-root" content="">
+<script>
+/* Internal links by default. Set APP_URL (build-time env var, injected into
+   <meta name="app-url">, or window.APP_URL at runtime) to prefix every link. */
+(function () {
+  var m = document.querySelector('meta[name="app-url"]');
+  var r = document.querySelector('meta[name="mb-root"]');
+  var base = String((window.APP_URL || (m && m.content) || '')).trim().replace(/\/+$/, '');
+  var root = String((r && r.content) || '').replace(/^\/+/, '');
+  function resolve(path) {
+    if (!path || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|data:)/i.test(path)) return path;
+    var p = root + String(path).replace(/^\/+/, '');
+    return base ? base + '/' + p : p;
+  }
+  function apply(node) {
+    (node || document).querySelectorAll('[data-mb-path]').forEach(function (el) {
+      var attr = el.getAttribute('data-mb-attr') || ({
+        A: 'href', IMG: 'src', SOURCE: 'src', LINK: 'href', META: 'content', SCRIPT: 'src'
+      })[el.tagName] || 'href';
+      el.setAttribute(attr, resolve(el.getAttribute('data-mb-path')));
+    });
+  }
+  window.MaghzBookURL = { base: base, root: root, resolve: resolve, apply: apply,
+                          ENV: 'APP_URL' };
+  if (base) {
+    if (document.readyState === 'loading')
+      document.addEventListener('DOMContentLoaded', function () { apply(); });
+    else apply();
+  }
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PyTorch و Keras: الدليل الشامل في التعلم العميق | من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية</title>
 <meta name="description" content="31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.">
@@ -10,7 +42,7 @@
 <meta property="og:type" content="book">
 <meta property="og:title" content="PyTorch و Keras: الدليل الشامل في التعلم العميق">
 <meta property="og:description" content="31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.">
-<meta property="og:image" content="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png">
+<meta property="og:image" content="../books/pytorch-keras-deep-learning/cover.png" data-mb-path="books/pytorch-keras-deep-learning/cover.png">
 <meta property="og:locale" content="ar_AR">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +62,7 @@
  },
  "datePublished": "2026",
  "numberOfPages": 513,
- "image": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png",
+ "image": "../books/pytorch-keras-deep-learning/cover.png",
  "publisher": {
   "@type": "Organization",
   "name": "MaghzBook"
@@ -217,16 +249,16 @@ footer strong{color:#f8fafc}
 <main id="main">
 <div class="hero">
   <div class="wrap hero-grid">
-    <div class="cover-frame"><img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png" alt="غلاف كتاب PyTorch و Keras: الدليل الشامل في التعلم العميق" width="1024" height="1536"></div>
+    <div class="cover-frame"><img src="../books/pytorch-keras-deep-learning/cover.png" alt="غلاف كتاب PyTorch و Keras: الدليل الشامل في التعلم العميق" width="1024" height="1536" data-mb-path="books/pytorch-keras-deep-learning/cover.png"></div>
     <div>
       <span class="eyebrow">كتاب تقني عربي · 5 أجزاء · 36 فصلاً</span>
       <h1>PyTorch و Keras: الدليل الشامل في التعلم العميق</h1>
       <p class="sub">من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية</p>
       <p class="desc">31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/sample.pdf">⬇ تحميل النموذج المجاني (أول جزأين)</a>
+        <a class="btn btn-primary" href="../books/pytorch-keras-deep-learning/sample.pdf" data-mb-path="books/pytorch-keras-deep-learning/sample.pdf">⬇ تحميل النموذج المجاني (أول جزأين)</a>
         <a class="btn btn-ghost" href="#curriculum">استعراض المنهج</a>
-        <a class="btn btn-ghost" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.pdf">الكتاب الكامل PDF</a>
+        <a class="btn btn-ghost" href="../books/pytorch-keras-deep-learning/book.pdf" data-mb-path="books/pytorch-keras-deep-learning/book.pdf">الكتاب الكامل PDF</a>
       </div>
     </div>
   </div>
@@ -298,8 +330,8 @@ footer strong{color:#f8fafc}
         <h2>نموذج مجاني: الجزءان الأول والثاني</h2>
         <p>ملف PDF مُستخرج من الكتاب الكامل مع الحفاظ على التنسيق والخطوط والرسوم الأصلية، ويضمّ أول جزأين (309 صفحة من أصل 513 صفحة). يكفي لتقييم الأسلوب وعمق الشرح وجودة الأمثلة قبل اقتناء النسخة الكاملة.</p>
         <div class="cta">
-          <a class="btn btn-primary" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/sample.pdf">⬇ تحميل النموذج المجاني</a>
-          <a class="btn btn-light" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.pdf">الكتاب الكامل PDF ↗</a>
+          <a class="btn btn-primary" href="../books/pytorch-keras-deep-learning/sample.pdf" data-mb-path="books/pytorch-keras-deep-learning/sample.pdf">⬇ تحميل النموذج المجاني</a>
+          <a class="btn btn-light" href="../books/pytorch-keras-deep-learning/book.pdf" data-mb-path="books/pytorch-keras-deep-learning/book.pdf">الكتاب الكامل PDF ↗</a>
         </div>
       </div>
       <div class="sample-pdf">
@@ -318,15 +350,15 @@ footer strong{color:#f8fafc}
       <h2>كل ما تحتاجه في مكان واحد</h2>
       <p>روابط مباشرة للملفات داخل المستودع، وجاهزة للاستيراد في MaghzBook.</p>
     </div>
-    <div class="link-grid"><a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.pdf"><span class="ic">📕</span><span><b>الكتاب الكامل (PDF)</b><small>dist/PyTorch-Keras-Deep-Learning-AR.pdf · 513 صفحة</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/sample.pdf"><span class="ic">📄</span><span><b>النموذج المجاني (أول جزأين)</b><small>309 صفحة</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png"><span class="ic">🖼️</span><span><b>صورة الغلاف</b><small>assets/cover.png</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/pytorch-keras-deep-learning/course.blueprint.json"><span class="ic">🎓</span><span><b>Blueprint: الدورة</b><small>maghzbook-course-pytorch-keras-deep-learning-data.json</small></span></a>
-<a class="link-card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.blueprint.json"><span class="ic">📘</span><span><b>Blueprint: الكتاب</b><small>maghzbook-book-pytorch-keras-deep-learning.json</small></span></a>
+    <div class="link-grid"><a class="link-card" href="../books/pytorch-keras-deep-learning/book.pdf" data-mb-path="books/pytorch-keras-deep-learning/book.pdf"><span class="ic">📕</span><span><b>الكتاب الكامل (PDF)</b><small>dist/PyTorch-Keras-Deep-Learning-AR.pdf · 513 صفحة</small></span></a>
+<a class="link-card" href="../books/pytorch-keras-deep-learning/sample.pdf" data-mb-path="books/pytorch-keras-deep-learning/sample.pdf"><span class="ic">📄</span><span><b>النموذج المجاني (أول جزأين)</b><small>309 صفحة</small></span></a>
+<a class="link-card" href="../books/pytorch-keras-deep-learning/cover.png" data-mb-path="books/pytorch-keras-deep-learning/cover.png"><span class="ic">🖼️</span><span><b>صورة الغلاف</b><small>assets/cover.png</small></span></a>
+<a class="link-card" href="../courses/pytorch-keras-deep-learning/course.blueprint.json" data-mb-path="courses/pytorch-keras-deep-learning/course.blueprint.json"><span class="ic">🎓</span><span><b>Blueprint: الدورة</b><small>maghzbook-course-pytorch-keras-deep-learning-data.json</small></span></a>
+<a class="link-card" href="../books/pytorch-keras-deep-learning/book.blueprint.json" data-mb-path="books/pytorch-keras-deep-learning/book.blueprint.json"><span class="ic">📘</span><span><b>Blueprint: الكتاب</b><small>maghzbook-book-pytorch-keras-deep-learning.json</small></span></a>
 <a class="link-card" href="https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53"><span class="ic">🔗</span><span><b>مستودع GitHub</b><small>PytorchKeras-Book-glm53 · main</small></span></a></div>
     <div class="import-note">
       <strong>للاستيراد في MaghzBook:</strong> انسخ رابط Blueprint أدناه وألصقه في «إدارة Blueprints ← استيراد من رابط GitHub». الملفات من النوع <code>course</code> و<code>book</code> تستند إلى معرّف ثابت (<code>pytorch-keras-deep-learning</code>)، لذا يمكن إعادة الاستيراد بأمان دون تكرار أو فقدان تقدّم المتعلّمين.
-      <code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/pytorch-keras-deep-learning/course.blueprint.json</code><br><code>https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.blueprint.json</code>
+      <code>../courses/pytorch-keras-deep-learning/course.blueprint.json</code><br><code>../books/pytorch-keras-deep-learning/book.blueprint.json</code>
     </div>
   </div>
 </section>

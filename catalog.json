@@ -22,10 +22,10 @@
       ],
       "chapters": 36,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/game-theory-strategy.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/game-theory-strategy/course.blueprint.json"
+      "cover": "books/game-theory-strategy/cover.png",
+      "landing": "landing/game-theory-strategy.html",
+      "bookBlueprint": "books/game-theory-strategy/book.blueprint.json",
+      "courseBlueprint": "courses/game-theory-strategy/course.blueprint.json"
     },
     {
       "slug": "ai-for-everyone-skills",
@@ -46,10 +46,10 @@
       ],
       "chapters": 34,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/ai-for-everyone-skills.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/ai-for-everyone-skills/course.blueprint.json"
+      "cover": "books/ai-for-everyone-skills/cover.png",
+      "landing": "landing/ai-for-everyone-skills.html",
+      "bookBlueprint": "books/ai-for-everyone-skills/book.blueprint.json",
+      "courseBlueprint": "courses/ai-for-everyone-skills/course.blueprint.json"
     },
     {
       "slug": "agent-harness-engineering",
@@ -71,10 +71,10 @@
       ],
       "chapters": 29,
       "attachments": 63,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/agent-harness-engineering.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/agent-harness-engineering/course.blueprint.json"
+      "cover": "books/agent-harness-engineering/cover.png",
+      "landing": "landing/agent-harness-engineering.html",
+      "bookBlueprint": "books/agent-harness-engineering/book.blueprint.json",
+      "courseBlueprint": "courses/agent-harness-engineering/course.blueprint.json"
     },
     {
       "slug": "jax-from-zero-to-production",
@@ -96,10 +96,10 @@
       ],
       "chapters": 32,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/jax-from-zero-to-production.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/jax-from-zero-to-production/course.blueprint.json"
+      "cover": "books/jax-from-zero-to-production/cover.png",
+      "landing": "landing/jax-from-zero-to-production.html",
+      "bookBlueprint": "books/jax-from-zero-to-production/book.blueprint.json",
+      "courseBlueprint": "courses/jax-from-zero-to-production/course.blueprint.json"
     },
     {
       "slug": "keras-3-arabic-professional",
@@ -121,10 +121,10 @@
       ],
       "chapters": 49,
       "attachments": 243,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/keras-3-arabic-professional.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/keras-3-arabic-professional/course.blueprint.json"
+      "cover": "books/keras-3-arabic-professional/cover.png",
+      "landing": "landing/keras-3-arabic-professional.html",
+      "bookBlueprint": "books/keras-3-arabic-professional/book.blueprint.json",
+      "courseBlueprint": "courses/keras-3-arabic-professional/course.blueprint.json"
     },
     {
       "slug": "mathematics-for-ai",
@@ -146,10 +146,10 @@
       ],
       "chapters": 54,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mathematics-for-ai.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mathematics-for-ai/course.blueprint.json"
+      "cover": "books/mathematics-for-ai/cover.png",
+      "landing": "landing/mathematics-for-ai.html",
+      "bookBlueprint": "books/mathematics-for-ai/book.blueprint.json",
+      "courseBlueprint": "courses/mathematics-for-ai/course.blueprint.json"
     },
     {
       "slug": "mastering-llms-transformers",
@@ -171,10 +171,10 @@
       ],
       "chapters": 72,
       "attachments": 64,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-llms-transformers.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-llms-transformers/course.blueprint.json"
+      "cover": "books/mastering-llms-transformers/cover.png",
+      "landing": "landing/mastering-llms-transformers.html",
+      "bookBlueprint": "books/mastering-llms-transformers/book.blueprint.json",
+      "courseBlueprint": "courses/mastering-llms-transformers/course.blueprint.json"
     },
     {
       "slug": "transformers-llms-theory-to-systems",
@@ -196,10 +196,10 @@
       ],
       "chapters": 48,
       "attachments": 57,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/transformers-llms-theory-to-systems.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/transformers-llms-theory-to-systems/course.blueprint.json"
+      "cover": "books/transformers-llms-theory-to-systems/cover.png",
+      "landing": "landing/transformers-llms-theory-to-systems.html",
+      "bookBlueprint": "books/transformers-llms-theory-to-systems/book.blueprint.json",
+      "courseBlueprint": "courses/transformers-llms-theory-to-systems/course.blueprint.json"
     },
     {
       "slug": "llm-engineering-69-chapters",
@@ -221,10 +221,10 @@
       ],
       "chapters": 69,
       "attachments": 138,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/llm-engineering-69-chapters.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/llm-engineering-69-chapters/course.blueprint.json"
+      "cover": "books/llm-engineering-69-chapters/cover.png",
+      "landing": "landing/llm-engineering-69-chapters.html",
+      "bookBlueprint": "books/llm-engineering-69-chapters/book.blueprint.json",
+      "courseBlueprint": "courses/llm-engineering-69-chapters/course.blueprint.json"
     },
     {
       "slug": "opencv-5-ai-vision",
@@ -246,10 +246,10 @@
       ],
       "chapters": 20,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/opencv-5-ai-vision.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/opencv-5-ai-vision/course.blueprint.json"
+      "cover": "books/opencv-5-ai-vision/cover.png",
+      "landing": "landing/opencv-5-ai-vision.html",
+      "bookBlueprint": "books/opencv-5-ai-vision/book.blueprint.json",
+      "courseBlueprint": "courses/opencv-5-ai-vision/course.blueprint.json"
     },
     {
       "slug": "python-3-14-from-zero-to-pro",
@@ -270,10 +270,10 @@
       ],
       "chapters": 29,
       "attachments": 742,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/python-3-14-from-zero-to-pro.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/python-3-14-from-zero-to-pro/course.blueprint.json"
+      "cover": "books/python-3-14-from-zero-to-pro/cover.png",
+      "landing": "landing/python-3-14-from-zero-to-pro.html",
+      "bookBlueprint": "books/python-3-14-from-zero-to-pro/book.blueprint.json",
+      "courseBlueprint": "courses/python-3-14-from-zero-to-pro/course.blueprint.json"
     },
     {
       "slug": "pytorch-keras-deep-learning",
@@ -295,10 +295,10 @@
       ],
       "chapters": 36,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/pytorch-keras-deep-learning.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/pytorch-keras-deep-learning/course.blueprint.json"
+      "cover": "books/pytorch-keras-deep-learning/cover.png",
+      "landing": "landing/pytorch-keras-deep-learning.html",
+      "bookBlueprint": "books/pytorch-keras-deep-learning/book.blueprint.json",
+      "courseBlueprint": "courses/pytorch-keras-deep-learning/course.blueprint.json"
     },
     {
       "slug": "mastering-scikit-learn-1-9",
@@ -320,10 +320,10 @@
       ],
       "chapters": 104,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-scikit-learn-1-9.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/mastering-scikit-learn-1-9/course.blueprint.json"
+      "cover": "books/mastering-scikit-learn-1-9/cover.png",
+      "landing": "landing/mastering-scikit-learn-1-9.html",
+      "bookBlueprint": "books/mastering-scikit-learn-1-9/book.blueprint.json",
+      "courseBlueprint": "courses/mastering-scikit-learn-1-9/course.blueprint.json"
     },
     {
       "slug": "tensorflow-professional-ar",
@@ -345,10 +345,17 @@
       ],
       "chapters": 31,
       "attachments": 0,
-      "cover": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/cover.png",
-      "landing": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/tensorflow-professional-ar.html",
-      "bookBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/book.blueprint.json",
-      "courseBlueprint": "https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/courses/tensorflow-professional-ar/course.blueprint.json"
+      "cover": "books/tensorflow-professional-ar/cover.png",
+      "landing": "landing/tensorflow-professional-ar.html",
+      "bookBlueprint": "books/tensorflow-professional-ar/book.blueprint.json",
+      "courseBlueprint": "courses/tensorflow-professional-ar/course.blueprint.json"
     }
-  ]
+  ],
+  "links": {
+    "mode": "internal",
+    "convention": "paths relative to the MaghzBook bundle root",
+    "base": "",
+    "baseEnvVar": "APP_URL",
+    "note": "resolve(path) = APP_URL ? APP_URL + '/' + path : path"
+  }
 }

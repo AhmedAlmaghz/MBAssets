@@ -2,6 +2,38 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
+<meta name="app-url" content="">
+<meta name="mb-root" content="">
+<script>
+/* Internal links by default. Set APP_URL (build-time env var, injected into
+   <meta name="app-url">, or window.APP_URL at runtime) to prefix every link. */
+(function () {
+  var m = document.querySelector('meta[name="app-url"]');
+  var r = document.querySelector('meta[name="mb-root"]');
+  var base = String((window.APP_URL || (m && m.content) || '')).trim().replace(/\/+$/, '');
+  var root = String((r && r.content) || '').replace(/^\/+/, '');
+  function resolve(path) {
+    if (!path || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#|data:)/i.test(path)) return path;
+    var p = root + String(path).replace(/^\/+/, '');
+    return base ? base + '/' + p : p;
+  }
+  function apply(node) {
+    (node || document).querySelectorAll('[data-mb-path]').forEach(function (el) {
+      var attr = el.getAttribute('data-mb-attr') || ({
+        A: 'href', IMG: 'src', SOURCE: 'src', LINK: 'href', META: 'content', SCRIPT: 'src'
+      })[el.tagName] || 'href';
+      el.setAttribute(attr, resolve(el.getAttribute('data-mb-path')));
+    });
+  }
+  window.MaghzBookURL = { base: base, root: root, resolve: resolve, apply: apply,
+                          ENV: 'APP_URL' };
+  if (base) {
+    if (document.readyState === 'loading')
+      document.addEventListener('DOMContentLoaded', function () { apply(); });
+    else apply();
+  }
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MaghzBook — مكتبة الكتب العربية التقنية</title>
 <meta name="description" content="14 كتابًا عربيًا في الذكاء الاصطناعي والبرمجة، مع دورات مطابقة ونماذج مجانية.">
@@ -44,7 +76,8 @@
 </head>
 <body>
 <header>
-  <div class="brand"><img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/brand/icon-color.png" alt="MaghzBook"><strong>MaghzBook</strong></div>
+  <div class="brand"><img src="../brand/icon-color.png" alt="MaghzBook" data-mb-path="brand/icon-color.png"><strong>MaghzBook</strong></div>
+  <p style="margin:14px 0 0"><a href="../index.html" data-mb-path="index.html" style="color:#8ab4ff;text-decoration:none;font-size:14px">← الصفحة الرئيسية للمكتبة</a></p>
   <h1>مكتبة الكتب العربية التقنية</h1>
   <p class="lede">14 كتابًا في الذكاء الاصطناعي وتعلّم الآلة والبرمجة، ولكل كتاب دورة مطابقة
   بدروسه الكاملة، مع نموذج مجاني من أول جزأين.</p>
@@ -54,112 +87,112 @@
   </div>
 </header>
 <main><div class="grid">
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/game-theory-strategy.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/game-theory-strategy/cover.png" alt="نظرية الألعاب" loading="lazy" width="640" height="960">
+      <a class="card" href="./game-theory-strategy.html" data-mb-path="landing/game-theory-strategy.html">
+        <img src="../books/game-theory-strategy/cover.png" alt="نظرية الألعاب" loading="lazy" width="640" height="960" data-mb-path="books/game-theory-strategy/cover.png">
         <div class="body">
           <h2>نظرية الألعاب</h2>
           <p>من الصفر إلى الاحتراف — كيف تُقرأ أحداث العالم بلغة الاستراتيجية</p>
           <div class="meta"><span>248 صفحة</span><span>36 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/ai-for-everyone-skills.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/ai-for-everyone-skills/cover.png" alt="من الصفر إلى الاحتراف" loading="lazy" width="640" height="960">
+      <a class="card" href="./ai-for-everyone-skills.html" data-mb-path="landing/ai-for-everyone-skills.html">
+        <img src="../books/ai-for-everyone-skills/cover.png" alt="من الصفر إلى الاحتراف" loading="lazy" width="640" height="960" data-mb-path="books/ai-for-everyone-skills/cover.png">
         <div class="body">
           <h2>من الصفر إلى الاحتراف</h2>
           <p>الذكاء الاصطناعي في حياتك ودراستك وعملك</p>
           <div class="meta"><span>568 صفحة</span><span>34 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/agent-harness-engineering.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/agent-harness-engineering/cover.png" alt="هندسة وكلاء الذكاء الاصطناعي" loading="lazy" width="640" height="960">
+      <a class="card" href="./agent-harness-engineering.html" data-mb-path="landing/agent-harness-engineering.html">
+        <img src="../books/agent-harness-engineering/cover.png" alt="هندسة وكلاء الذكاء الاصطناعي" loading="lazy" width="640" height="960" data-mb-path="books/agent-harness-engineering/cover.png">
         <div class="body">
           <h2>هندسة وكلاء الذكاء الاصطناعي</h2>
           <p>بناء إطار التحكم (The Agent Harness) من الصفر إلى الاحتراف</p>
           <div class="meta"><span>351 صفحة</span><span>29 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/jax-from-zero-to-production.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/jax-from-zero-to-production/cover.png" alt="JAX من الصفر إلى الإنتاج" loading="lazy" width="640" height="960">
+      <a class="card" href="./jax-from-zero-to-production.html" data-mb-path="landing/jax-from-zero-to-production.html">
+        <img src="../books/jax-from-zero-to-production/cover.png" alt="JAX من الصفر إلى الإنتاج" loading="lazy" width="640" height="960" data-mb-path="books/jax-from-zero-to-production/cover.png">
         <div class="body">
           <h2>JAX من الصفر إلى الإنتاج</h2>
           <p>الدليل الشامل في التعلّم العميق والتبديلات القابلة للتركيب</p>
           <div class="meta"><span>326 صفحة</span><span>32 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/keras-3-arabic-professional.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/keras-3-arabic-professional/cover.png" alt="Keras 3 بالعربية" loading="lazy" width="640" height="960">
+      <a class="card" href="./keras-3-arabic-professional.html" data-mb-path="landing/keras-3-arabic-professional.html">
+        <img src="../books/keras-3-arabic-professional/cover.png" alt="Keras 3 بالعربية" loading="lazy" width="640" height="960" data-mb-path="books/keras-3-arabic-professional/cover.png">
         <div class="body">
           <h2>Keras 3 بالعربية</h2>
           <p>من أول نموذج إلى أنظمة الرؤية واللغة والإنتاج</p>
           <div class="meta"><span>730 صفحة</span><span>49 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mathematics-for-ai.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mathematics-for-ai/cover.png" alt="رياضيات الذكاء الاصطناعي" loading="lazy" width="640" height="960">
+      <a class="card" href="./mathematics-for-ai.html" data-mb-path="landing/mathematics-for-ai.html">
+        <img src="../books/mathematics-for-ai/cover.png" alt="رياضيات الذكاء الاصطناعي" loading="lazy" width="640" height="960" data-mb-path="books/mathematics-for-ai/cover.png">
         <div class="body">
           <h2>رياضيات الذكاء الاصطناعي</h2>
           <p>من البذرة الأولى إلى أحدث النظريات — مرجع أكاديمي متسلسل</p>
           <div class="meta"><span>1676 صفحة</span><span>54 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-llms-transformers.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-llms-transformers/cover.png" alt="إتقان المحوّلات والنماذج اللغوية الكبيرة" loading="lazy" width="640" height="960">
+      <a class="card" href="./mastering-llms-transformers.html" data-mb-path="landing/mastering-llms-transformers.html">
+        <img src="../books/mastering-llms-transformers/cover.png" alt="إتقان المحوّلات والنماذج اللغوية الكبيرة" loading="lazy" width="640" height="960" data-mb-path="books/mastering-llms-transformers/cover.png">
         <div class="body">
           <h2>إتقان المحوّلات والنماذج اللغوية الكبيرة</h2>
           <p>دليل عربي شامل من الصفر إلى الإنتاج</p>
           <div class="meta"><span>1034 صفحة</span><span>72 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/transformers-llms-theory-to-systems.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/transformers-llms-theory-to-systems/cover.png" alt="المحوّلات والنماذج اللغوية الكبيرة" loading="lazy" width="640" height="960">
+      <a class="card" href="./transformers-llms-theory-to-systems.html" data-mb-path="landing/transformers-llms-theory-to-systems.html">
+        <img src="../books/transformers-llms-theory-to-systems/cover.png" alt="المحوّلات والنماذج اللغوية الكبيرة" loading="lazy" width="640" height="960" data-mb-path="books/transformers-llms-theory-to-systems/cover.png">
         <div class="body">
           <h2>المحوّلات والنماذج اللغوية الكبيرة</h2>
           <p>من النظرية إلى بناء أنظمة ذكية</p>
           <div class="meta"><span>666 صفحة</span><span>48 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/llm-engineering-69-chapters.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/llm-engineering-69-chapters/cover.png" alt="كتاب هندسة النماذج اللغوية الكبيرة" loading="lazy" width="640" height="960">
+      <a class="card" href="./llm-engineering-69-chapters.html" data-mb-path="landing/llm-engineering-69-chapters.html">
+        <img src="../books/llm-engineering-69-chapters/cover.png" alt="كتاب هندسة النماذج اللغوية الكبيرة" loading="lazy" width="640" height="960" data-mb-path="books/llm-engineering-69-chapters/cover.png">
         <div class="body">
           <h2>كتاب هندسة النماذج اللغوية الكبيرة</h2>
           <p>69 فصلاً من الانتباه إلى التقييم والوكلاء</p>
           <div class="meta"><span>1253 صفحة</span><span>69 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/opencv-5-ai-vision.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/opencv-5-ai-vision/cover.png" alt="OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي" loading="lazy" width="640" height="960">
+      <a class="card" href="./opencv-5-ai-vision.html" data-mb-path="landing/opencv-5-ai-vision.html">
+        <img src="../books/opencv-5-ai-vision/cover.png" alt="OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي" loading="lazy" width="640" height="960" data-mb-path="books/opencv-5-ai-vision/cover.png">
         <div class="body">
           <h2>OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي</h2>
           <p>من البكسل إلى أنظمة الرؤية الإنتاجية</p>
           <div class="meta"><span>190 صفحة</span><span>20 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/python-3-14-from-zero-to-pro.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/python-3-14-from-zero-to-pro/cover.png" alt="بايثون 3.14 — من الصفر إلى الاحتراف" loading="lazy" width="640" height="960">
+      <a class="card" href="./python-3-14-from-zero-to-pro.html" data-mb-path="landing/python-3-14-from-zero-to-pro.html">
+        <img src="../books/python-3-14-from-zero-to-pro/cover.png" alt="بايثون 3.14 — من الصفر إلى الاحتراف" loading="lazy" width="640" height="960" data-mb-path="books/python-3-14-from-zero-to-pro/cover.png">
         <div class="body">
           <h2>بايثون 3.14 — من الصفر إلى الاحتراف</h2>
           <p>كتاب عربي متكامل في أربع صيغ متزامنة</p>
           <div class="meta"><span>801 صفحة</span><span>29 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/pytorch-keras-deep-learning.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/pytorch-keras-deep-learning/cover.png" alt="PyTorch و Keras: الدليل الشامل في التعلم العميق" loading="lazy" width="640" height="960">
+      <a class="card" href="./pytorch-keras-deep-learning.html" data-mb-path="landing/pytorch-keras-deep-learning.html">
+        <img src="../books/pytorch-keras-deep-learning/cover.png" alt="PyTorch و Keras: الدليل الشامل في التعلم العميق" loading="lazy" width="640" height="960" data-mb-path="books/pytorch-keras-deep-learning/cover.png">
         <div class="body">
           <h2>PyTorch و Keras: الدليل الشامل في التعلم العميق</h2>
           <p>من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية</p>
           <div class="meta"><span>513 صفحة</span><span>36 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/mastering-scikit-learn-1-9.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/mastering-scikit-learn-1-9/cover.png" alt="إتقان scikit-learn 1.9" loading="lazy" width="640" height="960">
+      <a class="card" href="./mastering-scikit-learn-1-9.html" data-mb-path="landing/mastering-scikit-learn-1-9.html">
+        <img src="../books/mastering-scikit-learn-1-9/cover.png" alt="إتقان scikit-learn 1.9" loading="lazy" width="640" height="960" data-mb-path="books/mastering-scikit-learn-1-9/cover.png">
         <div class="body">
           <h2>إتقان scikit-learn 1.9</h2>
           <p>من الصفر إلى الاحتراف — دليل شامل لتعلّم الآلة التطبيقي</p>
           <div class="meta"><span>1308 صفحة</span><span>104 درسًا</span></div>
         </div>
       </a>
-      <a class="card" href="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/landing/tensorflow-professional-ar.html">
-        <img src="https://raw.githubusercontent.com/AhmedAlmaghz/MBAssets/main/books/tensorflow-professional-ar/cover.png" alt="TensorFlow الاحترافي" loading="lazy" width="640" height="960">
+      <a class="card" href="./tensorflow-professional-ar.html" data-mb-path="landing/tensorflow-professional-ar.html">
+        <img src="../books/tensorflow-professional-ar/cover.png" alt="TensorFlow الاحترافي" loading="lazy" width="640" height="960" data-mb-path="books/tensorflow-professional-ar/cover.png">
         <div class="body">
           <h2>TensorFlow الاحترافي</h2>
           <p>من الأساس إلى الإنتاج — مرجع عربي شامل للتعلّم العميق</p>
