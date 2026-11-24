@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:22.368Z",
+    "exportedAt": "2026-11-23T16:02:23.361Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "هندسة وكلاء الذكاء الاصطناعي",
         "subtitle": "بناء إطار التحكم (The Agent Harness) من الصفر إلى الاحتراف",
         "description": "15 فصلاً و13 ملحقاً تبني منظومة وكلاء إنتاجية كاملة: حلقة التنفيذ وآلات الحالة، سجل الأدوات وهندسة السياق، قواطع الدائرة وصناديق الرمل، نقاط الحفظ الموقّعة، بوابات CI/CD والتتبع الموزّع، مع 22 دفتر Jupyter و64 كتلة كود مُختبَرة.",
-        "landingMd": "# هندسة وكلاء الذكاء الاصطناعي\n\n**بناء إطار التحكم (The Agent Harness) من الصفر إلى الاحتراف**\n\n15 فصلاً و13 ملحقاً تبني منظومة وكلاء إنتاجية كاملة: حلقة التنفيذ وآلات الحالة، سجل الأدوات وهندسة السياق، قواطع الدائرة وصناديق الرمل، نقاط الحفظ الموقّعة، بوابات CI/CD والتتبع الموزّع، مع 22 دفتر Jupyter و64 كتلة كود مُختبَرة.\n\n![هندسة وكلاء الذكاء الاصطناعي](books/agent-harness-engineering/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات وإعداد بيئة العمل الحديثة** — 2 فصول وملاحق\n- **تشريح الوكيل وبناء اللبنات الأساسية** — 3 فصول وملاحق\n- **قلب الكتاب: هندسة إطار التحكم** — 4 فصول وملاحق\n- **الأنماط المتقدمة والأنظمة متعددة الوكلاء** — 2 فصول وملاحق\n- **الاختبار والتقييم والإطلاق للإنتاج** — 2 فصول وملاحق\n- **المشاريع الختامية المتكاملة** — 2 فصول وملاحق\n- **الملاحق والمراجع** — 14 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 89 صفحة](books/agent-harness-engineering/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/agent-harness-engineering/book.pdf)\n- [صفحة الكتاب التعريفية](landing/agent-harness-engineering.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# هندسة وكلاء الذكاء الاصطناعي\n\n**بناء إطار التحكم (The Agent Harness) من الصفر إلى الاحتراف**\n\n15 فصلاً و13 ملحقاً تبني منظومة وكلاء إنتاجية كاملة: حلقة التنفيذ وآلات الحالة، سجل الأدوات وهندسة السياق، قواطع الدائرة وصناديق الرمل، نقاط الحفظ الموقّعة، بوابات CI/CD والتتبع الموزّع، مع 22 دفتر Jupyter و64 كتلة كود مُختبَرة.\n\n![هندسة وكلاء الذكاء الاصطناعي](books/agent-harness-engineering/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات وإعداد بيئة العمل الحديثة** — 2 فصول وملاحق\n- **تشريح الوكيل وبناء اللبنات الأساسية** — 3 فصول وملاحق\n- **قلب الكتاب: هندسة إطار التحكم** — 4 فصول وملاحق\n- **الأنماط المتقدمة والأنظمة متعددة الوكلاء** — 2 فصول وملاحق\n- **الاختبار والتقييم والإطلاق للإنتاج** — 2 فصول وملاحق\n- **المشاريع الختامية المتكاملة** — 2 فصول وملاحق\n- **الملاحق والمراجع** — 14 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 89 صفحة](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](downloads/agent-harness-engineering.rar)\n- [صفحة الكتاب التعريفية](landing/agent-harness-engineering.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "AI Agent Engineering",
         "subtitle": "Building the Agent Harness from Scratch to Production",
         "description": "Fifteen chapters and thirteen appendices build a complete production agent system: execution loops and state graphs, tool registries and context engineering, circuit breakers and sandboxes, signed checkpoints, CI gates and distributed tracing — with 22 Jupyter notebooks and 64 tested code blocks.",
-        "landingMd": "# AI Agent Engineering\n\n**Building the Agent Harness from Scratch to Production**\n\nFifteen chapters and thirteen appendices build a complete production agent system: execution loops and state graphs, tool registries and context engineering, circuit breakers and sandboxes, signed checkpoints, CI gates and distributed tracing — with 22 Jupyter notebooks and 64 tested code blocks.\n\n![AI Agent Engineering](books/agent-harness-engineering/cover.png)\n\n## What you will learn\n\n- **The Modern Foundation** — 2 chapters & appendices\n- **Anatomy of an Agent** — 3 chapters & appendices\n- **Engineering the Harness** — 4 chapters & appendices\n- **Advanced Patterns & Multi-Agent Systems** — 2 chapters & appendices\n- **Test Harness, Evals & Production** — 2 chapters & appendices\n- **Production Capstone Projects** — 2 chapters & appendices\n- **Appendices and Reference** — 14 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 89 pages](books/agent-harness-engineering/sample.pdf)\n\n- [Full book (PDF)](books/agent-harness-engineering/book.pdf)\n- [Book landing page](landing/agent-harness-engineering.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# AI Agent Engineering\n\n**Building the Agent Harness from Scratch to Production**\n\nFifteen chapters and thirteen appendices build a complete production agent system: execution loops and state graphs, tool registries and context engineering, circuit breakers and sandboxes, signed checkpoints, CI gates and distributed tracing — with 22 Jupyter notebooks and 64 tested code blocks.\n\n![AI Agent Engineering](books/agent-harness-engineering/cover.png)\n\n## What you will learn\n\n- **The Modern Foundation** — 2 chapters & appendices\n- **Anatomy of an Agent** — 3 chapters & appendices\n- **Engineering the Harness** — 4 chapters & appendices\n- **Advanced Patterns & Multi-Agent Systems** — 2 chapters & appendices\n- **Test Harness, Evals & Production** — 2 chapters & appendices\n- **Production Capstone Projects** — 2 chapters & appendices\n- **Appendices and Reference** — 14 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 89 pages](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [Full book (PDF)](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/agent-harness-engineering.rar)\n- [Book landing page](landing/agent-harness-engineering.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "Ingénierie des agents IA",
         "subtitle": "Construire le Agent Harness, de zéro à la production",
         "description": "Quinze chapitres et treize annexes pour un système d'agents prêt pour la production : boucles d'exécution, registres d'outils, disjoncteurs, points de reprise signés, barrières CI et traçage distribué, avec 22 notebooks Jupyter.",
-        "landingMd": "# Ingénierie des agents IA\n\n**Construire le Agent Harness, de zéro à la production**\n\nQuinze chapitres et treize annexes pour un système d'agents prêt pour la production : boucles d'exécution, registres d'outils, disjoncteurs, points de reprise signés, barrières CI et traçage distribué, avec 22 notebooks Jupyter.\n\n![Ingénierie des agents IA](books/agent-harness-engineering/cover.png)\n\n## Ce que vous apprendrez\n\n- **The Modern Foundation** — 2 chapitres et annexes\n- **Anatomy of an Agent** — 3 chapitres et annexes\n- **Engineering the Harness** — 4 chapitres et annexes\n- **Advanced Patterns & Multi-Agent Systems** — 2 chapitres et annexes\n- **Test Harness, Evals & Production** — 2 chapitres et annexes\n- **Production Capstone Projects** — 2 chapitres et annexes\n- **Appendices and Reference** — 14 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 89 pages](books/agent-harness-engineering/sample.pdf)\n\n- [Livre complet (PDF)](books/agent-harness-engineering/book.pdf)\n- [Page du livre](landing/agent-harness-engineering.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Ingénierie des agents IA\n\n**Construire le Agent Harness, de zéro à la production**\n\nQuinze chapitres et treize annexes pour un système d'agents prêt pour la production : boucles d'exécution, registres d'outils, disjoncteurs, points de reprise signés, barrières CI et traçage distribué, avec 22 notebooks Jupyter.\n\n![Ingénierie des agents IA](books/agent-harness-engineering/cover.png)\n\n## Ce que vous apprendrez\n\n- **The Modern Foundation** — 2 chapitres et annexes\n- **Anatomy of an Agent** — 3 chapitres et annexes\n- **Engineering the Harness** — 4 chapitres et annexes\n- **Advanced Patterns & Multi-Agent Systems** — 2 chapitres et annexes\n- **Test Harness, Evals & Production** — 2 chapitres et annexes\n- **Production Capstone Projects** — 2 chapitres et annexes\n- **Appendices and Reference** — 14 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 89 pages](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [Livre complet (PDF)](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/agent-harness-engineering.rar)\n- [Page du livre](landing/agent-harness-engineering.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "Ingeniería de agentes de IA",
         "subtitle": "Construir el Agent Harness de cero a producción",
         "description": "Quince capítulos y trece apéndices para un sistema de agentes listo para producción: bucles de ejecución, registros de herramientas, disyuntores, checkpoints firmados, compuertas CI y trazado distribuido, con 22 cuadernos Jupyter.",
-        "landingMd": "# Ingeniería de agentes de IA\n\n**Construir el Agent Harness de cero a producción**\n\nQuince capítulos y trece apéndices para un sistema de agentes listo para producción: bucles de ejecución, registros de herramientas, disyuntores, checkpoints firmados, compuertas CI y trazado distribuido, con 22 cuadernos Jupyter.\n\n![Ingeniería de agentes de IA](books/agent-harness-engineering/cover.png)\n\n## Qué aprenderás\n\n- **The Modern Foundation** — 2 capítulos y apéndices\n- **Anatomy of an Agent** — 3 capítulos y apéndices\n- **Engineering the Harness** — 4 capítulos y apéndices\n- **Advanced Patterns & Multi-Agent Systems** — 2 capítulos y apéndices\n- **Test Harness, Evals & Production** — 2 capítulos y apéndices\n- **Production Capstone Projects** — 2 capítulos y apéndices\n- **Appendices and Reference** — 14 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 89 páginas](books/agent-harness-engineering/sample.pdf)\n\n- [Libro completo (PDF)](books/agent-harness-engineering/book.pdf)\n- [Página del libro](landing/agent-harness-engineering.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Ingeniería de agentes de IA\n\n**Construir el Agent Harness de cero a producción**\n\nQuince capítulos y trece apéndices para un sistema de agentes listo para producción: bucles de ejecución, registros de herramientas, disyuntores, checkpoints firmados, compuertas CI y trazado distribuido, con 22 cuadernos Jupyter.\n\n![Ingeniería de agentes de IA](books/agent-harness-engineering/cover.png)\n\n## Qué aprenderás\n\n- **The Modern Foundation** — 2 capítulos y apéndices\n- **Anatomy of an Agent** — 3 capítulos y apéndices\n- **Engineering the Harness** — 4 capítulos y apéndices\n- **Advanced Patterns & Multi-Agent Systems** — 2 capítulos y apéndices\n- **Test Harness, Evals & Production** — 2 capítulos y apéndices\n- **Production Capstone Projects** — 2 capítulos y apéndices\n- **Appendices and Reference** — 14 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 89 páginas](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [Libro completo (PDF)](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/agent-harness-engineering.rar)\n- [Página del libro](landing/agent-harness-engineering.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "AI 智能体工程",
         "subtitle": "从零到生产级构建 Agent Harness",
         "description": "15 章与 13 个附录构建完整的生产级智能体系统：执行循环、工具注册、熔断器、签名检查点、CI 门禁与分布式追踪，并附 22 个 Jupyter 笔记本。",
-        "landingMd": "# AI 智能体工程\n\n**从零到生产级构建 Agent Harness**\n\n15 章与 13 个附录构建完整的生产级智能体系统：执行循环、工具注册、熔断器、签名检查点、CI 门禁与分布式追踪，并附 22 个 Jupyter 笔记本。\n\n![AI 智能体工程](books/agent-harness-engineering/cover.png)\n\n## 你将学到什么\n\n- **The Modern Foundation** — 2 章与附录\n- **Anatomy of an Agent** — 3 章与附录\n- **Engineering the Harness** — 4 章与附录\n- **Advanced Patterns & Multi-Agent Systems** — 2 章与附录\n- **Test Harness, Evals & Production** — 2 章与附录\n- **Production Capstone Projects** — 2 章与附录\n- **Appendices and Reference** — 14 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 89 页](books/agent-harness-engineering/sample.pdf)\n\n- [完整电子书 PDF](books/agent-harness-engineering/book.pdf)\n- [图书介绍页](landing/agent-harness-engineering.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# AI 智能体工程\n\n**从零到生产级构建 Agent Harness**\n\n15 章与 13 个附录构建完整的生产级智能体系统：执行循环、工具注册、熔断器、签名检查点、CI 门禁与分布式追踪，并附 22 个 Jupyter 笔记本。\n\n![AI 智能体工程](books/agent-harness-engineering/cover.png)\n\n## 你将学到什么\n\n- **The Modern Foundation** — 2 章与附录\n- **Anatomy of an Agent** — 3 章与附录\n- **Engineering the Harness** — 4 章与附录\n- **Advanced Patterns & Multi-Agent Systems** — 2 章与附录\n- **Test Harness, Evals & Production** — 2 章与附录\n- **Production Capstone Projects** — 2 章与附录\n- **Appendices and Reference** — 14 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 89 页](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [完整电子书 PDF](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/agent-harness-engineering.rar)\n- [图书介绍页](landing/agent-harness-engineering.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "AI एजेंट इंजीनियरिंग",
         "subtitle": "शून्य से प्रोडक्शन तक Agent Harness निर्माण",
         "description": "15 अध्याय और 13 परिशिष्टों में एक संपूर्ण प्रोडक्शन एजेंट सिस्टम: निष्पादन लूप, टूल रजिस्ट्री, सर्किट ब्रेकर, हस्ताक्षरित चेकपॉइंट, CI गेट और वितरित ट्रेसिंग, 22 Jupyter नोटबुक के साथ।",
-        "landingMd": "# AI एजेंट इंजीनियरिंग\n\n**शून्य से प्रोडक्शन तक Agent Harness निर्माण**\n\n15 अध्याय और 13 परिशिष्टों में एक संपूर्ण प्रोडक्शन एजेंट सिस्टम: निष्पादन लूप, टूल रजिस्ट्री, सर्किट ब्रेकर, हस्ताक्षरित चेकपॉइंट, CI गेट और वितरित ट्रेसिंग, 22 Jupyter नोटबुक के साथ।\n\n![AI एजेंट इंजीनियरिंग](books/agent-harness-engineering/cover.png)\n\n## आप क्या सीखेंगे\n\n- **The Modern Foundation** — 2 अध्याय और परिशिष्ट\n- **Anatomy of an Agent** — 3 अध्याय और परिशिष्ट\n- **Engineering the Harness** — 4 अध्याय और परिशिष्ट\n- **Advanced Patterns & Multi-Agent Systems** — 2 अध्याय और परिशिष्ट\n- **Test Harness, Evals & Production** — 2 अध्याय और परिशिष्ट\n- **Production Capstone Projects** — 2 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 14 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 89 पृष्ठ](books/agent-harness-engineering/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/agent-harness-engineering/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/agent-harness-engineering.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# AI एजेंट इंजीनियरिंग\n\n**शून्य से प्रोडक्शन तक Agent Harness निर्माण**\n\n15 अध्याय और 13 परिशिष्टों में एक संपूर्ण प्रोडक्शन एजेंट सिस्टम: निष्पादन लूप, टूल रजिस्ट्री, सर्किट ब्रेकर, हस्ताक्षरित चेकपॉइंट, CI गेट और वितरित ट्रेसिंग, 22 Jupyter नोटबुक के साथ।\n\n![AI एजेंट इंजीनियरिंग](books/agent-harness-engineering/cover.png)\n\n## आप क्या सीखेंगे\n\n- **The Modern Foundation** — 2 अध्याय और परिशिष्ट\n- **Anatomy of an Agent** — 3 अध्याय और परिशिष्ट\n- **Engineering the Harness** — 4 अध्याय और परिशिष्ट\n- **Advanced Patterns & Multi-Agent Systems** — 2 अध्याय और परिशिष्ट\n- **Test Harness, Evals & Production** — 2 अध्याय और परिशिष्ट\n- **Production Capstone Projects** — 2 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 14 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 7 | 29 | 351 | 6 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 89 पृष्ठ](books/agent-harness-engineering/agent-harness-engineering-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/agent-harness-engineering/agent-harness-engineering.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/agent-harness-engineering.rar)\n- [पुस्तक परिचय पृष्ठ](landing/agent-harness-engineering.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,37 +96,23 @@
               {
                 "languageCode": "en",
                 "title": "What Is an AI Agent — and What Is The Agent Harness?",
-                "body": "## Chapter 01 — What Is an AI Agent — and What Is The Agent Harness?\n\n**Book:** AI Agent Engineering  \n**Part 1:** The Modern Foundation  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch01_agent_harness_foundations.ipynb](courses/agent-harness-engineering/notebooks/ch01_agent_harness_foundations.ipynb) — Jupyter notebook\n- [ch01_agent_harness_foundations.py](courses/agent-harness-engineering/scripts/ch01_agent_harness_foundations.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01.py) — Python script\n- [lab_solution_02.py](courses/agent-harness-engineering/scripts/lab_solution_02.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch01.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — What Is an AI Agent — and What Is The Agent Harness?\n\n**Book:** AI Agent Engineering  \n**Part 1:** The Modern Foundation  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-01-ch01.py](courses/agent-harness-engineering/scripts/ch-01-ch01.py) — Python script\n- [ch-01-ch01.ipynb](courses/agent-harness-engineering/notebooks/ch-01-ch01.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch01.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch01_agent_harness_foundations.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch01_agent_harness_foundations.ipynb",
-                "kind": "notebook",
+                "name": "ch-01-ch01.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-01-ch01.py",
+                "kind": "script",
                 "isFree": true,
                 "order": 0
               },
               {
-                "name": "ch01_agent_harness_foundations.py",
-                "url": "courses/agent-harness-engineering/scripts/ch01_agent_harness_foundations.py",
-                "kind": "script",
+                "name": "ch-01-ch01.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-01-ch01.ipynb",
+                "kind": "notebook",
                 "isFree": true,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01.py",
-                "kind": "script",
-                "isFree": true,
-                "order": 2
-              },
-              {
-                "name": "lab_solution_02.py",
-                "url": "courses/agent-harness-engineering/scripts/lab_solution_02.py",
-                "kind": "script",
-                "isFree": true,
-                "order": 3
               }
             ],
             "exercises": [
@@ -154,51 +140,23 @@
               {
                 "languageCode": "en",
                 "title": "Harnessing Python 3.14+ for Agent Engineering",
-                "body": "## Chapter 02 — Harnessing Python 3.14+ for Agent Engineering\n\n**Book:** AI Agent Engineering  \n**Part 1:** The Modern Foundation  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Companion files\n\n- [ch02_python314_environment.ipynb](courses/agent-harness-engineering/notebooks/ch02_python314_environment.ipynb) — Jupyter notebook\n- [ch02_python314_environment.py](courses/agent-harness-engineering/scripts/ch02_python314_environment.py) — Python script\n- [harness_compat.py](courses/agent-harness-engineering/scripts/harness_compat.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-2.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02.py) — Python script\n- [example_03.py](courses/agent-harness-engineering/scripts/example_03.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch02.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Harnessing Python 3.14+ for Agent Engineering\n\n**Book:** AI Agent Engineering  \n**Part 1:** The Modern Foundation  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Companion files\n\n- [ch-02-ch02.py](courses/agent-harness-engineering/scripts/ch-02-ch02.py) — Python script\n- [ch-02-ch02.ipynb](courses/agent-harness-engineering/notebooks/ch-02-ch02.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch02.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch02_python314_environment.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch02_python314_environment.ipynb",
-                "kind": "notebook",
+                "name": "ch-02-ch02.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-02-ch02.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch02_python314_environment.py",
-                "url": "courses/agent-harness-engineering/scripts/ch02_python314_environment.py",
-                "kind": "script",
+                "name": "ch-02-ch02.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-02-ch02.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "harness_compat.py",
-                "url": "courses/agent-harness-engineering/scripts/harness_compat.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-2.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 4
-              },
-              {
-                "name": "example_03.py",
-                "url": "courses/agent-harness-engineering/scripts/example_03.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 5
               }
             ],
             "exercises": [
@@ -243,37 +201,23 @@
               {
                 "languageCode": "en",
                 "title": "Prompts as Code, Structured Outputs & Self-Correction",
-                "body": "## Chapter 03 — Prompts as Code, Structured Outputs & Self-Correction\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch03_prompts_as_code.ipynb](courses/agent-harness-engineering/notebooks/ch03_prompts_as_code.ipynb) — Jupyter notebook\n- [ch03_prompts_as_code.py](courses/agent-harness-engineering/scripts/ch03_prompts_as_code.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-3.py) — Python script\n- [lab_solution_02.py](courses/agent-harness-engineering/scripts/lab_solution_02-2.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch03.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Prompts as Code, Structured Outputs & Self-Correction\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-03-ch03.py](courses/agent-harness-engineering/scripts/ch-03-ch03.py) — Python script\n- [ch-03-ch03.ipynb](courses/agent-harness-engineering/notebooks/ch-03-ch03.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch03.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch03_prompts_as_code.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch03_prompts_as_code.ipynb",
-                "kind": "notebook",
+                "name": "ch-03-ch03.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-03-ch03.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch03_prompts_as_code.py",
-                "url": "courses/agent-harness-engineering/scripts/ch03_prompts_as_code.py",
-                "kind": "script",
+                "name": "ch-03-ch03.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-03-ch03.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-3.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "lab_solution_02.py",
-                "url": "courses/agent-harness-engineering/scripts/lab_solution_02-2.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -308,51 +252,23 @@
               {
                 "languageCode": "en",
                 "title": "Tooling & Function Calling Architecture",
-                "body": "## Chapter 04 — Tooling & Function Calling Architecture\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch04_tool_registry.ipynb](courses/agent-harness-engineering/notebooks/ch04_tool_registry.ipynb) — Jupyter notebook\n- [ch04_tool_registry.py](courses/agent-harness-engineering/scripts/ch04_tool_registry.py) — Python script\n- [harness_compat.py](courses/agent-harness-engineering/scripts/harness_compat-2.py) — Python script\n- [anti_pattern_02.py](courses/agent-harness-engineering/scripts/anti_pattern_02.py) — Python script\n- [example_01.py](courses/agent-harness-engineering/scripts/example_01.py) — Python script\n- [example_03.py](courses/agent-harness-engineering/scripts/example_03-2.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch04.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Tooling & Function Calling Architecture\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-04-ch04.py](courses/agent-harness-engineering/scripts/ch-04-ch04.py) — Python script\n- [ch-04-ch04.ipynb](courses/agent-harness-engineering/notebooks/ch-04-ch04.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch04.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch04_tool_registry.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch04_tool_registry.ipynb",
-                "kind": "notebook",
+                "name": "ch-04-ch04.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-04-ch04.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch04_tool_registry.py",
-                "url": "courses/agent-harness-engineering/scripts/ch04_tool_registry.py",
-                "kind": "script",
+                "name": "ch-04-ch04.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-04-ch04.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "harness_compat.py",
-                "url": "courses/agent-harness-engineering/scripts/harness_compat-2.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "anti_pattern_02.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_02.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
-              },
-              {
-                "name": "example_01.py",
-                "url": "courses/agent-harness-engineering/scripts/example_01.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 4
-              },
-              {
-                "name": "example_03.py",
-                "url": "courses/agent-harness-engineering/scripts/example_03-2.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 5
               }
             ],
             "exercises": [
@@ -387,37 +303,23 @@
               {
                 "languageCode": "en",
                 "title": "Memory & Context Engineering",
-                "body": "## Chapter 05 — Memory & Context Engineering\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch05_memory_and_context.ipynb](courses/agent-harness-engineering/notebooks/ch05_memory_and_context.ipynb) — Jupyter notebook\n- [ch05_memory_and_context.py](courses/agent-harness-engineering/scripts/ch05_memory_and_context.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-4.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-2.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch05.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Memory & Context Engineering\n\n**Book:** AI Agent Engineering  \n**Part 2:** Anatomy of an Agent  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-05-ch05.py](courses/agent-harness-engineering/scripts/ch-05-ch05.py) — Python script\n- [ch-05-ch05.ipynb](courses/agent-harness-engineering/notebooks/ch-05-ch05.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch05.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch05_memory_and_context.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch05_memory_and_context.ipynb",
-                "kind": "notebook",
+                "name": "ch-05-ch05.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-05-ch05.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch05_memory_and_context.py",
-                "url": "courses/agent-harness-engineering/scripts/ch05_memory_and_context.py",
-                "kind": "script",
+                "name": "ch-05-ch05.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-05-ch05.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-4.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-2.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -462,37 +364,23 @@
               {
                 "languageCode": "en",
                 "title": "The Execution Loop, ReAct & State Graph Machines",
-                "body": "## Chapter 06 — The Execution Loop, ReAct & State Graph Machines\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch06_execution_loop_state_graph.ipynb](courses/agent-harness-engineering/notebooks/ch06_execution_loop_state_graph.ipynb) — Jupyter notebook\n- [ch06_execution_loop_state_graph.py](courses/agent-harness-engineering/scripts/ch06_execution_loop_state_graph.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-5.py) — Python script\n- [lab_solution_02.py](courses/agent-harness-engineering/scripts/lab_solution_02-3.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch06.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — The Execution Loop, ReAct & State Graph Machines\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-06-ch06.py](courses/agent-harness-engineering/scripts/ch-06-ch06.py) — Python script\n- [ch-06-ch06.ipynb](courses/agent-harness-engineering/notebooks/ch-06-ch06.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch06.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch06_execution_loop_state_graph.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch06_execution_loop_state_graph.ipynb",
-                "kind": "notebook",
+                "name": "ch-06-ch06.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-06-ch06.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch06_execution_loop_state_graph.py",
-                "url": "courses/agent-harness-engineering/scripts/ch06_execution_loop_state_graph.py",
-                "kind": "script",
+                "name": "ch-06-ch06.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-06-ch06.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-5.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "lab_solution_02.py",
-                "url": "courses/agent-harness-engineering/scripts/lab_solution_02-3.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -527,37 +415,23 @@
               {
                 "languageCode": "en",
                 "title": "Resilience, Smart Retries, Circuit Breakers & Model Fallbacks",
-                "body": "## Chapter 07 — Resilience, Smart Retries, Circuit Breakers & Model Fallbacks\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch07_resilience_circuit_breaker.ipynb](courses/agent-harness-engineering/notebooks/ch07_resilience_circuit_breaker.ipynb) — Jupyter notebook\n- [ch07_resilience_circuit_breaker.py](courses/agent-harness-engineering/scripts/ch07_resilience_circuit_breaker.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-6.py) — Python script\n- [lab_solution_02.py](courses/agent-harness-engineering/scripts/lab_solution_02-4.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch07.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Resilience, Smart Retries, Circuit Breakers & Model Fallbacks\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-07-ch07.py](courses/agent-harness-engineering/scripts/ch-07-ch07.py) — Python script\n- [ch-07-ch07.ipynb](courses/agent-harness-engineering/notebooks/ch-07-ch07.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch07.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch07_resilience_circuit_breaker.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch07_resilience_circuit_breaker.ipynb",
-                "kind": "notebook",
+                "name": "ch-07-ch07.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-07-ch07.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch07_resilience_circuit_breaker.py",
-                "url": "courses/agent-harness-engineering/scripts/ch07_resilience_circuit_breaker.py",
-                "kind": "script",
+                "name": "ch-07-ch07.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-07-ch07.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-6.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "lab_solution_02.py",
-                "url": "courses/agent-harness-engineering/scripts/lab_solution_02-4.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -585,37 +459,23 @@
               {
                 "languageCode": "en",
                 "title": "Sandboxing, Secure Code Execution & Defense-in-Depth",
-                "body": "## Chapter 08 — Sandboxing, Secure Code Execution & Defense-in-Depth\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch08_sandbox_security.ipynb](courses/agent-harness-engineering/notebooks/ch08_sandbox_security.ipynb) — Jupyter notebook\n- [ch08_sandbox_security.py](courses/agent-harness-engineering/scripts/ch08_sandbox_security.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-7.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-3.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch08.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Sandboxing, Secure Code Execution & Defense-in-Depth\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-08-ch08.py](courses/agent-harness-engineering/scripts/ch-08-ch08.py) — Python script\n- [ch-08-ch08.ipynb](courses/agent-harness-engineering/notebooks/ch-08-ch08.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch08.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch08_sandbox_security.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch08_sandbox_security.ipynb",
-                "kind": "notebook",
+                "name": "ch-08-ch08.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-08-ch08.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch08_sandbox_security.py",
-                "url": "courses/agent-harness-engineering/scripts/ch08_sandbox_security.py",
-                "kind": "script",
+                "name": "ch-08-ch08.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-08-ch08.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-7.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-3.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -643,37 +503,23 @@
               {
                 "languageCode": "en",
                 "title": "Human-in-the-Loop, Checkpointing & Durable Execution",
-                "body": "## Chapter 09 — Human-in-the-Loop, Checkpointing & Durable Execution\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch09_durable_hitl_checkpoints.ipynb](courses/agent-harness-engineering/notebooks/ch09_durable_hitl_checkpoints.ipynb) — Jupyter notebook\n- [ch09_durable_hitl_checkpoints.py](courses/agent-harness-engineering/scripts/ch09_durable_hitl_checkpoints.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-8.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-4.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch09.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Human-in-the-Loop, Checkpointing & Durable Execution\n\n**Book:** AI Agent Engineering  \n**Part 3:** Engineering the Harness  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-09-ch09.py](courses/agent-harness-engineering/scripts/ch-09-ch09.py) — Python script\n- [ch-09-ch09.ipynb](courses/agent-harness-engineering/notebooks/ch-09-ch09.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch09.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch09_durable_hitl_checkpoints.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch09_durable_hitl_checkpoints.ipynb",
-                "kind": "notebook",
+                "name": "ch-09-ch09.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-09-ch09.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch09_durable_hitl_checkpoints.py",
-                "url": "courses/agent-harness-engineering/scripts/ch09_durable_hitl_checkpoints.py",
-                "kind": "script",
+                "name": "ch-09-ch09.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-09-ch09.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-8.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-4.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -718,30 +564,23 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Reasoning: Plan-and-Solve, ReWOO & Self-Reflection",
-                "body": "## Chapter 10 — Advanced Reasoning: Plan-and-Solve, ReWOO & Self-Reflection\n\n**Book:** AI Agent Engineering  \n**Part 4:** Advanced Patterns & Multi-Agent Systems  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch10_rewoo_reflection.ipynb](courses/agent-harness-engineering/notebooks/ch10_rewoo_reflection.ipynb) — Jupyter notebook\n- [ch10_rewoo_reflection.py](courses/agent-harness-engineering/scripts/ch10_rewoo_reflection.py) — Python script\n- [lab_solution_01.py](courses/agent-harness-engineering/scripts/lab_solution_01.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch10.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Advanced Reasoning: Plan-and-Solve, ReWOO & Self-Reflection\n\n**Book:** AI Agent Engineering  \n**Part 4:** Advanced Patterns & Multi-Agent Systems  \n**Estimated reading time:** 14 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-10-ch10.py](courses/agent-harness-engineering/scripts/ch-10-ch10.py) — Python script\n- [ch-10-ch10.ipynb](courses/agent-harness-engineering/notebooks/ch-10-ch10.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch10.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch10_rewoo_reflection.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch10_rewoo_reflection.ipynb",
-                "kind": "notebook",
+                "name": "ch-10-ch10.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-10-ch10.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch10_rewoo_reflection.py",
-                "url": "courses/agent-harness-engineering/scripts/ch10_rewoo_reflection.py",
-                "kind": "script",
+                "name": "ch-10-ch10.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-10-ch10.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "lab_solution_01.py",
-                "url": "courses/agent-harness-engineering/scripts/lab_solution_01.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
               }
             ],
             "exercises": [
@@ -769,37 +608,23 @@
               {
                 "languageCode": "en",
                 "title": "Multi-Agent Orchestration Harness",
-                "body": "## Chapter 11 — Multi-Agent Orchestration Harness\n\n**Book:** AI Agent Engineering  \n**Part 4:** Advanced Patterns & Multi-Agent Systems  \n**Estimated reading time:** 18 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch11_multi_agent_orchestration.ipynb](courses/agent-harness-engineering/notebooks/ch11_multi_agent_orchestration.ipynb) — Jupyter notebook\n- [ch11_multi_agent_orchestration.py](courses/agent-harness-engineering/scripts/ch11_multi_agent_orchestration.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-9.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-5.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch11.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Multi-Agent Orchestration Harness\n\n**Book:** AI Agent Engineering  \n**Part 4:** Advanced Patterns & Multi-Agent Systems  \n**Estimated reading time:** 18 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-11-ch11.py](courses/agent-harness-engineering/scripts/ch-11-ch11.py) — Python script\n- [ch-11-ch11.ipynb](courses/agent-harness-engineering/notebooks/ch-11-ch11.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch11.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch11_multi_agent_orchestration.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch11_multi_agent_orchestration.ipynb",
-                "kind": "notebook",
+                "name": "ch-11-ch11.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-11-ch11.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch11_multi_agent_orchestration.py",
-                "url": "courses/agent-harness-engineering/scripts/ch11_multi_agent_orchestration.py",
-                "kind": "script",
+                "name": "ch-11-ch11.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-11-ch11.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-9.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-5.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ]
           }
@@ -835,37 +660,23 @@
               {
                 "languageCode": "en",
                 "title": "The Agent Evaluation & Test Harness",
-                "body": "## Chapter 12 — The Agent Evaluation & Test Harness\n\n**Book:** AI Agent Engineering  \n**Part 5:** Test Harness, Evals & Production  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch12_evaluation_harness.ipynb](courses/agent-harness-engineering/notebooks/ch12_evaluation_harness.ipynb) — Jupyter notebook\n- [ch12_evaluation_harness.py](courses/agent-harness-engineering/scripts/ch12_evaluation_harness.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-10.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-6.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch12.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — The Agent Evaluation & Test Harness\n\n**Book:** AI Agent Engineering  \n**Part 5:** Test Harness, Evals & Production  \n**Estimated reading time:** 20 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-12-ch12.py](courses/agent-harness-engineering/scripts/ch-12-ch12.py) — Python script\n- [ch-12-ch12.ipynb](courses/agent-harness-engineering/notebooks/ch-12-ch12.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch12.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch12_evaluation_harness.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch12_evaluation_harness.ipynb",
-                "kind": "notebook",
+                "name": "ch-12-ch12.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-12-ch12.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch12_evaluation_harness.py",
-                "url": "courses/agent-harness-engineering/scripts/ch12_evaluation_harness.py",
-                "kind": "script",
+                "name": "ch-12-ch12.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-12-ch12.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-10.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-6.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ]
           },
@@ -884,37 +695,23 @@
               {
                 "languageCode": "en",
                 "title": "Observability, OpenTelemetry & Real-Time SSE",
-                "body": "## Chapter 13 — Observability, OpenTelemetry & Real-Time SSE\n\n**Book:** AI Agent Engineering  \n**Part 5:** Test Harness, Evals & Production  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch13_observability_sse.ipynb](courses/agent-harness-engineering/notebooks/ch13_observability_sse.ipynb) — Jupyter notebook\n- [ch13_observability_sse.py](courses/agent-harness-engineering/scripts/ch13_observability_sse.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-11.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-7.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch13.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Observability, OpenTelemetry & Real-Time SSE\n\n**Book:** AI Agent Engineering  \n**Part 5:** Test Harness, Evals & Production  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-13-ch13.py](courses/agent-harness-engineering/scripts/ch-13-ch13.py) — Python script\n- [ch-13-ch13.ipynb](courses/agent-harness-engineering/notebooks/ch-13-ch13.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch13.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch13_observability_sse.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch13_observability_sse.ipynb",
-                "kind": "notebook",
+                "name": "ch-13-ch13.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-13-ch13.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch13_observability_sse.py",
-                "url": "courses/agent-harness-engineering/scripts/ch13_observability_sse.py",
-                "kind": "script",
+                "name": "ch-13-ch13.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-13-ch13.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-11.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-7.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -959,37 +756,23 @@
               {
                 "languageCode": "en",
                 "title": "Capstone I — Autonomous Software Engineering Agent",
-                "body": "## Chapter 14 — Capstone I — Autonomous Software Engineering Agent\n\n**Book:** AI Agent Engineering  \n**Part 6:** Production Capstone Projects  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch14_swe_agent.ipynb](courses/agent-harness-engineering/notebooks/ch14_swe_agent.ipynb) — Jupyter notebook\n- [ch14_swe_agent.py](courses/agent-harness-engineering/scripts/ch14_swe_agent.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-12.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-8.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch14.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Capstone I — Autonomous Software Engineering Agent\n\n**Book:** AI Agent Engineering  \n**Part 6:** Production Capstone Projects  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-14-ch14.py](courses/agent-harness-engineering/scripts/ch-14-ch14.py) — Python script\n- [ch-14-ch14.ipynb](courses/agent-harness-engineering/notebooks/ch-14-ch14.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch14.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch14_swe_agent.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch14_swe_agent.ipynb",
-                "kind": "notebook",
+                "name": "ch-14-ch14.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-14-ch14.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch14_swe_agent.py",
-                "url": "courses/agent-harness-engineering/scripts/ch14_swe_agent.py",
-                "kind": "script",
+                "name": "ch-14-ch14.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-14-ch14.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-12.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-8.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -1017,37 +800,23 @@
               {
                 "languageCode": "en",
                 "title": "Capstone II — Production Multi-Agent Financial System",
-                "body": "## Chapter 15 — Capstone II — Production Multi-Agent Financial System\n\n**Book:** AI Agent Engineering  \n**Part 6:** Production Capstone Projects  \n**Estimated reading time:** 21 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch15_financial_swarm.ipynb](courses/agent-harness-engineering/notebooks/ch15_financial_swarm.ipynb) — Jupyter notebook\n- [ch15_financial_swarm.py](courses/agent-harness-engineering/scripts/ch15_financial_swarm.py) — Python script\n- [anti_pattern_01.py](courses/agent-harness-engineering/scripts/anti_pattern_01-13.py) — Python script\n- [example_02.py](courses/agent-harness-engineering/scripts/example_02-9.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch15.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Capstone II — Production Multi-Agent Financial System\n\n**Book:** AI Agent Engineering  \n**Part 6:** Production Capstone Projects  \n**Estimated reading time:** 21 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-15-ch15.py](courses/agent-harness-engineering/scripts/ch-15-ch15.py) — Python script\n- [ch-15-ch15.ipynb](courses/agent-harness-engineering/notebooks/ch-15-ch15.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/ch15.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch15_financial_swarm.ipynb",
-                "url": "courses/agent-harness-engineering/notebooks/ch15_financial_swarm.ipynb",
-                "kind": "notebook",
+                "name": "ch-15-ch15.py",
+                "url": "courses/agent-harness-engineering/scripts/ch-15-ch15.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch15_financial_swarm.py",
-                "url": "courses/agent-harness-engineering/scripts/ch15_financial_swarm.py",
-                "kind": "script",
+                "name": "ch-15-ch15.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/ch-15-ch15.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
-              },
-              {
-                "name": "anti_pattern_01.py",
-                "url": "courses/agent-harness-engineering/scripts/anti_pattern_01-13.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 2
-              },
-              {
-                "name": "example_02.py",
-                "url": "courses/agent-harness-engineering/scripts/example_02-9.py",
-                "kind": "script",
-                "isFree": false,
-                "order": 3
               }
             ],
             "exercises": [
@@ -1099,7 +868,23 @@
               {
                 "languageCode": "en",
                 "title": "25-Point Production Readiness Checklist",
-                "body": "## Appendix checklist — 25-Point Production Readiness Checklist\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-checklist.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix checklist — 25-Point Production Readiness Checklist\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-checklist.py](courses/agent-harness-engineering/scripts/app-checklist.py) — Python script\n- [app-checklist.ipynb](courses/agent-harness-engineering/notebooks/app-checklist.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-checklist.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-checklist.py",
+                "url": "courses/agent-harness-engineering/scripts/app-checklist.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-checklist.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-checklist.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1127,7 +912,23 @@
               {
                 "languageCode": "en",
                 "title": "Tooling Configuration & CI/CD Pipeline",
-                "body": "## Appendix cicd — Tooling Configuration & CI/CD Pipeline\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-cicd.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix cicd — Tooling Configuration & CI/CD Pipeline\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-cicd.py](courses/agent-harness-engineering/scripts/app-cicd.py) — Python script\n- [app-cicd.ipynb](courses/agent-harness-engineering/notebooks/app-cicd.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-cicd.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-cicd.py",
+                "url": "courses/agent-harness-engineering/scripts/app-cicd.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-cicd.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-cicd.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1155,7 +956,23 @@
               {
                 "languageCode": "en",
                 "title": "Architectural Decision Tree",
-                "body": "## Appendix decision — Architectural Decision Tree\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Agent, Harness\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-decision.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix decision — Architectural Decision Tree\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Agent, Harness\n\n### Companion files\n\n- [app-decision.py](courses/agent-harness-engineering/scripts/app-decision.py) — Python script\n- [app-decision.ipynb](courses/agent-harness-engineering/notebooks/app-decision.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-decision.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-decision.py",
+                "url": "courses/agent-harness-engineering/scripts/app-decision.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-decision.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-decision.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1183,7 +1000,23 @@
               {
                 "languageCode": "en",
                 "title": "Production FastAPI Reference Server",
-                "body": "## Appendix fastapi — Production FastAPI Reference Server\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** FastAPI\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-fastapi.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix fastapi — Production FastAPI Reference Server\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** FastAPI\n\n### Companion files\n\n- [app-fastapi.py](courses/agent-harness-engineering/scripts/app-fastapi.py) — Python script\n- [app-fastapi.ipynb](courses/agent-harness-engineering/notebooks/app-fastapi.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-fastapi.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-fastapi.py",
+                "url": "courses/agent-harness-engineering/scripts/app-fastapi.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-fastapi.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-fastapi.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1202,7 +1035,23 @@
               {
                 "languageCode": "en",
                 "title": "FinOps & Capacity Planning",
-                "body": "## Appendix finops — FinOps & Capacity Planning\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-finops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix finops — FinOps & Capacity Planning\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-finops.py](courses/agent-harness-engineering/scripts/app-finops.py) — Python script\n- [app-finops.ipynb](courses/agent-harness-engineering/notebooks/app-finops.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-finops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-finops.py",
+                "url": "courses/agent-harness-engineering/scripts/app-finops.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-finops.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-finops.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1230,7 +1079,23 @@
               {
                 "languageCode": "en",
                 "title": "Arabic–English Engineering Glossary",
-                "body": "## Appendix glossary — Arabic–English Engineering Glossary\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-glossary.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix glossary — Arabic–English Engineering Glossary\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-glossary.py](courses/agent-harness-engineering/scripts/app-glossary.py) — Python script\n- [app-glossary.ipynb](courses/agent-harness-engineering/notebooks/app-glossary.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-glossary.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-glossary.py",
+                "url": "courses/agent-harness-engineering/scripts/app-glossary.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-glossary.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-glossary.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1258,7 +1123,23 @@
               {
                 "languageCode": "en",
                 "title": "Agent Incident Response Playbook",
-                "body": "## Appendix incident — Agent Incident Response Playbook\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-incident.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix incident — Agent Incident Response Playbook\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-incident.py](courses/agent-harness-engineering/scripts/app-incident.py) — Python script\n- [app-incident.ipynb](courses/agent-harness-engineering/notebooks/app-incident.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-incident.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-incident.py",
+                "url": "courses/agent-harness-engineering/scripts/app-incident.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-incident.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-incident.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1277,7 +1158,23 @@
               {
                 "languageCode": "en",
                 "title": "Master Architectural Index",
-                "body": "## Appendix index — Master Architectural Index\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-index.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix index — Master Architectural Index\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-index.py](courses/agent-harness-engineering/scripts/app-index.py) — Python script\n- [app-index.ipynb](courses/agent-harness-engineering/notebooks/app-index.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-index.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-index.py",
+                "url": "courses/agent-harness-engineering/scripts/app-index.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-index.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-index.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1305,7 +1202,23 @@
               {
                 "languageCode": "en",
                 "title": "Model Context Protocol Bridge",
-                "body": "## Appendix mcp — Model Context Protocol Bridge\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MCP, Agent, Harness\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-mcp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix mcp — Model Context Protocol Bridge\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MCP, Agent, Harness\n\n### Companion files\n\n- [app-mcp.py](courses/agent-harness-engineering/scripts/app-mcp.py) — Python script\n- [app-mcp.ipynb](courses/agent-harness-engineering/notebooks/app-mcp.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-mcp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-mcp.py",
+                "url": "courses/agent-harness-engineering/scripts/app-mcp.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-mcp.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-mcp.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1324,7 +1237,23 @@
               {
                 "languageCode": "en",
                 "title": "OWASP Agentic Security Matrix",
-                "body": "## Appendix owasp — OWASP Agentic Security Matrix\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-owasp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix owasp — OWASP Agentic Security Matrix\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-owasp.py](courses/agent-harness-engineering/scripts/app-owasp.py) — Python script\n- [app-owasp.ipynb](courses/agent-harness-engineering/notebooks/app-owasp.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-owasp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-owasp.py",
+                "url": "courses/agent-harness-engineering/scripts/app-owasp.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-owasp.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-owasp.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1343,7 +1272,23 @@
               {
                 "languageCode": "en",
                 "title": "Three Reference Production Applications",
-                "body": "## Appendix projects — Three Reference Production Applications\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 21 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-projects.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix projects — Three Reference Production Applications\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 21 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-projects.py](courses/agent-harness-engineering/scripts/app-projects.py) — Python script\n- [app-projects.ipynb](courses/agent-harness-engineering/notebooks/app-projects.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-projects.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-projects.py",
+                "url": "courses/agent-harness-engineering/scripts/app-projects.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-projects.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-projects.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1362,7 +1307,23 @@
               {
                 "languageCode": "en",
                 "title": "Automated Red-Teaming Harness",
-                "body": "## Appendix redteam — Automated Red-Teaming Harness\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-redteam.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix redteam — Automated Red-Teaming Harness\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-redteam.py](courses/agent-harness-engineering/scripts/app-redteam.py) — Python script\n- [app-redteam.ipynb](courses/agent-harness-engineering/notebooks/app-redteam.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-redteam.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-redteam.py",
+                "url": "courses/agent-harness-engineering/scripts/app-redteam.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-redteam.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-redteam.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1390,7 +1351,23 @@
               {
                 "languageCode": "en",
                 "title": "Reference Project Structure & Rootless Container",
-                "body": "## Appendix structure — Reference Project Structure & Rootless Container\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-structure.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix structure — Reference Project Structure & Rootless Container\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-structure.py](courses/agent-harness-engineering/scripts/app-structure.py) — Python script\n- [app-structure.ipynb](courses/agent-harness-engineering/notebooks/app-structure.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/app-structure.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-structure.py",
+                "url": "courses/agent-harness-engineering/scripts/app-structure.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-structure.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/app-structure.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ],
             "exercises": [
@@ -1425,7 +1402,23 @@
               {
                 "languageCode": "en",
                 "title": "Conclusion",
-                "body": "## Appendix z — Conclusion\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/conclusion.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix z — Conclusion\n\n**Book:** AI Agent Engineering  \n**Part 7:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «AI Agent Engineering», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [conclusion.py](courses/agent-harness-engineering/scripts/conclusion.py) — Python script\n- [conclusion.ipynb](courses/agent-harness-engineering/notebooks/conclusion.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/HarnessAgent-Book/blob/main/dist/md/conclusion.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "conclusion.py",
+                "url": "courses/agent-harness-engineering/scripts/conclusion.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "conclusion.ipynb",
+                "url": "courses/agent-harness-engineering/notebooks/conclusion.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }

@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:23.835Z",
+    "exportedAt": "2026-11-23T16:02:49.601Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "TensorFlow الاحترافي",
         "subtitle": "من الأساس إلى الإنتاج — مرجع عربي شامل للتعلّم العميق",
         "description": "24 فصلاً في 4 أجزاء و7 ملاحق على Python 3.14 وTensorFlow 2.21: التنسورات والاشتقاق الآلي وKeras، الشبكات التلافيفية والمتسلسلات والمحوّلات والنماذج التوليدية، ثم الأداء والنشر وMLOps، بأمثلة محلولة وتمارين.",
-        "landingMd": "# TensorFlow الاحترافي\n\n**من الأساس إلى الإنتاج — مرجع عربي شامل للتعلّم العميق**\n\n24 فصلاً في 4 أجزاء و7 ملاحق على Python 3.14 وTensorFlow 2.21: التنسورات والاشتقاق الآلي وKeras، الشبكات التلافيفية والمتسلسلات والمحوّلات والنماذج التوليدية، ثم الأداء والنشر وMLOps، بأمثلة محلولة وتمارين.\n\n![TensorFlow الاحترافي](books/tensorflow-professional-ar/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسات: كيف تفكّر في TensorFlow؟** — 5 فصول وملاحق\n- **بناء الشبكات وتدريبها** — 5 فصول وملاحق\n- **الرؤية والتسلسلات واللغة والتوليد** — 6 فصول وملاحق\n- **الاحتراف والإنتاج** — 8 فصول وملاحق\n- **الملاحق والمراجع** — 7 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 141 صفحة](books/tensorflow-professional-ar/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/tensorflow-professional-ar/book.pdf)\n- [صفحة الكتاب التعريفية](landing/tensorflow-professional-ar.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# TensorFlow الاحترافي\n\n**من الأساس إلى الإنتاج — مرجع عربي شامل للتعلّم العميق**\n\n24 فصلاً في 4 أجزاء و7 ملاحق على Python 3.14 وTensorFlow 2.21: التنسورات والاشتقاق الآلي وKeras، الشبكات التلافيفية والمتسلسلات والمحوّلات والنماذج التوليدية، ثم الأداء والنشر وMLOps، بأمثلة محلولة وتمارين.\n\n![TensorFlow الاحترافي](books/tensorflow-professional-ar/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسات: كيف تفكّر في TensorFlow؟** — 5 فصول وملاحق\n- **بناء الشبكات وتدريبها** — 5 فصول وملاحق\n- **الرؤية والتسلسلات واللغة والتوليد** — 6 فصول وملاحق\n- **الاحتراف والإنتاج** — 8 فصول وملاحق\n- **الملاحق والمراجع** — 7 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 141 صفحة](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](downloads/tensorflow-professional-ar.rar)\n- [صفحة الكتاب التعريفية](landing/tensorflow-professional-ar.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "Professional TensorFlow",
         "subtitle": "From Foundations to Production — A Complete Arabic Deep Learning Reference",
         "description": "Twenty-four chapters in four parts and seven appendices on Python 3.14 and TensorFlow 2.21: tensors, autodiff and Keras, CNNs, sequences, transformers and generative models, then performance, serving and MLOps — with solved examples and exercises.",
-        "landingMd": "# Professional TensorFlow\n\n**From Foundations to Production — A Complete Arabic Deep Learning Reference**\n\nTwenty-four chapters in four parts and seven appendices on Python 3.14 and TensorFlow 2.21: tensors, autodiff and Keras, CNNs, sequences, transformers and generative models, then performance, serving and MLOps — with solved examples and exercises.\n\n![Professional TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## What you will learn\n\n- **Foundations: How to Think in TensorFlow** — 5 chapters & appendices\n- **Building and Training Networks** — 5 chapters & appendices\n- **Vision, Sequences, Language and Generation** — 6 chapters & appendices\n- **Professional Practice and Production** — 8 chapters & appendices\n- **Appendices and Reference** — 7 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 141 pages](books/tensorflow-professional-ar/sample.pdf)\n\n- [Full book (PDF)](books/tensorflow-professional-ar/book.pdf)\n- [Book landing page](landing/tensorflow-professional-ar.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Professional TensorFlow\n\n**From Foundations to Production — A Complete Arabic Deep Learning Reference**\n\nTwenty-four chapters in four parts and seven appendices on Python 3.14 and TensorFlow 2.21: tensors, autodiff and Keras, CNNs, sequences, transformers and generative models, then performance, serving and MLOps — with solved examples and exercises.\n\n![Professional TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## What you will learn\n\n- **Foundations: How to Think in TensorFlow** — 5 chapters & appendices\n- **Building and Training Networks** — 5 chapters & appendices\n- **Vision, Sequences, Language and Generation** — 6 chapters & appendices\n- **Professional Practice and Production** — 8 chapters & appendices\n- **Appendices and Reference** — 7 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 141 pages](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [Full book (PDF)](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/tensorflow-professional-ar.rar)\n- [Book landing page](landing/tensorflow-professional-ar.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "TensorFlow professionnel",
         "subtitle": "Des fondations à la production — référence arabe complète du deep learning",
         "description": "24 chapitres en 4 parties et 7 annexes sur Python 3.14 et TensorFlow 2.21 : tenseurs, différenciation automatique, Keras, CNN, séquences, transformeurs, modèles génératifs, performance et MLOps.",
-        "landingMd": "# TensorFlow professionnel\n\n**Des fondations à la production — référence arabe complète du deep learning**\n\n24 chapitres en 4 parties et 7 annexes sur Python 3.14 et TensorFlow 2.21 : tenseurs, différenciation automatique, Keras, CNN, séquences, transformeurs, modèles génératifs, performance et MLOps.\n\n![TensorFlow professionnel](books/tensorflow-professional-ar/cover.png)\n\n## Ce que vous apprendrez\n\n- **Foundations: How to Think in TensorFlow** — 5 chapitres et annexes\n- **Building and Training Networks** — 5 chapitres et annexes\n- **Vision, Sequences, Language and Generation** — 6 chapitres et annexes\n- **Professional Practice and Production** — 8 chapitres et annexes\n- **Appendices and Reference** — 7 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 141 pages](books/tensorflow-professional-ar/sample.pdf)\n\n- [Livre complet (PDF)](books/tensorflow-professional-ar/book.pdf)\n- [Page du livre](landing/tensorflow-professional-ar.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# TensorFlow professionnel\n\n**Des fondations à la production — référence arabe complète du deep learning**\n\n24 chapitres en 4 parties et 7 annexes sur Python 3.14 et TensorFlow 2.21 : tenseurs, différenciation automatique, Keras, CNN, séquences, transformeurs, modèles génératifs, performance et MLOps.\n\n![TensorFlow professionnel](books/tensorflow-professional-ar/cover.png)\n\n## Ce que vous apprendrez\n\n- **Foundations: How to Think in TensorFlow** — 5 chapitres et annexes\n- **Building and Training Networks** — 5 chapitres et annexes\n- **Vision, Sequences, Language and Generation** — 6 chapitres et annexes\n- **Professional Practice and Production** — 8 chapitres et annexes\n- **Appendices and Reference** — 7 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 141 pages](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [Livre complet (PDF)](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/tensorflow-professional-ar.rar)\n- [Page du livre](landing/tensorflow-professional-ar.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "TensorFlow profesional",
         "subtitle": "De los fundamentos a producción — referencia árabe completa de deep learning",
         "description": "24 capítulos en 4 partes y 7 apéndices sobre Python 3.14 y TensorFlow 2.21: tensores, autodiff, Keras, CNN, secuencias, transformadores, modelos generativos, rendimiento y MLOps.",
-        "landingMd": "# TensorFlow profesional\n\n**De los fundamentos a producción — referencia árabe completa de deep learning**\n\n24 capítulos en 4 partes y 7 apéndices sobre Python 3.14 y TensorFlow 2.21: tensores, autodiff, Keras, CNN, secuencias, transformadores, modelos generativos, rendimiento y MLOps.\n\n![TensorFlow profesional](books/tensorflow-professional-ar/cover.png)\n\n## Qué aprenderás\n\n- **Foundations: How to Think in TensorFlow** — 5 capítulos y apéndices\n- **Building and Training Networks** — 5 capítulos y apéndices\n- **Vision, Sequences, Language and Generation** — 6 capítulos y apéndices\n- **Professional Practice and Production** — 8 capítulos y apéndices\n- **Appendices and Reference** — 7 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 141 páginas](books/tensorflow-professional-ar/sample.pdf)\n\n- [Libro completo (PDF)](books/tensorflow-professional-ar/book.pdf)\n- [Página del libro](landing/tensorflow-professional-ar.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# TensorFlow profesional\n\n**De los fundamentos a producción — referencia árabe completa de deep learning**\n\n24 capítulos en 4 partes y 7 apéndices sobre Python 3.14 y TensorFlow 2.21: tensores, autodiff, Keras, CNN, secuencias, transformadores, modelos generativos, rendimiento y MLOps.\n\n![TensorFlow profesional](books/tensorflow-professional-ar/cover.png)\n\n## Qué aprenderás\n\n- **Foundations: How to Think in TensorFlow** — 5 capítulos y apéndices\n- **Building and Training Networks** — 5 capítulos y apéndices\n- **Vision, Sequences, Language and Generation** — 6 capítulos y apéndices\n- **Professional Practice and Production** — 8 capítulos y apéndices\n- **Appendices and Reference** — 7 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 141 páginas](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [Libro completo (PDF)](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/tensorflow-professional-ar.rar)\n- [Página del libro](landing/tensorflow-professional-ar.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "专业 TensorFlow",
         "subtitle": "从基础到生产——阿拉伯语深度学习完全参考",
         "description": "4 大部分、24 章与 7 个附录，基于 Python 3.14 与 TensorFlow 2.21：张量、自动微分、Keras、CNN、序列、Transformer、生成模型，以及性能、部署与 MLOps。",
-        "landingMd": "# 专业 TensorFlow\n\n**从基础到生产——阿拉伯语深度学习完全参考**\n\n4 大部分、24 章与 7 个附录，基于 Python 3.14 与 TensorFlow 2.21：张量、自动微分、Keras、CNN、序列、Transformer、生成模型，以及性能、部署与 MLOps。\n\n![专业 TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## 你将学到什么\n\n- **Foundations: How to Think in TensorFlow** — 5 章与附录\n- **Building and Training Networks** — 5 章与附录\n- **Vision, Sequences, Language and Generation** — 6 章与附录\n- **Professional Practice and Production** — 8 章与附录\n- **Appendices and Reference** — 7 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 141 页](books/tensorflow-professional-ar/sample.pdf)\n\n- [完整电子书 PDF](books/tensorflow-professional-ar/book.pdf)\n- [图书介绍页](landing/tensorflow-professional-ar.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# 专业 TensorFlow\n\n**从基础到生产——阿拉伯语深度学习完全参考**\n\n4 大部分、24 章与 7 个附录，基于 Python 3.14 与 TensorFlow 2.21：张量、自动微分、Keras、CNN、序列、Transformer、生成模型，以及性能、部署与 MLOps。\n\n![专业 TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## 你将学到什么\n\n- **Foundations: How to Think in TensorFlow** — 5 章与附录\n- **Building and Training Networks** — 5 章与附录\n- **Vision, Sequences, Language and Generation** — 6 章与附录\n- **Professional Practice and Production** — 8 章与附录\n- **Appendices and Reference** — 7 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 141 页](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [完整电子书 PDF](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/tensorflow-professional-ar.rar)\n- [图书介绍页](landing/tensorflow-professional-ar.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "प्रोफ़ेशनल TensorFlow",
         "subtitle": "आधार से प्रोडक्शन तक — डीप लर्निंग का संपूर्ण अरबी संदर्भ",
         "description": "4 भागों में 24 अध्याय और 7 परिशिष्ट, Python 3.14 और TensorFlow 2.21 पर: टेंसर, ऑटोडिफ़, Keras, CNN, सीक्वेंस, ट्रांसफ़ॉर्मर, जेनरेटिव मॉडल, प्रदर्शन और MLOps।",
-        "landingMd": "# प्रोफ़ेशनल TensorFlow\n\n**आधार से प्रोडक्शन तक — डीप लर्निंग का संपूर्ण अरबी संदर्भ**\n\n4 भागों में 24 अध्याय और 7 परिशिष्ट, Python 3.14 और TensorFlow 2.21 पर: टेंसर, ऑटोडिफ़, Keras, CNN, सीक्वेंस, ट्रांसफ़ॉर्मर, जेनरेटिव मॉडल, प्रदर्शन और MLOps।\n\n![प्रोफ़ेशनल TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Foundations: How to Think in TensorFlow** — 5 अध्याय और परिशिष्ट\n- **Building and Training Networks** — 5 अध्याय और परिशिष्ट\n- **Vision, Sequences, Language and Generation** — 6 अध्याय और परिशिष्ट\n- **Professional Practice and Production** — 8 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 7 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 141 पृष्ठ](books/tensorflow-professional-ar/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/tensorflow-professional-ar/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/tensorflow-professional-ar.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# प्रोफ़ेशनल TensorFlow\n\n**आधार से प्रोडक्शन तक — डीप लर्निंग का संपूर्ण अरबी संदर्भ**\n\n4 भागों में 24 अध्याय और 7 परिशिष्ट, Python 3.14 और TensorFlow 2.21 पर: टेंसर, ऑटोडिफ़, Keras, CNN, सीक्वेंस, ट्रांसफ़ॉर्मर, जेनरेटिव मॉडल, प्रदर्शन और MLOps।\n\n![प्रोफ़ेशनल TensorFlow](books/tensorflow-professional-ar/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Foundations: How to Think in TensorFlow** — 5 अध्याय और परिशिष्ट\n- **Building and Training Networks** — 5 अध्याय और परिशिष्ट\n- **Vision, Sequences, Language and Generation** — 6 अध्याय और परिशिष्ट\n- **Professional Practice and Production** — 8 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 7 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 31 | 318 | 5 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 141 पृष्ठ](books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/tensorflow-professional-ar/tensorflow-professional-ar.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/tensorflow-professional-ar.rar)\n- [पुस्तक परिचय पृष्ठ](landing/tensorflow-professional-ar.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,7 +96,23 @@
               {
                 "languageCode": "en",
                 "title": "Story Ecosystem",
-                "body": "## Chapter 01 — Story Ecosystem\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** TensorFlow\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch01_story_ecosystem.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Story Ecosystem\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** TensorFlow\n\n### Companion files\n\n- [ch-01-ch01-story-ecosystem.py](courses/tensorflow-professional-ar/scripts/ch-01-ch01-story-ecosystem.py) — Python script\n- [ch-01-ch01-story-ecosystem.ipynb](courses/tensorflow-professional-ar/notebooks/ch-01-ch01-story-ecosystem.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch01_story_ecosystem.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-01-ch01-story-ecosystem.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-01-ch01-story-ecosystem.py",
+                "kind": "script",
+                "isFree": true,
+                "order": 0
+              },
+              {
+                "name": "ch-01-ch01-story-ecosystem.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-01-ch01-story-ecosystem.ipynb",
+                "kind": "notebook",
+                "isFree": true,
+                "order": 1
               }
             ]
           },
@@ -115,7 +131,23 @@
               {
                 "languageCode": "en",
                 "title": "Environment",
-                "body": "## Chapter 02 — Environment\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python, TensorFlow\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch02_environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Environment\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python, TensorFlow\n\n### Companion files\n\n- [ch-02-ch02-environment.py](courses/tensorflow-professional-ar/scripts/ch-02-ch02-environment.py) — Python script\n- [ch-02-ch02-environment.ipynb](courses/tensorflow-professional-ar/notebooks/ch-02-ch02-environment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch02_environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-02-ch02-environment.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-02-ch02-environment.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-02-ch02-environment.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-02-ch02-environment.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -134,7 +166,23 @@
               {
                 "languageCode": "en",
                 "title": "Tensors",
-                "body": "## Chapter 03 — Tensors\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch03_tensors.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Tensors\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-03-ch03-tensors.py](courses/tensorflow-professional-ar/scripts/ch-03-ch03-tensors.py) — Python script\n- [ch-03-ch03-tensors.ipynb](courses/tensorflow-professional-ar/notebooks/ch-03-ch03-tensors.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch03_tensors.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-03-ch03-tensors.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-03-ch03-tensors.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-03-ch03-tensors.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-03-ch03-tensors.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -153,7 +201,23 @@
               {
                 "languageCode": "en",
                 "title": "Autodiff",
-                "body": "## Chapter 04 — Autodiff\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch04_autodiff.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Autodiff\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-04-ch04-autodiff.py](courses/tensorflow-professional-ar/scripts/ch-04-ch04-autodiff.py) — Python script\n- [ch-04-ch04-autodiff.ipynb](courses/tensorflow-professional-ar/notebooks/ch-04-ch04-autodiff.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch04_autodiff.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-04-ch04-autodiff.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-04-ch04-autodiff.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-04-ch04-autodiff.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-04-ch04-autodiff.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -172,7 +236,23 @@
               {
                 "languageCode": "en",
                 "title": "Keras",
-                "body": "## Chapter 05 — Keras\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch05_keras.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Keras\n\n**Book:** Professional TensorFlow  \n**Part 1:** Foundations: How to Think in TensorFlow  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Companion files\n\n- [ch-05-ch05-keras.py](courses/tensorflow-professional-ar/scripts/ch-05-ch05-keras.py) — Python script\n- [ch-05-ch05-keras.ipynb](courses/tensorflow-professional-ar/notebooks/ch-05-ch05-keras.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch05_keras.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-05-ch05-keras.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-05-ch05-keras.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-05-ch05-keras.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-05-ch05-keras.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -208,7 +288,23 @@
               {
                 "languageCode": "en",
                 "title": "Neural Nets",
-                "body": "## Chapter 06 — Neural Nets\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch06_neural_nets.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Neural Nets\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-06-ch06-neural-nets.py](courses/tensorflow-professional-ar/scripts/ch-06-ch06-neural-nets.py) — Python script\n- [ch-06-ch06-neural-nets.ipynb](courses/tensorflow-professional-ar/notebooks/ch-06-ch06-neural-nets.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch06_neural_nets.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-06-ch06-neural-nets.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-06-ch06-neural-nets.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-06-ch06-neural-nets.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-06-ch06-neural-nets.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -227,7 +323,23 @@
               {
                 "languageCode": "en",
                 "title": "Training",
-                "body": "## Chapter 07 — Training\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch07_training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Training\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-07-ch07-training.py](courses/tensorflow-professional-ar/scripts/ch-07-ch07-training.py) — Python script\n- [ch-07-ch07-training.ipynb](courses/tensorflow-professional-ar/notebooks/ch-07-ch07-training.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch07_training.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-07-ch07-training.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-07-ch07-training.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-07-ch07-training.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-07-ch07-training.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -246,7 +358,23 @@
               {
                 "languageCode": "en",
                 "title": "Evaluation",
-                "body": "## Chapter 08 — Evaluation\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch08_evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Evaluation\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-08-ch08-evaluation.py](courses/tensorflow-professional-ar/scripts/ch-08-ch08-evaluation.py) — Python script\n- [ch-08-ch08-evaluation.ipynb](courses/tensorflow-professional-ar/notebooks/ch-08-ch08-evaluation.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch08_evaluation.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-08-ch08-evaluation.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-08-ch08-evaluation.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-08-ch08-evaluation.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-08-ch08-evaluation.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -265,7 +393,23 @@
               {
                 "languageCode": "en",
                 "title": "Data",
-                "body": "## Chapter 09 — Data\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** tf.data\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch09_data.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Data\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** tf.data\n\n### Companion files\n\n- [ch-09-ch09-data.py](courses/tensorflow-professional-ar/scripts/ch-09-ch09-data.py) — Python script\n- [ch-09-ch09-data.ipynb](courses/tensorflow-professional-ar/notebooks/ch-09-ch09-data.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch09_data.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-09-ch09-data.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-09-ch09-data.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-09-ch09-data.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-09-ch09-data.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -284,7 +428,23 @@
               {
                 "languageCode": "en",
                 "title": "Cnn",
-                "body": "## Chapter 10 — Cnn\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CNN\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch10_cnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Cnn\n\n**Book:** Professional TensorFlow  \n**Part 2:** Building and Training Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CNN\n\n### Companion files\n\n- [ch-10-ch10-cnn.py](courses/tensorflow-professional-ar/scripts/ch-10-ch10-cnn.py) — Python script\n- [ch-10-ch10-cnn.ipynb](courses/tensorflow-professional-ar/notebooks/ch-10-ch10-cnn.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch10_cnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-10-ch10-cnn.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-10-ch10-cnn.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-10-ch10-cnn.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-10-ch10-cnn.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -320,7 +480,23 @@
               {
                 "languageCode": "en",
                 "title": "Vision Advanced",
-                "body": "## Chapter 11 — Vision Advanced\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch11_vision_advanced.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Vision Advanced\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-11-ch11-vision-advanced.py](courses/tensorflow-professional-ar/scripts/ch-11-ch11-vision-advanced.py) — Python script\n- [ch-11-ch11-vision-advanced.ipynb](courses/tensorflow-professional-ar/notebooks/ch-11-ch11-vision-advanced.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch11_vision_advanced.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-11-ch11-vision-advanced.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-11-ch11-vision-advanced.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-11-ch11-vision-advanced.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-11-ch11-vision-advanced.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -339,7 +515,23 @@
               {
                 "languageCode": "en",
                 "title": "Sequences",
-                "body": "## Chapter 12 — Sequences\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch12_sequences.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — Sequences\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Companion files\n\n- [ch-12-ch12-sequences.py](courses/tensorflow-professional-ar/scripts/ch-12-ch12-sequences.py) — Python script\n- [ch-12-ch12-sequences.ipynb](courses/tensorflow-professional-ar/notebooks/ch-12-ch12-sequences.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch12_sequences.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-12-ch12-sequences.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-12-ch12-sequences.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-12-ch12-sequences.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-12-ch12-sequences.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -358,7 +550,23 @@
               {
                 "languageCode": "en",
                 "title": "Transformers",
-                "body": "## Chapter 13 — Transformers\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch13_transformers.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Transformers\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-13-ch13-transformers.py](courses/tensorflow-professional-ar/scripts/ch-13-ch13-transformers.py) — Python script\n- [ch-13-ch13-transformers.ipynb](courses/tensorflow-professional-ar/notebooks/ch-13-ch13-transformers.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch13_transformers.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-13-ch13-transformers.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-13-ch13-transformers.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-13-ch13-transformers.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-13-ch13-transformers.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -377,7 +585,23 @@
               {
                 "languageCode": "en",
                 "title": "Nlp",
-                "body": "## Chapter 14 — Nlp\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch14_nlp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Nlp\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-14-ch14-nlp.py](courses/tensorflow-professional-ar/scripts/ch-14-ch14-nlp.py) — Python script\n- [ch-14-ch14-nlp.ipynb](courses/tensorflow-professional-ar/notebooks/ch-14-ch14-nlp.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch14_nlp.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-14-ch14-nlp.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-14-ch14-nlp.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-14-ch14-nlp.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-14-ch14-nlp.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -396,7 +620,23 @@
               {
                 "languageCode": "en",
                 "title": "Generative",
-                "body": "## Chapter 15 — Generative\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Autoencoder, VAE, GAN\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch15_generative.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Generative\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Autoencoder, VAE, GAN\n\n### Companion files\n\n- [ch-15-ch15-generative.py](courses/tensorflow-professional-ar/scripts/ch-15-ch15-generative.py) — Python script\n- [ch-15-ch15-generative.ipynb](courses/tensorflow-professional-ar/notebooks/ch-15-ch15-generative.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch15_generative.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-15-ch15-generative.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-15-ch15-generative.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-15-ch15-generative.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-15-ch15-generative.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -415,7 +655,23 @@
               {
                 "languageCode": "en",
                 "title": "Diffusion",
-                "body": "## Chapter 16 — Diffusion\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch16_diffusion.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — Diffusion\n\n**Book:** Professional TensorFlow  \n**Part 3:** Vision, Sequences, Language and Generation  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-16-ch16-diffusion.py](courses/tensorflow-professional-ar/scripts/ch-16-ch16-diffusion.py) — Python script\n- [ch-16-ch16-diffusion.ipynb](courses/tensorflow-professional-ar/notebooks/ch-16-ch16-diffusion.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch16_diffusion.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-16-ch16-diffusion.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-16-ch16-diffusion.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-16-ch16-diffusion.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-16-ch16-diffusion.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -451,7 +707,23 @@
               {
                 "languageCode": "en",
                 "title": "Custom",
-                "body": "## Chapter 17 — Custom\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch17_custom.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Custom\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-17-ch17-custom.py](courses/tensorflow-professional-ar/scripts/ch-17-ch17-custom.py) — Python script\n- [ch-17-ch17-custom.ipynb](courses/tensorflow-professional-ar/notebooks/ch-17-ch17-custom.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch17_custom.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-17-ch17-custom.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-17-ch17-custom.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-17-ch17-custom.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-17-ch17-custom.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -470,7 +742,23 @@
               {
                 "languageCode": "en",
                 "title": "Performance",
-                "body": "## Chapter 18 — Performance\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch18_performance.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Performance\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-18-ch18-performance.py](courses/tensorflow-professional-ar/scripts/ch-18-ch18-performance.py) — Python script\n- [ch-18-ch18-performance.ipynb](courses/tensorflow-professional-ar/notebooks/ch-18-ch18-performance.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch18_performance.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-18-ch18-performance.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-18-ch18-performance.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-18-ch18-performance.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-18-ch18-performance.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -489,7 +777,23 @@
               {
                 "languageCode": "en",
                 "title": "Deployment",
-                "body": "## Chapter 19 — Deployment\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LiteRT, TF.js, Serving\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch19_deployment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Deployment\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LiteRT, TF.js, Serving\n\n### Companion files\n\n- [ch-19-ch19-deployment.py](courses/tensorflow-professional-ar/scripts/ch-19-ch19-deployment.py) — Python script\n- [ch-19-ch19-deployment.ipynb](courses/tensorflow-professional-ar/notebooks/ch-19-ch19-deployment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch19_deployment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-19-ch19-deployment.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-19-ch19-deployment.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-19-ch19-deployment.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-19-ch19-deployment.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -508,7 +812,23 @@
               {
                 "languageCode": "en",
                 "title": "Mlops",
-                "body": "## Chapter 20 — Mlops\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MLOps, TFX\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch20_mlops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 20 — Mlops\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MLOps, TFX\n\n### Companion files\n\n- [ch-20-ch20-mlops.py](courses/tensorflow-professional-ar/scripts/ch-20-ch20-mlops.py) — Python script\n- [ch-20-ch20-mlops.ipynb](courses/tensorflow-professional-ar/notebooks/ch-20-ch20-mlops.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch20_mlops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-20-ch20-mlops.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-20-ch20-mlops.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-20-ch20-mlops.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-20-ch20-mlops.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -527,7 +847,23 @@
               {
                 "languageCode": "en",
                 "title": "Rl",
-                "body": "## Chapter 21 — Rl\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch21_rl.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 21 — Rl\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-21-ch21-rl.py](courses/tensorflow-professional-ar/scripts/ch-21-ch21-rl.py) — Python script\n- [ch-21-ch21-rl.ipynb](courses/tensorflow-professional-ar/notebooks/ch-21-ch21-rl.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch21_rl.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-21-ch21-rl.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-21-ch21-rl.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-21-ch21-rl.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-21-ch21-rl.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -546,7 +882,23 @@
               {
                 "languageCode": "en",
                 "title": "Tabular Gnn",
-                "body": "## Chapter 22 — Tabular Gnn\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch22_tabular_gnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 22 — Tabular Gnn\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-22-ch22-tabular-gnn.py](courses/tensorflow-professional-ar/scripts/ch-22-ch22-tabular-gnn.py) — Python script\n- [ch-22-ch22-tabular-gnn.ipynb](courses/tensorflow-professional-ar/notebooks/ch-22-ch22-tabular-gnn.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch22_tabular_gnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-22-ch22-tabular-gnn.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-22-ch22-tabular-gnn.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-22-ch22-tabular-gnn.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-22-ch22-tabular-gnn.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -565,7 +917,23 @@
               {
                 "languageCode": "en",
                 "title": "Ethics",
-                "body": "## Chapter 23 — Ethics\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch23_ethics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 23 — Ethics\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-23-ch23-ethics.py](courses/tensorflow-professional-ar/scripts/ch-23-ch23-ethics.py) — Python script\n- [ch-23-ch23-ethics.ipynb](courses/tensorflow-professional-ar/notebooks/ch-23-ch23-ethics.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch23_ethics.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-23-ch23-ethics.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-23-ch23-ethics.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-23-ch23-ethics.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-23-ch23-ethics.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -584,7 +952,23 @@
               {
                 "languageCode": "en",
                 "title": "Capstones",
-                "body": "## Chapter 24 — Capstones\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch24_capstones.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 24 — Capstones\n\n**Book:** Professional TensorFlow  \n**Part 4:** Professional Practice and Production  \n**Estimated reading time:** 15 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-24-ch24-capstones.py](courses/tensorflow-professional-ar/scripts/ch-24-ch24-capstones.py) — Python script\n- [ch-24-ch24-capstones.ipynb](courses/tensorflow-professional-ar/notebooks/ch-24-ch24-capstones.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/chapters/ch24_capstones.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-24-ch24-capstones.py",
+                "url": "courses/tensorflow-professional-ar/scripts/ch-24-ch24-capstones.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-24-ch24-capstones.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/ch-24-ch24-capstones.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -620,7 +1004,23 @@
               {
                 "languageCode": "en",
                 "title": "A Math",
-                "body": "## Appendix a — A Math\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_a_math.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix a — A Math\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-a-appendix-a-math.py](courses/tensorflow-professional-ar/scripts/app-a-appendix-a-math.py) — Python script\n- [app-a-appendix-a-math.ipynb](courses/tensorflow-professional-ar/notebooks/app-a-appendix-a-math.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_a_math.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-a-appendix-a-math.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-a-appendix-a-math.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-a-appendix-a-math.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-a-appendix-a-math.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -639,7 +1039,23 @@
               {
                 "languageCode": "en",
                 "title": "B Environment",
-                "body": "## Appendix b — B Environment\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_b_environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix b — B Environment\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-b-appendix-b-environment.py](courses/tensorflow-professional-ar/scripts/app-b-appendix-b-environment.py) — Python script\n- [app-b-appendix-b-environment.ipynb](courses/tensorflow-professional-ar/notebooks/app-b-appendix-b-environment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_b_environment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-b-appendix-b-environment.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-b-appendix-b-environment.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-b-appendix-b-environment.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-b-appendix-b-environment.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -658,7 +1074,23 @@
               {
                 "languageCode": "en",
                 "title": "C Glossary",
-                "body": "## Appendix c — C Glossary\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_c_glossary.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix c — C Glossary\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-c-appendix-c-glossary.py](courses/tensorflow-professional-ar/scripts/app-c-appendix-c-glossary.py) — Python script\n- [app-c-appendix-c-glossary.ipynb](courses/tensorflow-professional-ar/notebooks/app-c-appendix-c-glossary.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_c_glossary.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-c-appendix-c-glossary.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-c-appendix-c-glossary.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-c-appendix-c-glossary.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-c-appendix-c-glossary.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -677,7 +1109,23 @@
               {
                 "languageCode": "en",
                 "title": "D Cheatsheet",
-                "body": "## Appendix d — D Cheatsheet\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** TensorFlow, Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_d_cheatsheet.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix d — D Cheatsheet\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** TensorFlow, Keras\n\n### Companion files\n\n- [app-d-appendix-d-cheatsheet.py](courses/tensorflow-professional-ar/scripts/app-d-appendix-d-cheatsheet.py) — Python script\n- [app-d-appendix-d-cheatsheet.ipynb](courses/tensorflow-professional-ar/notebooks/app-d-appendix-d-cheatsheet.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_d_cheatsheet.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-d-appendix-d-cheatsheet.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-d-appendix-d-cheatsheet.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-d-appendix-d-cheatsheet.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-d-appendix-d-cheatsheet.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -696,7 +1144,23 @@
               {
                 "languageCode": "en",
                 "title": "E Solutions",
-                "body": "## Appendix e — E Solutions\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_e_solutions.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix e — E Solutions\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-e-appendix-e-solutions.py](courses/tensorflow-professional-ar/scripts/app-e-appendix-e-solutions.py) — Python script\n- [app-e-appendix-e-solutions.ipynb](courses/tensorflow-professional-ar/notebooks/app-e-appendix-e-solutions.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_e_solutions.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-e-appendix-e-solutions.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-e-appendix-e-solutions.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-e-appendix-e-solutions.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-e-appendix-e-solutions.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -715,7 +1179,23 @@
               {
                 "languageCode": "en",
                 "title": "F References",
-                "body": "## Appendix f — F References\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_f_references.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix f — F References\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-f-appendix-f-references.py](courses/tensorflow-professional-ar/scripts/app-f-appendix-f-references.py) — Python script\n- [app-f-appendix-f-references.ipynb](courses/tensorflow-professional-ar/notebooks/app-f-appendix-f-references.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_f_references.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-f-appendix-f-references.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-f-appendix-f-references.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-f-appendix-f-references.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-f-appendix-f-references.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -734,7 +1214,23 @@
               {
                 "languageCode": "en",
                 "title": "G Index",
-                "body": "## Appendix g — G Index\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_g_index.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix g — G Index\n\n**Book:** Professional TensorFlow  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Professional TensorFlow», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-g-appendix-g-index.py](courses/tensorflow-professional-ar/scripts/app-g-appendix-g-index.py) — Python script\n- [app-g-appendix-g-index.ipynb](courses/tensorflow-professional-ar/notebooks/app-g-appendix-g-index.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/TensorFlow-Book/blob/main/book/src/appendix/appendix_g_index.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-g-appendix-g-index.py",
+                "url": "courses/tensorflow-professional-ar/scripts/app-g-appendix-g-index.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-g-appendix-g-index.ipynb",
+                "url": "courses/tensorflow-professional-ar/notebooks/app-g-appendix-g-index.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }

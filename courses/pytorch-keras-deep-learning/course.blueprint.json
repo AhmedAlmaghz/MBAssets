@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:23.668Z",
+    "exportedAt": "2026-11-23T16:02:46.947Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "PyTorch و Keras: الدليل الشامل في التعلم العميق",
         "subtitle": "من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية",
         "description": "31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.",
-        "landingMd": "# PyTorch و Keras: الدليل الشامل في التعلم العميق\n\n**من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية**\n\n31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.\n\n![PyTorch و Keras: الدليل الشامل في التعلم العميق](books/pytorch-keras-deep-learning/cover.png)\n\n## ماذا ستتعلّم\n\n- **الجزء الأول: الأسس** — 5 فصول وملاحق\n- **الجزء الثاني: غوص عميق في PyTorch** — 13 فصول وملاحق\n- **الجزء الثالث: Keras 3** — 7 فصول وملاحق\n- **الجزء الرابع: الهندسة والحياة العملية** — 6 فصول وملاحق\n- **الملاحق** — 5 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 309 صفحة](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/pytorch-keras-deep-learning/book.pdf)\n- [صفحة الكتاب التعريفية](landing/pytorch-keras-deep-learning.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch و Keras: الدليل الشامل في التعلم العميق\n\n**من الصفر إلى الاحتراف: بنية الشبكات، الخوارزميات، والتطبيقات العملية**\n\n31 فصلاً في 4 أجزاء و5 ملاحق: الأسس الرياضية والخلية العصبية، غوص عميق في PyTorch والمحوّلات، ثم Keras 3 والهندسة الإنتاجية، بأمثلة محلولة ومقارنات بين المكتبتين.\n\n![PyTorch و Keras: الدليل الشامل في التعلم العميق](books/pytorch-keras-deep-learning/cover.png)\n\n## ماذا ستتعلّم\n\n- **الجزء الأول: الأسس** — 5 فصول وملاحق\n- **الجزء الثاني: غوص عميق في PyTorch** — 13 فصول وملاحق\n- **الجزء الثالث: Keras 3** — 7 فصول وملاحق\n- **الجزء الرابع: الهندسة والحياة العملية** — 6 فصول وملاحق\n- **الملاحق** — 5 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 309 صفحة](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [صفحة الكتاب التعريفية](landing/pytorch-keras-deep-learning.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "PyTorch and Keras: The Complete Deep Learning Guide",
         "subtitle": "From zero to mastery — architectures, algorithms and real applications",
         "description": "Thirty-one chapters in four parts and five appendices: mathematical foundations and the neuron, a deep dive into PyTorch and transformers, then Keras 3 and production engineering, with solved examples and cross-framework comparisons.",
-        "landingMd": "# PyTorch and Keras: The Complete Deep Learning Guide\n\n**From zero to mastery — architectures, algorithms and real applications**\n\nThirty-one chapters in four parts and five appendices: mathematical foundations and the neuron, a deep dive into PyTorch and transformers, then Keras 3 and production engineering, with solved examples and cross-framework comparisons.\n\n![PyTorch and Keras: The Complete Deep Learning Guide](books/pytorch-keras-deep-learning/cover.png)\n\n## What you will learn\n\n- **The Foundations** — 5 chapters & appendices\n- **Deep Dive into PyTorch** — 13 chapters & appendices\n- **Keras 3** — 7 chapters & appendices\n- **Engineering and Professional Practice** — 6 chapters & appendices\n- **Appendices** — 5 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 309 pages](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [Full book (PDF)](books/pytorch-keras-deep-learning/book.pdf)\n- [Book landing page](landing/pytorch-keras-deep-learning.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch and Keras: The Complete Deep Learning Guide\n\n**From zero to mastery — architectures, algorithms and real applications**\n\nThirty-one chapters in four parts and five appendices: mathematical foundations and the neuron, a deep dive into PyTorch and transformers, then Keras 3 and production engineering, with solved examples and cross-framework comparisons.\n\n![PyTorch and Keras: The Complete Deep Learning Guide](books/pytorch-keras-deep-learning/cover.png)\n\n## What you will learn\n\n- **The Foundations** — 5 chapters & appendices\n- **Deep Dive into PyTorch** — 13 chapters & appendices\n- **Keras 3** — 7 chapters & appendices\n- **Engineering and Professional Practice** — 6 chapters & appendices\n- **Appendices** — 5 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 309 pages](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [Full book (PDF)](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [Book landing page](landing/pytorch-keras-deep-learning.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "PyTorch et Keras : le guide complet du deep learning",
         "subtitle": "De zéro à la maîtrise — architectures, algorithmes et applications réelles",
         "description": "31 chapitres en 4 parties et 5 annexes : fondations mathématiques, plongée dans PyTorch et les transformeurs, puis Keras 3 et ingénierie de production, avec exemples résolus et comparaisons.",
-        "landingMd": "# PyTorch et Keras : le guide complet du deep learning\n\n**De zéro à la maîtrise — architectures, algorithmes et applications réelles**\n\n31 chapitres en 4 parties et 5 annexes : fondations mathématiques, plongée dans PyTorch et les transformeurs, puis Keras 3 et ingénierie de production, avec exemples résolus et comparaisons.\n\n![PyTorch et Keras : le guide complet du deep learning](books/pytorch-keras-deep-learning/cover.png)\n\n## Ce que vous apprendrez\n\n- **The Foundations** — 5 chapitres et annexes\n- **Deep Dive into PyTorch** — 13 chapitres et annexes\n- **Keras 3** — 7 chapitres et annexes\n- **Engineering and Professional Practice** — 6 chapitres et annexes\n- **Appendices** — 5 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 309 pages](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [Livre complet (PDF)](books/pytorch-keras-deep-learning/book.pdf)\n- [Page du livre](landing/pytorch-keras-deep-learning.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch et Keras : le guide complet du deep learning\n\n**De zéro à la maîtrise — architectures, algorithmes et applications réelles**\n\n31 chapitres en 4 parties et 5 annexes : fondations mathématiques, plongée dans PyTorch et les transformeurs, puis Keras 3 et ingénierie de production, avec exemples résolus et comparaisons.\n\n![PyTorch et Keras : le guide complet du deep learning](books/pytorch-keras-deep-learning/cover.png)\n\n## Ce que vous apprendrez\n\n- **The Foundations** — 5 chapitres et annexes\n- **Deep Dive into PyTorch** — 13 chapitres et annexes\n- **Keras 3** — 7 chapitres et annexes\n- **Engineering and Professional Practice** — 6 chapitres et annexes\n- **Appendices** — 5 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 309 pages](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [Livre complet (PDF)](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [Page du livre](landing/pytorch-keras-deep-learning.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "PyTorch y Keras: guía completa de aprendizaje profundo",
         "subtitle": "De cero a la maestría: arquitecturas, algoritmos y aplicaciones reales",
         "description": "31 capítulos en 4 partes y 5 apéndices: fundamentos matemáticos, inmersión en PyTorch y transformadores, luego Keras 3 e ingeniería de producción, con ejemplos resueltos y comparaciones.",
-        "landingMd": "# PyTorch y Keras: guía completa de aprendizaje profundo\n\n**De cero a la maestría: arquitecturas, algoritmos y aplicaciones reales**\n\n31 capítulos en 4 partes y 5 apéndices: fundamentos matemáticos, inmersión en PyTorch y transformadores, luego Keras 3 e ingeniería de producción, con ejemplos resueltos y comparaciones.\n\n![PyTorch y Keras: guía completa de aprendizaje profundo](books/pytorch-keras-deep-learning/cover.png)\n\n## Qué aprenderás\n\n- **The Foundations** — 5 capítulos y apéndices\n- **Deep Dive into PyTorch** — 13 capítulos y apéndices\n- **Keras 3** — 7 capítulos y apéndices\n- **Engineering and Professional Practice** — 6 capítulos y apéndices\n- **Appendices** — 5 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 309 páginas](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [Libro completo (PDF)](books/pytorch-keras-deep-learning/book.pdf)\n- [Página del libro](landing/pytorch-keras-deep-learning.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch y Keras: guía completa de aprendizaje profundo\n\n**De cero a la maestría: arquitecturas, algoritmos y aplicaciones reales**\n\n31 capítulos en 4 partes y 5 apéndices: fundamentos matemáticos, inmersión en PyTorch y transformadores, luego Keras 3 e ingeniería de producción, con ejemplos resueltos y comparaciones.\n\n![PyTorch y Keras: guía completa de aprendizaje profundo](books/pytorch-keras-deep-learning/cover.png)\n\n## Qué aprenderás\n\n- **The Foundations** — 5 capítulos y apéndices\n- **Deep Dive into PyTorch** — 13 capítulos y apéndices\n- **Keras 3** — 7 capítulos y apéndices\n- **Engineering and Professional Practice** — 6 capítulos y apéndices\n- **Appendices** — 5 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 309 páginas](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [Libro completo (PDF)](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [Página del libro](landing/pytorch-keras-deep-learning.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "PyTorch 与 Keras 深度学习完全指南",
         "subtitle": "从零到精通：架构、算法与真实应用",
         "description": "4 大部分、31 章与 5 个附录：数学基础与神经元，深入 PyTorch 与 Transformer，再到 Keras 3 与生产工程，含解题示例与框架对比。",
-        "landingMd": "# PyTorch 与 Keras 深度学习完全指南\n\n**从零到精通：架构、算法与真实应用**\n\n4 大部分、31 章与 5 个附录：数学基础与神经元，深入 PyTorch 与 Transformer，再到 Keras 3 与生产工程，含解题示例与框架对比。\n\n![PyTorch 与 Keras 深度学习完全指南](books/pytorch-keras-deep-learning/cover.png)\n\n## 你将学到什么\n\n- **The Foundations** — 5 章与附录\n- **Deep Dive into PyTorch** — 13 章与附录\n- **Keras 3** — 7 章与附录\n- **Engineering and Professional Practice** — 6 章与附录\n- **Appendices** — 5 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 309 页](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [完整电子书 PDF](books/pytorch-keras-deep-learning/book.pdf)\n- [图书介绍页](landing/pytorch-keras-deep-learning.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch 与 Keras 深度学习完全指南\n\n**从零到精通：架构、算法与真实应用**\n\n4 大部分、31 章与 5 个附录：数学基础与神经元，深入 PyTorch 与 Transformer，再到 Keras 3 与生产工程，含解题示例与框架对比。\n\n![PyTorch 与 Keras 深度学习完全指南](books/pytorch-keras-deep-learning/cover.png)\n\n## 你将学到什么\n\n- **The Foundations** — 5 章与附录\n- **Deep Dive into PyTorch** — 13 章与附录\n- **Keras 3** — 7 章与附录\n- **Engineering and Professional Practice** — 6 章与附录\n- **Appendices** — 5 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 309 页](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [完整电子书 PDF](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [图书介绍页](landing/pytorch-keras-deep-learning.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "PyTorch और Keras: डीप लर्निंग की संपूर्ण गाइड",
         "subtitle": "शून्य से महारत तक — आर्किटेक्चर, एल्गोरिद्म और वास्तविक अनुप्रयोग",
         "description": "4 भागों में 31 अध्याय और 5 परिशिष्ट: गणितीय आधार, PyTorch और ट्रांसफ़ॉर्मर में गहन डुबकी, Keras 3 और प्रोडक्शन इंजीनियरिंग, हल किए उदाहरणों के साथ।",
-        "landingMd": "# PyTorch और Keras: डीप लर्निंग की संपूर्ण गाइड\n\n**शून्य से महारत तक — आर्किटेक्चर, एल्गोरिद्म और वास्तविक अनुप्रयोग**\n\n4 भागों में 31 अध्याय और 5 परिशिष्ट: गणितीय आधार, PyTorch और ट्रांसफ़ॉर्मर में गहन डुबकी, Keras 3 और प्रोडक्शन इंजीनियरिंग, हल किए उदाहरणों के साथ।\n\n![PyTorch और Keras: डीप लर्निंग की संपूर्ण गाइड](books/pytorch-keras-deep-learning/cover.png)\n\n## आप क्या सीखेंगे\n\n- **The Foundations** — 5 अध्याय और परिशिष्ट\n- **Deep Dive into PyTorch** — 13 अध्याय और परिशिष्ट\n- **Keras 3** — 7 अध्याय और परिशिष्ट\n- **Engineering and Professional Practice** — 6 अध्याय और परिशिष्ट\n- **Appendices** — 5 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 309 पृष्ठ](books/pytorch-keras-deep-learning/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/pytorch-keras-deep-learning/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/pytorch-keras-deep-learning.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# PyTorch और Keras: डीप लर्निंग की संपूर्ण गाइड\n\n**शून्य से महारत तक — आर्किटेक्चर, एल्गोरिद्म और वास्तविक अनुप्रयोग**\n\n4 भागों में 31 अध्याय और 5 परिशिष्ट: गणितीय आधार, PyTorch और ट्रांसफ़ॉर्मर में गहन डुबकी, Keras 3 और प्रोडक्शन इंजीनियरिंग, हल किए उदाहरणों के साथ।\n\n![PyTorch और Keras: डीप लर्निंग की संपूर्ण गाइड](books/pytorch-keras-deep-learning/cover.png)\n\n## आप क्या सीखेंगे\n\n- **The Foundations** — 5 अध्याय और परिशिष्ट\n- **Deep Dive into PyTorch** — 13 अध्याय और परिशिष्ट\n- **Keras 3** — 7 अध्याय और परिशिष्ट\n- **Engineering and Professional Practice** — 6 अध्याय और परिशिष्ट\n- **Appendices** — 5 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 36 | 513 | 6 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 309 पृष्ठ](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/pytorch-keras-deep-learning/pytorch-keras-deep-learning.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/pytorch-keras-deep-learning.rar)\n- [पुस्तक परिचय पृष्ठ](landing/pytorch-keras-deep-learning.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,7 +96,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 01 — The Foundations",
-                "body": "## Chapter 01 — Chapter 01 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch01.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Chapter 01 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-01-ch01.py](courses/pytorch-keras-deep-learning/scripts/ch-01-ch01.py) — Python script\n- [ch-01-ch01.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-01-ch01.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch01.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-01-ch01.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-01-ch01.py",
+                "kind": "script",
+                "isFree": true,
+                "order": 0
+              },
+              {
+                "name": "ch-01-ch01.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-01-ch01.ipynb",
+                "kind": "notebook",
+                "isFree": true,
+                "order": 1
               }
             ]
           },
@@ -115,7 +131,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 02 — The Foundations",
-                "body": "## Chapter 02 — Chapter 02 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch02.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Chapter 02 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-02-ch02.py](courses/pytorch-keras-deep-learning/scripts/ch-02-ch02.py) — Python script\n- [ch-02-ch02.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-02-ch02.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch02.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-02-ch02.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-02-ch02.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-02-ch02.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-02-ch02.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -134,7 +166,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 03 — The Foundations",
-                "body": "## Chapter 03 — Chapter 03 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch03.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Chapter 03 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-03-ch03.py](courses/pytorch-keras-deep-learning/scripts/ch-03-ch03.py) — Python script\n- [ch-03-ch03.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-03-ch03.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch03.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-03-ch03.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-03-ch03.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-03-ch03.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-03-ch03.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -153,7 +201,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 04 — The Foundations",
-                "body": "## Chapter 04 — Chapter 04 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch04.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Chapter 04 — The Foundations\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-04-ch04.py](courses/pytorch-keras-deep-learning/scripts/ch-04-ch04.py) — Python script\n- [ch-04-ch04.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-04-ch04.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch04.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-04-ch04.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-04-ch04.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-04-ch04.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-04-ch04.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -172,7 +236,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 05 — Python",
-                "body": "## Chapter 05 — Chapter 05 — Python\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch05.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Chapter 05 — Python\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 1:** The Foundations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Companion files\n\n- [ch-05-ch05.py](courses/pytorch-keras-deep-learning/scripts/ch-05-ch05.py) — Python script\n- [ch-05-ch05.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-05-ch05.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch05.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-05-ch05.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-05-ch05.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-05-ch05.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-05-ch05.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -208,7 +288,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 06 — Tensor",
-                "body": "## Chapter 06 — Chapter 06 — Tensor\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tensor, PyTorch\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch06.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Chapter 06 — Tensor\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tensor, PyTorch\n\n### Companion files\n\n- [ch-06-ch06.py](courses/pytorch-keras-deep-learning/scripts/ch-06-ch06.py) — Python script\n- [ch-06-ch06.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-06-ch06.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch06.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-06-ch06.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-06-ch06.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-06-ch06.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-06-ch06.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -227,7 +323,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 07 — nn.Module",
-                "body": "## Chapter 07 — Chapter 07 — nn.Module\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** nn.Module\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch07.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Chapter 07 — nn.Module\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** nn.Module\n\n### Companion files\n\n- [ch-07-ch07.py](courses/pytorch-keras-deep-learning/scripts/ch-07-ch07.py) — Python script\n- [ch-07-ch07.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-07-ch07.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch07.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-07-ch07.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-07-ch07.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-07-ch07.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-07-ch07.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -246,7 +358,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 08 — Autograd",
-                "body": "## Chapter 08 — Chapter 08 — Autograd\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Autograd\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch08.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Chapter 08 — Autograd\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Autograd\n\n### Companion files\n\n- [ch-08-ch08.py](courses/pytorch-keras-deep-learning/scripts/ch-08-ch08.py) — Python script\n- [ch-08-ch08.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-08-ch08.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch08.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-08-ch08.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-08-ch08.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-08-ch08.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-08-ch08.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -265,7 +393,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 09 — Dataset",
-                "body": "## Chapter 09 — Chapter 09 — Dataset\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch09.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Chapter 09 — Dataset\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-09-ch09.py](courses/pytorch-keras-deep-learning/scripts/ch-09-ch09.py) — Python script\n- [ch-09-ch09.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-09-ch09.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch09.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-09-ch09.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-09-ch09.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-09-ch09.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-09-ch09.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -284,7 +428,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 10 — AMP",
-                "body": "## Chapter 10 — Chapter 10 — AMP\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch10.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Chapter 10 — AMP\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-10-ch10.py](courses/pytorch-keras-deep-learning/scripts/ch-10-ch10.py) — Python script\n- [ch-10-ch10.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-10-ch10.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch10.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-10-ch10.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-10-ch10.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-10-ch10.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-10-ch10.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -303,7 +463,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 11 — Deep Dive into PyTorch",
-                "body": "## Chapter 11 — Chapter 11 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch11.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Chapter 11 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-11-ch11.py](courses/pytorch-keras-deep-learning/scripts/ch-11-ch11.py) — Python script\n- [ch-11-ch11.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-11-ch11.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch11.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-11-ch11.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-11-ch11.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-11-ch11.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-11-ch11.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -322,7 +498,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 12 — CNN",
-                "body": "## Chapter 12 — Chapter 12 — CNN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CNN\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch12.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — Chapter 12 — CNN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 17 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** CNN\n\n### Companion files\n\n- [ch-12-ch12.py](courses/pytorch-keras-deep-learning/scripts/ch-12-ch12.py) — Python script\n- [ch-12-ch12.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-12-ch12.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch12.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-12-ch12.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-12-ch12.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-12-ch12.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-12-ch12.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -341,7 +533,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 13 — Deep Dive into PyTorch",
-                "body": "## Chapter 13 — Chapter 13 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch13.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Chapter 13 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-13-ch13.py](courses/pytorch-keras-deep-learning/scripts/ch-13-ch13.py) — Python script\n- [ch-13-ch13.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-13-ch13.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch13.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-13-ch13.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-13-ch13.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-13-ch13.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-13-ch13.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -360,7 +568,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 14 — RNN",
-                "body": "## Chapter 14 — Chapter 14 — RNN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch14.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Chapter 14 — RNN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 16 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-14-ch14.py](courses/pytorch-keras-deep-learning/scripts/ch-14-ch14.py) — Python script\n- [ch-14-ch14.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-14-ch14.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch14.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-14-ch14.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-14-ch14.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-14-ch14.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-14-ch14.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -379,7 +603,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 15 — Transformers",
-                "body": "## Chapter 15 — Chapter 15 — Transformers\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Transformers\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch15.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Chapter 15 — Transformers\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Transformers\n\n### Companion files\n\n- [ch-15-ch15.py](courses/pytorch-keras-deep-learning/scripts/ch-15-ch15.py) — Python script\n- [ch-15-ch15.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-15-ch15.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch15.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-15-ch15.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-15-ch15.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-15-ch15.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-15-ch15.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -398,7 +638,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 16 — Deep Dive into PyTorch",
-                "body": "## Chapter 16 — Chapter 16 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 18 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch16.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — Chapter 16 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 18 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-16-ch16.py](courses/pytorch-keras-deep-learning/scripts/ch-16-ch16.py) — Python script\n- [ch-16-ch16.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-16-ch16.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch16.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-16-ch16.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-16-ch16.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-16-ch16.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-16-ch16.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -417,7 +673,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 17 — GAN",
-                "body": "## Chapter 17 — Chapter 17 — GAN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch17.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Chapter 17 — GAN\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-17-ch17.py](courses/pytorch-keras-deep-learning/scripts/ch-17-ch17.py) — Python script\n- [ch-17-ch17.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-17-ch17.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch17.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-17-ch17.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-17-ch17.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-17-ch17.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-17-ch17.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -436,7 +708,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 18 — Deep Dive into PyTorch",
-                "body": "## Chapter 18 — Chapter 18 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch18.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Chapter 18 — Deep Dive into PyTorch\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 2:** Deep Dive into PyTorch  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-18-ch18.py](courses/pytorch-keras-deep-learning/scripts/ch-18-ch18.py) — Python script\n- [ch-18-ch18.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-18-ch18.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch18.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-18-ch18.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-18-ch18.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-18-ch18.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-18-ch18.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -472,7 +760,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 19 — Keras",
-                "body": "## Chapter 19 — Chapter 19 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch19.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Chapter 19 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Companion files\n\n- [ch-19-ch19.py](courses/pytorch-keras-deep-learning/scripts/ch-19-ch19.py) — Python script\n- [ch-19-ch19.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-19-ch19.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch19.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-19-ch19.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-19-ch19.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-19-ch19.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-19-ch19.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -491,7 +795,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 20 — Keras",
-                "body": "## Chapter 20 — Chapter 20 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch20.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 20 — Chapter 20 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Companion files\n\n- [ch-20-ch20.py](courses/pytorch-keras-deep-learning/scripts/ch-20-ch20.py) — Python script\n- [ch-20-ch20.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-20-ch20.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch20.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-20-ch20.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-20-ch20.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-20-ch20.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-20-ch20.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -510,7 +830,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 21 — Keras",
-                "body": "## Chapter 21 — Chapter 21 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras, PyTorch\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch21.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 21 — Chapter 21 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras, PyTorch\n\n### Companion files\n\n- [ch-21-ch21.py](courses/pytorch-keras-deep-learning/scripts/ch-21-ch21.py) — Python script\n- [ch-21-ch21.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-21-ch21.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch21.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-21-ch21.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-21-ch21.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-21-ch21.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-21-ch21.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -529,7 +865,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 22 — compile",
-                "body": "## Chapter 22 — Chapter 22 — compile\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Callbacks, Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch22.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 22 — Chapter 22 — compile\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Callbacks, Keras\n\n### Companion files\n\n- [ch-22-ch22.py](courses/pytorch-keras-deep-learning/scripts/ch-22-ch22.py) — Python script\n- [ch-22-ch22.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-22-ch22.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch22.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-22-ch22.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-22-ch22.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-22-ch22.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-22-ch22.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -548,7 +900,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 23 — tf.data",
-                "body": "## Chapter 23 — Chapter 23 — tf.data\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch23.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 23 — Chapter 23 — tf.data\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Companion files\n\n- [ch-23-ch23.py](courses/pytorch-keras-deep-learning/scripts/ch-23-ch23.py) — Python script\n- [ch-23-ch23.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-23-ch23.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch23.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-23-ch23.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-23-ch23.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-23-ch23.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-23-ch23.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -567,7 +935,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 24 — Applications",
-                "body": "## Chapter 24 — Chapter 24 — Applications\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** KerasHub\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch24.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 24 — Chapter 24 — Applications\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** KerasHub\n\n### Companion files\n\n- [ch-24-ch24.py](courses/pytorch-keras-deep-learning/scripts/ch-24-ch24.py) — Python script\n- [ch-24-ch24.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-24-ch24.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch24.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-24-ch24.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-24-ch24.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-24-ch24.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-24-ch24.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -586,7 +970,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 25 — Keras",
-                "body": "## Chapter 25 — Chapter 25 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch25.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 25 — Chapter 25 — Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 3:** Keras 3  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Keras\n\n### Companion files\n\n- [ch-25-ch25.py](courses/pytorch-keras-deep-learning/scripts/ch-25-ch25.py) — Python script\n- [ch-25-ch25.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-25-ch25.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch25.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-25-ch25.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-25-ch25.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-25-ch25.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-25-ch25.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -622,7 +1022,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 26 — Engineering and Professional Practice",
-                "body": "## Chapter 26 — Chapter 26 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch26.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 26 — Chapter 26 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-26-ch26.py](courses/pytorch-keras-deep-learning/scripts/ch-26-ch26.py) — Python script\n- [ch-26-ch26.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-26-ch26.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch26.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-26-ch26.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-26-ch26.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-26-ch26.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-26-ch26.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -641,7 +1057,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 27 — TorchScript",
-                "body": "## Chapter 27 — Chapter 27 — TorchScript\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch27.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 27 — Chapter 27 — TorchScript\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-27-ch27.py](courses/pytorch-keras-deep-learning/scripts/ch-27-ch27.py) — Python script\n- [ch-27-ch27.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-27-ch27.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch27.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-27-ch27.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-27-ch27.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-27-ch27.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-27-ch27.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -660,7 +1092,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 28 — Engineering and Professional Practice",
-                "body": "## Chapter 28 — Chapter 28 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch28.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 28 — Chapter 28 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-28-ch28.py](courses/pytorch-keras-deep-learning/scripts/ch-28-ch28.py) — Python script\n- [ch-28-ch28.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-28-ch28.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch28.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-28-ch28.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-28-ch28.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-28-ch28.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-28-ch28.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -679,7 +1127,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 29 — Engineering and Professional Practice",
-                "body": "## Chapter 29 — Chapter 29 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch29.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 29 — Chapter 29 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-29-ch29.py](courses/pytorch-keras-deep-learning/scripts/ch-29-ch29.py) — Python script\n- [ch-29-ch29.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-29-ch29.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch29.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-29-ch29.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-29-ch29.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-29-ch29.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-29-ch29.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -698,7 +1162,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 30 — Engineering and Professional Practice",
-                "body": "## Chapter 30 — Chapter 30 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch30.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 30 — Chapter 30 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-30-ch30.py](courses/pytorch-keras-deep-learning/scripts/ch-30-ch30.py) — Python script\n- [ch-30-ch30.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-30-ch30.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch30.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-30-ch30.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-30-ch30.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-30-ch30.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-30-ch30.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -717,7 +1197,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 31 — Engineering and Professional Practice",
-                "body": "## Chapter 31 — Chapter 31 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch31.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 31 — Chapter 31 — Engineering and Professional Practice\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 4:** Engineering and Professional Practice  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-31-ch31.py](courses/pytorch-keras-deep-learning/scripts/ch-31-ch31.py) — Python script\n- [ch-31-ch31.ipynb](courses/pytorch-keras-deep-learning/notebooks/ch-31-ch31.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/ch31.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-31-ch31.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/ch-31-ch31.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-31-ch31.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/ch-31-ch31.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -753,7 +1249,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix A — خريطة المقابلة بين PyTorch و Keras",
-                "body": "## Appendix a — Appendix A — خريطة المقابلة بين PyTorch و Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PyTorch, Keras\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appA.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix a — Appendix A — خريطة المقابلة بين PyTorch و Keras\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PyTorch, Keras\n\n### Companion files\n\n- [app-a.py](courses/pytorch-keras-deep-learning/scripts/app-a.py) — Python script\n- [app-a.ipynb](courses/pytorch-keras-deep-learning/notebooks/app-a.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appA.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-a.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/app-a.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-a.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/app-a.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -772,7 +1284,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix B — مسرد المصطلحات",
-                "body": "## Appendix b — Appendix B — مسرد المصطلحات\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appB.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix b — Appendix B — مسرد المصطلحات\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-b.py](courses/pytorch-keras-deep-learning/scripts/app-b.py) — Python script\n- [app-b.ipynb](courses/pytorch-keras-deep-learning/notebooks/app-b.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appB.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-b.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/app-b.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-b.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/app-b.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -791,7 +1319,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix C — بنك المعادلات والخلاصات التشغيلية",
-                "body": "## Appendix c — Appendix C — بنك المعادلات والخلاصات التشغيلية\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appC.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix c — Appendix C — بنك المعادلات والخلاصات التشغيلية\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-c.py](courses/pytorch-keras-deep-learning/scripts/app-c.py) — Python script\n- [app-c.ipynb](courses/pytorch-keras-deep-learning/notebooks/app-c.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appC.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-c.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/app-c.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-c.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/app-c.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -810,7 +1354,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix D — التمارين والحلول النموذجية",
-                "body": "## Appendix d — Appendix D — التمارين والحلول النموذجية\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appD.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix d — Appendix D — التمارين والحلول النموذجية\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-d.py](courses/pytorch-keras-deep-learning/scripts/app-d.py) — Python script\n- [app-d.ipynb](courses/pytorch-keras-deep-learning/notebooks/app-d.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appD.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-d.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/app-d.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-d.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/app-d.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -829,7 +1389,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix E — المراجع والمصادر",
-                "body": "## Appendix e — Appendix E — المراجع والمصادر\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appE.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix e — Appendix E — المراجع والمصادر\n\n**Book:** PyTorch and Keras: The Complete Deep Learning Guide  \n**Part 5:** Appendices  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «PyTorch and Keras: The Complete Deep Learning Guide», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-e.py](courses/pytorch-keras-deep-learning/scripts/app-e.py) — Python script\n- [app-e.ipynb](courses/pytorch-keras-deep-learning/notebooks/app-e.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/PytorchKeras-Book-glm53/blob/main/src/chapters/appE.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-e.py",
+                "url": "courses/pytorch-keras-deep-learning/scripts/app-e.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-e.ipynb",
+                "url": "courses/pytorch-keras-deep-learning/notebooks/app-e.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
