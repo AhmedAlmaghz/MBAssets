@@ -25,7 +25,8 @@
       "cover": "books/game-theory-strategy/cover.png",
       "landing": "landing/game-theory-strategy.html",
       "bookBlueprint": "books/game-theory-strategy/book.blueprint.json",
-      "courseBlueprint": "courses/game-theory-strategy/course.blueprint.json"
+      "courseBlueprint": "courses/game-theory-strategy/course.blueprint.json",
+      "archive": "downloads/game-theory-strategy.rar"
     },
     {
       "slug": "ai-for-everyone-skills",
@@ -49,7 +50,8 @@
       "cover": "books/ai-for-everyone-skills/cover.png",
       "landing": "landing/ai-for-everyone-skills.html",
       "bookBlueprint": "books/ai-for-everyone-skills/book.blueprint.json",
-      "courseBlueprint": "courses/ai-for-everyone-skills/course.blueprint.json"
+      "courseBlueprint": "courses/ai-for-everyone-skills/course.blueprint.json",
+      "archive": "downloads/ai-for-everyone-skills.rar"
     },
     {
       "slug": "agent-harness-engineering",
@@ -70,11 +72,12 @@
         "llm-ops"
       ],
       "chapters": 29,
-      "attachments": 63,
+      "attachments": 58,
       "cover": "books/agent-harness-engineering/cover.png",
       "landing": "landing/agent-harness-engineering.html",
       "bookBlueprint": "books/agent-harness-engineering/book.blueprint.json",
-      "courseBlueprint": "courses/agent-harness-engineering/course.blueprint.json"
+      "courseBlueprint": "courses/agent-harness-engineering/course.blueprint.json",
+      "archive": "downloads/agent-harness-engineering.rar"
     },
     {
       "slug": "jax-from-zero-to-production",
@@ -95,11 +98,12 @@
         "xla"
       ],
       "chapters": 32,
-      "attachments": 0,
+      "attachments": 64,
       "cover": "books/jax-from-zero-to-production/cover.png",
       "landing": "landing/jax-from-zero-to-production.html",
       "bookBlueprint": "books/jax-from-zero-to-production/book.blueprint.json",
-      "courseBlueprint": "courses/jax-from-zero-to-production/course.blueprint.json"
+      "courseBlueprint": "courses/jax-from-zero-to-production/course.blueprint.json",
+      "archive": "downloads/jax-from-zero-to-production.rar"
     },
     {
       "slug": "keras-3-arabic-professional",
@@ -120,11 +124,12 @@
         "computer-vision"
       ],
       "chapters": 49,
-      "attachments": 243,
+      "attachments": 98,
       "cover": "books/keras-3-arabic-professional/cover.png",
       "landing": "landing/keras-3-arabic-professional.html",
       "bookBlueprint": "books/keras-3-arabic-professional/book.blueprint.json",
-      "courseBlueprint": "courses/keras-3-arabic-professional/course.blueprint.json"
+      "courseBlueprint": "courses/keras-3-arabic-professional/course.blueprint.json",
+      "archive": "downloads/keras-3-arabic-professional.rar"
     },
     {
       "slug": "mathematics-for-ai",
@@ -149,7 +154,8 @@
       "cover": "books/mathematics-for-ai/cover.png",
       "landing": "landing/mathematics-for-ai.html",
       "bookBlueprint": "books/mathematics-for-ai/book.blueprint.json",
-      "courseBlueprint": "courses/mathematics-for-ai/course.blueprint.json"
+      "courseBlueprint": "courses/mathematics-for-ai/course.blueprint.json",
+      "archive": "downloads/mathematics-for-ai.rar"
     },
     {
       "slug": "mastering-llms-transformers",
@@ -170,11 +176,12 @@
         "pytorch"
       ],
       "chapters": 72,
-      "attachments": 64,
+      "attachments": 144,
       "cover": "books/mastering-llms-transformers/cover.png",
       "landing": "landing/mastering-llms-transformers.html",
       "bookBlueprint": "books/mastering-llms-transformers/book.blueprint.json",
-      "courseBlueprint": "courses/mastering-llms-transformers/course.blueprint.json"
+      "courseBlueprint": "courses/mastering-llms-transformers/course.blueprint.json",
+      "archive": "downloads/mastering-llms-transformers.rar"
     },
     {
       "slug": "transformers-llms-theory-to-systems",
@@ -195,11 +202,12 @@
         "pytorch"
       ],
       "chapters": 48,
-      "attachments": 57,
+      "attachments": 96,
       "cover": "books/transformers-llms-theory-to-systems/cover.png",
       "landing": "landing/transformers-llms-theory-to-systems.html",
       "bookBlueprint": "books/transformers-llms-theory-to-systems/book.blueprint.json",
-      "courseBlueprint": "courses/transformers-llms-theory-to-systems/course.blueprint.json"
+      "courseBlueprint": "courses/transformers-llms-theory-to-systems/course.blueprint.json",
+      "archive": "downloads/transformers-llms-theory-to-systems.rar"
     },
     {
       "slug": "llm-engineering-69-chapters",
@@ -224,7 +232,8 @@
       "cover": "books/llm-engineering-69-chapters/cover.png",
       "landing": "landing/llm-engineering-69-chapters.html",
       "bookBlueprint": "books/llm-engineering-69-chapters/book.blueprint.json",
-      "courseBlueprint": "courses/llm-engineering-69-chapters/course.blueprint.json"
+      "courseBlueprint": "courses/llm-engineering-69-chapters/course.blueprint.json",
+      "archive": "downloads/llm-engineering-69-chapters.rar"
     },
     {
       "slug": "opencv-5-ai-vision",
@@ -245,11 +254,12 @@
         "python"
       ],
       "chapters": 20,
-      "attachments": 0,
+      "attachments": 40,
       "cover": "books/opencv-5-ai-vision/cover.png",
       "landing": "landing/opencv-5-ai-vision.html",
       "bookBlueprint": "books/opencv-5-ai-vision/book.blueprint.json",
-      "courseBlueprint": "courses/opencv-5-ai-vision/course.blueprint.json"
+      "courseBlueprint": "courses/opencv-5-ai-vision/course.blueprint.json",
+      "archive": "downloads/opencv-5-ai-vision.rar"
     },
     {
       "slug": "python-3-14-from-zero-to-pro",
@@ -269,11 +279,12 @@
         "software-engineering"
       ],
       "chapters": 29,
-      "attachments": 742,
+      "attachments": 58,
       "cover": "books/python-3-14-from-zero-to-pro/cover.png",
       "landing": "landing/python-3-14-from-zero-to-pro.html",
       "bookBlueprint": "books/python-3-14-from-zero-to-pro/book.blueprint.json",
-      "courseBlueprint": "courses/python-3-14-from-zero-to-pro/course.blueprint.json"
+      "courseBlueprint": "courses/python-3-14-from-zero-to-pro/course.blueprint.json",
+      "archive": "downloads/python-3-14-from-zero-to-pro.rar"
     },
     {
       "slug": "pytorch-keras-deep-learning",
@@ -294,11 +305,12 @@
         "computer-vision"
       ],
       "chapters": 36,
-      "attachments": 0,
+      "attachments": 72,
       "cover": "books/pytorch-keras-deep-learning/cover.png",
       "landing": "landing/pytorch-keras-deep-learning.html",
       "bookBlueprint": "books/pytorch-keras-deep-learning/book.blueprint.json",
-      "courseBlueprint": "courses/pytorch-keras-deep-learning/course.blueprint.json"
+      "courseBlueprint": "courses/pytorch-keras-deep-learning/course.blueprint.json",
+      "archive": "downloads/pytorch-keras-deep-learning.rar"
     },
     {
       "slug": "mastering-scikit-learn-1-9",
@@ -319,11 +331,12 @@
         "data-science"
       ],
       "chapters": 104,
-      "attachments": 0,
+      "attachments": 208,
       "cover": "books/mastering-scikit-learn-1-9/cover.png",
       "landing": "landing/mastering-scikit-learn-1-9.html",
       "bookBlueprint": "books/mastering-scikit-learn-1-9/book.blueprint.json",
-      "courseBlueprint": "courses/mastering-scikit-learn-1-9/course.blueprint.json"
+      "courseBlueprint": "courses/mastering-scikit-learn-1-9/course.blueprint.json",
+      "archive": "downloads/mastering-scikit-learn-1-9.rar"
     },
     {
       "slug": "tensorflow-professional-ar",
@@ -344,11 +357,120 @@
         "mlops"
       ],
       "chapters": 31,
-      "attachments": 0,
+      "attachments": 62,
       "cover": "books/tensorflow-professional-ar/cover.png",
       "landing": "landing/tensorflow-professional-ar.html",
       "bookBlueprint": "books/tensorflow-professional-ar/book.blueprint.json",
-      "courseBlueprint": "courses/tensorflow-professional-ar/course.blueprint.json"
+      "courseBlueprint": "courses/tensorflow-professional-ar/course.blueprint.json",
+      "archive": "downloads/tensorflow-professional-ar.rar"
+    },
+    {
+      "slug": "calculus-simply",
+      "title": "التفاضل والتكامل بأسلوب مبسط",
+      "titleEn": "Calculus, Simply",
+      "subtitle": "فهم النهايات وحركة العالم — حدسٌ أولاً، ورسومٌ دائماً، ومعادلاتٌ في مكانها الصحيح",
+      "description": "من عدّاد السيارة إلى مستطيلات ريمان: 36 فصلاً في 6 أجزاء تبني النهايات والمشتقات والتكاملات بالحدس والرسوم قبل الجبر، مع نمذجة وتطبيقات وتمارين محلولة وثمانية ملاحق مرجعية.",
+      "accent": "#0f766e",
+      "order": 15,
+      "pages": 1093,
+      "year": 2026,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "calculus",
+        "mathematics",
+        "limits",
+        "derivatives",
+        "integrals"
+      ],
+      "chapters": 44,
+      "attachments": 0,
+      "cover": "books/calculus-simply/cover.png",
+      "landing": "landing/calculus-simply.html",
+      "bookBlueprint": "books/calculus-simply/book.blueprint.json",
+      "courseBlueprint": "courses/calculus-simply/course.blueprint.json",
+      "archive": "downloads/calculus-simply.rar"
+    },
+    {
+      "slug": "discrete-mathematics-for-computing",
+      "title": "الرياضيات المتقطعة للحوسبة",
+      "titleEn": "Discrete Mathematics for Computing",
+      "subtitle": "المنطق والمجموعات والاستدلال والعدّ والرسوم البيانية",
+      "description": "12 فصلاً في 4 أجزاء تنقل القارئ من صياغة المسألة إلى تمثيلها وبرهانها: منطق القضايا والمحمولات، المجموعات والعلاقات، طرائق البرهان، العدّ والتوافقيات، الرسوم والأشجار، التكرار ونظرية الأعداد، مع ملاحق مسائل جامعية محلولة.",
+      "accent": "#be185d",
+      "order": 16,
+      "pages": 481,
+      "year": 2026,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "discrete-mathematics",
+        "logic",
+        "combinatorics",
+        "graph-theory",
+        "computer-science"
+      ],
+      "chapters": 17,
+      "attachments": 0,
+      "cover": "books/discrete-mathematics-for-computing/cover.png",
+      "landing": "landing/discrete-mathematics-for-computing.html",
+      "bookBlueprint": "books/discrete-mathematics-for-computing/book.blueprint.json",
+      "courseBlueprint": "courses/discrete-mathematics-for-computing/course.blueprint.json",
+      "archive": "downloads/discrete-mathematics-for-computing.rar"
+    },
+    {
+      "slug": "linear-algebra-from-zero-to-pro",
+      "title": "الجبر الخطي من الصفر إلى الاحتراف",
+      "titleEn": "Linear Algebra from Zero to Professional",
+      "subtitle": "من الحدس إلى البرهان... عبر أمثلة محلولة ورسوم توضيحية",
+      "description": "عشرون فصلاً في خمسة أجزاء: من المجموعات والدوال إلى المصفوفات والمتجهات، فالأنظمة والمحددات والتحويلات الخطية، ثم الفضاءات المتجهية والقيم الذاتية، وصولاً إلى التحليل بالقيم المفردة والطرق العددية وتطبيقات تعلّم الآلة.",
+      "accent": "#2563eb",
+      "order": 17,
+      "pages": 607,
+      "year": 2026,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "linear-algebra",
+        "mathematics",
+        "matrices",
+        "vectors",
+        "eigenvalues"
+      ],
+      "chapters": 20,
+      "attachments": 0,
+      "cover": "books/linear-algebra-from-zero-to-pro/cover.png",
+      "landing": "landing/linear-algebra-from-zero-to-pro.html",
+      "bookBlueprint": "books/linear-algebra-from-zero-to-pro/book.blueprint.json",
+      "courseBlueprint": "courses/linear-algebra-from-zero-to-pro/course.blueprint.json",
+      "archive": "downloads/linear-algebra-from-zero-to-pro.rar"
+    },
+    {
+      "slug": "probability-statistics-for-ai",
+      "title": "سيمفونية الصدفة واليقين",
+      "titleEn": "The Symphony of Chance and Certainty",
+      "subtitle": "المرجع الشامل في الإحصاء والاحتمالات: من الجذور الرياضية إلى آفاق الذكاء الاصطناعي",
+      "description": "مرجع موسوعي في ثمانية أبواب وثمانية وثلاثين فصلاً: استكشاف البيانات، أسس الاحتمال، التوزيعات، الاستدلال الإحصائي، الانحدار، الإحصاء البايزي، سلاسل ماركوف ومحاكاة مونت كارلو، ثم الإحصاء في قلب الذكاء الاصطناعي، مع ثمانية ملاحق مرجعية.",
+      "accent": "#7c3aed",
+      "order": 18,
+      "pages": 2639,
+      "year": 2026,
+      "priceCents": 19900,
+      "listPriceCents": 24900,
+      "tags": [
+        "probability",
+        "statistics",
+        "data-science",
+        "machine-learning",
+        "bayesian"
+      ],
+      "chapters": 37,
+      "attachments": 0,
+      "cover": "books/probability-statistics-for-ai/cover.png",
+      "landing": "landing/probability-statistics-for-ai.html",
+      "bookBlueprint": "books/probability-statistics-for-ai/book.blueprint.json",
+      "courseBlueprint": "courses/probability-statistics-for-ai/course.blueprint.json",
+      "archive": "downloads/probability-statistics-for-ai.rar"
     }
   ],
   "links": {

@@ -45,14 +45,15 @@ MaghzBook/
 ├── landing/<slug>.html       ← صفحة هبوط لكل كتاب
 ├── books/<slug>/
 │   ├── cover.png
-│   ├── book.pdf
-│   ├── sample.pdf
+│   ├── <slug>.pdf                 ← الكتاب الكامل باسم الكتاب
+│   ├── <slug>-sample.pdf          ← النسخة المجانية باسم الكتاب
 │   └── book.blueprint.json
 ├── courses/<slug>/
 │   ├── course.blueprint.json
-│   ├── notebooks/
-│   ├── scripts/
+│   ├── notebooks/                 ← دفتر Jupyter واحد لكل فصل
+│   ├── scripts/                   ← سكريبت Python واحد لكل فصل
 │   └── media/
+├── downloads/<slug>.rar           ← حزمة المشتري: PDF + أكواد + دفاتر
 ├── brand/
 ├── tools/
 ├── manifest.json

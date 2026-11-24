@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title">
+<title id="title">Universal and existential quantifiers</title>
+<defs>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f2f7ff"/><stop offset="1" stop-color="#f7fbfa"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#17324d" flood-opacity=".12"/>
+  </filter>
+</defs>
+<rect width="1000" height="340" rx="28" fill="url(#wash)"/>
+<path d="M34 40h8v260h-8z" rx="4" fill="#16a6a1"/>
+<rect x="150" y="70" width="700" height="210" rx="30" fill="#fff" stroke="#c7d4e5" stroke-width="3"/>
+<text x="185" y="108" font-family="Arial,sans-serif" font-size="22" fill="#718096">DOMAIN D</text>
+<g fill="#e5f7f5" stroke="#16a6a1" stroke-width="4"><circle cx="270" cy="195" r="28"/><circle cx="410" cy="195" r="28"/><circle cx="550" cy="195" r="28"/><circle cx="690" cy="195" r="28"/></g>
+<g fill="#f0a13a"><circle cx="410" cy="195" r="10"/><circle cx="690" cy="195" r="10"/></g>
+<g font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d"><text x="210" y="310">∀x: every element</text><text x="590" y="310">∃x: at least one</text></g>
+</svg>

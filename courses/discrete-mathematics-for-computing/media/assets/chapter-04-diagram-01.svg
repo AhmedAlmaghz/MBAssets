@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="897" height="442" viewBox="0 0 897 442" role="img" aria-labelledby="diagram-title">
+<title id="diagram-title">مخطط توضيحي من الفصل 4</title>
+<defs><linearGradient id="diagram-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f7ff"/><stop offset="1" stop-color="#f7fbfa"/></linearGradient></defs>
+<rect x="4" y="4" width="889" height="434" rx="24" fill="url(#diagram-wash)" stroke="#d5deea" stroke-width="2"/>
+<rect x="24" y="24" width="8" height="394" rx="4" fill="#16a6a1"/>
+<text x="58" y="58" fill="#087f82" font-family="Tahoma,Arial,sans-serif" font-size="17" font-weight="700">رسم توضيحي · الفصل 4</text>
+<g fill="#17324d" font-family="Consolas,'Courier New',Tahoma,monospace" font-size="20"><text x="58" y="96.0" xml:space="preserve">┌──────────────────────── U ────────────────────────┐</text>
+<text x="58" y="132.0" xml:space="preserve">│                                                    │</text>
+<text x="58" y="168.0" xml:space="preserve">│          _________          _________              │</text>
+<text x="58" y="204.0" xml:space="preserve">│         /         \________/         \             │</text>
+<text x="58" y="240.0" xml:space="preserve">│        /  A فقط    \  A∩B /  B فقط   \            │</text>
+<text x="58" y="276.0" xml:space="preserve">│        \           /      \           /            │</text>
+<text x="58" y="312.0" xml:space="preserve">│         \_________/        \_________/             │</text>
+<text x="58" y="348.0" xml:space="preserve">│                                                    │</text>
+<text x="58" y="384.0" xml:space="preserve">└────────────────────────────────────────────────────┘</text></g>
+</svg>

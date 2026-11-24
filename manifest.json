@@ -1,7 +1,7 @@
 {
   "schema": "maghzbook.assets",
   "version": 1,
-  "generatedAt": "2026-11-11T15:39:07+00:00",
+  "generatedAt": "2026-11-23T16:09:48+00:00",
   "host": {
     "owner": "AhmedAlmaghz",
     "repo": "MBAssets",
@@ -13,8 +13,9 @@
   "paths": {
     "landing": "landing/<slug>.html",
     "cover": "books/<slug>/cover.png",
-    "book": "books/<slug>/book.pdf",
-    "sample": "books/<slug>/sample.pdf",
+    "book": "books/<slug>/<slug>.pdf",
+    "sample": "books/<slug>/<slug>-sample.pdf",
+    "archive": "downloads/<slug>.rar",
     "bookBlueprint": "books/<slug>/book.blueprint.json",
     "courseBlueprint": "courses/<slug>/course.blueprint.json",
     "notebooks": "courses/<slug>/notebooks/",
@@ -42,29 +43,32 @@
       "files": {
         "cover": "books/game-theory-strategy/cover.png",
         "book": "books/game-theory-strategy/book.blueprint.json",
-        "sample": "books/game-theory-strategy/sample.pdf",
+        "sample": "books/game-theory-strategy/game-theory-strategy-sample.pdf",
+        "archive": "downloads/game-theory-strategy.rar",
         "course": "courses/game-theory-strategy/course.blueprint.json",
         "landing": "landing/game-theory-strategy.html"
       },
       "urls": {
         "cover": "books/game-theory-strategy/cover.png",
         "book": "books/game-theory-strategy/book.blueprint.json",
-        "sample": "books/game-theory-strategy/sample.pdf",
+        "sample": "books/game-theory-strategy/game-theory-strategy-sample.pdf",
+        "archive": "downloads/game-theory-strategy.rar",
         "course": "courses/game-theory-strategy/course.blueprint.json",
         "landing": "landing/game-theory-strategy.html"
       },
       "sizes": {
         "cover": 1638224,
-        "book": 35875,
-        "sample": 1998083,
-        "course": 503385,
-        "landing": 31082
+        "book": 37011,
+        "sample": 2044581,
+        "archive": 3737651,
+        "course": 917561,
+        "landing": 31615
       },
       "sha256": {
-        "book": "3a62f10243785b71b962f47280be92f9e2c04447fce7389dcf2ac29a5869d891",
-        "sample": "71ef29f286404f367c9fbfd3db9c58e31b2df0d4f2af450e94da12639584e7bf",
-        "course": "f933702dfebbc9b96e56ae4ffa7f75ff22c521f29c0d9517c7887dff42dc7638",
-        "landing": "cfd3c60cc588c8493fd0953a7d99c4c81a85d435797e7cde0d47fc907896e857"
+        "book": "11252b0f47f9d4b0f0b8af664b4680ce21ad60a5de66f5165442a26227b6435e",
+        "sample": "9ef1de3e94ffe168c53ad2c063475c99acc601d3bab23d42acd82bfd5a91e050",
+        "course": "2a074f1c1ef10fdfdeca385c84e31667bb0c1eb9d4c90696a51f4a4fcf28b008",
+        "landing": "cca269ffa1d5d84438b31b854b87aadb90455a80e7a693dd47301a6d721bb0b8"
       }
     },
     {
@@ -87,29 +91,32 @@
       "files": {
         "cover": "books/ai-for-everyone-skills/cover.png",
         "book": "books/ai-for-everyone-skills/book.blueprint.json",
-        "sample": "books/ai-for-everyone-skills/sample.pdf",
+        "sample": "books/ai-for-everyone-skills/ai-for-everyone-skills-sample.pdf",
+        "archive": "downloads/ai-for-everyone-skills.rar",
         "course": "courses/ai-for-everyone-skills/course.blueprint.json",
         "landing": "landing/ai-for-everyone-skills.html"
       },
       "urls": {
         "cover": "books/ai-for-everyone-skills/cover.png",
         "book": "books/ai-for-everyone-skills/book.blueprint.json",
-        "sample": "books/ai-for-everyone-skills/sample.pdf",
+        "sample": "books/ai-for-everyone-skills/ai-for-everyone-skills-sample.pdf",
+        "archive": "downloads/ai-for-everyone-skills.rar",
         "course": "courses/ai-for-everyone-skills/course.blueprint.json",
         "landing": "landing/ai-for-everyone-skills.html"
       },
       "sizes": {
         "cover": 1328728,
-        "book": 35645,
-        "sample": 2352298,
-        "course": 1193912,
-        "landing": 28124
+        "book": 36809,
+        "sample": 2356734,
+        "archive": 7022025,
+        "course": 1194739,
+        "landing": 28690
       },
       "sha256": {
-        "book": "14927684b51b942efd54ba62530377268b8bd15dcf7d35639e167610eafbd858",
-        "sample": "b03554a3850501da445631378fd7a338cc72d0f9f7156f729b748a4908a21168",
-        "course": "96990a8bf1c32f7f25fabb5ef5216cc705d4b6f35f6ac73f458394236d8028f9",
-        "landing": "1d307704ab7b849167fc0c409b169465583e418eba9e20e302621cc8f120780a"
+        "book": "f1e062fbf4be924e1d79e2e57fc094fa5ae304510501280199b815a22bda2153",
+        "sample": "d8fea8c60065dcce5cf704cfcb0faa38c8e046d8d6ee774b433b3ac109be8022",
+        "course": "03a984739f014922f9d52adf0d307854240ebeda01008fdebdc8f82dc6146250",
+        "landing": "e78c4ef164774ea1e6c5b27355288513d917d8e702814e4bf3cd8d11aed43bab"
       }
     },
     {
@@ -129,11 +136,12 @@
         "llm-ops"
       ],
       "chapters": 29,
-      "attachments": 63,
+      "attachments": 58,
       "files": {
         "cover": "books/agent-harness-engineering/cover.png",
         "book": "books/agent-harness-engineering/book.blueprint.json",
-        "sample": "books/agent-harness-engineering/sample.pdf",
+        "sample": "books/agent-harness-engineering/agent-harness-engineering-sample.pdf",
+        "archive": "downloads/agent-harness-engineering.rar",
         "course": "courses/agent-harness-engineering/course.blueprint.json",
         "landing": "landing/agent-harness-engineering.html",
         "figures": "courses/agent-harness-engineering/media"
@@ -141,23 +149,25 @@
       "urls": {
         "cover": "books/agent-harness-engineering/cover.png",
         "book": "books/agent-harness-engineering/book.blueprint.json",
-        "sample": "books/agent-harness-engineering/sample.pdf",
+        "sample": "books/agent-harness-engineering/agent-harness-engineering-sample.pdf",
+        "archive": "downloads/agent-harness-engineering.rar",
         "course": "courses/agent-harness-engineering/course.blueprint.json",
         "landing": "landing/agent-harness-engineering.html",
         "figures": "courses/agent-harness-engineering/media"
       },
       "sizes": {
         "cover": 961503,
-        "book": 40038,
-        "sample": 3787769,
-        "course": 896563,
-        "landing": 30896
+        "book": 41271,
+        "sample": 3814641,
+        "archive": 7961173,
+        "course": 894852,
+        "landing": 32452
       },
       "sha256": {
-        "book": "edb7744f3a0efd6c34ab1fe8e352b9071dbd42a00ca16446188651de83e843b3",
-        "sample": "d426f439eab1345946f58fdc83d36926bc27aaf0941e112190f6a19d3f3f2773",
-        "course": "265ec2b2b0984a8c316878a3110abc70e7146aaf816e2e5983d0e27cc3de3491",
-        "landing": "664087a0fc9a189654dccd469273966fb9c0c1713ae58a36b202af0aa56be910"
+        "book": "1494f5e5b18f339ffb1df12ae45376b3697ffa8a742b07fb81855f53090b0cb9",
+        "sample": "34b7ae25536e80faf2c3b2cf3002292ca8cbaf45fff88edd6fc1b640e060951c",
+        "course": "5b0f4b06af1372a2009a6a1129156ccd033113d174099bd8a4b594cf30ad36f9",
+        "landing": "e8c95f7431d5339df7c5001436c3f9b3fd30f516a21eaba7b47e1d569dc3b128"
       }
     },
     {
@@ -177,33 +187,36 @@
         "xla"
       ],
       "chapters": 32,
-      "attachments": 0,
+      "attachments": 64,
       "files": {
         "cover": "books/jax-from-zero-to-production/cover.png",
         "book": "books/jax-from-zero-to-production/book.blueprint.json",
-        "sample": "books/jax-from-zero-to-production/sample.pdf",
+        "sample": "books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf",
+        "archive": "downloads/jax-from-zero-to-production.rar",
         "course": "courses/jax-from-zero-to-production/course.blueprint.json",
         "landing": "landing/jax-from-zero-to-production.html"
       },
       "urls": {
         "cover": "books/jax-from-zero-to-production/cover.png",
         "book": "books/jax-from-zero-to-production/book.blueprint.json",
-        "sample": "books/jax-from-zero-to-production/sample.pdf",
+        "sample": "books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf",
+        "archive": "downloads/jax-from-zero-to-production.rar",
         "course": "courses/jax-from-zero-to-production/course.blueprint.json",
         "landing": "landing/jax-from-zero-to-production.html"
       },
       "sizes": {
         "cover": 1763766,
-        "book": 35107,
-        "sample": 7411097,
-        "course": 499570,
-        "landing": 29204
+        "book": 36386,
+        "sample": 7376306,
+        "archive": 12920629,
+        "course": 525605,
+        "landing": 32018
       },
       "sha256": {
-        "book": "f38b4e87e2fc4b795f5a2e913fbbf67390aebaf16003718178f5f2ac18943ba3",
-        "sample": "23c1cb1c0d679f52d7074050a5626c7a24be478c619c3cbe10bbbaa4fd9063f8",
-        "course": "a7ac8a2d249aaedd1cbb629e397f341a6a290c3cfb2180756c1757a0f78236eb",
-        "landing": "fdd819035135ce818bba3088a8d847984f3c217ee6e70057775de7c63c9dfeeb"
+        "book": "0a2ac17a1960d37784665ed4d4d598d38270cf06f2fbee18c770d5ae02a9ba0c",
+        "sample": "30125f0800dc42a84e1ec7dcb32fdc9477d6b98d0e827dd103f70a257d8d2c6e",
+        "course": "346ebf36a09ce8c8d6251bfda560eb431e599216db89b713a1485940fd0654ee",
+        "landing": "67673bda67ca471a420e46e5a69eedd17f16dc11a7e63a8ed0db4ff0a5c552de"
       }
     },
     {
@@ -223,33 +236,36 @@
         "computer-vision"
       ],
       "chapters": 49,
-      "attachments": 243,
+      "attachments": 98,
       "files": {
         "cover": "books/keras-3-arabic-professional/cover.png",
         "book": "books/keras-3-arabic-professional/book.blueprint.json",
-        "sample": "books/keras-3-arabic-professional/sample.pdf",
+        "sample": "books/keras-3-arabic-professional/keras-3-arabic-professional-sample.pdf",
+        "archive": "downloads/keras-3-arabic-professional.rar",
         "course": "courses/keras-3-arabic-professional/course.blueprint.json",
         "landing": "landing/keras-3-arabic-professional.html"
       },
       "urls": {
         "cover": "books/keras-3-arabic-professional/cover.png",
         "book": "books/keras-3-arabic-professional/book.blueprint.json",
-        "sample": "books/keras-3-arabic-professional/sample.pdf",
+        "sample": "books/keras-3-arabic-professional/keras-3-arabic-professional-sample.pdf",
+        "archive": "downloads/keras-3-arabic-professional.rar",
         "course": "courses/keras-3-arabic-professional/course.blueprint.json",
         "landing": "landing/keras-3-arabic-professional.html"
       },
       "sizes": {
         "cover": 1550502,
-        "book": 39181,
-        "sample": 15633220,
-        "course": 1111530,
-        "landing": 33627
+        "book": 40460,
+        "sample": 15071826,
+        "archive": 14435399,
+        "course": 1053613,
+        "landing": 36188
       },
       "sha256": {
-        "book": "2cf22c23b94e6aeabf1c97f30b4bf2a76cdb3ff9c7fe8d8e0d2c44df0843958a",
-        "sample": "fcf863cfd17c99cef64e3f7da29d70ffebfde169a29b034cf4cdad58a120750e",
-        "course": "cf3fb77f730ce32f1c89bcad265b3e3d849756959ac378c636b0745c41e1780a",
-        "landing": "5b0a1f73f8b2a02afdc17d578a54d3b4a963f940edd7c112938a6d749612b79d"
+        "book": "3dff67e3877be3fa80fc761cd8d841c0473824a23497a277e7333fb81b787aed",
+        "sample": "907c871ee6ab39835a025381f48f8fee27440640902e9a683ae1bc343b8fb53b",
+        "course": "3d3ef194b9fcdec14ca86cd34f98e07034133b5102909ccec01255baeb7d628c",
+        "landing": "3df26f1478cfc06cf0ebca3fcc306097c959d6ef4cd2aa3c73277a642d0e5465"
       }
     },
     {
@@ -273,7 +289,8 @@
       "files": {
         "cover": "books/mathematics-for-ai/cover.png",
         "book": "books/mathematics-for-ai/book.blueprint.json",
-        "sample": "books/mathematics-for-ai/sample.pdf",
+        "sample": "books/mathematics-for-ai/mathematics-for-ai-sample.pdf",
+        "archive": "downloads/mathematics-for-ai.rar",
         "course": "courses/mathematics-for-ai/course.blueprint.json",
         "landing": "landing/mathematics-for-ai.html",
         "figures": "courses/mathematics-for-ai/media"
@@ -281,23 +298,25 @@
       "urls": {
         "cover": "books/mathematics-for-ai/cover.png",
         "book": "books/mathematics-for-ai/book.blueprint.json",
-        "sample": "books/mathematics-for-ai/sample.pdf",
+        "sample": "books/mathematics-for-ai/mathematics-for-ai-sample.pdf",
+        "archive": "downloads/mathematics-for-ai.rar",
         "course": "courses/mathematics-for-ai/course.blueprint.json",
         "landing": "landing/mathematics-for-ai.html",
         "figures": "courses/mathematics-for-ai/media"
       },
       "sizes": {
         "cover": 1841987,
-        "book": 50812,
-        "sample": 6823009,
-        "course": 7394489,
-        "landing": 35092
+        "book": 51884,
+        "sample": 6790419,
+        "archive": 16565674,
+        "course": 7395244,
+        "landing": 35600
       },
       "sha256": {
-        "book": "c446893137452835b817b44b9e6fd760f1c5dd62ca4f70cd25781ba4a2da240f",
-        "sample": "489aad7ab96efc4f6e24235f921411f3482d000a69c9e624f52ff4f807684a3d",
-        "course": "e4da2414c7b8def1273904520b2ade31ed8450dbb809556f7885fb6abf5276ae",
-        "landing": "8e55fb1bd74a201670a656babcb31ada52e697d93a1f4bce68b42f03281b3510"
+        "book": "03f8fa407ab04307c3ee1b0bf53b6f4422349d14ac0dcba78e6004e18c02cef5",
+        "sample": "6c4d965758c7f5038e509d8a4c56e89ab580f2979ba5250902bd77d373964208",
+        "course": "952b7e2477e996709ecea0312a924482283ee40ac36c1d8a640c2251b1404ac1",
+        "landing": "86af5662435f44fbf74d99faa8bd299b8ee36e721c5dd7a05a77df468e4042ea"
       }
     },
     {
@@ -317,33 +336,36 @@
         "pytorch"
       ],
       "chapters": 72,
-      "attachments": 64,
+      "attachments": 144,
       "files": {
         "cover": "books/mastering-llms-transformers/cover.png",
         "book": "books/mastering-llms-transformers/book.blueprint.json",
-        "sample": "books/mastering-llms-transformers/sample.pdf",
+        "sample": "books/mastering-llms-transformers/mastering-llms-transformers-sample.pdf",
+        "archive": "downloads/mastering-llms-transformers.rar",
         "course": "courses/mastering-llms-transformers/course.blueprint.json",
         "landing": "landing/mastering-llms-transformers.html"
       },
       "urls": {
         "cover": "books/mastering-llms-transformers/cover.png",
         "book": "books/mastering-llms-transformers/book.blueprint.json",
-        "sample": "books/mastering-llms-transformers/sample.pdf",
+        "sample": "books/mastering-llms-transformers/mastering-llms-transformers-sample.pdf",
+        "archive": "downloads/mastering-llms-transformers.rar",
         "course": "courses/mastering-llms-transformers/course.blueprint.json",
         "landing": "landing/mastering-llms-transformers.html"
       },
       "sizes": {
         "cover": 1034818,
-        "book": 51857,
-        "sample": 4244069,
-        "course": 1916990,
-        "landing": 37957
+        "book": 53136,
+        "sample": 4290001,
+        "archive": 15484777,
+        "course": 1952822,
+        "landing": 41272
       },
       "sha256": {
-        "book": "df1f1e9b62c4f11043e2277afb4ed81d6e1f85e8abe5a5e4665c1689abf01626",
-        "sample": "2fff6c3fe3993a3c04dae9673370c99a89a24c7ff94d11e05163ca7b0a3efaab",
-        "course": "3430cdd916d6b518e34622c5ac9e00301d923ffe6b029e24ec0300aac2939e51",
-        "landing": "2feb9c27ecf9db215bd1bb07caffa26403d32e2d026fcd9a2487eac4f26aa6ce"
+        "book": "3b87327930a276158abe509816198ab4cd8e6a65ca8ff962444492f31f34298e",
+        "sample": "409e2d824efda3d21c3cb6c956df1233ffd0d5208a85224e6ac8f2722061b154",
+        "course": "2b36236f4472653daecae779287e3496efc4370eff8c66d46be714ce9afec05c",
+        "landing": "bf469dd14f0dcd466ef4a2bd1be02e72f4a30cfc79e0cd50fb7dc971c15d08eb"
       }
     },
     {
@@ -363,11 +385,12 @@
         "pytorch"
       ],
       "chapters": 48,
-      "attachments": 57,
+      "attachments": 96,
       "files": {
         "cover": "books/transformers-llms-theory-to-systems/cover.png",
         "book": "books/transformers-llms-theory-to-systems/book.blueprint.json",
-        "sample": "books/transformers-llms-theory-to-systems/sample.pdf",
+        "sample": "books/transformers-llms-theory-to-systems/transformers-llms-theory-to-systems-sample.pdf",
+        "archive": "downloads/transformers-llms-theory-to-systems.rar",
         "course": "courses/transformers-llms-theory-to-systems/course.blueprint.json",
         "landing": "landing/transformers-llms-theory-to-systems.html",
         "figures": "courses/transformers-llms-theory-to-systems/media"
@@ -375,23 +398,25 @@
       "urls": {
         "cover": "books/transformers-llms-theory-to-systems/cover.png",
         "book": "books/transformers-llms-theory-to-systems/book.blueprint.json",
-        "sample": "books/transformers-llms-theory-to-systems/sample.pdf",
+        "sample": "books/transformers-llms-theory-to-systems/transformers-llms-theory-to-systems-sample.pdf",
+        "archive": "downloads/transformers-llms-theory-to-systems.rar",
         "course": "courses/transformers-llms-theory-to-systems/course.blueprint.json",
         "landing": "landing/transformers-llms-theory-to-systems.html",
         "figures": "courses/transformers-llms-theory-to-systems/media"
       },
       "sizes": {
         "cover": 1782705,
-        "book": 47100,
-        "sample": 6911886,
-        "course": 1555134,
-        "landing": 37119
+        "book": 48563,
+        "sample": 6879584,
+        "archive": 21181378,
+        "course": 1568345,
+        "landing": 39278
       },
       "sha256": {
-        "book": "4d59317714bf6ca84fb58eadc70b26357ed7d16e31928764007d5dba82a2c489",
-        "sample": "e0d16c86c687727b65a876cd786628de2651908358660d68022fc59095ce2fd8",
-        "course": "f003b336455d86ea2d03d0448399e811e8dc0c23dd95b81527ea789d6a73d2e7",
-        "landing": "1126c903951afeaffd7d8034addd36752ea36a493be65b70a1a69e7463e72649"
+        "book": "1427e1cdbabe097e63d6d284541a05d3aa22f4d0a0d47466a9c9b2f67653937d",
+        "sample": "1b748067c4bb585b8eca3910bc50165517ba6f4bbbee3b296bd4a0a49da1bb35",
+        "course": "5d3db6555e1ca521932ffb1ae0eb7763e8f015fa91b10486fd4d9ff6303c26a0",
+        "landing": "e15ae4f1894e5293b1b936d62e443b972c2648af1690a3b5b74ede2abbfe355b"
       }
     },
     {
@@ -415,7 +440,8 @@
       "files": {
         "cover": "books/llm-engineering-69-chapters/cover.png",
         "book": "books/llm-engineering-69-chapters/book.blueprint.json",
-        "sample": "books/llm-engineering-69-chapters/sample.pdf",
+        "sample": "books/llm-engineering-69-chapters/llm-engineering-69-chapters-sample.pdf",
+        "archive": "downloads/llm-engineering-69-chapters.rar",
         "course": "courses/llm-engineering-69-chapters/course.blueprint.json",
         "landing": "landing/llm-engineering-69-chapters.html",
         "figures": "courses/llm-engineering-69-chapters/media"
@@ -423,23 +449,25 @@
       "urls": {
         "cover": "books/llm-engineering-69-chapters/cover.png",
         "book": "books/llm-engineering-69-chapters/book.blueprint.json",
-        "sample": "books/llm-engineering-69-chapters/sample.pdf",
+        "sample": "books/llm-engineering-69-chapters/llm-engineering-69-chapters-sample.pdf",
+        "archive": "downloads/llm-engineering-69-chapters.rar",
         "course": "courses/llm-engineering-69-chapters/course.blueprint.json",
         "landing": "landing/llm-engineering-69-chapters.html",
         "figures": "courses/llm-engineering-69-chapters/media"
       },
       "sizes": {
         "cover": 1119506,
-        "book": 50800,
-        "sample": 9502681,
-        "course": 3405054,
-        "landing": 42000
+        "book": 52079,
+        "sample": 9490370,
+        "archive": 24179279,
+        "course": 3409283,
+        "landing": 42662
       },
       "sha256": {
-        "book": "4962be56b1a2d9ba178857260eb9ebe0b5b62cccf621238ef75142585a7bc6cf",
-        "sample": "92365bc8a8cc2170805860224beed1d4fcc69a1cc93a1c3a7ac6739883f58799",
-        "course": "129d25706a8b2ecfd7d6d8f1a2d997fada2bf063f46249baa0292345e1e28063",
-        "landing": "e5071d78ffcd1ab1bda6a8e1273532ff8908ae816f6a71daca783b2891dd9b9c"
+        "book": "423cd6fc69f17ed7bace351f32d15160523e0bc1e456fe0f44a154c44daca3ff",
+        "sample": "93412ad2037424b7f01e98845984c06712fa74715ca4f197112bdb8f5fca7656",
+        "course": "3296f34983ab46f47ba8a1e69c6cc0bb7a6262423ec9e1d39da40039e9a91dda",
+        "landing": "f844d98cde54830a234bff691341dfab75926fe8c80ab201c9e870c4ee68b9e8"
       }
     },
     {
@@ -459,33 +487,36 @@
         "python"
       ],
       "chapters": 20,
-      "attachments": 0,
+      "attachments": 40,
       "files": {
         "cover": "books/opencv-5-ai-vision/cover.png",
         "book": "books/opencv-5-ai-vision/book.blueprint.json",
-        "sample": "books/opencv-5-ai-vision/sample.pdf",
+        "sample": "books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf",
+        "archive": "downloads/opencv-5-ai-vision.rar",
         "course": "courses/opencv-5-ai-vision/course.blueprint.json",
         "landing": "landing/opencv-5-ai-vision.html"
       },
       "urls": {
         "cover": "books/opencv-5-ai-vision/cover.png",
         "book": "books/opencv-5-ai-vision/book.blueprint.json",
-        "sample": "books/opencv-5-ai-vision/sample.pdf",
+        "sample": "books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf",
+        "archive": "downloads/opencv-5-ai-vision.rar",
         "course": "courses/opencv-5-ai-vision/course.blueprint.json",
         "landing": "landing/opencv-5-ai-vision.html"
       },
       "sizes": {
         "cover": 1717311,
-        "book": 24715,
-        "sample": 9062214,
-        "course": 343607,
-        "landing": 27422
+        "book": 25787,
+        "sample": 7465711,
+        "archive": 8350763,
+        "course": 360596,
+        "landing": 29279
       },
       "sha256": {
-        "book": "a3a5eaba5407c14977b506253eb8beb098499f4a199942b4a801a4d8fbca6e35",
-        "sample": "97852770973be6d7f349ea971f2f1d8845c6c9753977825aadee55d0c843a44e",
-        "course": "ddd58d252073fbab0705dcb0cc2e3c2b79c491e3d82ffd7c20f000dc3105d92a",
-        "landing": "8afb5cda24485b95f4b3a6095f7615e815c6f1067b4dd57eb2cd2218313c5143"
+        "book": "86a6315f539238c2d0c09a481b851890ecc091b57e9a6b833a9d35d671106f96",
+        "sample": "70538e4e18aa60a48dab9b04dbe92bb05c2d629ca432a3ebe330e92d06b5ba82",
+        "course": "f39715ac9542e6c2e027e692894c3c2fabf2872642cd2116b5b5bfbb53e2050c",
+        "landing": "c96f1a81e544a39f96630e6460f1aa7b1adeb3b0f5063ced00f4d30180ced8f5"
       }
     },
     {
@@ -504,33 +535,36 @@
         "software-engineering"
       ],
       "chapters": 29,
-      "attachments": 742,
+      "attachments": 58,
       "files": {
         "cover": "books/python-3-14-from-zero-to-pro/cover.png",
         "book": "books/python-3-14-from-zero-to-pro/book.blueprint.json",
-        "sample": "books/python-3-14-from-zero-to-pro/sample.pdf",
+        "sample": "books/python-3-14-from-zero-to-pro/python-3-14-from-zero-to-pro-sample.pdf",
+        "archive": "downloads/python-3-14-from-zero-to-pro.rar",
         "course": "courses/python-3-14-from-zero-to-pro/course.blueprint.json",
         "landing": "landing/python-3-14-from-zero-to-pro.html"
       },
       "urls": {
         "cover": "books/python-3-14-from-zero-to-pro/cover.png",
         "book": "books/python-3-14-from-zero-to-pro/book.blueprint.json",
-        "sample": "books/python-3-14-from-zero-to-pro/sample.pdf",
+        "sample": "books/python-3-14-from-zero-to-pro/python-3-14-from-zero-to-pro-sample.pdf",
+        "archive": "downloads/python-3-14-from-zero-to-pro.rar",
         "course": "courses/python-3-14-from-zero-to-pro/course.blueprint.json",
         "landing": "landing/python-3-14-from-zero-to-pro.html"
       },
       "sizes": {
         "cover": 1529034,
-        "book": 29464,
-        "sample": 12492449,
-        "course": 1507267,
-        "landing": 30779
+        "book": 30766,
+        "sample": 12656118,
+        "archive": 16679569,
+        "course": 1255181,
+        "landing": 31645
       },
       "sha256": {
-        "book": "a2c847d8e8987bf7a10ac35dcb60877ca58f3e074cc35a260de564c931ec0d38",
-        "sample": "d7f2d345e02d41c9ed8c6d700a95556f80322563bff2c074c662bcaeca41c91b",
-        "course": "2c13368797f7170964713c3f55ffe05b8a1ff6014532efd6c83a52d134e2b5e2",
-        "landing": "083a116df61bafcf65ff5d48f0154986495246b6f068c2fa26eec1e7be4242c4"
+        "book": "8068d3c5053892109223ad21732fc99e10151b6f75a7dd727c1c700bb665853e",
+        "sample": "fdeea0a588dfd707908eb28282fc7f027cd9bc95f800d976f0867079c265a16f",
+        "course": "ed2712348195f592f3b7c838d8f031a63e7d12609fd8cc4a956ea0ea870da48b",
+        "landing": "5a42e511b28591f19342636348d707d0237a7f5559c38d6385e7275812cbea3f"
       }
     },
     {
@@ -550,33 +584,36 @@
         "computer-vision"
       ],
       "chapters": 36,
-      "attachments": 0,
+      "attachments": 72,
       "files": {
         "cover": "books/pytorch-keras-deep-learning/cover.png",
         "book": "books/pytorch-keras-deep-learning/book.blueprint.json",
-        "sample": "books/pytorch-keras-deep-learning/sample.pdf",
+        "sample": "books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf",
+        "archive": "downloads/pytorch-keras-deep-learning.rar",
         "course": "courses/pytorch-keras-deep-learning/course.blueprint.json",
         "landing": "landing/pytorch-keras-deep-learning.html"
       },
       "urls": {
         "cover": "books/pytorch-keras-deep-learning/cover.png",
         "book": "books/pytorch-keras-deep-learning/book.blueprint.json",
-        "sample": "books/pytorch-keras-deep-learning/sample.pdf",
+        "sample": "books/pytorch-keras-deep-learning/pytorch-keras-deep-learning-sample.pdf",
+        "archive": "downloads/pytorch-keras-deep-learning.rar",
         "course": "courses/pytorch-keras-deep-learning/course.blueprint.json",
         "landing": "landing/pytorch-keras-deep-learning.html"
       },
       "sizes": {
         "cover": 1606677,
-        "book": 36798,
-        "sample": 12259000,
-        "course": 1004294,
-        "landing": 28919
+        "book": 38077,
+        "sample": 12430205,
+        "archive": 15192474,
+        "course": 1033269,
+        "landing": 32005
       },
       "sha256": {
-        "book": "f91fe03f310f48d08f0521a2969e93c2a01484d52c112e8d508f2fa35c6dfdc3",
-        "sample": "7ae39994e2d52f878ad4651a2eb488f44b73e64db4bb63f45b75e37ce60823a6",
-        "course": "e8f5d02fee2a77f3bf5db25056f17df3171c41e6751aed2a6e0afa7a69ad06c0",
-        "landing": "02aa2687442c3285b3e5006813625fe843a888a9bd76fe624eafc4eed61233c6"
+        "book": "d60ea1cc5dbdf5078e858e915d56accfdc2f455cf2c709cce686067b13dd561d",
+        "sample": "38cf97407a230f6c3f4a97f0f8f49040d2dc526fea445516754ececa40272d9e",
+        "course": "dc786d6663bab7ee9eb34d0a8dc167d186396b70743bbcca7759d40b5f8384ce",
+        "landing": "031086ea05b4da1b196c73bbd7a5ee96a0c532666b7e425b9073309eff3c4be6"
       }
     },
     {
@@ -596,33 +633,36 @@
         "data-science"
       ],
       "chapters": 104,
-      "attachments": 0,
+      "attachments": 208,
       "files": {
         "cover": "books/mastering-scikit-learn-1-9/cover.png",
         "book": "books/mastering-scikit-learn-1-9/book.blueprint.json",
-        "sample": "books/mastering-scikit-learn-1-9/sample.pdf",
+        "sample": "books/mastering-scikit-learn-1-9/mastering-scikit-learn-1-9-sample.pdf",
+        "archive": "downloads/mastering-scikit-learn-1-9.rar",
         "course": "courses/mastering-scikit-learn-1-9/course.blueprint.json",
         "landing": "landing/mastering-scikit-learn-1-9.html"
       },
       "urls": {
         "cover": "books/mastering-scikit-learn-1-9/cover.png",
         "book": "books/mastering-scikit-learn-1-9/book.blueprint.json",
-        "sample": "books/mastering-scikit-learn-1-9/sample.pdf",
+        "sample": "books/mastering-scikit-learn-1-9/mastering-scikit-learn-1-9-sample.pdf",
+        "archive": "downloads/mastering-scikit-learn-1-9.rar",
         "course": "courses/mastering-scikit-learn-1-9/course.blueprint.json",
         "landing": "landing/mastering-scikit-learn-1-9.html"
       },
       "sizes": {
         "cover": 1595001,
-        "book": 64795,
-        "sample": 13903970,
-        "course": 2452053,
-        "landing": 39727
+        "book": 66051,
+        "sample": 14055222,
+        "archive": 43044657,
+        "course": 2534254,
+        "landing": 47448
       },
       "sha256": {
-        "book": "c567f2e1d9c9b82184b87700b18d0b1fef459581cfa9f33af0cf803d387151f0",
-        "sample": "de3c67bdd2d182f7768c31e6b8283313b76e9e57a9ea54b5384129ac7cca456f",
-        "course": "aea000123d946bf1727dff992a5b5ec6d2148d3e577686c4fda9eb6d4755361b",
-        "landing": "65c43a32e81ab4222e3ce4a5bb0169b4fc83f88cae8771fb9997e7db4247a454"
+        "book": "a50fbd574c57b5eb4f3a702ddc6a5e65a031251c00ae0b577cad848f8cd8fa3a",
+        "sample": "506cbb0a1445102d9ebe48a029ed735c0755c59e6be531c81eb99027deb7fc6b",
+        "course": "b5535e18ee35e21d596a404ce853647013d590d34ba9b5a550c79a7a1cc23f11",
+        "landing": "7a34c2d7b84cd0e6597ddb21ed71f75144903db40d0495fcf1de6c513dd19ceb"
       }
     },
     {
@@ -642,33 +682,240 @@
         "mlops"
       ],
       "chapters": 31,
-      "attachments": 0,
+      "attachments": 62,
       "files": {
         "cover": "books/tensorflow-professional-ar/cover.png",
         "book": "books/tensorflow-professional-ar/book.blueprint.json",
-        "sample": "books/tensorflow-professional-ar/sample.pdf",
+        "sample": "books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf",
+        "archive": "downloads/tensorflow-professional-ar.rar",
         "course": "courses/tensorflow-professional-ar/course.blueprint.json",
         "landing": "landing/tensorflow-professional-ar.html"
       },
       "urls": {
         "cover": "books/tensorflow-professional-ar/cover.png",
         "book": "books/tensorflow-professional-ar/book.blueprint.json",
-        "sample": "books/tensorflow-professional-ar/sample.pdf",
+        "sample": "books/tensorflow-professional-ar/tensorflow-professional-ar-sample.pdf",
+        "archive": "downloads/tensorflow-professional-ar.rar",
         "course": "courses/tensorflow-professional-ar/course.blueprint.json",
         "landing": "landing/tensorflow-professional-ar.html"
       },
       "sizes": {
         "cover": 1407676,
-        "book": 27497,
-        "sample": 5825920,
-        "course": 599431,
-        "landing": 28474
+        "book": 28753,
+        "sample": 5949048,
+        "archive": 7802405,
+        "course": 627179,
+        "landing": 31202
       },
       "sha256": {
-        "book": "de11b7bebc14d65901e3385bbce13ddee48d08a53aaaaae5b682d0dc4c57615f",
-        "sample": "47da21809d86da6fdb74b53b9ea05891dab9b5e515404b907657baf53b74178c",
-        "course": "e386aec73c74fd49ee94a10c8b7d69da169780b13a112f4fd6d82855f0e7dffd",
-        "landing": "f5d60aade6724871a2024c713c844090f1a8dfcf038c482ca772f72b7c7b7d11"
+        "book": "22f289af466df7c6bcab282676dad318dfc1d199d41a60997223dfafe0b262bd",
+        "sample": "120cda98907ce605b9a67d7af76ca9a27b857a1f99f3183a93b361caec5318ac",
+        "course": "749a5f7755116357216c1ef5ec95d46abacdad7264da4735676af8cb40ee95fa",
+        "landing": "dce8398de064607d65f952d274ff11c6cbe3cc7c915e3080265b995979b36ac6"
+      }
+    },
+    {
+      "key": "calculus",
+      "slug": "calculus-simply",
+      "repo": "Calculus-Book",
+      "dir": "Calculus-Simply-Book",
+      "accent": "#0f766e",
+      "order": 15,
+      "pages": 1093,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "calculus",
+        "mathematics",
+        "limits",
+        "derivatives",
+        "integrals"
+      ],
+      "chapters": 44,
+      "attachments": 0,
+      "files": {
+        "cover": "books/calculus-simply/cover.png",
+        "book": "books/calculus-simply/book.blueprint.json",
+        "sample": "books/calculus-simply/calculus-simply-sample.pdf",
+        "archive": "downloads/calculus-simply.rar",
+        "course": "courses/calculus-simply/course.blueprint.json",
+        "landing": "landing/calculus-simply.html",
+        "figures": "courses/calculus-simply/media"
+      },
+      "urls": {
+        "cover": "books/calculus-simply/cover.png",
+        "book": "books/calculus-simply/book.blueprint.json",
+        "sample": "books/calculus-simply/calculus-simply-sample.pdf",
+        "archive": "downloads/calculus-simply.rar",
+        "course": "courses/calculus-simply/course.blueprint.json",
+        "landing": "landing/calculus-simply.html",
+        "figures": "courses/calculus-simply/media"
+      },
+      "sizes": {
+        "cover": 1939283,
+        "book": 49918,
+        "sample": 11145486,
+        "archive": 18944296,
+        "course": 1973552,
+        "landing": 31347
+      },
+      "sha256": {
+        "book": "9fcd830183acb09645207498d6d228de3542657661d03e24beb19b6f39619e72",
+        "sample": "163e075b68c10cafa7116fc0778d0337b5adc444a1f741dc288fdb951eb1a456",
+        "course": "9e6a2edc3102224bb4491ab7b3000481d718fb37f0d61ca660f224f768063377",
+        "landing": "79566b80784dc1aeaa51f1aca1640f8896d36417b1cd65b1c9b8e1980579cc3c"
+      }
+    },
+    {
+      "key": "discrete",
+      "slug": "discrete-mathematics-for-computing",
+      "repo": "DiscreteMath-Book",
+      "dir": "MathSector/الرياضيات المتقطعة - النشر",
+      "accent": "#be185d",
+      "order": 16,
+      "pages": 481,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "discrete-mathematics",
+        "logic",
+        "combinatorics",
+        "graph-theory",
+        "computer-science"
+      ],
+      "chapters": 17,
+      "attachments": 0,
+      "files": {
+        "cover": "books/discrete-mathematics-for-computing/cover.png",
+        "book": "books/discrete-mathematics-for-computing/book.blueprint.json",
+        "sample": "books/discrete-mathematics-for-computing/discrete-mathematics-for-computing-sample.pdf",
+        "archive": "downloads/discrete-mathematics-for-computing.rar",
+        "course": "courses/discrete-mathematics-for-computing/course.blueprint.json",
+        "landing": "landing/discrete-mathematics-for-computing.html",
+        "figures": "courses/discrete-mathematics-for-computing/media"
+      },
+      "urls": {
+        "cover": "books/discrete-mathematics-for-computing/cover.png",
+        "book": "books/discrete-mathematics-for-computing/book.blueprint.json",
+        "sample": "books/discrete-mathematics-for-computing/discrete-mathematics-for-computing-sample.pdf",
+        "archive": "downloads/discrete-mathematics-for-computing.rar",
+        "course": "courses/discrete-mathematics-for-computing/course.blueprint.json",
+        "landing": "landing/discrete-mathematics-for-computing.html",
+        "figures": "courses/discrete-mathematics-for-computing/media"
+      },
+      "sizes": {
+        "cover": 1769939,
+        "book": 30648,
+        "sample": 2456444,
+        "archive": 5191375,
+        "course": 741598,
+        "landing": 28288
+      },
+      "sha256": {
+        "book": "bfc62fbc8eb145ca44998718175d1307ec3865e0876d6756a219d58796f66736",
+        "sample": "14324cb8fbcce6b05cf72e3ceee9cc8e8f087f3321aa6c82496f9e63295b629f",
+        "course": "fdb9a5ccb4aff232b57120d2b3d918b3c892c4af37277e6502b309d7190a3006",
+        "landing": "7d68662a5b0180e743d52ec1014129c71f5a0d8150929f6f197cdfa9ba849221"
+      }
+    },
+    {
+      "key": "linear-algebra",
+      "slug": "linear-algebra-from-zero-to-pro",
+      "repo": "LinearAlgebra-Book",
+      "dir": "LinearAlgebra",
+      "accent": "#2563eb",
+      "order": 17,
+      "pages": 607,
+      "priceCents": 14900,
+      "listPriceCents": 19900,
+      "tags": [
+        "linear-algebra",
+        "mathematics",
+        "matrices",
+        "vectors",
+        "eigenvalues"
+      ],
+      "chapters": 20,
+      "attachments": 0,
+      "files": {
+        "cover": "books/linear-algebra-from-zero-to-pro/cover.png",
+        "book": "books/linear-algebra-from-zero-to-pro/book.blueprint.json",
+        "sample": "books/linear-algebra-from-zero-to-pro/linear-algebra-from-zero-to-pro-sample.pdf",
+        "archive": "downloads/linear-algebra-from-zero-to-pro.rar",
+        "course": "courses/linear-algebra-from-zero-to-pro/course.blueprint.json",
+        "landing": "landing/linear-algebra-from-zero-to-pro.html"
+      },
+      "urls": {
+        "cover": "books/linear-algebra-from-zero-to-pro/cover.png",
+        "book": "books/linear-algebra-from-zero-to-pro/book.blueprint.json",
+        "sample": "books/linear-algebra-from-zero-to-pro/linear-algebra-from-zero-to-pro-sample.pdf",
+        "archive": "downloads/linear-algebra-from-zero-to-pro.rar",
+        "course": "courses/linear-algebra-from-zero-to-pro/course.blueprint.json",
+        "landing": "landing/linear-algebra-from-zero-to-pro.html"
+      },
+      "sizes": {
+        "cover": 1733778,
+        "book": 32518,
+        "sample": 3046303,
+        "archive": 4226142,
+        "course": 867057,
+        "landing": 28408
+      },
+      "sha256": {
+        "book": "042907b62777255a9753f7c4ff847a65bc8970d5fdb8e1f031242be80267904b",
+        "sample": "a8a1596df5267ff1a3587c32d8cd4c450073bebe864ce0da33c19aa1682cbf6b",
+        "course": "efef9990914a33aec0ae7e71c6c59dd637d0b1fb4b0454909459b1b60696c3a1",
+        "landing": "0b0a336fa7aaaec052c7a2bac9888f065a8ee6086bbb4e6f788b157976c97b36"
+      }
+    },
+    {
+      "key": "probability-ai",
+      "slug": "probability-statistics-for-ai",
+      "repo": "StatisticeProbability-Book",
+      "dir": "ProbabilityAI",
+      "accent": "#7c3aed",
+      "order": 18,
+      "pages": 2639,
+      "priceCents": 19900,
+      "listPriceCents": 24900,
+      "tags": [
+        "probability",
+        "statistics",
+        "data-science",
+        "machine-learning",
+        "bayesian"
+      ],
+      "chapters": 37,
+      "attachments": 0,
+      "files": {
+        "cover": "books/probability-statistics-for-ai/cover.png",
+        "book": "books/probability-statistics-for-ai/book.blueprint.json",
+        "sample": "books/probability-statistics-for-ai/probability-statistics-for-ai-sample.pdf",
+        "archive": "downloads/probability-statistics-for-ai.rar",
+        "course": "courses/probability-statistics-for-ai/course.blueprint.json",
+        "landing": "landing/probability-statistics-for-ai.html"
+      },
+      "urls": {
+        "cover": "books/probability-statistics-for-ai/cover.png",
+        "book": "books/probability-statistics-for-ai/book.blueprint.json",
+        "sample": "books/probability-statistics-for-ai/probability-statistics-for-ai-sample.pdf",
+        "archive": "downloads/probability-statistics-for-ai.rar",
+        "course": "courses/probability-statistics-for-ai/course.blueprint.json",
+        "landing": "landing/probability-statistics-for-ai.html"
+      },
+      "sizes": {
+        "cover": 2179116,
+        "book": 50143,
+        "sample": 17356054,
+        "archive": 44161366,
+        "course": 4769104,
+        "landing": 32086
+      },
+      "sha256": {
+        "book": "44f90d43f7bc7852d6d358b59457e54b34ae1565b82c25a339a5629761991f0a",
+        "sample": "2c378ee816f6bbf985cbf11284d486e2068246caaf2b20775e04ec64502d7051",
+        "course": "45364627154c93c5210a34cf974d70605654e679bd6f7b23949c624227e62dab",
+        "landing": "77e333175166490dcaa5a6850aa80ddec67c3c626e658bf534d6f7e26fdd0fd7"
       }
     }
   ],

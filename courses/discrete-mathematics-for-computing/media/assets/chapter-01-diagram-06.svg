@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="881" height="863" viewBox="0 0 881 863" role="img" aria-labelledby="diagram-title">
+<title id="diagram-title">مخطط توضيحي من الفصل 1</title>
+<defs><linearGradient id="diagram-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f7ff"/><stop offset="1" stop-color="#f7fbfa"/></linearGradient></defs>
+<rect x="4" y="4" width="873" height="855" rx="24" fill="url(#diagram-wash)" stroke="#d5deea" stroke-width="2"/>
+<rect x="24" y="24" width="8" height="815" rx="4" fill="#16a6a1"/>
+<text x="58" y="58" fill="#087f82" font-family="Tahoma,Arial,sans-serif" font-size="17" font-weight="700">رسم توضيحي · الفصل 1</text>
+<g fill="#17324d" font-family="Consolas,'Courier New',Tahoma,monospace" font-size="23"><text x="58" y="96.0" xml:space="preserve">[موقف من الحياة]</text>
+<text x="58" y="137.4" xml:space="preserve">       │</text>
+<text x="58" y="178.8" xml:space="preserve">       ▼</text>
+<text x="58" y="220.2" xml:space="preserve">[ما السؤال؟ وما التفاصيل المهمة؟]</text>
+<text x="58" y="261.6" xml:space="preserve">       │</text>
+<text x="58" y="303.0" xml:space="preserve">       ▼</text>
+<text x="58" y="344.4" xml:space="preserve">[نختار متغيرات ونكتب علاقات]</text>
+<text x="58" y="385.8" xml:space="preserve">       │</text>
+<text x="58" y="427.2" xml:space="preserve">       ▼</text>
+<text x="58" y="468.6" xml:space="preserve">[نحل النموذج]</text>
+<text x="58" y="510.0" xml:space="preserve">       │</text>
+<text x="58" y="551.4" xml:space="preserve">       ▼</text>
+<text x="58" y="592.8" xml:space="preserve">[نفسّر الحل في الحياة]</text>
+<text x="58" y="634.2" xml:space="preserve">       │</text>
+<text x="58" y="675.6" xml:space="preserve">       ▼</text>
+<text x="58" y="717.0" xml:space="preserve">[نتحقق: هل الجواب معقول؟]</text>
+<text x="58" y="758.4" xml:space="preserve">       │</text>
+<text x="58" y="799.8" xml:space="preserve">       └──── إذا لم يكن معقولًا: نراجع النموذج</text></g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title">
+<title id="title">Structure of a mathematical proof</title>
+<defs>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f2f7ff"/><stop offset="1" stop-color="#f7fbfa"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#17324d" flood-opacity=".12"/>
+  </filter>
+</defs>
+<rect width="1000" height="340" rx="28" fill="url(#wash)"/>
+<path d="M34 40h8v260h-8z" rx="4" fill="#16a6a1"/>
+<g filter="url(#shadow)">
+<rect x="105" y="95" width="220" height="105" rx="20" fill="#fff"/><rect x="390" y="95" width="220" height="105" rx="20" fill="#e5f7f5"/><rect x="675" y="95" width="220" height="105" rx="20" fill="#eef2ff"/>
+</g><g stroke="#718096" stroke-width="4" fill="none"><path d="M325 147H390M610 147H675"/></g>
+<g font-family="Arial,sans-serif" font-size="25" text-anchor="middle" font-weight="700" fill="#17324d"><text x="215" y="155">Hypothesis</text><text x="500" y="155">Reasoning</text><text x="785" y="155">Conclusion</text></g>
+<text x="500" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#16a6a1">BASE CASE  →  INDUCTIVE STEP  →  PROOF</text>
+</svg>

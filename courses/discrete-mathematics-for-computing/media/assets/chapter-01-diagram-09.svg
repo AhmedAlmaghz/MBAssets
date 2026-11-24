@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200" role="img" aria-labelledby="diagram-title">
+<title id="diagram-title">مخطط توضيحي من الفصل 1</title>
+<defs><linearGradient id="diagram-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f7ff"/><stop offset="1" stop-color="#f7fbfa"/></linearGradient></defs>
+<rect x="4" y="4" width="752" height="192" rx="24" fill="url(#diagram-wash)" stroke="#d5deea" stroke-width="2"/>
+<rect x="24" y="24" width="8" height="152" rx="4" fill="#16a6a1"/>
+<text x="58" y="58" fill="#087f82" font-family="Tahoma,Arial,sans-serif" font-size="17" font-weight="700">رسم توضيحي · الفصل 1</text>
+<g fill="#17324d" font-family="Consolas,'Courier New',Tahoma,monospace" font-size="23"><text x="58" y="96.0" xml:space="preserve">B  A  N  A  N  A</text>
+<text x="58" y="137.4" xml:space="preserve">   ↑     ↑     ↑</text></g>
+</svg>

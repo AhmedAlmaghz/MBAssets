@@ -1,0 +1,1184 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+المحوّلات والنماذج اللغوية الكبيرة — بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+Transformers and Large Language Models — Modern Training Infrastructure
+
+Book slug : transformers-llms-theory-to-systems
+Chapter   : ch-03-llm-ds (lesson 3)
+Code files: 12 consolidated fragment(s)
+
+All code fragments from this chapter are collected in this single file,
+in the same order as the matching Jupyter notebook.
+"""
+
+# ────────────────────────────────────────────────────────────────────────
+# [001] maghzbook-download/transformers-llms-theory-to-systems/code/ch-03-llm-ds.py
+# ────────────────────────────────────────────────────────────────────────
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+المحوّلات والنماذج اللغوية الكبيرة — بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+Transformers and Large Language Models — Modern Training Infrastructure
+
+Book slug : transformers-llms-theory-to-systems
+Chapter   : ch-03-llm-ds (lesson 3)
+Code files: 11 consolidated fragment(s)
+
+All code fragments from this chapter are collected in this single file,
+in the same order as the matching Jupyter notebook.
+"""
+
+# ────────────────────────────────────────────────────────────────────────
+# [001] maghzbook-download/transformers-llms-theory-to-systems/code/ch-03-llm-ds.py
+# ────────────────────────────────────────────────────────────────────────
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+المحوّلات والنماذج اللغوية الكبيرة — بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+Transformers and Large Language Models — Modern Training Infrastructure
+
+Book slug : transformers-llms-theory-to-systems
+Chapter   : ch-03-llm-ds (lesson 3)
+Code files: 10 consolidated fragment(s)
+
+All code fragments from this chapter are collected in this single file,
+in the same order as the matching Jupyter notebook.
+"""
+
+# ────────────────────────────────────────────────────────────────────────
+# [001] code/ch03_modern-training-infrastructure.py
+# ────────────────────────────────────────────────────────────────────────
+# -*- coding: utf-8 -*-
+"""
+الفصل 3: بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+
+الكتاب: المحوّلات والنماذج اللغوية الكبيرة — من النظرية إلى بناء أنظمة ذكية
+الجزء الأول · الفصل 3 · عدد كتل بايثون في هذا الملف: 9
+
+طريقة التشغيل:
+  • Colab:  ارفع الملف إلى /content ثم:  !python ch03_modern-training-infrastructure.py
+  • Kaggle: أضفه كـ Script أو شغّله خليةً خلية عبر دفتر notebooks/ المقابل.
+  • محليًا: pip install -r requirements.txt  ثم  python ch03_modern-training-infrastructure.py
+
+ملاحظة العتاد (CPU/GPU):
+  الأكواد تعمل على CPU كما هي، لكن فصول التدريب والاستدلال الثقيل أسرع كثيرًا على GPU.
+  في Colab: Runtime ▸ Change runtime type ▸ T4/A100. في Kaggle: Settings ▸ Accelerator ▸ GPU.
+  أي كتلة تفترض CUDA صراحةً تجد بجانبها بديل device = "cuda" if torch.cuda.is_available() else "cpu".
+
+الحزم الشائعة (ثبّتها عند الحاجة فقط):
+  pip install -q torch transformers datasets accelerate peft trl bitsandbytes \
+              sentence-transformers faiss-cpu evaluate scikit-learn pandas numpy matplotlib
+"""
+
+
+# ════════ [1/9] device = "cuda" ════════
+
+
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+
+# ════════ [2/9] accumulation_steps = 4 ════════
+
+
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+
+# ════════ [3/9] torch.distributed.init_process_group(backend="nccl") ════════
+
+
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+
+# ════════ [4/9] model = FSDP(model, use_orig_params=True) ════════
+
+
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+
+# ════════ [5/9] total_norm = 0.0 ════════
+
+
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+
+# ════════ [6/9] with torch.autograd.set_detect_anomaly(True): ════════
+
+
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+
+# ════════ [7/9] assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!" ════════
+
+
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+
+# ════════ [8/9] torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0) ════════
+
+
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+
+# ════════ [9/9] def save_checkpoint(path, model, optimizer, scheduler, scaler, step, e ════════
+
+
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [002] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+# ────────────────────────────────────────────────────────────────────────
+# [003] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [004] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+# ────────────────────────────────────────────────────────────────────────
+# [005] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [006] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+# ────────────────────────────────────────────────────────────────────────
+# [007] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+# ────────────────────────────────────────────────────────────────────────
+# [008] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+# ────────────────────────────────────────────────────────────────────────
+# [009] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+# ────────────────────────────────────────────────────────────────────────
+# [010] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [002] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-1
+# ────────────────────────────────────────────────────────────────────────
+# -*- coding: utf-8 -*-
+"""
+الفصل 3: بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+
+الكتاب: المحوّلات والنماذج اللغوية الكبيرة — من النظرية إلى بناء أنظمة ذكية
+الجزء الأول · الفصل 3 · عدد كتل بايثون في هذا الملف: 9
+
+طريقة التشغيل:
+  • Colab:  ارفع الملف إلى /content ثم:  !python ch03_modern-training-infrastructure.py
+  • Kaggle: أضفه كـ Script أو شغّله خليةً خلية عبر دفتر notebooks/ المقابل.
+  • محليًا: pip install -r requirements.txt  ثم  python ch03_modern-training-infrastructure.py
+
+ملاحظة العتاد (CPU/GPU):
+  الأكواد تعمل على CPU كما هي، لكن فصول التدريب والاستدلال الثقيل أسرع كثيرًا على GPU.
+  في Colab: Runtime ▸ Change runtime type ▸ T4/A100. في Kaggle: Settings ▸ Accelerator ▸ GPU.
+  أي كتلة تفترض CUDA صراحةً تجد بجانبها بديل device = "cuda" if torch.cuda.is_available() else "cpu".
+
+الحزم الشائعة (ثبّتها عند الحاجة فقط):
+  pip install -q torch transformers datasets accelerate peft trl bitsandbytes \
+              sentence-transformers faiss-cpu evaluate scikit-learn pandas numpy matplotlib
+"""
+
+
+# ════════ [1/9] device = "cuda" ════════
+
+
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+
+# ════════ [2/9] accumulation_steps = 4 ════════
+
+
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+
+# ════════ [3/9] torch.distributed.init_process_group(backend="nccl") ════════
+
+
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+
+# ════════ [4/9] model = FSDP(model, use_orig_params=True) ════════
+
+
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+
+# ════════ [5/9] total_norm = 0.0 ════════
+
+
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+
+# ════════ [6/9] with torch.autograd.set_detect_anomaly(True): ════════
+
+
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+
+# ════════ [7/9] assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!" ════════
+
+
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+
+# ════════ [8/9] torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0) ════════
+
+
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+
+# ════════ [9/9] def save_checkpoint(path, model, optimizer, scheduler, scaler, step, e ════════
+
+
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [003] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-2
+# ────────────────────────────────────────────────────────────────────────
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+# ────────────────────────────────────────────────────────────────────────
+# [004] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-3
+# ────────────────────────────────────────────────────────────────────────
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [005] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-4
+# ────────────────────────────────────────────────────────────────────────
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+# ────────────────────────────────────────────────────────────────────────
+# [006] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-5
+# ────────────────────────────────────────────────────────────────────────
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [007] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-6
+# ────────────────────────────────────────────────────────────────────────
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+# ────────────────────────────────────────────────────────────────────────
+# [008] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-7
+# ────────────────────────────────────────────────────────────────────────
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+# ────────────────────────────────────────────────────────────────────────
+# [009] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-8
+# ────────────────────────────────────────────────────────────────────────
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+# ────────────────────────────────────────────────────────────────────────
+# [010] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-9
+# ────────────────────────────────────────────────────────────────────────
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+# ────────────────────────────────────────────────────────────────────────
+# [011] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-10
+# ────────────────────────────────────────────────────────────────────────
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [002] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-1
+# ────────────────────────────────────────────────────────────────────────
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+المحوّلات والنماذج اللغوية الكبيرة — بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+Transformers and Large Language Models — Modern Training Infrastructure
+
+Book slug : transformers-llms-theory-to-systems
+Chapter   : ch-03-llm-ds (lesson 3)
+Code files: 10 consolidated fragment(s)
+
+All code fragments from this chapter are collected in this single file,
+in the same order as the matching Jupyter notebook.
+"""
+
+# ────────────────────────────────────────────────────────────────────────
+# [001] code/ch03_modern-training-infrastructure.py
+# ────────────────────────────────────────────────────────────────────────
+# -*- coding: utf-8 -*-
+"""
+الفصل 3: بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+
+الكتاب: المحوّلات والنماذج اللغوية الكبيرة — من النظرية إلى بناء أنظمة ذكية
+الجزء الأول · الفصل 3 · عدد كتل بايثون في هذا الملف: 9
+
+طريقة التشغيل:
+  • Colab:  ارفع الملف إلى /content ثم:  !python ch03_modern-training-infrastructure.py
+  • Kaggle: أضفه كـ Script أو شغّله خليةً خلية عبر دفتر notebooks/ المقابل.
+  • محليًا: pip install -r requirements.txt  ثم  python ch03_modern-training-infrastructure.py
+
+ملاحظة العتاد (CPU/GPU):
+  الأكواد تعمل على CPU كما هي، لكن فصول التدريب والاستدلال الثقيل أسرع كثيرًا على GPU.
+  في Colab: Runtime ▸ Change runtime type ▸ T4/A100. في Kaggle: Settings ▸ Accelerator ▸ GPU.
+  أي كتلة تفترض CUDA صراحةً تجد بجانبها بديل device = "cuda" if torch.cuda.is_available() else "cpu".
+
+الحزم الشائعة (ثبّتها عند الحاجة فقط):
+  pip install -q torch transformers datasets accelerate peft trl bitsandbytes \
+              sentence-transformers faiss-cpu evaluate scikit-learn pandas numpy matplotlib
+"""
+
+
+# ════════ [1/9] device = "cuda" ════════
+
+
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+
+# ════════ [2/9] accumulation_steps = 4 ════════
+
+
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+
+# ════════ [3/9] torch.distributed.init_process_group(backend="nccl") ════════
+
+
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+
+# ════════ [4/9] model = FSDP(model, use_orig_params=True) ════════
+
+
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+
+# ════════ [5/9] total_norm = 0.0 ════════
+
+
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+
+# ════════ [6/9] with torch.autograd.set_detect_anomaly(True): ════════
+
+
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+
+# ════════ [7/9] assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!" ════════
+
+
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+
+# ════════ [8/9] torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0) ════════
+
+
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+
+# ════════ [9/9] def save_checkpoint(path, model, optimizer, scheduler, scaler, step, e ════════
+
+
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [002] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+# ────────────────────────────────────────────────────────────────────────
+# [003] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [004] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+# ────────────────────────────────────────────────────────────────────────
+# [005] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [006] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+# ────────────────────────────────────────────────────────────────────────
+# [007] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+# ────────────────────────────────────────────────────────────────────────
+# [008] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+# ────────────────────────────────────────────────────────────────────────
+# [009] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+# ────────────────────────────────────────────────────────────────────────
+# [010] dist/llm-ds.md
+# ────────────────────────────────────────────────────────────────────────
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [003] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-2
+# ────────────────────────────────────────────────────────────────────────
+# -*- coding: utf-8 -*-
+"""
+الفصل 3: بنية التدريب الحديثة — من GPU واحدة إلى عنقود
+
+الكتاب: المحوّلات والنماذج اللغوية الكبيرة — من النظرية إلى بناء أنظمة ذكية
+الجزء الأول · الفصل 3 · عدد كتل بايثون في هذا الملف: 9
+
+طريقة التشغيل:
+  • Colab:  ارفع الملف إلى /content ثم:  !python ch03_modern-training-infrastructure.py
+  • Kaggle: أضفه كـ Script أو شغّله خليةً خلية عبر دفتر notebooks/ المقابل.
+  • محليًا: pip install -r requirements.txt  ثم  python ch03_modern-training-infrastructure.py
+
+ملاحظة العتاد (CPU/GPU):
+  الأكواد تعمل على CPU كما هي، لكن فصول التدريب والاستدلال الثقيل أسرع كثيرًا على GPU.
+  في Colab: Runtime ▸ Change runtime type ▸ T4/A100. في Kaggle: Settings ▸ Accelerator ▸ GPU.
+  أي كتلة تفترض CUDA صراحةً تجد بجانبها بديل device = "cuda" if torch.cuda.is_available() else "cpu".
+
+الحزم الشائعة (ثبّتها عند الحاجة فقط):
+  pip install -q torch transformers datasets accelerate peft trl bitsandbytes \
+              sentence-transformers faiss-cpu evaluate scikit-learn pandas numpy matplotlib
+"""
+
+
+# ════════ [1/9] device = "cuda" ════════
+
+
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+
+# ════════ [2/9] accumulation_steps = 4 ════════
+
+
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+
+# ════════ [3/9] torch.distributed.init_process_group(backend="nccl") ════════
+
+
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+
+# ════════ [4/9] model = FSDP(model, use_orig_params=True) ════════
+
+
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+
+# ════════ [5/9] total_norm = 0.0 ════════
+
+
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+
+# ════════ [6/9] with torch.autograd.set_detect_anomaly(True): ════════
+
+
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+
+# ════════ [7/9] assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!" ════════
+
+
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+
+# ════════ [8/9] torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0) ════════
+
+
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+
+# ════════ [9/9] def save_checkpoint(path, model, optimizer, scheduler, scaler, step, e ════════
+
+
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
+
+# ────────────────────────────────────────────────────────────────────────
+# [004] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-3
+# ────────────────────────────────────────────────────────────────────────
+import torch
+import torch.nn as nn
+from torch.amp import autocast, GradScaler
+
+device = "cuda"
+model = MyModel().to(device)
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+
+# BF16: لا يحتاج GradScaler
+use_bf16 = torch.cuda.is_bf16_supported()
+
+# FP16: يحتاج GradScaler لمنع التلاشي
+scaler = GradScaler(enabled=not use_bf16)
+
+for batch in dataloader:
+    optimizer.zero_grad(set_to_none=True)
+
+    with autocast(device_type="cuda", dtype=torch.bfloat16 if use_bf16 else torch.float16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+
+    if use_bf16:
+        loss.backward()
+        optimizer.step()
+    else:
+        scaler.scale(loss).backward()
+        scaler.unscale_(optimizer)  # للـ clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        scaler.step(optimizer)
+        scaler.update()
+
+# ────────────────────────────────────────────────────────────────────────
+# [005] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-4
+# ────────────────────────────────────────────────────────────────────────
+accumulation_steps = 4
+optimizer.zero_grad(set_to_none=True)
+
+for step, batch in enumerate(dataloader):
+    with autocast(device_type="cuda", dtype=torch.bfloat16):
+        logits = model(batch["input_ids"])
+        loss = criterion(logits, batch["labels"])
+        loss = loss / accumulation_steps  # مهم جدًا!
+
+    loss.backward()
+
+    if (step + 1) % accumulation_steps == 0:
+        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [006] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-5
+# ────────────────────────────────────────────────────────────────────────
+# تشغيل DDP (مبسط)
+# كل عملية (process) تعمل على GPU مختلفة
+torch.distributed.init_process_group(backend="nccl")
+model = nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
+
+# ────────────────────────────────────────────────────────────────────────
+# [007] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-6
+# ────────────────────────────────────────────────────────────────────────
+from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
+
+model = FSDP(model, use_orig_params=True)
+
+# ────────────────────────────────────────────────────────────────────────
+# [008] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-7
+# ────────────────────────────────────────────────────────────────────────
+total_norm = 0.0
+for p in model.parameters():
+    if p.grad is not None:
+        total_norm += p.grad.detach().data.norm(2).item() ** 2
+total_norm = total_norm ** 0.5
+print(f"grad_norm: {total_norm:.4f}")
+
+# ────────────────────────────────────────────────────────────────────────
+# [009] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-8
+# ────────────────────────────────────────────────────────────────────────
+with torch.autograd.set_detect_anomaly(True):
+    loss.backward()
+
+# ────────────────────────────────────────────────────────────────────────
+# [010] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-9
+# ────────────────────────────────────────────────────────────────────────
+assert not torch.isnan(batch["input_ids"]).any(), "NaN in input!"
+assert not torch.isinf(batch["input_ids"]).any(), "Inf in input!"
+
+# ────────────────────────────────────────────────────────────────────────
+# [011] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-10
+# ────────────────────────────────────────────────────────────────────────
+torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+# ────────────────────────────────────────────────────────────────────────
+# [012] maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb#cell-11
+# ────────────────────────────────────────────────────────────────────────
+def save_checkpoint(path, model, optimizer, scheduler, scaler, step, epoch):
+    checkpoint = {
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "scheduler": scheduler.state_dict() if scheduler else None,
+        "scaler": scaler.state_dict() if scaler else None,
+        "step": step,
+        "epoch": epoch,
+        "rng_state": torch.get_rng_state(),
+        "cuda_rng_state": torch.cuda.get_rng_state_all(),
+    }
+    torch.save(checkpoint, path)
+
+def load_checkpoint(path, model, optimizer, scheduler, scaler):
+    checkpoint = torch.load(path, map_location="cpu")
+    model.load_state_dict(checkpoint["model"])
+    optimizer.load_state_dict(checkpoint["optimizer"])
+    if scheduler and checkpoint["scheduler"]:
+        scheduler.load_state_dict(checkpoint["scheduler"])
+    if scaler and checkpoint["scaler"]:
+        scaler.load_state_dict(checkpoint["scaler"])
+    torch.set_rng_state(checkpoint["rng_state"])
+    torch.cuda.set_rng_state_all(checkpoint["cuda_rng_state"])
+    return checkpoint["step"], checkpoint["epoch"]
