@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:23.498Z",
+    "exportedAt": "2026-11-23T16:02:41.621Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي",
         "subtitle": "من البكسل إلى أنظمة الرؤية الإنتاجية",
         "description": "19 فصلاً وملحق مرجعي: قراءة الصور والفيديو، العمليات النقطية والمرشّحات والحواف، التحويلات الهندسية والعتبات وال contours، المطابقة والميزات، DNN والتتبّع والأداء، بأمثلة Python كاملة.",
-        "landingMd": "# OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي\n\n**من البكسل إلى أنظمة الرؤية الإنتاجية**\n\n19 فصلاً وملحق مرجعي: قراءة الصور والفيديو، العمليات النقطية والمرشّحات والحواف، التحويلات الهندسية والعتبات وال contours، المطابقة والميزات، DNN والتتبّع والأداء، بأمثلة Python كاملة.\n\n![OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي](books/opencv-5-ai-vision/cover.png)\n\n## ماذا ستتعلّم\n\n- **الصورة والبكسل والقراءة** — 5 فصول وملاحق\n- **المرشّحات والحواف والتحويلات** — 5 فصول وملاحق\n- **التقسيم والكونتورات والخصائص** — 5 فصول وملاحق\n- **الرؤية بالذكاء الاصطناعي والإنتاج** — 4 فصول وملاحق\n- **الملاحق والمراجع** — 1 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 107 صفحة](books/opencv-5-ai-vision/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/opencv-5-ai-vision/book.pdf)\n- [صفحة الكتاب التعريفية](landing/opencv-5-ai-vision.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي\n\n**من البكسل إلى أنظمة الرؤية الإنتاجية**\n\n19 فصلاً وملحق مرجعي: قراءة الصور والفيديو، العمليات النقطية والمرشّحات والحواف، التحويلات الهندسية والعتبات وال contours، المطابقة والميزات، DNN والتتبّع والأداء، بأمثلة Python كاملة.\n\n![OpenCV 5 والرؤية الحاسوبية بالذكاء الاصطناعي](books/opencv-5-ai-vision/cover.png)\n\n## ماذا ستتعلّم\n\n- **الصورة والبكسل والقراءة** — 5 فصول وملاحق\n- **المرشّحات والحواف والتحويلات** — 5 فصول وملاحق\n- **التقسيم والكونتورات والخصائص** — 5 فصول وملاحق\n- **الرؤية بالذكاء الاصطناعي والإنتاج** — 4 فصول وملاحق\n- **الملاحق والمراجع** — 1 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 107 صفحة](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](downloads/opencv-5-ai-vision.rar)\n- [صفحة الكتاب التعريفية](landing/opencv-5-ai-vision.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "OpenCV 5 and AI Computer Vision",
         "subtitle": "From a pixel to production vision systems",
         "description": "Nineteen chapters and a reference appendix: image and video I/O, point operations, filters and edges, geometric transforms, thresholding and contours, template matching and features, DNN, tracking and performance, with complete Python examples.",
-        "landingMd": "# OpenCV 5 and AI Computer Vision\n\n**From a pixel to production vision systems**\n\nNineteen chapters and a reference appendix: image and video I/O, point operations, filters and edges, geometric transforms, thresholding and contours, template matching and features, DNN, tracking and performance, with complete Python examples.\n\n![OpenCV 5 and AI Computer Vision](books/opencv-5-ai-vision/cover.png)\n\n## What you will learn\n\n- **Images, Pixels and I/O** — 5 chapters & appendices\n- **Filtering, Edges and Geometry** — 5 chapters & appendices\n- **Segmentation, Contours and Features** — 5 chapters & appendices\n- **AI Vision and Production** — 4 chapters & appendices\n- **Appendices and Reference** — 1 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 107 pages](books/opencv-5-ai-vision/sample.pdf)\n\n- [Full book (PDF)](books/opencv-5-ai-vision/book.pdf)\n- [Book landing page](landing/opencv-5-ai-vision.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 and AI Computer Vision\n\n**From a pixel to production vision systems**\n\nNineteen chapters and a reference appendix: image and video I/O, point operations, filters and edges, geometric transforms, thresholding and contours, template matching and features, DNN, tracking and performance, with complete Python examples.\n\n![OpenCV 5 and AI Computer Vision](books/opencv-5-ai-vision/cover.png)\n\n## What you will learn\n\n- **Images, Pixels and I/O** — 5 chapters & appendices\n- **Filtering, Edges and Geometry** — 5 chapters & appendices\n- **Segmentation, Contours and Features** — 5 chapters & appendices\n- **AI Vision and Production** — 4 chapters & appendices\n- **Appendices and Reference** — 1 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 107 pages](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [Full book (PDF)](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/opencv-5-ai-vision.rar)\n- [Book landing page](landing/opencv-5-ai-vision.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "OpenCV 5 et vision par ordinateur",
         "subtitle": "Du pixel aux systèmes de vision de production",
         "description": "19 chapitres et une annexe de référence : lecture d'images et de vidéos, filtres, contours, transformations géométriques, seuillage, caractéristiques, DNN, suivi et performances, avec des exemples Python complets.",
-        "landingMd": "# OpenCV 5 et vision par ordinateur\n\n**Du pixel aux systèmes de vision de production**\n\n19 chapitres et une annexe de référence : lecture d'images et de vidéos, filtres, contours, transformations géométriques, seuillage, caractéristiques, DNN, suivi et performances, avec des exemples Python complets.\n\n![OpenCV 5 et vision par ordinateur](books/opencv-5-ai-vision/cover.png)\n\n## Ce que vous apprendrez\n\n- **Images, Pixels and I/O** — 5 chapitres et annexes\n- **Filtering, Edges and Geometry** — 5 chapitres et annexes\n- **Segmentation, Contours and Features** — 5 chapitres et annexes\n- **AI Vision and Production** — 4 chapitres et annexes\n- **Appendices and Reference** — 1 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 107 pages](books/opencv-5-ai-vision/sample.pdf)\n\n- [Livre complet (PDF)](books/opencv-5-ai-vision/book.pdf)\n- [Page du livre](landing/opencv-5-ai-vision.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 et vision par ordinateur\n\n**Du pixel aux systèmes de vision de production**\n\n19 chapitres et une annexe de référence : lecture d'images et de vidéos, filtres, contours, transformations géométriques, seuillage, caractéristiques, DNN, suivi et performances, avec des exemples Python complets.\n\n![OpenCV 5 et vision par ordinateur](books/opencv-5-ai-vision/cover.png)\n\n## Ce que vous apprendrez\n\n- **Images, Pixels and I/O** — 5 chapitres et annexes\n- **Filtering, Edges and Geometry** — 5 chapitres et annexes\n- **Segmentation, Contours and Features** — 5 chapitres et annexes\n- **AI Vision and Production** — 4 chapitres et annexes\n- **Appendices and Reference** — 1 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 107 pages](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [Livre complet (PDF)](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/opencv-5-ai-vision.rar)\n- [Page du livre](landing/opencv-5-ai-vision.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "OpenCV 5 y visión por computadora con IA",
         "subtitle": "Del píxel a los sistemas de visión en producción",
         "description": "19 capítulos y un apéndice de referencia: lectura de imágenes y vídeo, filtros, bordes, transformaciones geométricas, umbralización, contornos, DNN, seguimiento y rendimiento, con ejemplos completos en Python.",
-        "landingMd": "# OpenCV 5 y visión por computadora con IA\n\n**Del píxel a los sistemas de visión en producción**\n\n19 capítulos y un apéndice de referencia: lectura de imágenes y vídeo, filtros, bordes, transformaciones geométricas, umbralización, contornos, DNN, seguimiento y rendimiento, con ejemplos completos en Python.\n\n![OpenCV 5 y visión por computadora con IA](books/opencv-5-ai-vision/cover.png)\n\n## Qué aprenderás\n\n- **Images, Pixels and I/O** — 5 capítulos y apéndices\n- **Filtering, Edges and Geometry** — 5 capítulos y apéndices\n- **Segmentation, Contours and Features** — 5 capítulos y apéndices\n- **AI Vision and Production** — 4 capítulos y apéndices\n- **Appendices and Reference** — 1 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 107 páginas](books/opencv-5-ai-vision/sample.pdf)\n\n- [Libro completo (PDF)](books/opencv-5-ai-vision/book.pdf)\n- [Página del libro](landing/opencv-5-ai-vision.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 y visión por computadora con IA\n\n**Del píxel a los sistemas de visión en producción**\n\n19 capítulos y un apéndice de referencia: lectura de imágenes y vídeo, filtros, bordes, transformaciones geométricas, umbralización, contornos, DNN, seguimiento y rendimiento, con ejemplos completos en Python.\n\n![OpenCV 5 y visión por computadora con IA](books/opencv-5-ai-vision/cover.png)\n\n## Qué aprenderás\n\n- **Images, Pixels and I/O** — 5 capítulos y apéndices\n- **Filtering, Edges and Geometry** — 5 capítulos y apéndices\n- **Segmentation, Contours and Features** — 5 capítulos y apéndices\n- **AI Vision and Production** — 4 capítulos y apéndices\n- **Appendices and Reference** — 1 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 107 páginas](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [Libro completo (PDF)](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/opencv-5-ai-vision.rar)\n- [Página del libro](landing/opencv-5-ai-vision.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "OpenCV 5 与 AI 计算机视觉",
         "subtitle": "从像素到生产级视觉系统",
         "description": "19 章与参考附录：图像与视频读写、点运算、滤波与边缘、几何变换、阈值与轮廓、模板匹配与特征、DNN、跟踪与性能优化，附完整 Python 示例。",
-        "landingMd": "# OpenCV 5 与 AI 计算机视觉\n\n**从像素到生产级视觉系统**\n\n19 章与参考附录：图像与视频读写、点运算、滤波与边缘、几何变换、阈值与轮廓、模板匹配与特征、DNN、跟踪与性能优化，附完整 Python 示例。\n\n![OpenCV 5 与 AI 计算机视觉](books/opencv-5-ai-vision/cover.png)\n\n## 你将学到什么\n\n- **Images, Pixels and I/O** — 5 章与附录\n- **Filtering, Edges and Geometry** — 5 章与附录\n- **Segmentation, Contours and Features** — 5 章与附录\n- **AI Vision and Production** — 4 章与附录\n- **Appendices and Reference** — 1 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 107 页](books/opencv-5-ai-vision/sample.pdf)\n\n- [完整电子书 PDF](books/opencv-5-ai-vision/book.pdf)\n- [图书介绍页](landing/opencv-5-ai-vision.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 与 AI 计算机视觉\n\n**从像素到生产级视觉系统**\n\n19 章与参考附录：图像与视频读写、点运算、滤波与边缘、几何变换、阈值与轮廓、模板匹配与特征、DNN、跟踪与性能优化，附完整 Python 示例。\n\n![OpenCV 5 与 AI 计算机视觉](books/opencv-5-ai-vision/cover.png)\n\n## 你将学到什么\n\n- **Images, Pixels and I/O** — 5 章与附录\n- **Filtering, Edges and Geometry** — 5 章与附录\n- **Segmentation, Contours and Features** — 5 章与附录\n- **AI Vision and Production** — 4 章与附录\n- **Appendices and Reference** — 1 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 107 页](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [完整电子书 PDF](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/opencv-5-ai-vision.rar)\n- [图书介绍页](landing/opencv-5-ai-vision.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "OpenCV 5 और AI कंप्यूटर विज़न",
         "subtitle": "पिक्सेल से प्रोडक्शन विज़न सिस्टम तक",
         "description": "19 अध्याय और संदर्भ परिशिष्ट: इमेज/वीडियो I/O, फ़िल्टर, एज, ज्यामितीय ट्रांसफ़ॉर्म, थ्रेशोल्डिंग, कंटूर, DNN, ट्रैकिंग और प्रदर्शन, पूर्ण Python उदाहरणों के साथ।",
-        "landingMd": "# OpenCV 5 और AI कंप्यूटर विज़न\n\n**पिक्सेल से प्रोडक्शन विज़न सिस्टम तक**\n\n19 अध्याय और संदर्भ परिशिष्ट: इमेज/वीडियो I/O, फ़िल्टर, एज, ज्यामितीय ट्रांसफ़ॉर्म, थ्रेशोल्डिंग, कंटूर, DNN, ट्रैकिंग और प्रदर्शन, पूर्ण Python उदाहरणों के साथ।\n\n![OpenCV 5 और AI कंप्यूटर विज़न](books/opencv-5-ai-vision/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Images, Pixels and I/O** — 5 अध्याय और परिशिष्ट\n- **Filtering, Edges and Geometry** — 5 अध्याय और परिशिष्ट\n- **Segmentation, Contours and Features** — 5 अध्याय और परिशिष्ट\n- **AI Vision and Production** — 4 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 1 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 107 पृष्ठ](books/opencv-5-ai-vision/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/opencv-5-ai-vision/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/opencv-5-ai-vision.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# OpenCV 5 और AI कंप्यूटर विज़न\n\n**पिक्सेल से प्रोडक्शन विज़न सिस्टम तक**\n\n19 अध्याय और संदर्भ परिशिष्ट: इमेज/वीडियो I/O, फ़िल्टर, एज, ज्यामितीय ट्रांसफ़ॉर्म, थ्रेशोल्डिंग, कंटूर, DNN, ट्रैकिंग और प्रदर्शन, पूर्ण Python उदाहरणों के साथ।\n\n![OpenCV 5 और AI कंप्यूटर विज़न](books/opencv-5-ai-vision/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Images, Pixels and I/O** — 5 अध्याय और परिशिष्ट\n- **Filtering, Edges and Geometry** — 5 अध्याय और परिशिष्ट\n- **Segmentation, Contours and Features** — 5 अध्याय और परिशिष्ट\n- **AI Vision and Production** — 4 अध्याय और परिशिष्ट\n- **Appendices and Reference** — 1 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 5 | 20 | 190 | 3 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 107 पृष्ठ](books/opencv-5-ai-vision/opencv-5-ai-vision-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/opencv-5-ai-vision/opencv-5-ai-vision.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/opencv-5-ai-vision.rar)\n- [पुस्तक परिचय पृष्ठ](landing/opencv-5-ai-vision.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,7 +96,23 @@
               {
                 "languageCode": "en",
                 "title": "Environment and First Program",
-                "body": "## Chapter 01 — Environment and First Program\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** OpenCV\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/output/OpenCV_5_AI_Book.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Environment and First Program\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** OpenCV\n\n### Companion files\n\n- [ch-01-opencv-5-ai-book.py](courses/opencv-5-ai-vision/scripts/ch-01-opencv-5-ai-book.py) — Python script\n- [ch-01-opencv-5-ai-book.ipynb](courses/opencv-5-ai-vision/notebooks/ch-01-opencv-5-ai-book.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/output/OpenCV_5_AI_Book.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-01-opencv-5-ai-book.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-01-opencv-5-ai-book.py",
+                "kind": "script",
+                "isFree": true,
+                "order": 0
+              },
+              {
+                "name": "ch-01-opencv-5-ai-book.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-01-opencv-5-ai-book.ipynb",
+                "kind": "notebook",
+                "isFree": true,
+                "order": 1
               }
             ]
           },
@@ -115,7 +131,23 @@
               {
                 "languageCode": "en",
                 "title": "Tmedia",
-                "body": "## Chapter 02 — Tmedia\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch02_tmedia.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Tmedia\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-02-ch02-tmedia.py](courses/opencv-5-ai-vision/scripts/ch-02-ch02-tmedia.py) — Python script\n- [ch-02-ch02-tmedia.ipynb](courses/opencv-5-ai-vision/notebooks/ch-02-ch02-tmedia.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch02_tmedia.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-02-ch02-tmedia.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-02-ch02-tmedia.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-02-ch02-tmedia.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-02-ch02-tmedia.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -134,7 +166,23 @@
               {
                 "languageCode": "en",
                 "title": "Io Video",
-                "body": "## Chapter 03 — Io Video\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch03_io_video.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Io Video\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-03-ch03-io-video.py](courses/opencv-5-ai-vision/scripts/ch-03-ch03-io-video.py) — Python script\n- [ch-03-ch03-io-video.ipynb](courses/opencv-5-ai-vision/notebooks/ch-03-ch03-io-video.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch03_io_video.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-03-ch03-io-video.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-03-ch03-io-video.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-03-ch03-io-video.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-03-ch03-io-video.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -153,7 +201,23 @@
               {
                 "languageCode": "en",
                 "title": "Point Ops",
-                "body": "## Chapter 04 — Point Ops\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch04_point_ops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Point Ops\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-04-ch04-point-ops.py](courses/opencv-5-ai-vision/scripts/ch-04-ch04-point-ops.py) — Python script\n- [ch-04-ch04-point-ops.ipynb](courses/opencv-5-ai-vision/notebooks/ch-04-ch04-point-ops.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch04_point_ops.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-04-ch04-point-ops.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-04-ch04-point-ops.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-04-ch04-point-ops.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-04-ch04-point-ops.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -172,7 +236,23 @@
               {
                 "languageCode": "en",
                 "title": "Filters",
-                "body": "## Chapter 05 — Filters\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch05_filters.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Filters\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 1:** Images, Pixels and I/O  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-05-ch05-filters.py](courses/opencv-5-ai-vision/scripts/ch-05-ch05-filters.py) — Python script\n- [ch-05-ch05-filters.ipynb](courses/opencv-5-ai-vision/notebooks/ch-05-ch05-filters.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch05_filters.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-05-ch05-filters.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-05-ch05-filters.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-05-ch05-filters.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-05-ch05-filters.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -208,7 +288,23 @@
               {
                 "languageCode": "en",
                 "title": "Edges",
-                "body": "## Chapter 06 — Edges\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Sobel, Canny\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch06_edges.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Edges\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Sobel, Canny\n\n### Companion files\n\n- [ch-06-ch06-edges.py](courses/opencv-5-ai-vision/scripts/ch-06-ch06-edges.py) — Python script\n- [ch-06-ch06-edges.ipynb](courses/opencv-5-ai-vision/notebooks/ch-06-ch06-edges.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch06_edges.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-06-ch06-edges.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-06-ch06-edges.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-06-ch06-edges.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-06-ch06-edges.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -227,7 +323,23 @@
               {
                 "languageCode": "en",
                 "title": "Geometric",
-                "body": "## Chapter 07 — Geometric\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch07_geometric.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Geometric\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-07-ch07-geometric.py](courses/opencv-5-ai-vision/scripts/ch-07-ch07-geometric.py) — Python script\n- [ch-07-ch07-geometric.ipynb](courses/opencv-5-ai-vision/notebooks/ch-07-ch07-geometric.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch07_geometric.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-07-ch07-geometric.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-07-ch07-geometric.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-07-ch07-geometric.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-07-ch07-geometric.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -246,7 +358,23 @@
               {
                 "languageCode": "en",
                 "title": "Threshold",
-                "body": "## Chapter 08 — Threshold\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch08_threshold.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Threshold\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-08-ch08-threshold.py](courses/opencv-5-ai-vision/scripts/ch-08-ch08-threshold.py) — Python script\n- [ch-08-ch08-threshold.ipynb](courses/opencv-5-ai-vision/notebooks/ch-08-ch08-threshold.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch08_threshold.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-08-ch08-threshold.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-08-ch08-threshold.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-08-ch08-threshold.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-08-ch08-threshold.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -265,7 +393,23 @@
               {
                 "languageCode": "en",
                 "title": "Morphology",
-                "body": "## Chapter 09 — Morphology\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch09_morphology.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Morphology\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-09-ch09-morphology.py](courses/opencv-5-ai-vision/scripts/ch-09-ch09-morphology.py) — Python script\n- [ch-09-ch09-morphology.ipynb](courses/opencv-5-ai-vision/notebooks/ch-09-ch09-morphology.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch09_morphology.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-09-ch09-morphology.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-09-ch09-morphology.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-09-ch09-morphology.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-09-ch09-morphology.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -284,7 +428,23 @@
               {
                 "languageCode": "en",
                 "title": "Contours",
-                "body": "## Chapter 10 — Contours\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch10_contours.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Contours\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 2:** Filtering, Edges and Geometry  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-10-ch10-contours.py](courses/opencv-5-ai-vision/scripts/ch-10-ch10-contours.py) — Python script\n- [ch-10-ch10-contours.ipynb](courses/opencv-5-ai-vision/notebooks/ch-10-ch10-contours.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch10_contours.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-10-ch10-contours.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-10-ch10-contours.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-10-ch10-contours.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-10-ch10-contours.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -320,7 +480,23 @@
               {
                 "languageCode": "en",
                 "title": "Segment",
-                "body": "## Chapter 11 — Segment\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Watershed, GrabCut\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch11_segment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Segment\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Watershed, GrabCut\n\n### Companion files\n\n- [ch-11-ch11-segment.py](courses/opencv-5-ai-vision/scripts/ch-11-ch11-segment.py) — Python script\n- [ch-11-ch11-segment.ipynb](courses/opencv-5-ai-vision/notebooks/ch-11-ch11-segment.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch11_segment.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-11-ch11-segment.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-11-ch11-segment.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-11-ch11-segment.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-11-ch11-segment.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -339,7 +515,23 @@
               {
                 "languageCode": "en",
                 "title": "Drawing",
-                "body": "## Chapter 12 — Drawing\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch12_drawing.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — Drawing\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-12-ch12-drawing.py](courses/opencv-5-ai-vision/scripts/ch-12-ch12-drawing.py) — Python script\n- [ch-12-ch12-drawing.ipynb](courses/opencv-5-ai-vision/notebooks/ch-12-ch12-drawing.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch12_drawing.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-12-ch12-drawing.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-12-ch12-drawing.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-12-ch12-drawing.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-12-ch12-drawing.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -358,7 +550,23 @@
               {
                 "languageCode": "en",
                 "title": "Template",
-                "body": "## Chapter 13 — Template\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch13_template.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Template\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-13-ch13-template.py](courses/opencv-5-ai-vision/scripts/ch-13-ch13-template.py) — Python script\n- [ch-13-ch13-template.ipynb](courses/opencv-5-ai-vision/notebooks/ch-13-ch13-template.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch13_template.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-13-ch13-template.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-13-ch13-template.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-13-ch13-template.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-13-ch13-template.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -377,7 +585,23 @@
               {
                 "languageCode": "en",
                 "title": "Hough",
-                "body": "## Chapter 14 — Hough\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch14_hough.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Hough\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-14-ch14-hough.py](courses/opencv-5-ai-vision/scripts/ch-14-ch14-hough.py) — Python script\n- [ch-14-ch14-hough.ipynb](courses/opencv-5-ai-vision/notebooks/ch-14-ch14-hough.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch14_hough.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-14-ch14-hough.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-14-ch14-hough.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-14-ch14-hough.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-14-ch14-hough.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -396,7 +620,23 @@
               {
                 "languageCode": "en",
                 "title": "Features",
-                "body": "## Chapter 15 — Features\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch15_features.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Features\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 3:** Segmentation, Contours and Features  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-15-ch15-features.py](courses/opencv-5-ai-vision/scripts/ch-15-ch15-features.py) — Python script\n- [ch-15-ch15-features.ipynb](courses/opencv-5-ai-vision/notebooks/ch-15-ch15-features.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch15_features.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-15-ch15-features.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-15-ch15-features.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-15-ch15-features.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-15-ch15-features.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -432,7 +672,23 @@
               {
                 "languageCode": "en",
                 "title": "Ml",
-                "body": "## Chapter 16 — Ml\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** cv2.ml, KNN, SVM\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch16_ml.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — Ml\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** cv2.ml, KNN, SVM\n\n### Companion files\n\n- [ch-16-ch16-ml.py](courses/opencv-5-ai-vision/scripts/ch-16-ch16-ml.py) — Python script\n- [ch-16-ch16-ml.ipynb](courses/opencv-5-ai-vision/notebooks/ch-16-ch16-ml.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch16_ml.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-16-ch16-ml.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-16-ch16-ml.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-16-ch16-ml.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-16-ch16-ml.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -451,7 +707,23 @@
               {
                 "languageCode": "en",
                 "title": "Dnn",
-                "body": "## Chapter 17 — Dnn\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** cv2.dnn, ONNX, YOLO\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch17_dnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Dnn\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** cv2.dnn, ONNX, YOLO\n\n### Companion files\n\n- [ch-17-ch17-dnn.py](courses/opencv-5-ai-vision/scripts/ch-17-ch17-dnn.py) — Python script\n- [ch-17-ch17-dnn.ipynb](courses/opencv-5-ai-vision/notebooks/ch-17-ch17-dnn.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch17_dnn.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-17-ch17-dnn.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-17-ch17-dnn.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-17-ch17-dnn.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-17-ch17-dnn.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -470,7 +742,23 @@
               {
                 "languageCode": "en",
                 "title": "Tracking",
-                "body": "## Chapter 18 — Tracking\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch18_tracking.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Tracking\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-18-ch18-tracking.py](courses/opencv-5-ai-vision/scripts/ch-18-ch18-tracking.py) — Python script\n- [ch-18-ch18-tracking.ipynb](courses/opencv-5-ai-vision/notebooks/ch-18-ch18-tracking.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch18_tracking.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-18-ch18-tracking.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-18-ch18-tracking.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-18-ch18-tracking.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-18-ch18-tracking.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -489,7 +777,23 @@
               {
                 "languageCode": "en",
                 "title": "Perf",
-                "body": "## Chapter 19 — Perf\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch19_perf.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Perf\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 4:** AI Vision and Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-19-ch19-perf.py](courses/opencv-5-ai-vision/scripts/ch-19-ch19-perf.py) — Python script\n- [ch-19-ch19-perf.ipynb](courses/opencv-5-ai-vision/notebooks/ch-19-ch19-perf.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/ch19_perf.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-19-ch19-perf.py",
+                "url": "courses/opencv-5-ai-vision/scripts/ch-19-ch19-perf.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-19-ch19-perf.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/ch-19-ch19-perf.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -525,7 +829,23 @@
               {
                 "languageCode": "en",
                 "title": "Appendix A",
-                "body": "## Appendix a — Appendix A\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/appendix.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Appendix a — Appendix A\n\n**Book:** OpenCV 5 and AI Computer Vision  \n**Part 5:** Appendices and Reference  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «OpenCV 5 and AI Computer Vision», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [app-a-appendix.py](courses/opencv-5-ai-vision/scripts/app-a-appendix.py) — Python script\n- [app-a-appendix.ipynb](courses/opencv-5-ai-vision/notebooks/app-a-appendix.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/OpenCV5Book/blob/main/content/chapters/appendix.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "app-a-appendix.py",
+                "url": "courses/opencv-5-ai-vision/scripts/app-a-appendix.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "app-a-appendix.ipynb",
+                "url": "courses/opencv-5-ai-vision/notebooks/app-a-appendix.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }

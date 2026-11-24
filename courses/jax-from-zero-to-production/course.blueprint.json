@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:22.453Z",
+    "exportedAt": "2026-11-23T16:02:26.426Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "JAX من الصفر إلى الإنتاج",
         "subtitle": "الدليل الشامل في التعلّم العميق والتبديلات القابلة للتركيب",
         "description": "32 فصلاً في 6 أجزاء: من jax.numpy والتبديلات الأربع jit وgrad وvmap وshard_map، إلى Flax وOptax وOrbax والتدريب الموزّع ونشر النماذج، مع ملاحق مقارنة ومعادلات وتمارين.",
-        "landingMd": "# JAX من الصفر إلى الإنتاج\n\n**الدليل الشامل في التعلّم العميق والتبديلات القابلة للتركيب**\n\n32 فصلاً في 6 أجزاء: من jax.numpy والتبديلات الأربع jit وgrad وvmap وshard_map، إلى Flax وOptax وOrbax والتدريب الموزّع ونشر النماذج، مع ملاحق مقارنة ومعادلات وتمارين.\n\n![JAX من الصفر إلى الإنتاج](books/jax-from-zero-to-production/cover.png)\n\n## ماذا ستتعلّم\n\n- **الجزء الأول: الأسس — لماذا JAX، وكيف تفكّر بها** — 5 فصول وملاحق\n- **الجزء الثاني: التبديلات الأربع** — 7 فصول وملاحق\n- **الجزء الثالث: بناء الشبكات العصبية** — 6 فصول وملاحق\n- **الجزء الرابع: البنى العصبية الحديثة** — 5 فصول وملاحق\n- **الجزء الخامس: الأداء والتوسّع** — 5 فصول وملاحق\n- **الجزء السادس: من المختبر إلى الإنتاج** — 4 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 120 صفحة](books/jax-from-zero-to-production/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/jax-from-zero-to-production/book.pdf)\n- [صفحة الكتاب التعريفية](landing/jax-from-zero-to-production.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX من الصفر إلى الإنتاج\n\n**الدليل الشامل في التعلّم العميق والتبديلات القابلة للتركيب**\n\n32 فصلاً في 6 أجزاء: من jax.numpy والتبديلات الأربع jit وgrad وvmap وshard_map، إلى Flax وOptax وOrbax والتدريب الموزّع ونشر النماذج، مع ملاحق مقارنة ومعادلات وتمارين.\n\n![JAX من الصفر إلى الإنتاج](books/jax-from-zero-to-production/cover.png)\n\n## ماذا ستتعلّم\n\n- **الجزء الأول: الأسس — لماذا JAX، وكيف تفكّر بها** — 5 فصول وملاحق\n- **الجزء الثاني: التبديلات الأربع** — 7 فصول وملاحق\n- **الجزء الثالث: بناء الشبكات العصبية** — 6 فصول وملاحق\n- **الجزء الرابع: البنى العصبية الحديثة** — 5 فصول وملاحق\n- **الجزء الخامس: الأداء والتوسّع** — 5 فصول وملاحق\n- **الجزء السادس: من المختبر إلى الإنتاج** — 4 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 120 صفحة](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](downloads/jax-from-zero-to-production.rar)\n- [صفحة الكتاب التعريفية](landing/jax-from-zero-to-production.html)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "JAX: From Zero to Production",
         "subtitle": "A complete guide to deep learning and composable transformations",
         "description": "Thirty-two chapters in six parts: from jax.numpy and the four transforms (jit, grad, vmap, shard_map) to Flax, Optax, Orbax, distributed training and model serving, with comparison appendices, formula sheets and exercises.",
-        "landingMd": "# JAX: From Zero to Production\n\n**A complete guide to deep learning and composable transformations**\n\nThirty-two chapters in six parts: from jax.numpy and the four transforms (jit, grad, vmap, shard_map) to Flax, Optax, Orbax, distributed training and model serving, with comparison appendices, formula sheets and exercises.\n\n![JAX: From Zero to Production](books/jax-from-zero-to-production/cover.png)\n\n## What you will learn\n\n- **Foundations: Why JAX** — 5 chapters & appendices\n- **The Four Transformations** — 7 chapters & appendices\n- **Building Neural Networks** — 6 chapters & appendices\n- **Modern Neural Architectures** — 5 chapters & appendices\n- **Performance and Scale** — 5 chapters & appendices\n- **From Lab to Production** — 4 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 120 pages](books/jax-from-zero-to-production/sample.pdf)\n\n- [Full book (PDF)](books/jax-from-zero-to-production/book.pdf)\n- [Book landing page](landing/jax-from-zero-to-production.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX: From Zero to Production\n\n**A complete guide to deep learning and composable transformations**\n\nThirty-two chapters in six parts: from jax.numpy and the four transforms (jit, grad, vmap, shard_map) to Flax, Optax, Orbax, distributed training and model serving, with comparison appendices, formula sheets and exercises.\n\n![JAX: From Zero to Production](books/jax-from-zero-to-production/cover.png)\n\n## What you will learn\n\n- **Foundations: Why JAX** — 5 chapters & appendices\n- **The Four Transformations** — 7 chapters & appendices\n- **Building Neural Networks** — 6 chapters & appendices\n- **Modern Neural Architectures** — 5 chapters & appendices\n- **Performance and Scale** — 5 chapters & appendices\n- **From Lab to Production** — 4 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 120 pages](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [Full book (PDF)](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/jax-from-zero-to-production.rar)\n- [Book landing page](landing/jax-from-zero-to-production.html)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "JAX : de zéro à la production",
         "subtitle": "Guide complet du deep learning et des transformations composables",
         "description": "32 chapitres en 6 parties : de jax.numpy et des quatre transformations (jit, grad, vmap, shard_map) à Flax, Optax, Orbax, l'entraînement distribué et le déploiement.",
-        "landingMd": "# JAX : de zéro à la production\n\n**Guide complet du deep learning et des transformations composables**\n\n32 chapitres en 6 parties : de jax.numpy et des quatre transformations (jit, grad, vmap, shard_map) à Flax, Optax, Orbax, l'entraînement distribué et le déploiement.\n\n![JAX : de zéro à la production](books/jax-from-zero-to-production/cover.png)\n\n## Ce que vous apprendrez\n\n- **Foundations: Why JAX** — 5 chapitres et annexes\n- **The Four Transformations** — 7 chapitres et annexes\n- **Building Neural Networks** — 6 chapitres et annexes\n- **Modern Neural Architectures** — 5 chapitres et annexes\n- **Performance and Scale** — 5 chapitres et annexes\n- **From Lab to Production** — 4 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 120 pages](books/jax-from-zero-to-production/sample.pdf)\n\n- [Livre complet (PDF)](books/jax-from-zero-to-production/book.pdf)\n- [Page du livre](landing/jax-from-zero-to-production.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX : de zéro à la production\n\n**Guide complet du deep learning et des transformations composables**\n\n32 chapitres en 6 parties : de jax.numpy et des quatre transformations (jit, grad, vmap, shard_map) à Flax, Optax, Orbax, l'entraînement distribué et le déploiement.\n\n![JAX : de zéro à la production](books/jax-from-zero-to-production/cover.png)\n\n## Ce que vous apprendrez\n\n- **Foundations: Why JAX** — 5 chapitres et annexes\n- **The Four Transformations** — 7 chapitres et annexes\n- **Building Neural Networks** — 6 chapitres et annexes\n- **Modern Neural Architectures** — 5 chapitres et annexes\n- **Performance and Scale** — 5 chapitres et annexes\n- **From Lab to Production** — 4 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 120 pages](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [Livre complet (PDF)](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/jax-from-zero-to-production.rar)\n- [Page du livre](landing/jax-from-zero-to-production.html)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "JAX: de cero a producción",
         "subtitle": "Guía completa de aprendizaje profundo y transformaciones componibles",
         "description": "32 capítulos en 6 partes: desde jax.numpy y las cuatro transformaciones (jit, grad, vmap, shard_map) hasta Flax, Optax, Orbax, entrenamiento distribuido y despliegue.",
-        "landingMd": "# JAX: de cero a producción\n\n**Guía completa de aprendizaje profundo y transformaciones componibles**\n\n32 capítulos en 6 partes: desde jax.numpy y las cuatro transformaciones (jit, grad, vmap, shard_map) hasta Flax, Optax, Orbax, entrenamiento distribuido y despliegue.\n\n![JAX: de cero a producción](books/jax-from-zero-to-production/cover.png)\n\n## Qué aprenderás\n\n- **Foundations: Why JAX** — 5 capítulos y apéndices\n- **The Four Transformations** — 7 capítulos y apéndices\n- **Building Neural Networks** — 6 capítulos y apéndices\n- **Modern Neural Architectures** — 5 capítulos y apéndices\n- **Performance and Scale** — 5 capítulos y apéndices\n- **From Lab to Production** — 4 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 120 páginas](books/jax-from-zero-to-production/sample.pdf)\n\n- [Libro completo (PDF)](books/jax-from-zero-to-production/book.pdf)\n- [Página del libro](landing/jax-from-zero-to-production.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX: de cero a producción\n\n**Guía completa de aprendizaje profundo y transformaciones componibles**\n\n32 capítulos en 6 partes: desde jax.numpy y las cuatro transformaciones (jit, grad, vmap, shard_map) hasta Flax, Optax, Orbax, entrenamiento distribuido y despliegue.\n\n![JAX: de cero a producción](books/jax-from-zero-to-production/cover.png)\n\n## Qué aprenderás\n\n- **Foundations: Why JAX** — 5 capítulos y apéndices\n- **The Four Transformations** — 7 capítulos y apéndices\n- **Building Neural Networks** — 6 capítulos y apéndices\n- **Modern Neural Architectures** — 5 capítulos y apéndices\n- **Performance and Scale** — 5 capítulos y apéndices\n- **From Lab to Production** — 4 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 120 páginas](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [Libro completo (PDF)](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/jax-from-zero-to-production.rar)\n- [Página del libro](landing/jax-from-zero-to-production.html)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "JAX 从零到生产",
         "subtitle": "深度学习与可组合变换完全指南",
         "description": "6 大部分、32 章：从 jax.numpy 与四大变换（jit、grad、vmap、shard_map）到 Flax、Optax、Orbax、分布式训练与模型部署。",
-        "landingMd": "# JAX 从零到生产\n\n**深度学习与可组合变换完全指南**\n\n6 大部分、32 章：从 jax.numpy 与四大变换（jit、grad、vmap、shard_map）到 Flax、Optax、Orbax、分布式训练与模型部署。\n\n![JAX 从零到生产](books/jax-from-zero-to-production/cover.png)\n\n## 你将学到什么\n\n- **Foundations: Why JAX** — 5 章与附录\n- **The Four Transformations** — 7 章与附录\n- **Building Neural Networks** — 6 章与附录\n- **Modern Neural Architectures** — 5 章与附录\n- **Performance and Scale** — 5 章与附录\n- **From Lab to Production** — 4 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 120 页](books/jax-from-zero-to-production/sample.pdf)\n\n- [完整电子书 PDF](books/jax-from-zero-to-production/book.pdf)\n- [图书介绍页](landing/jax-from-zero-to-production.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX 从零到生产\n\n**深度学习与可组合变换完全指南**\n\n6 大部分、32 章：从 jax.numpy 与四大变换（jit、grad、vmap、shard_map）到 Flax、Optax、Orbax、分布式训练与模型部署。\n\n![JAX 从零到生产](books/jax-from-zero-to-production/cover.png)\n\n## 你将学到什么\n\n- **Foundations: Why JAX** — 5 章与附录\n- **The Four Transformations** — 7 章与附录\n- **Building Neural Networks** — 6 章与附录\n- **Modern Neural Architectures** — 5 章与附录\n- **Performance and Scale** — 5 章与附录\n- **From Lab to Production** — 4 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 120 页](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [完整电子书 PDF](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/jax-from-zero-to-production.rar)\n- [图书介绍页](landing/jax-from-zero-to-production.html)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "JAX: शून्य से प्रोडक्शन तक",
         "subtitle": "डीप लर्निंग और कंपोज़ेबल ट्रांसफ़ॉर्मेशन की संपूर्ण गाइड",
         "description": "6 भागों में 32 अध्याय: jax.numpy और चार ट्रांसफ़ॉर्म (jit, grad, vmap, shard_map) से लेकर Flax, Optax, Orbax, वितरित प्रशिक्षण और मॉडल सर्विंग तक।",
-        "landingMd": "# JAX: शून्य से प्रोडक्शन तक\n\n**डीप लर्निंग और कंपोज़ेबल ट्रांसफ़ॉर्मेशन की संपूर्ण गाइड**\n\n6 भागों में 32 अध्याय: jax.numpy और चार ट्रांसफ़ॉर्म (jit, grad, vmap, shard_map) से लेकर Flax, Optax, Orbax, वितरित प्रशिक्षण और मॉडल सर्विंग तक।\n\n![JAX: शून्य से प्रोडक्शन तक](books/jax-from-zero-to-production/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Foundations: Why JAX** — 5 अध्याय और परिशिष्ट\n- **The Four Transformations** — 7 अध्याय और परिशिष्ट\n- **Building Neural Networks** — 6 अध्याय और परिशिष्ट\n- **Modern Neural Architectures** — 5 अध्याय और परिशिष्ट\n- **Performance and Scale** — 5 अध्याय और परिशिष्ट\n- **From Lab to Production** — 4 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 120 पृष्ठ](books/jax-from-zero-to-production/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/jax-from-zero-to-production/book.pdf)\n- [पुस्तक परिचय पृष्ठ](landing/jax-from-zero-to-production.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# JAX: शून्य से प्रोडक्शन तक\n\n**डीप लर्निंग और कंपोज़ेबल ट्रांसफ़ॉर्मेशन की संपूर्ण गाइड**\n\n6 भागों में 32 अध्याय: jax.numpy और चार ट्रांसफ़ॉर्म (jit, grad, vmap, shard_map) से लेकर Flax, Optax, Orbax, वितरित प्रशिक्षण और मॉडल सर्विंग तक।\n\n![JAX: शून्य से प्रोडक्शन तक](books/jax-from-zero-to-production/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Foundations: Why JAX** — 5 अध्याय और परिशिष्ट\n- **The Four Transformations** — 7 अध्याय और परिशिष्ट\n- **Building Neural Networks** — 6 अध्याय और परिशिष्ट\n- **Modern Neural Architectures** — 5 अध्याय और परिशिष्ट\n- **Performance and Scale** — 5 अध्याय और परिशिष्ट\n- **From Lab to Production** — 4 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 6 | 32 | 326 | 5 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 120 पृष्ठ](books/jax-from-zero-to-production/jax-from-zero-to-production-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](books/jax-from-zero-to-production/jax-from-zero-to-production.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](downloads/jax-from-zero-to-production.rar)\n- [पुस्तक परिचय पृष्ठ](landing/jax-from-zero-to-production.html)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,7 +96,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 01 — Foundations: Why JAX",
-                "body": "## Chapter 01 — Chapter 01 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** JAX\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch01.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Chapter 01 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** JAX\n\n### Companion files\n\n- [ch-01-ch01.py](courses/jax-from-zero-to-production/scripts/ch-01-ch01.py) — Python script\n- [ch-01-ch01.ipynb](courses/jax-from-zero-to-production/notebooks/ch-01-ch01.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch01.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-01-ch01.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-01-ch01.py",
+                "kind": "script",
+                "isFree": true,
+                "order": 0
+              },
+              {
+                "name": "ch-01-ch01.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-01-ch01.ipynb",
+                "kind": "notebook",
+                "isFree": true,
+                "order": 1
               }
             ]
           },
@@ -115,7 +131,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 02 — Foundations: Why JAX",
-                "body": "## Chapter 02 — Chapter 02 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch02.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Chapter 02 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Python\n\n### Companion files\n\n- [ch-02-ch02.py](courses/jax-from-zero-to-production/scripts/ch-02-ch02.py) — Python script\n- [ch-02-ch02.ipynb](courses/jax-from-zero-to-production/notebooks/ch-02-ch02.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch02.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-02-ch02.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-02-ch02.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-02-ch02.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-02-ch02.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -134,7 +166,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 03 — Foundations: Why JAX",
-                "body": "## Chapter 03 — Chapter 03 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.numpy\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch03.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Chapter 03 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.numpy\n\n### Companion files\n\n- [ch-03-ch03.py](courses/jax-from-zero-to-production/scripts/ch-03-ch03.py) — Python script\n- [ch-03-ch03.ipynb](courses/jax-from-zero-to-production/notebooks/ch-03-ch03.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch03.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-03-ch03.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-03-ch03.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-03-ch03.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-03-ch03.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -153,7 +201,23 @@
               {
                 "languageCode": "en",
                 "title": "einsum",
-                "body": "## Chapter 04 — einsum\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch04.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — einsum\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-04-ch04.py](courses/jax-from-zero-to-production/scripts/ch-04-ch04.py) — Python script\n- [ch-04-ch04.ipynb](courses/jax-from-zero-to-production/notebooks/ch-04-ch04.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch04.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-04-ch04.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-04-ch04.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-04-ch04.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-04-ch04.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -172,7 +236,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 05 — Foundations: Why JAX",
-                "body": "## Chapter 05 — Chapter 05 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.Array\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch05.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Chapter 05 — Foundations: Why JAX\n\n**Book:** JAX: From Zero to Production  \n**Part 1:** Foundations: Why JAX  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.Array\n\n### Companion files\n\n- [ch-05-ch05.py](courses/jax-from-zero-to-production/scripts/ch-05-ch05.py) — Python script\n- [ch-05-ch05.ipynb](courses/jax-from-zero-to-production/notebooks/ch-05-ch05.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch05.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-05-ch05.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-05-ch05.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-05-ch05.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-05-ch05.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -208,7 +288,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 06 — The Four Transformations",
-                "body": "## Chapter 06 — Chapter 06 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jit\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch06.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Chapter 06 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jit\n\n### Companion files\n\n- [ch-06-ch06.py](courses/jax-from-zero-to-production/scripts/ch-06-ch06.py) — Python script\n- [ch-06-ch06.ipynb](courses/jax-from-zero-to-production/notebooks/ch-06-ch06.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch06.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-06-ch06.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-06-ch06.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-06-ch06.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-06-ch06.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -227,7 +323,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 07 — The Four Transformations",
-                "body": "## Chapter 07 — Chapter 07 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** grad\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch07.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Chapter 07 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** grad\n\n### Companion files\n\n- [ch-07-ch07.py](courses/jax-from-zero-to-production/scripts/ch-07-ch07.py) — Python script\n- [ch-07-ch07.ipynb](courses/jax-from-zero-to-production/notebooks/ch-07-ch07.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch07.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-07-ch07.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-07-ch07.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-07-ch07.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-07-ch07.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -246,7 +358,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 08 — The Four Transformations",
-                "body": "## Chapter 08 — Chapter 08 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** vmap\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch08.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Chapter 08 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** vmap\n\n### Companion files\n\n- [ch-08-ch08.py](courses/jax-from-zero-to-production/scripts/ch-08-ch08.py) — Python script\n- [ch-08-ch08.ipynb](courses/jax-from-zero-to-production/notebooks/ch-08-ch08.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch08.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-08-ch08.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-08-ch08.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-08-ch08.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-08-ch08.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -265,7 +393,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 09 — The Four Transformations",
-                "body": "## Chapter 09 — Chapter 09 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** pytree\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch09.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Chapter 09 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** pytree\n\n### Companion files\n\n- [ch-09-ch09.py](courses/jax-from-zero-to-production/scripts/ch-09-ch09.py) — Python script\n- [ch-09-ch09.ipynb](courses/jax-from-zero-to-production/notebooks/ch-09-ch09.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch09.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-09-ch09.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-09-ch09.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-09-ch09.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-09-ch09.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -284,7 +428,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 10 — The Four Transformations",
-                "body": "## Chapter 10 — Chapter 10 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** random\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch10.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Chapter 10 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** random\n\n### Companion files\n\n- [ch-10-ch10.py](courses/jax-from-zero-to-production/scripts/ch-10-ch10.py) — Python script\n- [ch-10-ch10.ipynb](courses/jax-from-zero-to-production/notebooks/ch-10-ch10.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch10.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-10-ch10.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-10-ch10.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-10-ch10.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-10-ch10.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -303,7 +463,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 11 — The Four Transformations",
-                "body": "## Chapter 11 — Chapter 11 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** pmap, shard_map\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch11.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Chapter 11 — The Four Transformations\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** pmap, shard_map\n\n### Companion files\n\n- [ch-11-ch11.py](courses/jax-from-zero-to-production/scripts/ch-11-ch11.py) — Python script\n- [ch-11-ch11.ipynb](courses/jax-from-zero-to-production/notebooks/ch-11-ch11.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch11.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-11-ch11.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-11-ch11.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-11-ch11.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-11-ch11.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -322,7 +498,23 @@
               {
                 "languageCode": "en",
                 "title": "jit(grad(vmap(f)))",
-                "body": "## Chapter 12 — jit(grad(vmap(f)))\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch12.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — jit(grad(vmap(f)))\n\n**Book:** JAX: From Zero to Production  \n**Part 2:** The Four Transformations  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-12-ch12.py](courses/jax-from-zero-to-production/scripts/ch-12-ch12.py) — Python script\n- [ch-12-ch12.ipynb](courses/jax-from-zero-to-production/notebooks/ch-12-ch12.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch12.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-12-ch12.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-12-ch12.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-12-ch12.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-12-ch12.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -358,7 +550,23 @@
               {
                 "languageCode": "en",
                 "title": "MLP",
-                "body": "## Chapter 13 — MLP\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.numpy\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch13.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — MLP\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** jax.numpy\n\n### Companion files\n\n- [ch-13-ch13.py](courses/jax-from-zero-to-production/scripts/ch-13-ch13.py) — Python script\n- [ch-13-ch13.ipynb](courses/jax-from-zero-to-production/notebooks/ch-13-ch13.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch13.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-13-ch13.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-13-ch13.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-13-ch13.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-13-ch13.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -377,7 +585,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 14 — Building Neural Networks",
-                "body": "## Chapter 14 — Chapter 14 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Flax, Linen, NNX\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch14.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Chapter 14 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Flax, Linen, NNX\n\n### Companion files\n\n- [ch-14-ch14.py](courses/jax-from-zero-to-production/scripts/ch-14-ch14.py) — Python script\n- [ch-14-ch14.ipynb](courses/jax-from-zero-to-production/notebooks/ch-14-ch14.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch14.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-14-ch14.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-14-ch14.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-14-ch14.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-14-ch14.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -396,7 +620,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 15 — Building Neural Networks",
-                "body": "## Chapter 15 — Chapter 15 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Optax\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch15.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Chapter 15 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Optax\n\n### Companion files\n\n- [ch-15-ch15.py](courses/jax-from-zero-to-production/scripts/ch-15-ch15.py) — Python script\n- [ch-15-ch15.ipynb](courses/jax-from-zero-to-production/notebooks/ch-15-ch15.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch15.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-15-ch15.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-15-ch15.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-15-ch15.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-15-ch15.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -415,7 +655,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 16 — Building Neural Networks",
-                "body": "## Chapter 16 — Chapter 16 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch16.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — Chapter 16 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-16-ch16.py](courses/jax-from-zero-to-production/scripts/ch-16-ch16.py) — Python script\n- [ch-16-ch16.ipynb](courses/jax-from-zero-to-production/notebooks/ch-16-ch16.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch16.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-16-ch16.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-16-ch16.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-16-ch16.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-16-ch16.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -434,7 +690,23 @@
               {
                 "languageCode": "en",
                 "title": "Dropout",
-                "body": "## Chapter 17 — Dropout\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch17.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Dropout\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-17-ch17.py](courses/jax-from-zero-to-production/scripts/ch-17-ch17.py) — Python script\n- [ch-17-ch17.ipynb](courses/jax-from-zero-to-production/notebooks/ch-17-ch17.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch17.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-17-ch17.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-17-ch17.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-17-ch17.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-17-ch17.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -453,7 +725,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 18 — Building Neural Networks",
-                "body": "## Chapter 18 — Chapter 18 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Equinox, jaxtyping\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch18.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Chapter 18 — Building Neural Networks\n\n**Book:** JAX: From Zero to Production  \n**Part 3:** Building Neural Networks  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Equinox, jaxtyping\n\n### Companion files\n\n- [ch-18-ch18.py](courses/jax-from-zero-to-production/scripts/ch-18-ch18.py) — Python script\n- [ch-18-ch18.ipynb](courses/jax-from-zero-to-production/notebooks/ch-18-ch18.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch18.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-18-ch18.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-18-ch18.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-18-ch18.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-18-ch18.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -489,7 +777,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 19 — Modern Neural Architectures",
-                "body": "## Chapter 19 — Chapter 19 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** JAX\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch19.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Chapter 19 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** JAX\n\n### Companion files\n\n- [ch-19-ch19.py](courses/jax-from-zero-to-production/scripts/ch-19-ch19.py) — Python script\n- [ch-19-ch19.ipynb](courses/jax-from-zero-to-production/notebooks/ch-19-ch19.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch19.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-19-ch19.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-19-ch19.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-19-ch19.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-19-ch19.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -508,7 +812,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 20 — Modern Neural Architectures",
-                "body": "## Chapter 20 — Chapter 20 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU, scan\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch20.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 20 — Chapter 20 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU, scan\n\n### Companion files\n\n- [ch-20-ch20.py](courses/jax-from-zero-to-production/scripts/ch-20-ch20.py) — Python script\n- [ch-20-ch20.ipynb](courses/jax-from-zero-to-production/notebooks/ch-20-ch20.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch20.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-20-ch20.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-20-ch20.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-20-ch20.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-20-ch20.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -527,7 +847,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 21 — Modern Neural Architectures",
-                "body": "## Chapter 21 — Chapter 21 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch21.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 21 — Chapter 21 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-21-ch21.py](courses/jax-from-zero-to-production/scripts/ch-21-ch21.py) — Python script\n- [ch-21-ch21.ipynb](courses/jax-from-zero-to-production/notebooks/ch-21-ch21.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch21.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-21-ch21.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-21-ch21.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-21-ch21.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-21-ch21.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -546,7 +882,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 22 — Modern Neural Architectures",
-                "body": "## Chapter 22 — Chapter 22 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** GPT\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch22.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 22 — Chapter 22 — Modern Neural Architectures\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** GPT\n\n### Companion files\n\n- [ch-22-ch22.py](courses/jax-from-zero-to-production/scripts/ch-22-ch22.py) — Python script\n- [ch-22-ch22.ipynb](courses/jax-from-zero-to-production/notebooks/ch-22-ch22.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch22.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-22-ch22.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-22-ch22.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-22-ch22.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-22-ch22.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -565,7 +917,23 @@
               {
                 "languageCode": "en",
                 "title": "VAE",
-                "body": "## Chapter 23 — VAE\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch23.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 23 — VAE\n\n**Book:** JAX: From Zero to Production  \n**Part 4:** Modern Neural Architectures  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-23-ch23.py](courses/jax-from-zero-to-production/scripts/ch-23-ch23.py) — Python script\n- [ch-23-ch23.ipynb](courses/jax-from-zero-to-production/notebooks/ch-23-ch23.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch23.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-23-ch23.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-23-ch23.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-23-ch23.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-23-ch23.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -601,7 +969,23 @@
               {
                 "languageCode": "en",
                 "title": "HLO",
-                "body": "## Chapter 24 — HLO\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** XLA\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch24.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 24 — HLO\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** XLA\n\n### Companion files\n\n- [ch-24-ch24.py](courses/jax-from-zero-to-production/scripts/ch-24-ch24.py) — Python script\n- [ch-24-ch24.ipynb](courses/jax-from-zero-to-production/notebooks/ch-24-ch24.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch24.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-24-ch24.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-24-ch24.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-24-ch24.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-24-ch24.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -620,7 +1004,23 @@
               {
                 "languageCode": "en",
                 "title": "GSPMD",
-                "body": "## Chapter 25 — GSPMD\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Mesh, NamedSharding\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch25.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 25 — GSPMD\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Mesh, NamedSharding\n\n### Companion files\n\n- [ch-25-ch25.py](courses/jax-from-zero-to-production/scripts/ch-25-ch25.py) — Python script\n- [ch-25-ch25.ipynb](courses/jax-from-zero-to-production/notebooks/ch-25-ch25.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch25.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-25-ch25.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-25-ch25.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-25-ch25.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-25-ch25.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -639,7 +1039,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 26 — Performance and Scale",
-                "body": "## Chapter 26 — Chapter 26 — Performance and Scale\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pallas\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch26.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 26 — Chapter 26 — Performance and Scale\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pallas\n\n### Companion files\n\n- [ch-26-ch26.py](courses/jax-from-zero-to-production/scripts/ch-26-ch26.py) — Python script\n- [ch-26-ch26.ipynb](courses/jax-from-zero-to-production/notebooks/ch-26-ch26.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch26.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-26-ch26.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-26-ch26.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-26-ch26.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-26-ch26.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -658,7 +1074,23 @@
               {
                 "languageCode": "en",
                 "title": "remat",
-                "body": "## Chapter 27 — remat\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch27.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 27 — remat\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-27-ch27.py](courses/jax-from-zero-to-production/scripts/ch-27-ch27.py) — Python script\n- [ch-27-ch27.ipynb](courses/jax-from-zero-to-production/notebooks/ch-27-ch27.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch27.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-27-ch27.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-27-ch27.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-27-ch27.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-27-ch27.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -677,7 +1109,23 @@
               {
                 "languageCode": "en",
                 "title": "bf16",
-                "body": "## Chapter 28 — bf16\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch28.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 28 — bf16\n\n**Book:** JAX: From Zero to Production  \n**Part 5:** Performance and Scale  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-28-ch28.py](courses/jax-from-zero-to-production/scripts/ch-28-ch28.py) — Python script\n- [ch-28-ch28.ipynb](courses/jax-from-zero-to-production/notebooks/ch-28-ch28.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch28.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-28-ch28.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-28-ch28.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-28-ch28.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-28-ch28.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -713,7 +1161,23 @@
               {
                 "languageCode": "en",
                 "title": "jax.export",
-                "body": "## Chapter 29 — jax.export\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch29.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 29 — jax.export\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-29-ch29.py](courses/jax-from-zero-to-production/scripts/ch-29-ch29.py) — Python script\n- [ch-29-ch29.ipynb](courses/jax-from-zero-to-production/notebooks/ch-29-ch29.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch29.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-29-ch29.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-29-ch29.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-29-ch29.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-29-ch29.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -732,7 +1196,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 30 — From Lab to Production",
-                "body": "## Chapter 30 — Chapter 30 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch30.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 30 — Chapter 30 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-30-ch30.py](courses/jax-from-zero-to-production/scripts/ch-30-ch30.py) — Python script\n- [ch-30-ch30.ipynb](courses/jax-from-zero-to-production/notebooks/ch-30-ch30.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch30.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-30-ch30.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-30-ch30.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-30-ch30.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-30-ch30.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -751,7 +1231,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 31 — From Lab to Production",
-                "body": "## Chapter 31 — Chapter 31 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch31.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 31 — Chapter 31 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-31-ch31.py](courses/jax-from-zero-to-production/scripts/ch-31-ch31.py) — Python script\n- [ch-31-ch31.ipynb](courses/jax-from-zero-to-production/notebooks/ch-31-ch31.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch31.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-31-ch31.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-31-ch31.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-31-ch31.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-31-ch31.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -770,7 +1266,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 32 — From Lab to Production",
-                "body": "## Chapter 32 — Chapter 32 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch32.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 32 — Chapter 32 — From Lab to Production\n\n**Book:** JAX: From Zero to Production  \n**Part 6:** From Lab to Production  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «JAX: From Zero to Production», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-32-ch32.py](courses/jax-from-zero-to-production/scripts/ch-32-ch32.py) — Python script\n- [ch-32-ch32.ipynb](courses/jax-from-zero-to-production/notebooks/ch-32-ch32.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/JAX-book/blob/main/book/build/md/ch32.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+              }
+            ],
+            "attachments": [
+              {
+                "name": "ch-32-ch32.py",
+                "url": "courses/jax-from-zero-to-production/scripts/ch-32-ch32.py",
+                "kind": "script",
+                "isFree": false,
+                "order": 0
+              },
+              {
+                "name": "ch-32-ch32.ipynb",
+                "url": "courses/jax-from-zero-to-production/notebooks/ch-32-ch32.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
