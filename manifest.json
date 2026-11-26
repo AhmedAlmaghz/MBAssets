@@ -1,7 +1,7 @@
 {
   "schema": "maghzbook.assets",
   "version": 1,
-  "generatedAt": "2026-11-23T16:09:48+00:00",
+  "generatedAt": "2026-11-26T15:14:15+00:00",
   "host": {
     "owner": "AhmedAlmaghz",
     "repo": "MBAssets",
@@ -859,13 +859,13 @@
         "sample": 3046303,
         "archive": 4226142,
         "course": 867057,
-        "landing": 28408
+        "landing": 28186
       },
       "sha256": {
         "book": "042907b62777255a9753f7c4ff847a65bc8970d5fdb8e1f031242be80267904b",
         "sample": "a8a1596df5267ff1a3587c32d8cd4c450073bebe864ce0da33c19aa1682cbf6b",
         "course": "efef9990914a33aec0ae7e71c6c59dd637d0b1fb4b0454909459b1b60696c3a1",
-        "landing": "0b0a336fa7aaaec052c7a2bac9888f065a8ee6086bbb4e6f788b157976c97b36"
+        "landing": "605c2c788aa654dbc6b312665e0a98527a07bf6d331f4e2db5aa1cd2f7c98354"
       }
     },
     {
@@ -906,15 +906,15 @@
       "sizes": {
         "cover": 2179116,
         "book": 50143,
-        "sample": 17356054,
-        "archive": 44161366,
-        "course": 4769104,
+        "sample": 17354896,
+        "archive": 44163587,
+        "course": 4768994,
         "landing": 32086
       },
       "sha256": {
-        "book": "44f90d43f7bc7852d6d358b59457e54b34ae1565b82c25a339a5629761991f0a",
-        "sample": "2c378ee816f6bbf985cbf11284d486e2068246caaf2b20775e04ec64502d7051",
-        "course": "45364627154c93c5210a34cf974d70605654e679bd6f7b23949c624227e62dab",
+        "book": "6d33fb88913a8da25a2b8086f55e990e7bc35558858ce48b03c45419ced0ce36",
+        "sample": "c8a467cc807e08e44c256abe81c399d8857af936c3f72e7119da6ab4a9564ad0",
+        "course": "2bf42d0e0247d8845d17f3096c4604bc6a0534293bd7f8d59165b2f29aaa720f",
         "landing": "77e333175166490dcaa5a6850aa80ddec67c3c626e658bf534d6f7e26fdd0fd7"
       }
     }
