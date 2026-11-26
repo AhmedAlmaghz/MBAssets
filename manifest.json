@@ -1,7 +1,7 @@
 {
   "schema": "maghzbook.assets",
   "version": 1,
-  "generatedAt": "2026-11-26T15:14:15+00:00",
+  "generatedAt": "2026-11-26T19:09:33+00:00",
   "host": {
     "owner": "AhmedAlmaghz",
     "repo": "MBAssets",
@@ -907,25 +907,18 @@
         "cover": 2179116,
         "book": 50143,
         "sample": 17354896,
-        "archive": 44163587,
-        "course": 4768994,
-        "landing": 32086
+        "archive": 44163791,
+        "course": 4077620,
+        "landing": 32083
       },
       "sha256": {
-        "book": "6d33fb88913a8da25a2b8086f55e990e7bc35558858ce48b03c45419ced0ce36",
-        "sample": "c8a467cc807e08e44c256abe81c399d8857af936c3f72e7119da6ab4a9564ad0",
-        "course": "2bf42d0e0247d8845d17f3096c4604bc6a0534293bd7f8d59165b2f29aaa720f",
-        "landing": "77e333175166490dcaa5a6850aa80ddec67c3c626e658bf534d6f7e26fdd0fd7"
+        "book": "382d714def4d59387b10ea2e18e16a4414f696e73f5acbc9290b1c360a6ff7fa",
+        "sample": "cbf472dc82734759957bc727e87a98687a6ea24580f127a33dc8d8c7fd7fbbc2",
+        "course": "267cbda89a143e24f510378ac645f7e5170b23862670ebbdc316b51464a4a52f",
+        "landing": "9308752155a95fb0249c754ba93d9f8de63f5645db7a81f82a4b432b06ab5d44"
       }
     }
   ],
-  "links": {
-    "mode": "internal",
-    "convention": "paths relative to the MaghzBook bundle root",
-    "base": "",
-    "baseEnvVar": "APP_URL",
-    "note": "resolve(path) = APP_URL ? APP_URL + '/' + path : path"
-  },
   "site": {
     "index": "index.html",
     "gallery": "landing/index.html",
@@ -940,5 +933,12 @@
       "brand/fonts/Cairo-Variable.ttf",
       "brand/fonts/IBMPlexSansArabic-Regular.ttf"
     ]
+  },
+  "links": {
+    "mode": "internal",
+    "convention": "paths relative to the MaghzBook bundle root",
+    "base": "",
+    "baseEnvVar": "APP_URL",
+    "note": "resolve(path) = APP_URL ? APP_URL + '/' + path : path"
   }
 }
